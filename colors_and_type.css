@@ -1,0 +1,140 @@
+/* =========================================================
+   CyberBrief Design System — Foundations
+   Cyberpunk intel feed for daily security briefings.
+   Colors, typography, motion, and effects extracted from
+   source/cyberbrief.html
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ---------- Backgrounds (deep navy-black) ---------- */
+  --bg:   #090d13;   /* page */
+  --bg2:  #0d1520;   /* panel */
+  --bg3:  #111c2e;   /* panel header / raised */
+  --bg-overlay: rgba(0,0,0,0.07);   /* scanline tint */
+
+  /* ---------- Neon palette ---------- */
+  --cyan:    #00f5ff;   /* primary neon */
+  --cyan2:   #00b8c8;   /* secondary cyan, less glow */
+  --pink:    #ff2d78;   /* accent neon */
+  --green:   #00ff9d;   /* success / medium */
+  --red:     #ff3a3a;   /* critical */
+  --orange:  #ff8c00;   /* high */
+
+  /* ---------- Text ---------- */
+  --text:    #c8ddf0;   /* primary body */
+  --text2:   #6a8aaa;   /* secondary / meta */
+  --text-bright: #e0f0ff; /* item titles */
+
+  /* ---------- Borders ---------- */
+  --border:   #1a2e45;
+  --border2:  #0f2035;
+
+  /* ---------- Type ---------- */
+  --mono: 'Share Tech Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --head: 'Rajdhani', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --fs-display:  32px;
+  --fs-h1:       22px;   /* logo / page title */
+  --fs-h2:       16px;   /* section title */
+  --fs-h3:       14px;   /* item title */
+  --fs-body:     13px;
+  --fs-meta:     11px;
+  --fs-tag:      10px;
+
+  --tracking-mono: 1px;
+  --tracking-wide: 2px;
+
+  /* ---------- Spacing ---------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+
+  /* ---------- Radii (sharp) ---------- */
+  --r-sharp: 1px;
+  --r-sm:    2px;
+  --r-md:    4px;
+
+  /* ---------- Glow / shadow ---------- */
+  --glow-cyan:   0 0 18px rgba(0,245,255,0.6);
+  --glow-cyan-soft: 0 0 10px rgba(0,245,255,0.1);
+  --glow-pink:   0 0 18px rgba(255,45,120,0.7);
+  --glow-pink-soft: 0 0 10px rgba(255,45,120,0.1);
+  --glow-green:  0 0 12px rgba(0,255,157,0.5);
+  --glow-red:    0 0 12px rgba(255,58,58,0.5);
+  --glow-orange: 0 0 12px rgba(255,140,0,0.5);
+
+  /* ---------- Motion ---------- */
+  --dur-fast: 150ms;
+  --dur-base: 200ms;
+  --ease: ease;
+}
+
+/* =========================================================
+   Element styles
+   ========================================================= */
+.cb-body {
+  font-family: var(--head);
+  font-size: var(--fs-body);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+.cb-mono { font-family: var(--mono); letter-spacing: var(--tracking-mono); }
+
+.cb-logo {
+  font-family: var(--mono);
+  font-size: var(--fs-h1);
+  letter-spacing: var(--tracking-wide);
+  color: var(--cyan);
+  text-shadow: var(--glow-cyan);
+}
+.cb-logo span { color: var(--pink); text-shadow: var(--glow-pink); }
+
+.cb-section-title {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.cb-item-title {
+  font-family: var(--head);
+  font-weight: 600;
+  font-size: var(--fs-h3);
+  color: var(--text-bright);
+  line-height: 1.4;
+}
+
+.cb-meta {
+  font-family: var(--mono);
+  font-size: var(--fs-meta);
+  color: var(--text2);
+  letter-spacing: 0.5px;
+}
+
+.cb-link {
+  color: var(--cyan);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,245,255,0.3);
+}
+.cb-link:hover { color: var(--cyan); border-color: var(--cyan); text-shadow: 0 0 6px rgba(0,245,255,0.5); }
+
+/* Scanline overlay — apply to a fixed pseudo-element on body */
+.cb-scanlines::before {
+  content: '';
+  position: fixed; inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent, transparent 2px,
+    rgba(0,0,0,0.07) 2px, rgba(0,0,0,0.07) 4px
+  );
+  pointer-events: none;
+  z-index: 100;
+}
