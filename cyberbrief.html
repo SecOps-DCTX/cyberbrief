@@ -1,0 +1,271 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+--bg:#090d13;--bg2:#0d1520;--bg3:#111c2e;
+--cyan:#00f5ff;--cyan2:#00b8c8;--pink:#ff2d78;
+--green:#00ff9d;--red:#ff3a3a;--orange:#ff8c00;
+--text:#c8ddf0;--text2:#6a8aaa;--border:#1a2e45;--border2:#0f2035;
+--mono:'Share Tech Mono',monospace;--head:'Rajdhani',sans-serif;
+}
+body{font-family:var(--head);color:var(--text);background:var(--bg);padding:1rem 0;min-height:100vh}
+h2.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.07) 2px,rgba(0,0,0,0.07) 4px);pointer-events:none;z-index:0}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:8px;position:relative;z-index:1}
+.logo{font-family:var(--mono);font-size:22px;letter-spacing:2px;color:var(--cyan);text-shadow:0 0 18px rgba(0,245,255,0.6)}
+.logo span{color:var(--pink);text-shadow:0 0 18px rgba(255,45,120,0.7)}
+.date-badge{font-family:var(--mono);font-size:11px;color:var(--cyan2);background:var(--bg2);border:1px solid var(--cyan2);border-radius:2px;padding:3px 10px;letter-spacing:1px}
+.btn{display:flex;align-items:center;gap:8px;padding:8px 18px;border:1px solid var(--cyan);border-radius:2px;background:transparent;color:var(--cyan);font-size:13px;font-family:var(--mono);letter-spacing:1px;cursor:pointer;transition:all 0.15s;text-shadow:0 0 8px rgba(0,245,255,0.4);box-shadow:0 0 10px rgba(0,245,255,0.1)}
+.btn:hover{background:rgba(0,245,255,0.07);box-shadow:0 0 18px rgba(0,245,255,0.25)}
+.btn:active{transform:scale(0.98)}
+.btn-email{border-color:var(--pink);color:var(--pink);text-shadow:0 0 8px rgba(255,45,120,0.4);box-shadow:0 0 10px rgba(255,45,120,0.1)}
+.btn-email:hover{background:rgba(255,45,120,0.07);box-shadow:0 0 18px rgba(255,45,120,0.25)}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:1.5rem;position:relative;z-index:1}
+.metric{background:var(--bg2);border:1px solid var(--border);border-radius:2px;padding:12px 14px;position:relative;overflow:hidden}
+.metric::before{content:'';position:absolute;top:0;left:0;right:0;height:1px}
+.m-critical::before{background:linear-gradient(90deg,transparent,var(--red),transparent)}
+.m-high::before{background:linear-gradient(90deg,transparent,var(--orange),transparent)}
+.m-breach::before{background:linear-gradient(90deg,transparent,var(--cyan),transparent)}
+.m-news::before{background:linear-gradient(90deg,transparent,var(--pink),transparent)}
+.metric-label{font-family:var(--mono);font-size:10px;color:var(--text2);margin-bottom:6px;letter-spacing:1px;text-transform:uppercase}
+.metric-value{font-family:var(--mono);font-size:26px}
+.mv-critical{color:var(--red);text-shadow:0 0 12px rgba(255,58,58,0.5)}
+.mv-high{color:var(--orange);text-shadow:0 0 12px rgba(255,140,0,0.5)}
+.mv-info{color:var(--cyan);text-shadow:0 0 12px rgba(0,245,255,0.4)}
+.mv-news{color:var(--pink);text-shadow:0 0 12px rgba(255,45,120,0.4)}
+.section{margin-bottom:1.25rem;border:1px solid var(--border);border-radius:2px;overflow:hidden;position:relative;z-index:1;background:var(--bg2)}
+.section::before{content:'';position:absolute;top:0;left:0;width:2px;height:100%}
+.s-breach::before{background:var(--red)}
+.s-cve::before{background:var(--orange)}
+.s-threat::before{background:var(--pink)}
+.s-news::before{background:var(--cyan)}
+.section-header{display:flex;align-items:center;justify-content:space-between;padding:10px 14px 10px 18px;background:var(--bg3);cursor:pointer;user-select:none}
+.section-title{font-family:var(--mono);font-size:12px;letter-spacing:2px;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.section-icon{font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:1px}
+.icon-breach{background:rgba(255,58,58,0.12);color:var(--red);border:1px solid rgba(255,58,58,0.3)}
+.icon-cve{background:rgba(255,140,0,0.12);color:var(--orange);border:1px solid rgba(255,140,0,0.3)}
+.icon-threat{background:rgba(255,45,120,0.12);color:var(--pink);border:1px solid rgba(255,45,120,0.3)}
+.icon-news{background:rgba(0,245,255,0.08);color:var(--cyan);border:1px solid rgba(0,245,255,0.25)}
+.chevron{font-size:10px;color:var(--text2);transition:transform 0.2s}
+.chevron.open{transform:rotate(180deg)}
+.section-body{padding:0 14px 4px 18px;display:none}
+.section-body.open{display:block}
+.item{padding:12px 0;border-bottom:1px solid var(--border2)}
+.item:last-child{border-bottom:none}
+.item-header{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:5px}
+.item-title{font-family:var(--head);font-size:14px;font-weight:600;line-height:1.4;color:#e0f0ff}
+.badge{font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:1px;white-space:nowrap;flex-shrink:0;letter-spacing:1px}
+.badge-critical{background:rgba(255,58,58,0.12);color:var(--red);border:1px solid rgba(255,58,58,0.35)}
+.badge-high{background:rgba(255,140,0,0.1);color:var(--orange);border:1px solid rgba(255,140,0,0.3)}
+.badge-medium{background:rgba(0,255,157,0.08);color:var(--green);border:1px solid rgba(0,255,157,0.25)}
+.badge-info{background:rgba(0,245,255,0.08);color:var(--cyan);border:1px solid rgba(0,245,255,0.25)}
+.badge-news{background:rgba(255,45,120,0.1);color:var(--pink);border:1px solid rgba(255,45,120,0.3)}
+.badge-threat{background:rgba(255,45,120,0.1);color:var(--pink);border:1px solid rgba(255,45,120,0.3)}
+.item-meta{font-family:var(--mono);font-size:11px;color:var(--text2);margin-bottom:6px;letter-spacing:0.5px}
+.item-desc{font-family:var(--head);font-size:13px;color:var(--text2);line-height:1.6}
+.ioc-list{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
+.ioc{font-family:var(--mono);font-size:10px;background:rgba(0,245,255,0.05);border:1px solid rgba(0,245,255,0.15);border-radius:1px;padding:2px 7px;color:var(--cyan2)}
+.footer{font-family:var(--mono);font-size:10px;color:var(--text2);text-align:center;margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border);letter-spacing:1px;position:relative;z-index:1}
+</style>
+
+<h2 class="sr-only">CyberBrief: Daily cybersecurity intelligence report covering breaches, CVEs, threat intelligence, and major news.</h2>
+
+<div class="header">
+  <div class="logo">[ CYBER<span>BRIEF</span> ]</div>
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+    <div class="date-badge" id="dateBadge"></div>
+    <button class="btn btn-email" onclick="emailReport()">// TRANSMIT REPORT ↗</button>
+  </div>
+</div>
+
+<div class="metrics">
+  <div class="metric m-critical"><div class="metric-label">// critical CVEs</div><div class="metric-value mv-critical" id="mCritical">0</div></div>
+  <div class="metric m-high"><div class="metric-label">// high CVEs</div><div class="metric-value mv-high" id="mHigh">0</div></div>
+  <div class="metric m-breach"><div class="metric-label">// breaches</div><div class="metric-value mv-info" id="mBreaches">0</div></div>
+  <div class="metric m-news"><div class="metric-label">// news items</div><div class="metric-value mv-news" id="mNews">0</div></div>
+</div>
+
+<div id="reportSections"></div>
+
+<div class="footer">
+  // CYBERBRIEF &mdash; INTEL FEED &mdash; VERIFY ALL FINDINGS WITH PRIMARY SOURCES //
+</div>
+
+<script>
+var today = new Date();
+document.getElementById('dateBadge').textContent = today.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'}).toUpperCase();
+
+var DATA = {
+  breach: [
+    {org:'Frost Bank', severity:'Critical', date:'Apr 2026', records:'250,000+ individuals', summary:'Listed by Everest ransomware group; compromised data includes SSNs, Tax IDs, W-2/1099 forms, mortgage records, retirement and health savings account data.'},
+    {org:'Drift Protocol', severity:'Critical', date:'Apr 1, 2026', records:'$280M in user assets', summary:'Crypto futures/options platform suffered a six-month pre-planned attack causing over $280 million in user asset losses.'},
+    {org:'Vercel', severity:'High', date:'Apr 19, 2026', records:'Internal access compromised', summary:'Third-party Context.ai compromise led to theft of access keys, source code, API keys, and database credentials. Data being sold by attackers.'},
+    {org:'Adobe', severity:'High', date:'Apr 2026', records:'13M tickets, 15K employees', summary:'Threat actor "Mr. Racoon" exfiltrated 13M customer support tickets, 15K employee records, internal docs, and bug bounty submissions.'},
+    {org:'Rituals (Cosmetics)', severity:'High', date:'Apr 22, 2026', records:'Up to 41M members', summary:'Customer membership data exposed including full names, DOB, gender, postal/email addresses, phone numbers, and account types.'},
+    {org:'France ANTS', severity:'High', date:'Apr 2026', records:'Citizen ID data', summary:'French government ID system (driver licenses, passports, national IDs) hit by cyberattack with possible data breach.'},
+    {org:'Citizens Financial Group', severity:'Medium', date:'Apr 2026', records:'3.5M customers', summary:'Third-party breach exposed customer names, addresses, and account numbers.'}
+  ],
+  cve: [
+    {cve_id:'CVE-2026-33824', product:'Windows IKE Service Extensions', vendor:'Microsoft', severity:'Critical', cvss:'9.8', patch_status:'Patch available (Apr 14)', summary:'Unauthenticated RCE via crafted IKE v2 packets. Block UDP 500/4500 if patching delayed. Internal lateral movement risk.'},
+    {cve_id:'CVE-2026-33827', product:'Windows TCP/IP Stack', vendor:'Microsoft', severity:'Critical', cvss:'8.1', patch_status:'Patch available (Apr 14)', summary:'Race condition RCE via crafted IPv6 packets on hosts with IPSec enabled. No user interaction; potentially wormable.'},
+    {cve_id:'CVE-2026-33826', product:'Windows Active Directory', vendor:'Microsoft', severity:'Critical', cvss:'8.0', patch_status:'Patch available (Apr 14)', summary:'Authenticated RCE via crafted RPC call. Code executes with RPC host permissions. Microsoft rates "Exploitation More Likely".'},
+    {cve_id:'CVE-2026-32201', product:'SharePoint Server', vendor:'Microsoft', severity:'High', cvss:'6.5', patch_status:'Patch available (Apr 14) - EXPLOITED IN WILD', summary:'Spoofing zero-day actively exploited. Improper input validation allows unauthenticated network spoofing. Internet-facing instances at highest risk.'},
+    {cve_id:'CVE-2026-33825', product:'Microsoft Defender (BlueHammer)', vendor:'Microsoft', severity:'High', cvss:'7.8', patch_status:'Patch available (Apr 14) - PoC public', summary:'TOCTOU race condition in Defender remediation engine enables local privilege escalation to SYSTEM. Public exploit code available.'},
+    {cve_id:'CVE-2026-31431', product:'Linux Kernel (Copy Fail)', vendor:'Linux', severity:'High', cvss:'7.8', patch_status:'Patches rolling out', summary:'Local privilege escalation in algif_aead module. 732-byte Python script can edit setuid binary to gain root. Affects all distros since 2017.'},
+    {cve_id:'CVE-2026-32202', product:'Windows Shell', vendor:'Microsoft', severity:'Medium', cvss:'4.3', patch_status:'Added to CISA KEV - exploited', summary:'Protection mechanism failure allowing network spoofing. Added to CISA Known Exploited Vulnerabilities catalog after active exploitation observed.'}
+  ],
+  threat: [
+    {actor:'APT28 (Forest Blizzard / Pawn Storm)', type:'Nation-state (Russia)', targets:'Ukraine, NATO allies, supply chains', ttp:'Spear-phishing, COM hijacking, steganography, COVENANT C2', iocs:['wellnesscaremed[.]com','PRISMEX malware suite','CVE-2026-21509/21513 chain'], summary:'Deploying new PRISMEX malware with cloud service abuse for C2. Operations include destructive wiper capability targeting humanitarian/weather services for Ukraine.'},
+    {actor:'Sapphire Sleet / UNC1069', type:'Nation-state (North Korea)', targets:'npm ecosystem, developer workstations', ttp:'Supply chain compromise, social engineering ("Contagious Interview")', iocs:['Malicious Axios versions','Trojanized recruiter assessments'], summary:'Compromised Axios npm package via OpenAI GitHub Actions workflow. Targets developers via fake recruiter outreach to deploy RATs that steal cloud tokens.'},
+    {actor:'Storm-1747 (Tycoon2FA)', type:'Cybercrime (PhaaS)', targets:'Microsoft 365 tenants globally', ttp:'AiTM phishing, MFA bypass, session token theft', iocs:['100K+ compromised orgs','Tens of millions of phishing emails/month'], summary:'Subscription phishing-as-a-service platform. At peak accounted for 62% of all Microsoft-blocked phishing, defeating MFA via real-time session interception.'},
+    {actor:'APT37 (ScarCruft)', type:'Nation-state (North Korea)', targets:'Defectors, journalists, researchers', ttp:'Facebook social engineering, multi-stage RAT delivery', iocs:['RokRAT','Facebook friend-add lures'], summary:'Multi-stage social engineering on Facebook builds trust before delivering RokRAT remote access trojan via friend connections.'},
+    {actor:'Cyber Av3ngers / CL-STA-1128', type:'Nation-state (Iran-aligned)', targets:'OT/ICS — Rockwell Automation, water utilities', ttp:'FactoryTalk software abuse, VPS-based exploitation', iocs:['Storm-0784','Rockwell FactoryTalk on VPS'], summary:'Iranian cluster expanding from Unitronics PLCs to Rockwell Automation OT/ICS equipment. Active during recent Iran/Israel kinetic conflict.'},
+    {actor:'Scattered LAPSUS$ Hunters (SLSH)', type:'Cybercrime alliance', targets:'Healthcare, transport, major corporations', ttp:'SIM swapping, social engineering, insider recruitment, extortion', iocs:['Scattered Spider + ShinyHunters + LAPSUS$ merger','Aug 2025 alliance'], summary:'Aug 2025 alliance of three English-speaking groups consolidating SIM-swap, insider recruitment, and large-scale data theft. Linked to The Com network.'},
+    {actor:'Handala Hack', type:'Hacktivist (Iran MOIS-linked)', targets:'Israeli energy, healthcare, defense', ttp:'Data exfiltration with disruptive ops', iocs:['Iranian Electronic Operations Room','60+ active hacktivist groups observed'], summary:'Most prominent Iranian hacktivist persona. Claims compromises of Israeli energy firm, Jordan fuel systems, and Israeli civilian healthcare.'}
+  ],
+  news: [
+    {title:'Microsoft April Patch Tuesday: 167 CVEs, 2 zero-days fixed', category:'Vulnerability', source:'Microsoft / ZDI', date:'Apr 14, 2026', summary:'Second-largest Patch Tuesday in Microsoft history. Includes actively exploited SharePoint zero-day (CVE-2026-32201) and publicly disclosed Defender flaw (BlueHammer).'},
+    {title:'Iran ends 47-day near-total internet outage', category:'Geopolitical', source:'Unit 42 / Palo Alto', date:'Apr 17, 2026', summary:'Limited internet access restored to Iranian population following Operation Epic Fury/Roaring Lion. National Information Network only. Hacktivist activity remains elevated.'},
+    {title:'Vercel breach traced to Context.ai third-party', category:'Supply Chain', source:'Vercel / OX Security', date:'Apr 20, 2026', summary:'Cloud development platform confirmed breach via compromised AI tool integration. Hackers selling stolen access keys, source code, and credentials.'},
+    {title:'CISA adds ConnectWise ScreenConnect, Windows Shell to KEV catalog', category:'Regulatory', source:'CISA', date:'Apr 28, 2026', summary:'Federal agencies must remediate ConnectWise path traversal (CVE-2024-1708) by May 12, 2026. Windows Shell flaw (CVE-2026-32202) added April 29.'},
+    {title:'Former FBI cyber chief: designate hospital ransomware as terrorism', category:'Policy', source:'Nextgov / FCW', date:'Apr 21, 2026', summary:'Proposal to apply terror financing authorities to ransomware actors targeting life-safety infrastructure, with diplomatic consequences for harboring nations.'},
+    {title:'Anthropic Claude Opus turns bugs into exploits for $2,283', category:'AI Threat', source:'Security Affairs', date:'Apr 2026', summary:'Research shows AI models can autonomously develop functional exploits from vulnerability data at low cost, dramatically lowering the bar for weaponization.'},
+    {title:'Bluesky hit by 24-hour DDoS, pro-Iran group claims responsibility', category:'Hacktivism', source:'Security Affairs', date:'Apr 2026', summary:'Decentralized social platform downed by sustained DDoS amid Iran/Israel cyber tensions. Pro-Iran hacktivist group took credit for outage.'}
+  ]
+};
+
+var SECTIONS = [
+  {id:'breach', icon:'icon-breach', label:'BREACH', title:'// BREACH REPORT',         cls:'s-breach'},
+  {id:'cve',    icon:'icon-cve',    label:'VULN',   title:'// VULNERABILITY TRACKER', cls:'s-cve'},
+  {id:'threat', icon:'icon-threat', label:'THREAT', title:'// THREAT INTELLIGENCE',   cls:'s-threat'},
+  {id:'news',   icon:'icon-news',   label:'SITREP', title:'// SITUATION REPORT',      cls:'s-news'}
+];
+
+function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function badgeClass(sev){ var s=(sev||'').toLowerCase(); if(s==='critical')return 'badge-critical'; if(s==='high')return 'badge-high'; if(s==='medium')return 'badge-medium'; return 'badge-info'; }
+
+function toggleSection(id){
+  var body=document.getElementById('body_'+id), chev=document.getElementById('chev_'+id);
+  var open=body.classList.toggle('open');
+  body.style.display = open?'block':'none';
+  chev.classList.toggle('open',open);
+}
+
+function renderBreaches(items){
+  var html='';
+  for(var i=0;i<items.length;i++){
+    var b=items[i];
+    html+='<div class="item"><div class="item-header"><div class="item-title">'+esc(b.org)+'</div><span class="badge '+badgeClass(b.severity)+'">'+esc(b.severity)+'</span></div>';
+    html+='<div class="item-meta">'+esc(b.date)+(b.records?' &bull; '+esc(b.records):'')+'</div>';
+    html+='<div class="item-desc">'+esc(b.summary)+'</div></div>';
+  }
+  return html;
+}
+function renderCVEs(items){
+  var html='';
+  for(var i=0;i<items.length;i++){
+    var c=items[i];
+    html+='<div class="item"><div class="item-header"><div class="item-title">'+esc(c.cve_id)+' &mdash; '+esc(c.product)+'</div><span class="badge '+badgeClass(c.severity)+'">'+esc(c.severity)+(c.cvss?' | CVSS '+esc(c.cvss):'')+'</span></div>';
+    html+='<div class="item-meta">'+esc(c.vendor)+(c.patch_status?' &bull; '+esc(c.patch_status):'')+'</div>';
+    html+='<div class="item-desc">'+esc(c.summary)+'</div></div>';
+  }
+  return html;
+}
+function renderThreats(items){
+  var html='';
+  for(var i=0;i<items.length;i++){
+    var t=items[i];
+    html+='<div class="item"><div class="item-header"><div class="item-title">'+esc(t.actor)+'</div><span class="badge badge-threat">'+esc(t.type)+'</span></div>';
+    html+='<div class="item-meta">'+esc(t.targets)+(t.ttp?' &bull; '+esc(t.ttp):'')+'</div>';
+    html+='<div class="item-desc">'+esc(t.summary)+'</div>';
+    if(t.iocs && t.iocs.length){
+      html+='<div class="ioc-list">';
+      for(var j=0;j<Math.min(t.iocs.length,5);j++) html+='<span class="ioc">'+esc(t.iocs[j])+'</span>';
+      html+='</div>';
+    }
+    html+='</div>';
+  }
+  return html;
+}
+function renderNews(items){
+  var html='';
+  for(var i=0;i<items.length;i++){
+    var n=items[i];
+    html+='<div class="item"><div class="item-header"><div class="item-title">'+esc(n.title)+'</div><span class="badge badge-news">'+esc(n.category)+'</span></div>';
+    html+='<div class="item-meta">'+esc(n.source)+(n.date?' &bull; '+esc(n.date):'')+'</div>';
+    html+='<div class="item-desc">'+esc(n.summary)+'</div></div>';
+  }
+  return html;
+}
+var RENDERERS = {breach:renderBreaches, cve:renderCVEs, threat:renderThreats, news:renderNews};
+
+function renderReport(){
+  var html='';
+  for(var i=0;i<SECTIONS.length;i++){
+    var s=SECTIONS[i];
+    html+='<div class="section '+s.cls+'" id="sec_'+s.id+'">';
+    html+='<div class="section-header" onclick="toggleSection(\''+s.id+'\')">';
+    html+='<div class="section-title"><span class="section-icon '+s.icon+'">'+s.label+'</span>'+s.title+'</div>';
+    html+='<div class="chevron open" id="chev_'+s.id+'">&#x25BE;</div>';
+    html+='</div>';
+    html+='<div class="section-body open" id="body_'+s.id+'">';
+    html+=RENDERERS[s.id](DATA[s.id]);
+    html+='</div></div>';
+  }
+  document.getElementById('reportSections').innerHTML = html;
+
+  var critCount=0, highCount=0;
+  for(var i=0;i<DATA.cve.length;i++){
+    var sev=(DATA.cve[i].severity||'').toLowerCase();
+    if(sev==='critical') critCount++;
+    else if(sev==='high') highCount++;
+  }
+  document.getElementById('mCritical').textContent = critCount;
+  document.getElementById('mHigh').textContent = highCount;
+  document.getElementById('mBreaches').textContent = DATA.breach.length;
+  document.getElementById('mNews').textContent = DATA.news.length;
+}
+
+function emailReport(){
+  var to=prompt('Enter recipient email addresses (comma-separated):','');
+  if(to===null||!to.trim()) return;
+  var dateStr=today.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});
+  var d50='==================================================';
+  var d40='----------------------------------------';
+  var body='CYBERBRIEF // DAILY SECURITY INTELLIGENCE\n'+dateStr+'\n'+d50+'\n\n';
+  var titles={breach:'BREACH REPORT',cve:'VULNERABILITY TRACKER (CVEs)',threat:'THREAT INTELLIGENCE',news:'SITUATION REPORT'};
+  for(var i=0;i<SECTIONS.length;i++){
+    var sid=SECTIONS[i].id;
+    body+='\n[ '+titles[sid]+' ]\n'+d40+'\n';
+    var el=document.getElementById('body_'+sid);
+    var items=el?el.querySelectorAll('.item'):[];
+    if(!items.length){body+='No data.\n';continue;}
+    for(var j=0;j<items.length;j++){
+      var item=items[j];
+      var titleEl=item.querySelector('.item-title');
+      var badgeEl=item.querySelector('.badge');
+      var metaEl=item.querySelector('.item-meta');
+      var descEl=item.querySelector('.item-desc');
+      var iocEls=item.querySelectorAll('.ioc');
+      if(titleEl) body+='\n'+titleEl.textContent.trim();
+      if(badgeEl) body+=' ['+badgeEl.textContent.trim()+']';
+      body+='\n';
+      if(metaEl&&metaEl.textContent.trim()) body+=metaEl.textContent.trim()+'\n';
+      if(descEl&&descEl.textContent.trim()) body+=descEl.textContent.trim()+'\n';
+      if(iocEls.length){
+        var iocList=[];
+        for(var k=0;k<iocEls.length;k++) iocList.push(iocEls[k].textContent.trim());
+        body+='IOCs: '+iocList.join(', ')+'\n';
+      }
+    }
+    body+='\n';
+  }
+  body+='\n'+d50+'\nGenerated by CyberBrief // Verify all findings with primary sources.';
+  var recipients=to.split(',').map(function(e){return e.trim();}).filter(Boolean).join(',');
+  var subject=encodeURIComponent('CyberBrief // Daily Intel - '+dateStr);
+  var encodedBody=encodeURIComponent(body);
+  window.location.href='mailto:'+recipients+'?subject='+subject+'&body='+encodedBody;
+}
+
+renderReport();
+</script>
