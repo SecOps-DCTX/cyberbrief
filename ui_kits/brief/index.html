@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>CyberBrief // Daily Intel Feed</title>
 <link rel="stylesheet" href="../../colors_and_type.css">
 <style>
@@ -75,9 +78,9 @@
   <div class="header">
     <div class="logo">[ CYBER<span>BRIEF</span> ]</div>
     <div class="right">
-      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:2px">
-        <div class="date" id="date"></div>
-        <div class="date" id="updateTime" style="font-size:9px;color:#6a8aaa">// updated --:--</div>
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:nowrap">
+        <div class="date" id="date" style="white-space:nowrap"></div>
+        <div class="date" id="updateTime" style="font-size:11px;white-space:nowrap">updated --:--</div>
       </div>
       <button class="btn" onclick="emailReport()">// TRANSMIT REPORT ↗</button>
     </div>
