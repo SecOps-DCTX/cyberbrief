@@ -2,7 +2,8 @@ name: CyberBrief Daily Update
 
 on:
   schedule:
-    - cron: '0 13 * * *'
+    # Run hourly from 6am CST to 1am CST next day (12pm-7am UTC)
+    - cron: '0 12,13,14,15,16,17,18,19,20,21,22,23,0,1,2,3,4,5,6,7 * * *'
   workflow_dispatch:
 
 jobs:
