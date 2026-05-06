@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>CyberBrief // Daily Intel Feed</title>
-<link rel="stylesheet" href="/cyberbrief/colors_and_type.css">
+<link rel="stylesheet" href="../../colors_and_type.css">
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:'Rajdhani',sans-serif;color:#c8ddf0;background:#090d13;padding:1rem;min-height:100vh;position:relative}
@@ -75,14 +75,17 @@
   <div class="header">
     <div class="logo">[ CYBER<span>BRIEF</span> ]</div>
     <div class="right">
-      <div class="date" id="date"></div>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:2px">
+        <div class="date" id="date"></div>
+        <div class="date" id="updateTime" style="font-size:9px;color:#6a8aaa">// updated --:--</div>
+      </div>
       <button class="btn" onclick="emailReport()">// TRANSMIT REPORT ↗</button>
     </div>
   </div>
   <div class="metrics">
-    <div class="metric m-c"><div class="mlbl">// critical CVEs</div><div class="mval v-c" id="mC">0</div></div>
-    <div class="metric m-h"><div class="mlbl">// high CVEs</div><div class="mval v-h" id="mH">0</div></div>
-    <div class="metric m-b"><div class="mlbl">// breaches</div><div class="mval v-b" id="mB">0</div></div>
+    <div class="metric m-c"><div class="mlbl">// total CVEs</div><div class="mval v-c" id="mC">0</div></div>
+    <div class="metric m-h"><div class="mlbl">// breaches</div><div class="mval v-h" id="mB">0</div></div>
+    <div class="metric m-b"><div class="mlbl">// threats</div><div class="mval v-b" id="mT">0</div></div>
     <div class="metric m-n"><div class="mlbl">// news items</div><div class="mval v-n" id="mN">0</div></div>
   </div>
   <div id="report"></div>
@@ -112,17 +115,15 @@ function render(){
     html+='<div class="section '+s.cls+'"><div class="shead" onclick="tog(\''+s.id+'\')"><div class="stitle"><span class="sicon '+s.icon+'">'+s.label+'</span>'+s.title+'</div><div class="chev open" id="c_'+s.id+'">&#x25BE;</div></div><div class="sbody open" id="b_'+s.id+'">'+R[s.id](DATA[s.id]||[])+'</div></div>';
   });
   document.getElementById('report').innerHTML=html;
-  var critN=((DATA.cve||[]).filter(c=>(c.severity||'').toLowerCase()==='critical')||[]).length;
-  var highN=((DATA.cve||[]).filter(c=>(c.severity||'').toLowerCase()==='high')||[]).length;
-  document.getElementById('mC').textContent=critN;
-  document.getElementById('mH').textContent=highN;
+  document.getElementById('mC').textContent=(DATA.cve||[]).length;
   document.getElementById('mB').textContent=(DATA.breach||[]).length;
+  document.getElementById('mT').textContent=(DATA.threat||[]).length;
   document.getElementById('mN').textContent=(DATA.news||[]).length;
 }
 function loadData(){
   document.getElementById('report').innerHTML='<div class="loading">// LOADING LATEST BRIEF DATA...</div>';
-  fetch('/cyberbrief/data.json').then(r=>{
-    if(!r.ok)throw new Error('HTTP '+r.status);
+  fetch('./../../data.json').then(r=>{
+    if(!r.ok)throw new Error('HTTP '+r.status+' - '+r.statusText);
     return r.json();
   }).then(d=>{
     DATA=d;
@@ -167,7 +168,10 @@ function emailReport(){
   var recipients=to.split(',').map(function(e){return e.trim();}).filter(Boolean).join(',');
   window.location.href='mailto:'+recipients+'?subject='+encodeURIComponent('CyberBrief // Daily Intel - '+dateStr)+'&body='+encodeURIComponent(body);
 }
-document.getElementById('date').textContent=new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'}).toUpperCase();
+var now=new Date();
+document.getElementById('date').textContent=now.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'}).toUpperCase();
+var timeStr=now.getHours().toString().padStart(2,'0')+':'+now.getMinutes().toString().padStart(2,'0');
+document.getElementById('updateTime').textContent='// updated '+timeStr;
 loadData();
 </script>
 </body>
