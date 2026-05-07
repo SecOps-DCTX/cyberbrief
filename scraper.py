@@ -58,6 +58,19 @@ class CyberBriefScraper:
         except Exception as e:
             logger.error(f"Failed to fetch CISA KEV: {e}")
     
+    def validate_url(self, url: str, timeout: int = 5) -> bool:
+        """Check if URL is alive and not a redirect loop."""
+        if not url or not url.startswith('http'):
+            return False
+        
+        try:
+            resp = requests.head(url, timeout=timeout, allow_redirects=True)
+            # Accept 2xx, 3xx, 4xx (page exists but may be paywalled, etc)
+            # Reject 5xx (server error) and timeout
+            return 200 <= resp.status_code < 500
+        except requests.exceptions.RequestException:
+            return False
+    
     def fetch_rss_feeds(self):
         """Fetch and parse RSS feeds from security news sources."""
         logger.info("Fetching RSS feeds...")
@@ -77,11 +90,18 @@ class CyberBriefScraper:
                         if published < cutoff:
                             continue
                         
+                        link = entry.get('link', '')
+                        
+                        # Validate link is alive before including
+                        if not self.validate_url(link):
+                            logger.debug(f"URL validation failed for {source_name}: {link}")
+                            continue
+                        
                         article = {
                             'source': source_name,
                             'title': entry.get('title', ''),
                             'summary': entry.get('summary', '')[:500],
-                            'link': entry.get('link', ''),
+                            'link': link,
                             'published': published.isoformat(),
                             'tags': [tag.get('term', '') for tag in entry.get('tags', [])]
                         }
@@ -177,11 +197,24 @@ class CyberBriefScraper:
             'article': article
         }
     
+    def generate_fallback_url(self, source: str, query: str) -> str:
+        """Generate searchable fallback URL if direct link unavailable."""
+        source_search_urls = {
+            'securityweek': f'https://www.securityweek.com/?s={query.replace(" ", "+")}',
+            'bleepingcomputer': f'https://www.bleepingcomputer.com/search/?q={query.replace(" ", "+")}',
+            'darkreading': f'https://www.darkreading.com/search/?q={query.replace(" ", "+")}',
+            'hackernews': f'https://thehackernews.com/?s={query.replace(" ", "+")}'
+        }
+        return source_search_urls.get(source, f'https://{source}.com/?q={query.replace(" ", "+")}')
+    
     def parse_breach(self, classified: Dict) -> Dict[str, Any]:
         """Extract structured breach data from article."""
         article = classified['article']
         title = article['title']
         org = title.split(' ')[0] if title else 'Unknown'
+        
+        # Use direct link if valid, fallback to search if not
+        url = article['link'] if self.validate_url(article['link']) else self.generate_fallback_url(article['source'], title)
         
         return {
             'org': org,
@@ -189,7 +222,7 @@ class CyberBriefScraper:
             'date': datetime.now().strftime('%b %Y'),
             'records': 'Unknown',
             'summary': article['summary'],
-            'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': article['link']}]
+            'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': url}]
         }
     
     def parse_cve(self, classified: Dict) -> Dict[str, Any]:
@@ -206,6 +239,9 @@ class CyberBriefScraper:
         
         kev_info = self.cisa_kev.get(cve_id, {})
         
+        # Use direct link if valid, fallback to search if not
+        url = article['link'] if self.validate_url(article['link']) else self.generate_fallback_url(article['source'], article['title'])
+        
         return {
             'cve_id': cve_id,
             'product': product_name[:50],
@@ -214,7 +250,7 @@ class CyberBriefScraper:
             'cvss': kev_info.get('cvssV3Score', '0'),
             'patch_status': 'Status unknown',
             'summary': article['summary'],
-            'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': article['link']}]
+            'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': url}]
         }
     
     def parse_threat(self, classified: Dict) -> Dict[str, Any]:
@@ -227,6 +263,9 @@ class CyberBriefScraper:
         threat_match = re.search(threat_patterns, text, re.I)
         actor = threat_match.group(0) if threat_match else 'Unknown Actor'
         
+        # Use direct link if valid, fallback to search if not
+        url = article['link'] if self.validate_url(article['link']) else self.generate_fallback_url(article['source'], article['title'])
+        
         return {
             'actor': actor,
             'type': 'Nation-state' if 'apt' in text.lower() else 'Cybercrime',
@@ -234,7 +273,7 @@ class CyberBriefScraper:
             'ttp': 'See article for details',
             'iocs': [],
             'summary': article['summary'],
-            'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': article['link']}]
+            'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': url}]
         }
     
     def parse_news(self, classified: Dict) -> Dict[str, Any]:
@@ -255,13 +294,16 @@ class CyberBriefScraper:
                 category = cat
                 break
         
+        # Use direct link if valid, fallback to search if not
+        url = article['link'] if self.validate_url(article['link']) else self.generate_fallback_url(article['source'], article['title'])
+        
         return {
             'title': article['title'],
             'category': category,
             'source': article['source'].replace('_', ' ').title(),
             'date': datetime.now().strftime('%b %d, %Y'),
             'summary': article['summary'],
-            'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': article['link']}]
+            'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': url}]
         }
     
     def run(self, max_per_section: int = 10):
@@ -282,8 +324,18 @@ class CyberBriefScraper:
             classified = [self.classify_article(a) for a in articles]
             classified.sort(key=lambda x: x['score'], reverse=True)
             
+            validation_stats = {'valid_urls': 0, 'fallback_urls': 0}
+            
             for item in classified[:max_per_section * 2]:
                 section = item['section']
+                article = item['article']
+                
+                # Track URL validation
+                if self.validate_url(article['link']):
+                    validation_stats['valid_urls'] += 1
+                else:
+                    validation_stats['fallback_urls'] += 1
+                    logger.debug(f"Using fallback URL for {article['source']}: {article['title'][:50]}")
                 
                 if section == 'breach':
                     parsed = self.parse_breach(item)
@@ -304,6 +356,9 @@ class CyberBriefScraper:
                     parsed = self.parse_news(item)
                     if len(self.data['news']) < max_per_section:
                         self.data['news'].append(parsed)
+            
+            logger.info(f"URL Validation: {validation_stats['valid_urls']} direct links, "
+                       f"{validation_stats['fallback_urls']} search fallbacks")
             
             self.save_data()
             self.commit_to_github()
