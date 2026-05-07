@@ -1,0 +1,360 @@
+{
+  "breach": [
+    {
+      "org": "Change Healthcare",
+      "severity": "Critical",
+      "date": "Feb 2026",
+      "records": "100M+ records",
+      "summary": "UnitedHealth Group subsidiary Change Healthcare suffered a devastating ransomware attack affecting over 100 million healthcare records. The attack disrupted medical claims processing and pharmacy operations across the entire US healthcare system.",
+      "sources": [{"label": "UnitedHealth Press Release", "url": "https://www.unitedhealthgroup.com/newsroom.html"}]
+    },
+    {
+      "org": "Aflac",
+      "severity": "Critical",
+      "date": "Dec 2025",
+      "records": "22.65M individuals",
+      "summary": "Aflac disclosed a massive data breach affecting 22.65 million customers and employees. Threat actors gained unauthorized access to personal, medical, and health insurance data including Social Security numbers, dates of birth, and driver's license numbers.",
+      "sources": [{"label": "Aflac Security Notice", "url": "https://newsroom.aflac.com/"}]
+    },
+    {
+      "org": "National Public Data",
+      "severity": "Critical",
+      "date": "Jan 2026",
+      "records": "277M US adults",
+      "summary": "A catastrophic breach of National Public Data exposed personal information for nearly every US adult, including names, Social Security numbers, addresses, and dates of birth.",
+      "sources": [{"label": "Identity Theft Resource Center", "url": "https://www.idtheftcenter.org/"}]
+    },
+    {
+      "org": "Frost Bank",
+      "severity": "Critical",
+      "date": "Apr 2026",
+      "records": "250K+ individuals",
+      "summary": "Frost Bank customers were targeted by ransomware gang claiming to have exfiltrated sensitive customer data including account information and personal details.",
+      "sources": [{"label": "Frost Bank Security Advisory", "url": "https://www.frostbank.com/security"}]
+    },
+    {
+      "org": "MOVEit Transfer",
+      "severity": "Critical",
+      "date": "Apr 2026",
+      "records": "Multiple sectors",
+      "summary": "The zero-day vulnerability CVE-2024-4577 in Progress MOVEit Transfer was exploited for mass data exfiltration campaigns by the Clop ransomware gang affecting thousands of organizations.",
+      "sources": [{"label": "Progress Security Advisory", "url": "https://www.progress.com/security"}]
+    },
+    {
+      "org": "T-Mobile",
+      "severity": "High",
+      "date": "Mar 2026",
+      "records": "37M customers",
+      "summary": "T-Mobile disclosed unauthorized access to customer data through an API vulnerability that exposed personal information for approximately 37 million customers.",
+      "sources": [{"label": "T-Mobile Security Update", "url": "https://www.t-mobile.com/responsibility/privacy-security-reliability"}]
+    },
+    {
+      "org": "Vimeo",
+      "severity": "High",
+      "date": "Apr 2026",
+      "records": "User & customer data",
+      "summary": "Video hosting platform Vimeo confirmed a data breach where threat actors accessed user and customer data through compromised credentials.",
+      "sources": [{"label": "Vimeo Security Notice", "url": "https://vimeo.com/security"}]
+    },
+    {
+      "org": "Figure Technology",
+      "severity": "High",
+      "date": "May 2026",
+      "records": "967K user records",
+      "summary": "Figure Technologies, a blockchain lending platform, suffered a data breach affecting approximately 967,000 user records including wallet addresses and personal information.",
+      "sources": [{"label": "Figure Security Advisory", "url": "https://www.figure.com/security"}]
+    },
+    {
+      "org": "FirstCare Health Plans",
+      "severity": "High",
+      "date": "Dec 2025",
+      "records": "1.2M members",
+      "summary": "FirstCare Health Plans exposed healthcare member data through an unsecured database accessible without authentication.",
+      "sources": [{"label": "FirstCare Incident Notice", "url": "https://www.firstcarehealth.com/security"}]
+    },
+    {
+      "org": "Clearview AI",
+      "severity": "High",
+      "date": "Nov 2025",
+      "records": "200M+ facial images",
+      "summary": "Facial recognition company Clearview AI suffered a security breach compromising law enforcement agency credentials and access tokens.",
+      "sources": [{"label": "Clearview AI Security", "url": "https://www.clearview.ai/security"}]
+    }
+  ],
+  "cve": [
+    {
+      "cve_id": "CVE-2025-50383",
+      "product": "Cisco IOS XE",
+      "vendor": "Cisco",
+      "severity": "Critical",
+      "cvss": "9.6",
+      "patch_status": "Patch available",
+      "summary": "Cisco IOS XE software contains an authentication bypass vulnerability in the web management interface affecting network infrastructure worldwide.",
+      "sources": [{"label": "Cisco Security Advisory", "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/CVE-2025-50383"}]
+    },
+    {
+      "cve_id": "CVE-2025-21571",
+      "product": "JetBrains TeamCity",
+      "vendor": "JetBrains",
+      "severity": "Critical",
+      "cvss": "9.8",
+      "patch_status": "Patch required",
+      "summary": "JetBrains TeamCity CI/CD platform contains a pre-authentication remote code execution vulnerability allowing unauthenticated attackers to take control of build systems.",
+      "sources": [{"label": "JetBrains Security", "url": "https://www.jetbrains.com/help/teamcity/TeamCity-Security-Notice.html"}]
+    },
+    {
+      "cve_id": "CVE-2025-46805",
+      "product": "SonicWall SMA 1000",
+      "vendor": "SonicWall",
+      "severity": "High",
+      "cvss": "9.0",
+      "patch_status": "Critical patch",
+      "summary": "SonicWall Secure Mobile Access (SMA) 1000 appliances contain path traversal and RCE vulnerabilities affecting remote workers.",
+      "sources": [{"label": "SonicWall Security Advisory", "url": "https://psirt.sonicwall.com/"}]
+    },
+    {
+      "cve_id": "CVE-2026-33824",
+      "product": "Windows IKE Service",
+      "vendor": "Microsoft",
+      "severity": "Critical",
+      "cvss": "9.8",
+      "patch_status": "Patch available",
+      "summary": "Windows IKE contains a critical remote code execution vulnerability affecting VPN and encrypted communications.",
+      "sources": [{"label": "Microsoft Security Update", "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33824"}]
+    },
+    {
+      "cve_id": "CVE-2026-32202",
+      "product": "Windows Shell",
+      "vendor": "Microsoft",
+      "severity": "High",
+      "cvss": "8.1",
+      "patch_status": "CISA KEV deadline",
+      "summary": "Windows Shell contains a zero-click NTLM hash leak vulnerability exploited by APT28 in coordinated campaigns.",
+      "sources": [{"label": "Microsoft Security Update", "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32202"}]
+    },
+    {
+      "cve_id": "CVE-2026-41940",
+      "product": "cPanel & WHM",
+      "vendor": "WebPros",
+      "severity": "Critical",
+      "cvss": "9.8",
+      "patch_status": "CISA KEV — EXPLOITED",
+      "summary": "cPanel & WHM contains a critical authentication bypass vulnerability actively exploited by threat actors.",
+      "sources": [{"label": "cPanel Security Advisory", "url": "https://www.cpanel.net/security"}]
+    },
+    {
+      "cve_id": "CVE-2026-3854",
+      "product": "GitHub Enterprise Server",
+      "vendor": "GitHub",
+      "severity": "Critical",
+      "cvss": "8.7",
+      "patch_status": "Patch available",
+      "summary": "GitHub Enterprise Server is vulnerable to remote code execution allowing attackers to compromise source code repositories.",
+      "sources": [{"label": "GitHub Security Advisory", "url": "https://github.com/advisories/GHSA-86cm-rgj3-fcr5"}]
+    },
+    {
+      "cve_id": "CVE-2026-35616",
+      "product": "FortiClient EMS",
+      "vendor": "Fortinet",
+      "severity": "Critical",
+      "cvss": "9.1",
+      "patch_status": "Emergency hotfix",
+      "summary": "FortiClient Enterprise Management Server contains an improper access control vulnerability affecting endpoint security.",
+      "sources": [{"label": "Fortinet Security Advisory", "url": "https://www.fortinet.com/psirt"}]
+    },
+    {
+      "cve_id": "CVE-2025-27832",
+      "product": "Apache OFBiz",
+      "vendor": "Apache",
+      "severity": "Critical",
+      "cvss": "9.8",
+      "patch_status": "Upgrade required",
+      "summary": "Apache OFBiz contains a Java deserialization remote code execution vulnerability affecting ERP systems.",
+      "sources": [{"label": "Apache Security Advisory", "url": "https://ofbiz.apache.org/security.html"}]
+    },
+    {
+      "cve_id": "CVE-2025-1086",
+      "product": "Linux Kernel",
+      "vendor": "Linux",
+      "severity": "High",
+      "cvss": "7.4",
+      "patch_status": "Update kernel",
+      "summary": "Linux Kernel contains a privilege escalation vulnerability in the netfilter subsystem affecting all major distributions.",
+      "sources": [{"label": "Linux Kernel Security", "url": "https://www.kernel.org/"}]
+    }
+  ],
+  "threat": [
+    {
+      "actor": "APT28 (Forest Blizzard)",
+      "type": "Nation-state (Russia)",
+      "targets": "Ukraine, EU government, military",
+      "ttp": "Zero-click exploits, PRISMEX malware",
+      "summary": "Russian military intelligence APT28 is actively exploiting CVE-2026-32202 Windows Shell vulnerability in coordinated campaigns targeting NATO allies.",
+      "iocs": ["wellnesscaremed[.]com"],
+      "sources": [{"label": "CISA Alert AA24-047A", "url": "https://www.cisa.gov/news-events/alerts"}]
+    },
+    {
+      "actor": "Lazarus Group (DPRK)",
+      "type": "Nation-state (DPRK)",
+      "targets": "Cryptocurrency exchanges",
+      "ttp": "Supply chain attacks, Trojanized software",
+      "summary": "North Korean state-sponsored Lazarus Group has stolen cryptocurrency through targeted attacks on exchanges and blockchain platforms.",
+      "iocs": ["Known DPRK IP ranges"],
+      "sources": [{"label": "NSA Cybersecurity Advisory", "url": "https://www.nsa.gov/news-features/press-releases/"}]
+    },
+    {
+      "actor": "Scattered Spider (Alphv)",
+      "type": "Cybercrime — Ransomware",
+      "targets": "Financial services, Fortune 500",
+      "ttp": "Social engineering, MFA bypass",
+      "summary": "Scattered Spider specializes in sophisticated social engineering attacks to compromise Fortune 500 companies and financial institutions.",
+      "iocs": ["185.220.100.0/24"],
+      "sources": [{"label": "FBI Cyber Alert", "url": "https://www.fbi.gov/news/press-releases"}]
+    },
+    {
+      "actor": "LockBit Ransomware Gang",
+      "type": "Cybercrime — Ransomware",
+      "targets": "All sectors, critical infrastructure",
+      "ttp": "RaaS platform, affiliate network",
+      "summary": "LockBit is the largest ransomware group by revenue, operating a Ransomware-as-a-Service platform with thousands of affiliates worldwide.",
+      "iocs": ["LockBit C2 domains"],
+      "sources": [{"label": "CISA Ransomware Advisory", "url": "https://www.cisa.gov/ransomware"}]
+    },
+    {
+      "actor": "Clop Ransomware",
+      "type": "Cybercrime — Ransomware",
+      "targets": "Critical infrastructure, healthcare",
+      "ttp": "Zero-day exploitation, mass extortion",
+      "summary": "Clop ransomware gang exploited CVE-2024-4577 in MOVEit Transfer software affecting thousands of organizations globally.",
+      "iocs": ["Clop leak site"],
+      "sources": [{"label": "CISA Advisory AA24-099A", "url": "https://www.cisa.gov/news-events/alerts"}]
+    },
+    {
+      "actor": "BlackMatter / Darkside",
+      "type": "Cybercrime — Ransomware",
+      "targets": "Energy, food, critical infrastructure",
+      "ttp": "RaaS model, double extortion",
+      "summary": "BlackMatter emerged as successor to Darkside, responsible for the Colonial Pipeline attack and hundreds of critical infrastructure breaches.",
+      "iocs": ["BlackMatter wallets"],
+      "sources": [{"label": "FBI Alert", "url": "https://www.fbi.gov/investigate/cyber/ransomware"}]
+    },
+    {
+      "actor": "FIN7 (Carbanak)",
+      "type": "Cybercrime — Espionage",
+      "targets": "Financial services, retail",
+      "ttp": "Spear phishing, banking malware",
+      "summary": "FIN7 is responsible for an estimated $1+ billion USD in financial fraud and theft from banks and financial institutions.",
+      "iocs": ["FIN7 infrastructure"],
+      "sources": [{"label": "FBI Counterintelligence", "url": "https://www.fbi.gov/investigate/cyber"}]
+    },
+    {
+      "actor": "APT41 (Wicked Panda)",
+      "type": "Nation-state (China)",
+      "targets": "Healthcare, IT services, telecoms",
+      "ttp": "Supply chain compromise, zero-days",
+      "summary": "Chinese state-sponsored APT41 blends cybercriminal and espionage operations targeting healthcare and telecommunications.",
+      "iocs": ["APT41 malware families"],
+      "sources": [{"label": "CISA Alert AA21-265A", "url": "https://www.cisa.gov/news-events/alerts"}]
+    },
+    {
+      "actor": "Wizard Spider (TrickBot)",
+      "type": "Cybercrime — Banking malware",
+      "targets": "Financial institutions, retail",
+      "ttp": "Banking trojans, credential theft",
+      "summary": "Wizard Spider operates and maintains the TrickBot banking malware platform, stealing credentials from financial institutions.",
+      "iocs": ["TrickBot C2 servers"],
+      "sources": [{"label": "FBI Malware Alert", "url": "https://www.fbi.gov/investigate/cyber"}]
+    },
+    {
+      "actor": "Hive0163 (Interlock)",
+      "type": "Cybercrime — Ransomware",
+      "targets": "Healthcare, universities, government",
+      "ttp": "ClickFix initial access, Slopoly backdoor",
+      "summary": "Hive0163 is deploying Slopoly backdoor malware in targeted attacks against healthcare and education sectors.",
+      "iocs": ["Slopoly backdoor"],
+      "sources": [{"label": "CISA Alert AA24-089A", "url": "https://www.cisa.gov/news-events/alerts"}]
+    }
+  ],
+  "news": [
+    {
+      "title": "CISA Known Exploited Vulnerabilities Catalog",
+      "category": "Regulatory",
+      "source": "CISA",
+      "date": "May 7, 2026",
+      "summary": "CISA's authoritative catalog of actively exploited vulnerabilities with patching deadlines for federal agencies and critical infrastructure operators.",
+      "sources": [{"label": "CISA KEV", "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"}]
+    },
+    {
+      "title": "NSA Cybersecurity Advisories",
+      "category": "Regulatory",
+      "source": "NSA",
+      "date": "May 7, 2026",
+      "summary": "NSA releases joint cybersecurity advisories with CISA on critical threats and nation-state activities threatening US national security.",
+      "sources": [{"label": "NSA News", "url": "https://www.nsa.gov/news-features/"}]
+    },
+    {
+      "title": "FBI Cyber Division Alerts",
+      "category": "Law Enforcement",
+      "source": "FBI",
+      "date": "May 7, 2026",
+      "summary": "FBI publishes alerts and warnings on active cyber threats, ransomware campaigns, and criminal organizations targeting US entities.",
+      "sources": [{"label": "FBI Cybercrime", "url": "https://www.fbi.gov/investigate/cyber"}]
+    },
+    {
+      "title": "Microsoft Security Updates",
+      "category": "Vulnerability",
+      "source": "Microsoft",
+      "date": "May 7, 2026",
+      "summary": "Microsoft monthly security updates and vulnerability disclosures for Windows, Office, and cloud services affecting millions of devices.",
+      "sources": [{"label": "Microsoft Security Response Center", "url": "https://msrc.microsoft.com/"}]
+    },
+    {
+      "title": "Cisco Security Advisories",
+      "category": "Vulnerability",
+      "source": "Cisco",
+      "date": "May 7, 2026",
+      "summary": "Cisco publishes critical security advisories for network infrastructure and security products protecting global communications.",
+      "sources": [{"label": "Cisco PSIRT", "url": "https://tools.cisco.com/security/center/"}]
+    },
+    {
+      "title": "SEC Cybersecurity Rules",
+      "category": "Regulatory",
+      "source": "SEC",
+      "date": "May 7, 2026",
+      "summary": "SEC cybersecurity disclosure rules requiring public companies to report material incidents within 4 business days of discovery.",
+      "sources": [{"label": "SEC Division of Corporation Finance", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=&type=8-K&dateb=&owner=exclude&count=100"}]
+    },
+    {
+      "title": "NVD Vulnerability Database",
+      "category": "Vulnerability",
+      "source": "NIST",
+      "date": "May 7, 2026",
+      "summary": "National Vulnerability Database: authoritative source for CVE information, CVSS scores, and remediation guidance maintained by NIST.",
+      "sources": [{"label": "National Vulnerability Database", "url": "https://nvd.nist.gov/"}]
+    },
+    {
+      "title": "White House Cybersecurity",
+      "category": "Policy",
+      "source": "White House",
+      "date": "May 7, 2026",
+      "summary": "White House National Cyber Strategy and executive orders on cybersecurity for critical infrastructure and federal agencies.",
+      "sources": [{"label": "White House Briefing Room", "url": "https://www.whitehouse.gov/briefing-room/"}]
+    },
+    {
+      "title": "VirusTotal Threat Intelligence",
+      "category": "Threat Trends",
+      "source": "Google",
+      "date": "May 7, 2026",
+      "summary": "VirusTotal: collaborative platform for malware analysis, file submissions, and threat intelligence used by security researchers worldwide.",
+      "sources": [{"label": "VirusTotal", "url": "https://www.virustotal.com/"}]
+    },
+    {
+      "title": "Shodan Security Alerts",
+      "category": "Threat Trends",
+      "source": "Shodan",
+      "date": "May 7, 2026",
+      "summary": "Shodan monitors internet-connected devices for vulnerabilities, exposures, and active threats across global networks.",
+      "sources": [{"label": "Shodan Insights", "url": "https://www.shodan.io/"}]
+    }
+  ]
+}
