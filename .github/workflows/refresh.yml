@@ -1,9 +1,175 @@
-CyberBrief automated refresh — 2026-05-07 14:22:15 UTC
+name: CyberBrief Full Refresh
 
-Updated intelligence data:
-• Breaches: 10
-• CVEs: 10  
-• Threats: 10
-• News: 10
+on:
+  schedule:
+    - cron: '0 6,12,18,0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scraper.py'
+      - '.github/workflows/refresh.yml'
 
-Triggered by: schedule
+jobs:
+  refresh-cyberbrief:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -q requests feedparser beautifulsoup4
+      
+      - name: Run CyberBrief scraper
+        run: |
+          echo "=========================================="
+          echo "Starting CyberBrief Scraper"
+          echo "=========================================="
+          python scraper.py
+          echo "=========================================="
+          echo "Scraper completed successfully"
+          echo "=========================================="
+      
+      - name: Verify data.json
+        run: |
+          if [ ! -f data.json ]; then
+            echo "ERROR: data.json not found!"
+            exit 1
+          fi
+          
+          BREACH_COUNT=$(python -c "import json; d=json.load(open('data.json')); print(len(d['breach']))")
+          CVE_COUNT=$(python -c "import json; d=json.load(open('data.json')); print(len(d['cve']))")
+          THREAT_COUNT=$(python -c "import json; d=json.load(open('data.json')); print(len(d['threat']))")
+          NEWS_COUNT=$(python -c "import json; d=json.load(open('data.json')); print(len(d['news']))")
+          
+          echo "Data Validation:"
+          echo "  Breaches: $BREACH_COUNT"
+          echo "  CVEs: $CVE_COUNT"
+          echo "  Threats: $THREAT_COUNT"
+          echo "  News: $NEWS_COUNT"
+          
+          if [ "$BREACH_COUNT" -lt 1 ] || [ "$CVE_COUNT" -lt 1 ] || [ "$THREAT_COUNT" -lt 1 ] || [ "$NEWS_COUNT" -lt 1 ]; then
+            echo "WARNING: Some sections have no data"
+          fi
+      
+      - name: Validate JSON format
+        run: |
+          python -c "
+          import json
+          try:
+            with open('data.json', 'r') as f:
+              data = json.load(f)
+            print('✓ JSON is valid')
+            print(f'✓ Total items: {sum(len(v) for k,v in data.items())}')
+          except json.JSONDecodeError as e:
+            print(f'✗ JSON ERROR: {e}')
+            exit(1)
+          "
+      
+      - name: Configure Git
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "CyberBrief Bot"
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data.json; then
+            echo "NO_CHANGES=true" >> $GITHUB_OUTPUT
+            echo "No changes to data.json"
+          else
+            echo "NO_CHANGES=false" >> $GITHUB_OUTPUT
+            echo "Changes detected in data.json"
+            git diff data.json | head -50
+          fi
+      
+      - name: Commit and push changes
+        if: steps.changes.outputs.NO_CHANGES == 'false'
+        run: |
+          git add data.json
+          
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
+          BREACH_COUNT=$(python -c "import json; d=json.load(open('data.json')); print(len(d['breach']))")
+          CVE_COUNT=$(python -c "import json; d=json.load(open('data.json')); print(len(d['cve']))")
+          THREAT_COUNT=$(python -c "import json; d=json.load(open('data.json')); print(len(d['threat']))")
+          NEWS_COUNT=$(python -c "import json; d=json.load(open('data.json')); print(len(d['news']))")
+          
+          git commit -m "CyberBrief automated refresh — $TIMESTAMP
+
+          Updated intelligence data:
+          • Breaches: $BREACH_COUNT
+          • CVEs: $CVE_COUNT  
+          • Threats: $THREAT_COUNT
+          • News: $NEWS_COUNT
+          
+          Triggered by: ${{ github.event_name }}"
+          
+          git push origin main
+      
+      - name: Skip commit (no changes)
+        if: steps.changes.outputs.NO_CHANGES == 'true'
+        run: |
+          echo "✓ Data is current, no commit needed"
+      
+      - name: Deployment summary
+        run: |
+          echo "=========================================="
+          echo "CyberBrief Refresh Complete"
+          echo "=========================================="
+          echo "Repository: ${{ github.repository }}"
+          echo "Ref: ${{ github.ref }}"
+          echo "Triggered by: ${{ github.event_name }}"
+          echo "Timestamp: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "=========================================="
+      
+      - name: Notify failure
+        if: failure()
+        run: |
+          echo "::error::CyberBrief scraper failed!"
+          echo "Check logs above for details"
+          exit 1
+
+  validate-brief:
+    needs: refresh-cyberbrief
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Validate HTML files exist
+        run: |
+          echo "Checking HTML files..."
+          [ -f "ui_kits/brief/index.html" ] && echo "✓ Brief UI found" || echo "✗ Brief UI missing"
+      
+      - name: Validate data.json structure
+        run: |
+          python -c "
+          import json
+          with open('data.json', 'r') as f:
+            data = json.load(f)
+          
+          required_sections = ['breach', 'cve', 'threat', 'news']
+          for section in required_sections:
+            if section not in data:
+              print(f'✗ Missing section: {section}')
+              exit(1)
+            if not isinstance(data[section], list):
+              print(f'✗ Invalid section type: {section}')
+              exit(1)
+          
+          print('✓ All sections valid')
+          print(f'✓ Brief ready to display')
+          "
