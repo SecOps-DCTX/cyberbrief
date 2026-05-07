@@ -64,7 +64,10 @@ class CyberBriefScraper:
             return False
         
         try:
+            # Use GET instead of HEAD (more reliable for web articles)
             resp = requests.get(url, timeout=timeout, allow_redirects=True, stream=True)
+            # Accept 2xx-3xx (valid pages)
+            # 4xx may be paywalled but still valid destinations
             return 200 <= resp.status_code < 400
         except requests.exceptions.RequestException as e:
             logger.debug(f"URL validation failed for {url}: {e}")
@@ -85,10 +88,13 @@ class CyberBriefScraper:
                 for entry in feed.entries[:50]:
                     try:
                         published = datetime(*entry.published_parsed[:6]) if hasattr(entry, 'published_parsed') else datetime.now()
+                        
                         if published < cutoff:
                             continue
                         
                         link = entry.get('link', '')
+                        
+                        # Validate link is alive before including
                         if not self.validate_url(link):
                             logger.debug(f"URL validation failed for {source_name}: {link}")
                             continue
@@ -122,40 +128,98 @@ class CyberBriefScraper:
         section = 'news'
         severity = 'Info'
         
+        # BREACH detection
         breach_keywords = ['breach', 'data breach', 'leaked', 'compromised', 'ransomware', 'hack']
         if any(kw in text for kw in breach_keywords):
             section = 'breach'
             score += 50
-            severity = 'Critical' if any(org in text for org in ['bank', 'financial', 'healthcare', 'government']) else 'High'
+            critical_orgs = ['bank', 'financial', 'healthcare', 'government', 'military']
+            large_breach_keywords = ['million', 'billion', 'customer', 'employee']
+            
+            if any(org in text for org in critical_orgs):
+                score += 20
+                severity = 'Critical'
+            elif any(kw in text for kw in large_breach_keywords):
+                score += 10
+                severity = 'High'
+            else:
+                severity = 'Medium'
         
-        cve_keywords = ['cve-', 'vulnerability', 'zero-day', 'patch', 'exploit', 'rce']
+        # CVE detection
+        cve_keywords = ['cve-', 'vulnerability', 'zero-day', 'patch', 'exploit', 'rce', 'privesc']
         if any(kw in text for kw in cve_keywords):
             section = 'cve'
             score += 60
-            severity = 'Critical' if any(kw in text for kw in ['exploit', 'zero-day']) else 'High'
+            
+            import re
+            cve_match = re.search(r'cve-\d{4}-\d+', text)
+            if cve_match:
+                cve_id = cve_match.group(0).upper()
+                score += 10
+                
+                if cve_id in self.cisa_kev:
+                    score += 30
+                    severity = 'Critical'
+                elif 'exploit' in text or 'zero-day' in text:
+                    severity = 'Critical'
+                elif 'patch' in text or 'available' in text:
+                    severity = 'High'
+                else:
+                    severity = 'Medium'
+            else:
+                severity = 'Medium'
         
-        threat_keywords = ['apt', 'threat actor', 'group', 'campaign', 'ransomware gang']
-        if any(kw in text for kw in threat_keywords):
+        # THREAT actor detection
+        threat_keywords = ['apt', 'threat actor', 'group', 'campaign', 'ransomware gang', 'hacker']
+        threat_names = ['apt28', 'apt29', 'lazarus', 'hive0163', 'scattered spider', 'lapsus']
+        if any(kw in text for kw in threat_keywords) or any(name in text for name in threat_names):
             section = 'threat'
             score += 55
             severity = 'High'
         
-        news_keywords = ['regulation', 'fbi', 'cisa', 'policy']
+        # NEWS (regulatory, industry)
+        news_keywords = ['regulation', 'law enforcement', 'fbi', 'cisa', 'policy', 'industry', 'alert']
         if any(kw in text for kw in news_keywords):
             section = 'news'
             score += 30
+            severity = 'Info'
         
-        authority_boost = {'securityweek': 15, 'bleepingcomputer': 15, 'darkreading': 12, 'hackernews': 10}
+        authority_boost = {
+            'securityweek': 15,
+            'bleepingcomputer': 15,
+            'darkreading': 12,
+            'hackernews': 10
+        }
         score += authority_boost.get(article['source'], 5)
         
-        return {'section': section, 'severity': severity, 'score': min(score, 100), 'article': article}
+        return {
+            'section': section,
+            'severity': severity,
+            'score': min(score, 100),
+            'article': article
+        }
+    
+    def generate_fallback_url(self, source: str, query: str) -> str:
+        """Generate searchable fallback URL if direct link unavailable.
+        Fallback is last resort when RSS feed didn't provide valid URL."""
+        source_search_urls = {
+            'securityweek': f'https://www.securityweek.com/?s={query.replace(" ", "+")}',
+            'bleepingcomputer': f'https://www.bleepingcomputer.com/search/?q={query.replace(" ", "+")}',
+            'darkreading': f'https://www.darkreading.com/search/?q={query.replace(" ", "+")}',
+            'hackernews': f'https://thehackernews.com/?s={query.replace(" ", "+")}'
+        }
+        fallback_url = source_search_urls.get(source, f'https://{source}.com/?q={query.replace(" ", "+")}')
+        logger.warning(f"Using fallback search URL for {source}: {fallback_url}")
+        return fallback_url
     
     def parse_breach(self, classified: Dict) -> Dict[str, Any]:
         """Extract structured breach data from article."""
         article = classified['article']
         title = article['title']
         org = title.split(' ')[0] if title else 'Unknown'
-        url = article['link'] if self.validate_url(article['link']) else f"https://www.cisa.gov/"
+        
+        # Use direct link if valid, fallback to search if not
+        url = article['link'] if self.validate_url(article['link']) else self.generate_fallback_url(article['source'], title)
         
         return {
             'org': org,
@@ -175,29 +239,43 @@ class CyberBriefScraper:
         cve_match = re.search(r'(cve-\d{4}-\d+)', text, re.I)
         cve_id = cve_match.group(0).upper() if cve_match else 'CVE-2026-00000'
         
-        url = article['link'] if self.validate_url(article['link']) else f"https://nvd.nist.gov/vuln/detail/{cve_id}"
+        product = text.split(' ')[2:5]
+        product_name = ' '.join(product) if product else 'Unknown Product'
+        
+        kev_info = self.cisa_kev.get(cve_id, {})
+        
+        # Use direct link if valid, fallback to search if not
+        url = article['link'] if self.validate_url(article['link']) else self.generate_fallback_url(article['source'], article['title'])
         
         return {
             'cve_id': cve_id,
-            'product': 'Unknown',
-            'vendor': 'Unknown',
+            'product': product_name[:50],
+            'vendor': kev_info.get('vendorProject', 'Unknown'),
             'severity': classified['severity'],
-            'cvss': '0',
-            'patch_status': 'Unknown',
+            'cvss': kev_info.get('cvssV3Score', '0'),
+            'patch_status': 'Status unknown',
             'summary': article['summary'],
             'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': url}]
         }
     
     def parse_threat(self, classified: Dict) -> Dict[str, Any]:
         """Extract structured threat actor data from article."""
+        import re
         article = classified['article']
-        url = article['link'] if self.validate_url(article['link']) else "https://www.cisa.gov/"
+        text = f"{article['title']} {article['summary']}"
+        
+        threat_patterns = r'(apt\d+|[\w\s]+(?:group|gang|actor))'
+        threat_match = re.search(threat_patterns, text, re.I)
+        actor = threat_match.group(0) if threat_match else 'Unknown Actor'
+        
+        # Use direct link if valid, fallback to search if not
+        url = article['link'] if self.validate_url(article['link']) else self.generate_fallback_url(article['source'], article['title'])
         
         return {
-            'actor': 'Unknown Actor',
-            'type': 'Cybercrime',
-            'targets': 'Multiple',
-            'ttp': 'See source',
+            'actor': actor,
+            'type': 'Nation-state' if 'apt' in text.lower() else 'Cybercrime',
+            'targets': 'Multiple sectors',
+            'ttp': 'See article for details',
             'iocs': [],
             'summary': article['summary'],
             'sources': [{'label': article['source'].replace('_', ' ').title(), 'url': url}]
@@ -206,11 +284,27 @@ class CyberBriefScraper:
     def parse_news(self, classified: Dict) -> Dict[str, Any]:
         """Extract structured news data from article."""
         article = classified['article']
-        url = article['link'] if self.validate_url(article['link']) else "https://www.cisa.gov/"
+        
+        category_map = {
+            'regulation': 'Regulatory',
+            'fbi': 'Law Enforcement',
+            'cisa': 'Regulatory',
+            'patch': 'Vulnerability',
+            'industry': 'Industry'
+        }
+        
+        category = 'News'
+        for keyword, cat in category_map.items():
+            if keyword in article['summary'].lower():
+                category = cat
+                break
+        
+        # Use direct link if valid, fallback to search if not
+        url = article['link'] if self.validate_url(article['link']) else self.generate_fallback_url(article['source'], article['title'])
         
         return {
             'title': article['title'],
-            'category': 'News',
+            'category': category,
             'source': article['source'].replace('_', ' ').title(),
             'date': datetime.now().strftime('%b %d, %Y'),
             'summary': article['summary'],
@@ -235,17 +329,41 @@ class CyberBriefScraper:
             classified = [self.classify_article(a) for a in articles]
             classified.sort(key=lambda x: x['score'], reverse=True)
             
+            validation_stats = {'valid_urls': 0, 'fallback_urls': 0}
+            
             for item in classified[:max_per_section * 2]:
                 section = item['section']
+                article = item['article']
                 
-                if section == 'breach' and len(self.data['breach']) < max_per_section:
-                    self.data['breach'].append(self.parse_breach(item))
-                elif section == 'cve' and len(self.data['cve']) < max_per_section:
-                    self.data['cve'].append(self.parse_cve(item))
-                elif section == 'threat' and len(self.data['threat']) < max_per_section:
-                    self.data['threat'].append(self.parse_threat(item))
-                elif section == 'news' and len(self.data['news']) < max_per_section:
-                    self.data['news'].append(self.parse_news(item))
+                # Track URL validation
+                if self.validate_url(article['link']):
+                    validation_stats['valid_urls'] += 1
+                else:
+                    validation_stats['fallback_urls'] += 1
+                    logger.debug(f"Using fallback URL for {article['source']}: {article['title'][:50]}")
+                
+                if section == 'breach':
+                    parsed = self.parse_breach(item)
+                    if len(self.data['breach']) < max_per_section:
+                        self.data['breach'].append(parsed)
+                
+                elif section == 'cve':
+                    parsed = self.parse_cve(item)
+                    if len(self.data['cve']) < max_per_section:
+                        self.data['cve'].append(parsed)
+                
+                elif section == 'threat':
+                    parsed = self.parse_threat(item)
+                    if len(self.data['threat']) < max_per_section:
+                        self.data['threat'].append(parsed)
+                
+                elif section == 'news':
+                    parsed = self.parse_news(item)
+                    if len(self.data['news']) < max_per_section:
+                        self.data['news'].append(parsed)
+            
+            logger.info(f"URL Validation: {validation_stats['valid_urls']} direct links, "
+                       f"{validation_stats['fallback_urls']} search fallbacks")
             
             self.save_data()
             self.commit_to_github()
@@ -265,7 +383,9 @@ class CyberBriefScraper:
         try:
             with open(filepath, 'w') as f:
                 json.dump(self.data, f, indent=2)
-            logger.info(f"Saved: {len(self.data['breach'])} breaches, {len(self.data['cve'])} CVEs, {len(self.data['threat'])} threats, {len(self.data['news'])} news")
+            
+            logger.info(f"Saved: {len(self.data['breach'])} breaches, {len(self.data['cve'])} CVEs, "
+                       f"{len(self.data['threat'])} threats, {len(self.data['news'])} news")
         except Exception as e:
             logger.error(f"Error saving data: {e}")
             raise
@@ -275,6 +395,7 @@ class CyberBriefScraper:
         logger.info("Committing to GitHub...")
         try:
             result = subprocess.run(['git', 'diff', '--quiet', 'data.json'], capture_output=True, check=False)
+            
             if result.returncode != 0:
                 subprocess.run(['git', 'add', 'data.json'], check=True)
                 today = datetime.now().strftime('%Y-%m-%d')
