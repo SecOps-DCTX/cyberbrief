@@ -1,0 +1,50 @@
+{
+  "breach": [
+    {"org": "Organization 1", "severity": "Critical", "date": "May 1, 2026", "records": "1000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]},
+    {"org": "Organization 2", "severity": "High", "date": "May 2, 2026", "records": "2000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]},
+    {"org": "Organization 3", "severity": "Medium", "date": "May 3, 2026", "records": "3000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]},
+    {"org": "Organization 4", "severity": "Critical", "date": "May 4, 2026", "records": "4000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]},
+    {"org": "Organization 5", "severity": "High", "date": "May 5, 2026", "records": "5000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]},
+    {"org": "Organization 6", "severity": "Medium", "date": "May 6, 2026", "records": "6000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]},
+    {"org": "Organization 7", "severity": "Critical", "date": "May 7, 2026", "records": "7000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]},
+    {"org": "Organization 8", "severity": "High", "date": "May 8, 2026", "records": "8000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]},
+    {"org": "Organization 9", "severity": "Medium", "date": "May 9, 2026", "records": "9000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]},
+    {"org": "Organization 10", "severity": "Critical", "date": "May 10, 2026", "records": "10000000 records", "summary": "Data breach.", "sources": [{"label": "Security News", "url": "https://example.com"}]}
+  ],
+  "cve": [
+    {"cve_id": "CVE-2026-1001", "product": "Product B", "vendor": "Vendor 1", "severity": "Critical", "cvss": "5.5", "patch_status": "Patch Available", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1001"}]},
+    {"cve_id": "CVE-2026-1002", "product": "Product C", "vendor": "Vendor 2", "severity": "High", "cvss": "6.0", "patch_status": "No Patch", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1002"}]},
+    {"cve_id": "CVE-2026-1003", "product": "Product D", "vendor": "Vendor 3", "severity": "Medium", "cvss": "6.5", "patch_status": "Patch Available", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1003"}]},
+    {"cve_id": "CVE-2026-1004", "product": "Product E", "vendor": "Vendor 4", "severity": "Critical", "cvss": "7.0", "patch_status": "No Patch", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1004"}]},
+    {"cve_id": "CVE-2026-1005", "product": "Product F", "vendor": "Vendor 5", "severity": "High", "cvss": "7.5", "patch_status": "Patch Available", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1005"}]},
+    {"cve_id": "CVE-2026-1006", "product": "Product G", "vendor": "Vendor 6", "severity": "Medium", "cvss": "8.0", "patch_status": "No Patch", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1006"}]},
+    {"cve_id": "CVE-2026-1007", "product": "Product H", "vendor": "Vendor 7", "severity": "Critical", "cvss": "8.5", "patch_status": "Patch Available", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1007"}]},
+    {"cve_id": "CVE-2026-1008", "product": "Product I", "vendor": "Vendor 8", "severity": "High", "cvss": "9.0", "patch_status": "No Patch", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1008"}]},
+    {"cve_id": "CVE-2026-1009", "product": "Product J", "vendor": "Vendor 9", "severity": "Medium", "cvss": "9.5", "patch_status": "Patch Available", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1009"}]},
+    {"cve_id": "CVE-2026-1010", "product": "Product K", "vendor": "Vendor 10", "severity": "Critical", "cvss": "10.0", "patch_status": "No Patch", "summary": "Vulnerability.", "sources": [{"label": "NVD", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1010"}]}
+  ],
+  "threat": [
+    {"actor": "APT-01", "type": "Malware", "targets": "Sector B", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.1.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]},
+    {"actor": "APT-02", "type": "Ransomware", "targets": "Sector C", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.2.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]},
+    {"actor": "APT-03", "type": "Phishing", "targets": "Sector D", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.3.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]},
+    {"actor": "APT-04", "type": "Malware", "targets": "Sector E", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.4.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]},
+    {"actor": "APT-05", "type": "Ransomware", "targets": "Sector F", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.5.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]},
+    {"actor": "APT-06", "type": "Phishing", "targets": "Sector G", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.6.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]},
+    {"actor": "APT-07", "type": "Malware", "targets": "Sector H", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.7.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]},
+    {"actor": "APT-08", "type": "Ransomware", "targets": "Sector I", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.8.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]},
+    {"actor": "APT-09", "type": "Phishing", "targets": "Sector J", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.9.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]},
+    {"actor": "APT-10", "type": "Malware", "targets": "Sector K", "ttp": "C2", "summary": "Campaign.", "iocs": ["192.168.10.0/24"], "sources": [{"label": "Intel", "url": "https://example.com"}]}
+  ],
+  "news": [
+    {"title": "Update 1", "category": "Breach", "source": "SecurityWeek", "date": "May 1, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]},
+    {"title": "Update 2", "category": "Vulnerability", "source": "BleepingComputer", "date": "May 2, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]},
+    {"title": "Update 3", "category": "Threat", "source": "Dark Reading", "date": "May 3, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]},
+    {"title": "Update 4", "category": "Breach", "source": "SecurityWeek", "date": "May 4, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]},
+    {"title": "Update 5", "category": "Vulnerability", "source": "BleepingComputer", "date": "May 5, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]},
+    {"title": "Update 6", "category": "Threat", "source": "Dark Reading", "date": "May 6, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]},
+    {"title": "Update 7", "category": "Breach", "source": "SecurityWeek", "date": "May 7, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]},
+    {"title": "Update 8", "category": "Vulnerability", "source": "BleepingComputer", "date": "May 8, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]},
+    {"title": "Update 9", "category": "Threat", "source": "Dark Reading", "date": "May 9, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]},
+    {"title": "Update 10", "category": "Breach", "source": "SecurityWeek", "date": "May 10, 2026", "summary": "News.", "sources": [{"label": "News", "url": "https://example.com"}]}
+  ]
+}
