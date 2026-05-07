@@ -162,7 +162,7 @@ function render(){
 }
 function loadData(){
   document.getElementById('report').innerHTML='<div class="loading">// LOADING LATEST BRIEF DATA...</div>';
-  fetch('./../../data-static.json').then(r=>{
+  fetch('./../../data.json').then(r=>{
     if(!r.ok)throw new Error('HTTP '+r.status+' - '+r.statusText);
     return r.json();
   }).then(d=>{
