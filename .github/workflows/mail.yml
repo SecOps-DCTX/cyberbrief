@@ -1,0 +1,29 @@
+name: CyberBrief Daily Update
+
+on:
+  schedule:
+    - cron: '0 12,13,14,15,16,17,18,19,20,21,22,23,0,1,2,3,4,5,6,7 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - run: pip install -q requests feedparser beautifulsoup4
+      
+      - run: python scraper.py
+      
+      - run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "CyberBrief Bot"
+          git add data.json
+          git commit -m "CyberBrief update — $(date +%Y-%m-%d)" || true
+          git push || true
