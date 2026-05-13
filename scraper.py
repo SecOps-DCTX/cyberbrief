@@ -83,30 +83,46 @@ class LinkValidator:
     def search_for_url(self, query: str, timeout: int = 10) -> str:
         """Search for a query and return the first result URL.
         
-        Uses DuckDuckGo as primary (no rate limiting), falls back to Google.
+        Uses Google Search with proper user agent.
         Returns: URL of first search result, or empty string if not found
         """
         if query in self.search_cache:
             return self.search_cache[query]
         
         try:
-            # Try DuckDuckGo first (more lenient with scraping)
-            search_url = f"https://duckduckgo.com/html/?q={quote(query)}"
-            response = self.session.get(search_url, timeout=timeout)
+            # Use Google Search
+            search_url = f"https://www.google.com/search?q={quote(query)}"
+            
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+            
+            response = self.session.get(search_url, headers=headers, timeout=timeout)
             
             if response.status_code == 200:
                 soup = BeautifulSoup(response.content, 'html.parser')
-                # DuckDuckGo result links
-                result_link = soup.find('a', class_='result__url')
                 
-                if result_link and result_link.get('href'):
-                    url = result_link['href']
-                    self.search_cache[query] = url
-                    logger.debug(f"Found URL via DuckDuckGo: {url}")
-                    return url
+                # Find all links in search results
+                for link in soup.find_all('a', href=True):
+                    href = link['href']
+                    
+                    # Skip Google redirects and other non-results
+                    if '/url?q=' in href:
+                        # Extract the actual URL from Google redirect
+                        start = href.find('/url?q=') + 7
+                        end = href.find('&', start)
+                        if end == -1:
+                            end = len(href)
+                        actual_url = href[start:end]
+                        
+                        # Skip Google/Bing/DuckDuckGo results themselves
+                        if actual_url and not any(x in actual_url for x in ['google.com', 'webcache', 'bing.com', 'duckduckgo.com']):
+                            self.search_cache[query] = actual_url
+                            logger.debug(f"Found URL via Google: {actual_url}")
+                            return actual_url
         
         except Exception as e:
-            logger.debug(f"DuckDuckGo search failed: {e}")
+            logger.debug(f"Google search failed: {e}")
         
         # Fallback: return empty string if search fails
         self.search_cache[query] = ""
