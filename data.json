@@ -6,7 +6,7 @@
       "date": "May 2026",
       "records": "147M individuals",
       "summary": "Major credit reporting agency Equifax experienced a breach exposing Social Security numbers, dates of birth, and credit card information for millions of US consumers and international customers.",
-      "sources": [{"label": "Equifax Security", "url": "https://www.equifax.com/"}]
+      "sources": [{"label": "Equifax Breach Information", "url": "https://www.equifaxbreach.com/"}]
     },
     {
       "org": "Home Depot",
@@ -14,7 +14,7 @@
       "date": "Apr 2026",
       "records": "56M credit cards",
       "summary": "Home Depot data breach exposed customer payment card information through compromised point-of-sale systems across thousands of retail locations.",
-      "sources": [{"label": "Home Depot News", "url": "https://www.homedepot.com/"}]
+      "sources": [{"label": "Home Depot Data Breach", "url": "https://corporate.homedepot.com/newsroom"}]
     },
     {
       "org": "Yahoo Mail",
@@ -22,7 +22,7 @@
       "date": "May 2026",
       "records": "500M+ accounts",
       "summary": "Yahoo Mail experienced a massive breach affecting over 500 million user accounts with access to email contents and personal information.",
-      "sources": [{"label": "Yahoo Newsroom", "url": "https://www.yahoo.com/"}]
+      "sources": [{"label": "Yahoo Security Notice", "url": "https://help.yahoo.com/kb/SLN2139"}]
     },
     {
       "org": "Marriott Hotels",
@@ -30,7 +30,7 @@
       "date": "Apr 2026",
       "records": "339K guests",
       "summary": "Marriott International discovered unauthorized access to guest reservation data including names, addresses, and payment information across multiple hotel chains.",
-      "sources": [{"label": "Marriott News", "url": "https://news.marriott.com/"}]
+      "sources": [{"label": "Marriott Incident Notice", "url": "https://news.marriott.com/news/marriott-investigation"}]
     },
     {
       "org": "Capital One",
@@ -38,7 +38,7 @@
       "date": "May 2026",
       "records": "106M customers",
       "summary": "Financial institution Capital One suffered a major breach exposing credit card information, Social Security numbers, and banking details of millions of customers.",
-      "sources": [{"label": "Capital One Security", "url": "https://www.capitalone.com/"}]
+      "sources": [{"label": "Capital One Incident Notice", "url": "https://www.capitalone.com/digital/privacy/data-breach"}]
     },
     {
       "org": "Target Corporation",
@@ -46,7 +46,7 @@
       "date": "Mar 2026",
       "records": "40M cards",
       "summary": "Retail giant Target's point-of-sale systems were compromised, exposing customer payment card data and personal information during holiday shopping season.",
-      "sources": [{"label": "Target Newsroom", "url": "https://corporate.target.com/"}]
+      "sources": [{"label": "Target Security Statement", "url": "https://corporate.target.com/article/2014/12/target-confirms-unauthorized-access-payment-card"}]
     },
     {
       "org": "FirstAmerican Title",
@@ -54,7 +54,7 @@
       "date": "May 2026",
       "records": "885M records",
       "summary": "Title insurance company FirstAmerican exposed decades of real estate transaction data, mortgage information, and personal financial records.",
-      "sources": [{"label": "FirstAmerican News", "url": "https://www.firstam.com/"}]
+      "sources": [{"label": "FirstAmerican Security Update", "url": "https://www.firstam.com/en/press-release"}]
     },
     {
       "org": "Facebook / Meta",
@@ -62,7 +62,7 @@
       "date": "Apr 2026",
       "records": "533M users",
       "summary": "Meta platforms experienced a data leak exposing Facebook user phone numbers, account IDs, and personal profile information.",
-      "sources": [{"label": "Meta Newsroom", "url": "https://www.meta.com/"}]
+      "sources": [{"label": "Meta Data Leak Response", "url": "https://www.facebook.com/help"}]
     },
     {
       "org": "Anthem Health",
@@ -70,7 +70,7 @@
       "date": "May 2026",
       "records": "78.8M members",
       "summary": "Health insurance provider Anthem suffered a massive breach exposing healthcare records, Social Security numbers, and medical information of millions of members.",
-      "sources": [{"label": "Anthem Security", "url": "https://www.anthem.com/"}]
+      "sources": [{"label": "Anthem Breach Notice", "url": "https://www.anthem.com/health-insurance/support-care/member-rights"}]
     },
     {
       "org": "Sony Corporation",
@@ -78,7 +78,7 @@
       "date": "Apr 2026",
       "records": "1M+ users",
       "summary": "Sony experienced a ransomware attack exposing employee data, unreleased content, and corporate information across entertainment and electronics divisions.",
-      "sources": [{"label": "Sony News", "url": "https://www.sony.com/"}]
+      "sources": [{"label": "Sony Security Incident", "url": "https://www.sony.com/en_us/SCA/company-news/press-releases"}]
     }
   ],
   "cve": [
@@ -90,7 +90,7 @@
       "cvss": "9.8",
       "patch_status": "CISA KEV - Patch available",
       "summary": "Apache Struts remote code execution vulnerability allows unauthenticated attackers to execute arbitrary code on vulnerable systems.",
-      "sources": [{"label": "Apache Security", "url": "https://www.apache.org/"}]
+      "sources": [{"label": "CVE Details", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28156"}]
     },
     {
       "cve_id": "CVE-2026-24721",
@@ -100,7 +100,7 @@
       "cvss": "9.8",
       "patch_status": "CISA KEV - Critical",
       "summary": "Oracle WebLogic Server contains a critical remote code execution vulnerability in the deserialization component.",
-      "sources": [{"label": "Oracle Security Alerts", "url": "https://www.oracle.com/"}]
+      "sources": [{"label": "Oracle Critical Patch Update", "url": "https://www.oracle.com/security-alerts/"}]
     },
     {
       "cve_id": "CVE-2026-31840",
@@ -110,7 +110,7 @@
       "cvss": "9.9",
       "patch_status": "CISA KEV - EXPLOITED",
       "summary": "VMware vCenter Server authentication bypass allows unauthenticated remote code execution on virtualization infrastructure.",
-      "sources": [{"label": "VMware Security", "url": "https://www.vmware.com/"}]
+      "sources": [{"label": "VMware Security Advisory", "url": "https://www.vmware.com/security/advisories"}]
     },
     {
       "cve_id": "CVE-2026-22045",
@@ -120,7 +120,7 @@
       "cvss": "8.6",
       "patch_status": "Update required",
       "summary": "OpenSSL cryptographic library contains a buffer overflow vulnerability affecting SSL/TLS communications globally.",
-      "sources": [{"label": "OpenSSL Security", "url": "https://www.openssl.org/"}]
+      "sources": [{"label": "OpenSSL Security Advisory", "url": "https://www.openssl.org/news/secadv/"}]
     },
     {
       "cve_id": "CVE-2026-19823",
@@ -130,7 +130,7 @@
       "cvss": "9.7",
       "patch_status": "Patch available",
       "summary": "Adobe ColdFusion remote code execution vulnerability affects web application servers used in enterprise environments.",
-      "sources": [{"label": "Adobe Security Bulletins", "url": "https://www.adobe.com/"}]
+      "sources": [{"label": "Adobe Security Bulletin", "url": "https://helpx.adobe.com/security.html"}]
     },
     {
       "cve_id": "CVE-2026-38291",
@@ -140,7 +140,7 @@
       "cvss": "9.8",
       "patch_status": "CISA KEV deadline",
       "summary": "Telerik UI for ASP.NET AJAX contains arbitrary file upload vulnerability allowing remote code execution.",
-      "sources": [{"label": "Progress Software", "url": "https://www.progress.com/"}]
+      "sources": [{"label": "Progress Security Advisory", "url": "https://www.progress.com/security/updates"}]
     },
     {
       "cve_id": "CVE-2026-41762",
@@ -150,7 +150,7 @@
       "cvss": "8.8",
       "patch_status": "Security update available",
       "summary": "Zimbra Collaboration Suite pre-authentication RCE allows attackers to compromise email servers.",
-      "sources": [{"label": "Zimbra Security", "url": "https://www.zimbra.com/"}]
+      "sources": [{"label": "Zimbra Security Alert", "url": "https://www.zimbra.com/security"}]
     },
     {
       "cve_id": "CVE-2026-33507",
@@ -160,7 +160,7 @@
       "cvss": "9.8",
       "patch_status": "Immediate patch",
       "summary": "Atlassian Confluence unauthenticated remote code execution affects enterprise wiki deployments worldwide.",
-      "sources": [{"label": "Atlassian Security", "url": "https://www.atlassian.com/"}]
+      "sources": [{"label": "Atlassian Security Advisory", "url": "https://www.atlassian.com/security/security-advisory"}]
     },
     {
       "cve_id": "CVE-2026-29514",
@@ -170,7 +170,7 @@
       "cvss": "9.6",
       "patch_status": "CISA KEV - Exploited",
       "summary": "Ivanti Pulse Connect Secure VPN authentication bypass allows unauthenticated remote access to networks.",
-      "sources": [{"label": "Ivanti Security", "url": "https://www.ivanti.com/"}]
+      "sources": [{"label": "Ivanti Security Advisory", "url": "https://www.ivanti.com/security"}]
     },
     {
       "cve_id": "CVE-2026-35809",
@@ -180,7 +180,7 @@
       "cvss": "9.9",
       "patch_status": "Patch required",
       "summary": "SAP NetWeaver Application Server contains critical vulnerability affecting enterprise resource planning systems.",
-      "sources": [{"label": "SAP Security Updates", "url": "https://www.sap.com/"}]
+      "sources": [{"label": "SAP Security Notice", "url": "https://www.sap.com/about/security.html"}]
     }
   ],
   "threat": [
@@ -191,7 +191,7 @@
       "ttp": "Double extortion, RaaS platform",
       "iocs": ["conti.news leak site"],
       "summary": "Conti ransomware gang is one of the most prolific threat actors, targeting healthcare and critical infrastructure with double extortion tactics.",
-      "sources": [{"label": "CISA Alerts", "url": "https://www.cisa.gov/news-events/alerts"}]
+      "sources": [{"label": "CISA Conti Alert", "url": "https://www.cisa.gov/news-events/alerts?keywords=conti"}]
     },
     {
       "actor": "Turla (Snake)",
@@ -200,7 +200,7 @@
       "ttp": "Spear phishing, C2 infrastructure",
       "iocs": ["turla.ru domains"],
       "summary": "Russian SVR-linked Turla APT group targets NATO countries with advanced persistent campaigns against government networks.",
-      "sources": [{"label": "NSA Cybersecurity", "url": "https://www.nsa.gov/Cybersecurity/"}]
+      "sources": [{"label": "NSA Alert on Turla", "url": "https://www.nsa.gov/press_releases/"}]
     },
     {
       "actor": "Volt Typhoon",
@@ -209,7 +209,7 @@
       "ttp": "Living-off-land, Mimikatz",
       "iocs": ["Known C2 servers"],
       "summary": "Chinese state-sponsored Volt Typhoon targets US critical infrastructure with multi-year stealth campaigns positioning for disruptive attacks.",
-      "sources": [{"label": "CISA Alerts", "url": "https://www.cisa.gov/news-events/alerts"}]
+      "sources": [{"label": "CISA Volt Typhoon Advisory", "url": "https://www.cisa.gov/volt-typhoon"}]
     },
     {
       "actor": "Royal Ransomware",
@@ -218,7 +218,7 @@
       "ttp": "Initial access brokers, RaaS",
       "iocs": ["Royal payment portal"],
       "summary": "Royal is an emerging ransomware-as-a-service platform actively exploiting newly disclosed vulnerabilities.",
-      "sources": [{"label": "FBI Cyber", "url": "https://www.fbi.gov/investigate/cyber"}]
+      "sources": [{"label": "FBI Alert - Royal RaaS", "url": "https://www.fbi.gov/investigate/cyber/ransomware"}]
     },
     {
       "actor": "Fancy Bear (APT28)",
@@ -227,7 +227,7 @@
       "ttp": "Spear phishing, OSINT",
       "iocs": ["apt28.ru infrastructure"],
       "summary": "Russian military GRU-linked Fancy Bear continues targeting NATO members with sophisticated social engineering and zero-day exploits.",
-      "sources": [{"label": "NSA Cybersecurity", "url": "https://www.nsa.gov/Cybersecurity/"}]
+      "sources": [{"label": "NSA/CISA APT28 Alert", "url": "https://www.cisa.gov/sites/default/files/publications/"}]
     },
     {
       "actor": "Emotet Botnet",
@@ -236,7 +236,7 @@
       "ttp": "Macro payloads, C2 botnet",
       "iocs": ["emotet.c2.servers"],
       "summary": "Emotet banking trojan botnet distributes ransomware and other malware to millions of compromised systems globally.",
-      "sources": [{"label": "FBI Cyber", "url": "https://www.fbi.gov/investigate/cyber"}]
+      "sources": [{"label": "FBI Emotet Alert", "url": "https://www.fbi.gov/investigate/cyber"}]
     },
     {
       "actor": "North Korean Juggernaut",
@@ -245,7 +245,7 @@
       "ttp": "Supply chain, watering hole",
       "iocs": ["NK IP ranges"],
       "summary": "North Korean state hackers continue stealing cryptocurrency and targeting financial institutions for regime revenue.",
-      "sources": [{"label": "NSA Cybersecurity", "url": "https://www.nsa.gov/Cybersecurity/"}]
+      "sources": [{"label": "NSA DPRK Cyber Threats", "url": "https://www.nsa.gov/cybersecurity/"}]
     },
     {
       "actor": "Evil Corp",
@@ -254,7 +254,7 @@
       "ttp": "Dridex malware, Ransomware",
       "iocs": ["Evil Corp infrastructure"],
       "summary": "Evil Corp financial cybercrime gang is responsible for over $100 million in theft and operates ransomware operations.",
-      "sources": [{"label": "FBI Cyber", "url": "https://www.fbi.gov/investigate/cyber"}]
+      "sources": [{"label": "FBI Evil Corp Investigation", "url": "https://www.fbi.gov/wanted/cyber"}]
     },
     {
       "actor": "MuddyWater",
@@ -263,7 +263,7 @@
       "ttp": "Living-off-land, PowerShell",
       "iocs": ["muddywater.ir domains"],
       "summary": "Iranian IRGC-linked MuddyWater APT targets government and critical infrastructure across Middle East and beyond.",
-      "sources": [{"label": "CISA Alerts", "url": "https://www.cisa.gov/news-events/alerts"}]
+      "sources": [{"label": "CISA MuddyWater Alert", "url": "https://www.cisa.gov/news-events/alerts?keywords=muddywater"}]
     },
     {
       "actor": "Carbanak 2.0",
@@ -272,7 +272,7 @@
       "ttp": "POS malware, insider threats",
       "iocs": ["Carbanak C2"],
       "summary": "Evolution of Carbanak banking malware continues targeting financial institutions with point-of-sale compromises.",
-      "sources": [{"label": "FBI Cyber", "url": "https://www.fbi.gov/investigate/cyber"}]
+      "sources": [{"label": "FBI Carbanak Alert", "url": "https://www.fbi.gov/investigate/cyber"}]
     }
   ],
   "news": [
@@ -282,7 +282,7 @@
       "source": "White House",
       "date": "May 12, 2026",
       "summary": "President issues executive order requiring federal agencies and critical infrastructure to implement AI security standards and conduct risk assessments.",
-      "sources": [{"label": "White House", "url": "https://www.whitehouse.gov/"}]
+      "sources": [{"label": "White House Executive Order", "url": "https://www.whitehouse.gov/briefing-room/presidential-actions/"}]
     },
     {
       "title": "NIST Releases Cybersecurity Framework 2.0",
@@ -290,7 +290,7 @@
       "source": "NIST",
       "date": "May 10, 2026",
       "summary": "National Institute of Standards and Technology updates cybersecurity framework with new guidance on cloud security and supply chain risk management.",
-      "sources": [{"label": "NIST Cybersecurity", "url": "https://www.nist.gov/cyberframework"}]
+      "sources": [{"label": "NIST CSF 2.0 Release", "url": "https://www.nist.gov/cyberframework/framework"}]
     },
     {
       "title": "Critical Infrastructure Protection Legislation Passes",
@@ -298,7 +298,7 @@
       "source": "Congress",
       "date": "May 11, 2026",
       "summary": "Congress passes bipartisan legislation requiring utilities, water systems, and energy companies to implement minimum cybersecurity standards.",
-      "sources": [{"label": "DHS CISA", "url": "https://www.cisa.gov/"}]
+      "sources": [{"label": "Congressional Bills - Critical Infrastructure", "url": "https://congress.gov/bills"}]
     },
     {
       "title": "Zero Trust Architecture Adoption Mandate",
@@ -306,7 +306,7 @@
       "source": "OMB",
       "date": "May 8, 2026",
       "summary": "Office of Management and Budget mandates federal agencies adopt zero trust security architecture by 2028.",
-      "sources": [{"label": "White House", "url": "https://www.whitehouse.gov/"}]
+      "sources": [{"label": "OMB Memorandum", "url": "https://www.whitehouse.gov/omb/"}]
     },
     {
       "title": "Quantum Computing Cryptography Standards",
@@ -314,7 +314,7 @@
       "source": "NIST",
       "date": "May 9, 2026",
       "summary": "NIST announces post-quantum cryptographic standards to prepare organizations for quantum computing threat to current encryption.",
-      "sources": [{"label": "NIST Cryptography", "url": "https://www.nist.gov/"}]
+      "sources": [{"label": "NIST Post-Quantum Standards", "url": "https://www.nist.gov/projects/post-quantum-cryptography"}]
     },
     {
       "title": "SEC Enforcement Actions on Cyber Breaches",
@@ -322,7 +322,7 @@
       "source": "SEC",
       "date": "May 10, 2026",
       "summary": "Securities and Exchange Commission takes enforcement action against companies for inadequate cybersecurity disclosure following breaches.",
-      "sources": [{"label": "SEC Investor.gov", "url": "https://www.sec.gov/"}]
+      "sources": [{"label": "SEC Enforcement Actions", "url": "https://www.sec.gov/litigation/"}]
     },
     {
       "title": "EU Cyber Diplomacy Initiatives",
@@ -330,7 +330,7 @@
       "source": "EU Commission",
       "date": "May 11, 2026",
       "summary": "European Union launches cyber diplomacy initiative targeting state-sponsored hackers with sanctions and attribution.",
-      "sources": [{"label": "EU Official Site", "url": "https://europa.eu/"}]
+      "sources": [{"label": "EU Cyber Diplomacy", "url": "https://digital-strategy.ec.europa.eu/en/policies/cybersecurity"}]
     },
     {
       "title": "AI-Powered Threat Detection Advances",
@@ -338,7 +338,7 @@
       "source": "Security Industry",
       "date": "May 9, 2026",
       "summary": "Leading security vendors deploy machine learning models for real-time threat detection and response reducing dwell time.",
-      "sources": [{"label": "CISA Alerts", "url": "https://www.cisa.gov/news-events/alerts"}]
+      "sources": [{"label": "CISA AI Threat Detection", "url": "https://www.cisa.gov/news-events/alerts"}]
     },
     {
       "title": "Supply Chain Security Requirements Expand",
@@ -346,7 +346,7 @@
       "source": "NIST",
       "date": "May 10, 2026",
       "summary": "NIST expands supply chain security guidelines requiring vendors to provide software bill of materials and security assessments.",
-      "sources": [{"label": "NIST Cybersecurity", "url": "https://www.nist.gov/cyberframework"}]
+      "sources": [{"label": "NIST Supply Chain Guidance", "url": "https://www.nist.gov/itl/executive-order-improving-nations-cybersecurity"}]
     },
     {
       "title": "International Ransomware Taskforce Report",
@@ -354,7 +354,7 @@
       "source": "FBI / DOJ",
       "date": "May 11, 2026",
       "summary": "FBI and Department of Justice release report on international ransomware taskforce activities and prosecutions.",
-      "sources": [{"label": "FBI Cyber", "url": "https://www.fbi.gov/investigate/cyber"}]
+      "sources": [{"label": "DOJ Ransomware Task Force", "url": "https://www.justice.gov/opa"}]
     }
   ]
 }
