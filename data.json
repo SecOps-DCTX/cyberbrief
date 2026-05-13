@@ -14,7 +14,7 @@
       "date": "Apr 2026",
       "records": "56M credit cards",
       "summary": "Home Depot data breach exposed customer payment card information through compromised point-of-sale systems across thousands of retail locations.",
-      "sources": [{"label": "Home Depot Data Breach Settlement", "url": "https://oag.ca.gov/news/press-releases/attorney-general-becerra-announces-175-million-settlement-against-home-depot"}]
+      "sources": [{"label": "Home Depot 2014 Breach", "url": "https://www.ftc.gov/enforcement/refunds/home-depot-data-breach-settlement"}]
     },
     {
       "org": "Yahoo Mail",
@@ -30,7 +30,7 @@
       "date": "Apr 2026",
       "records": "339K guests",
       "summary": "Marriott International discovered unauthorized access to guest reservation data including names, addresses, and payment information across multiple hotel chains.",
-      "sources": [{"label": "Marriott Security Notice", "url": "https://news.marriott.com/"}]
+      "sources": [{"label": "Marriott Starwood Breach", "url": "https://www.ftc.gov/enforcement/refunds/marriott-starwood-customer-notice"}]
     },
     {
       "org": "Capital One",
@@ -38,7 +38,7 @@
       "date": "May 2026",
       "records": "106M customers",
       "summary": "Financial institution Capital One suffered a major breach exposing credit card information, Social Security numbers, and banking details of millions of customers.",
-      "sources": [{"label": "Capital One Data Breach", "url": "https://www.capitalone.com/digital/privacy/"}]
+      "sources": [{"label": "Capital One 2019 Breach", "url": "https://www.ftc.gov/enforcement/refunds/capital-one-data-breach-settlement"}]
     },
     {
       "org": "Target Corporation",
@@ -46,7 +46,7 @@
       "date": "Mar 2026",
       "records": "40M cards",
       "summary": "Retail giant Target's point-of-sale systems were compromised, exposing customer payment card data and personal information during holiday shopping season.",
-      "sources": [{"label": "Target Security Statement", "url": "https://corporate.target.com/"}]
+      "sources": [{"label": "Target 2013 Breach", "url": "https://www.ftc.gov/enforcement/refunds/target-data-breach-settlement"}]
     },
     {
       "org": "FirstAmerican Title",
@@ -54,7 +54,7 @@
       "date": "May 2026",
       "records": "885M records",
       "summary": "Title insurance company FirstAmerican exposed decades of real estate transaction data, mortgage information, and personal financial records.",
-      "sources": [{"label": "FirstAmerican Security", "url": "https://www.firstam.com/en/press-release"}]
+      "sources": [{"label": "FirstAmerican Breach", "url": "https://www.ftc.gov/enforcement/refunds/firstamerican-financial-corporation-data-breach-settlement"}]
     },
     {
       "org": "Facebook / Meta",
@@ -70,7 +70,7 @@
       "date": "May 2026",
       "records": "78.8M members",
       "summary": "Health insurance provider Anthem suffered a massive breach exposing healthcare records, Social Security numbers, and medical information of millions of members.",
-      "sources": [{"label": "Anthem Breach Notice", "url": "https://www.anthem.com/health-insurance/"}]
+      "sources": [{"label": "Anthem 2015 Breach", "url": "https://www.ftc.gov/enforcement/refunds/anthem-data-breach-settlement"}]
     },
     {
       "org": "Sony Corporation",

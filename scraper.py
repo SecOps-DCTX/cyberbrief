@@ -186,19 +186,55 @@ class DeepLinkScraperWithValidation:
             return {'breach': [], 'cve': [], 'threat': [], 'news': []}
     
     def validate_template_urls(self, data: Dict):
-        """Validate all URLs in template before using it."""
-        logger.info("Checking template data sources...")
+        """Validate ALL URLs in template before using it."""
+        logger.info("\n🔗 VALIDATING TEMPLATE DATA (ALL 40 LINKS)...")
         categories = ['breach', 'cve', 'threat', 'news']
+        total_checked = 0
+        total_valid = 0
+        broken_urls = []
         
         for category in categories:
-            for item in data.get(category, []):
+            items = data.get(category, [])
+            logger.info(f"\n{category.upper()} ({len(items)} items):")
+            
+            for idx, item in enumerate(items, 1):
                 if item.get('sources'):
                     for source in item['sources']:
                         url = source.get('url')
                         if url:
-                            is_valid, status = self.validator.validate_link(url)
-                            if not is_valid:
-                                logger.warning(f"  Template URL broken: {url} ({status})")
+                            total_checked += 1
+                            is_valid, status = self.validator.validate_link(url, timeout=5)
+                            
+                            item_name = item.get('org') or item.get('cve_id') or item.get('actor') or item.get('title')
+                            
+                            if is_valid:
+                                logger.info(f"  [{idx:2d}] ✓ {item_name:30s} → {status}")
+                                total_valid += 1
+                            else:
+                                logger.error(f"  [{idx:2d}] ❌ {item_name:30s} → {status}")
+                                broken_urls.append({
+                                    'category': category,
+                                    'item': item_name,
+                                    'url': url,
+                                    'status': status
+                                })
+        
+        logger.info(f"\n{'='*70}")
+        logger.info(f"TEMPLATE VALIDATION SUMMARY")
+        logger.info(f"{'='*70}")
+        logger.info(f"Total links checked: {total_checked}")
+        logger.info(f"Valid links: {total_valid}")
+        logger.info(f"Broken links: {len(broken_urls)}")
+        logger.info(f"Success rate: {(total_valid/total_checked*100):.1f}%" if total_checked > 0 else "0%")
+        
+        if broken_urls:
+            logger.error(f"\n⚠️  BROKEN TEMPLATE LINKS DETECTED:")
+            for broken in broken_urls:
+                logger.error(f"  - {broken['category'].upper()}: {broken['item']}")
+                logger.error(f"    URL: {broken['url']}")
+                logger.error(f"    Status: {broken['status']}")
+        else:
+            logger.info(f"\n✅ ALL 40 TEMPLATE LINKS ARE VALID!")
     
     def fetch_cisa_kev(self):
         """Fetch CISA KEV for CVE enrichment + deep links."""
@@ -220,15 +256,20 @@ class DeepLinkScraperWithValidation:
         except Exception as e:
             logger.error(f"Failed to fetch CISA KEV: {e}")
     
-    def fetch_nvd_cve_details(self, cve_id: str) -> str:
-        """Fetch NVD CVE detail page URL."""
+    def fetch_and_validate_nvd_cve_details(self, cve_id: str) -> Tuple[str, bool]:
+        """Fetch and validate NVD CVE detail page URL.
+        
+        Returns: (nvd_url, is_valid)
+        """
         if cve_id in self.nvd_cache:
             return self.nvd_cache[cve_id]
         
         # Direct NVD link format
         nvd_url = f"https://nvd.nist.gov/vuln/detail/{cve_id}"
-        self.nvd_cache[cve_id] = nvd_url
-        return nvd_url
+        is_valid, _ = self.validator.validate_link(nvd_url, timeout=5)
+        
+        self.nvd_cache[cve_id] = (nvd_url, is_valid)
+        return (nvd_url, is_valid)
     
     def extract_deep_links(self) -> Dict[str, List[Tuple[str, str]]]:
         """Extract deep links from news sites.
@@ -297,6 +338,72 @@ class DeepLinkScraperWithValidation:
         
         return validated
     
+    def validate_all_cve_links(self, data: Dict) -> Tuple[int, int]:
+        """Validate all CVE links including NVD and vendor advisories.
+        
+        Returns: (total_cves, valid_cves)
+        """
+        logger.info("\n🔗 VALIDATING ALL CVE LINKS...")
+        cve_items = data.get('cve', [])
+        valid_count = 0
+        
+        for idx, item in enumerate(cve_items, 1):
+            cve_id = item.get('cve_id', 'Unknown')
+            product = item.get('product', 'Unknown')
+            
+            logger.info(f"  [{idx:2d}] {cve_id} ({product})")
+            
+            # Validate NVD link
+            nvd_url, nvd_valid = self.fetch_and_validate_nvd_cve_details(cve_id)
+            nvd_status = "✓ NVD OK" if nvd_valid else "❌ NVD BROKEN"
+            logger.info(f"       {nvd_status} — {nvd_url}")
+            
+            # Validate vendor source links
+            if item.get('sources'):
+                for source in item['sources']:
+                    url = source.get('url')
+                    label = source.get('label')
+                    if url:
+                        is_valid, status = self.validator.validate_link(url, timeout=5)
+                        source_status = "✓" if is_valid else "❌"
+                        logger.info(f"       {source_status} {label} — {status}")
+                        if is_valid:
+                            valid_count += 1
+            
+            if nvd_valid:
+                valid_count += 1
+        
+        return (len(cve_items), valid_count)
+    
+    def validate_all_threat_links(self, data: Dict) -> Tuple[int, int]:
+        """Validate all threat intelligence links.
+        
+        Returns: (total_threats, valid_threats)
+        """
+        logger.info("\n🔗 VALIDATING ALL THREAT INTELLIGENCE LINKS...")
+        threat_items = data.get('threat', [])
+        valid_count = 0
+        
+        for idx, item in enumerate(threat_items, 1):
+            actor = item.get('actor', 'Unknown')
+            threat_type = item.get('type', 'Unknown')
+            
+            logger.info(f"  [{idx:2d}] {actor} ({threat_type})")
+            
+            # Validate source links
+            if item.get('sources'):
+                for source in item['sources']:
+                    url = source.get('url')
+                    label = source.get('label')
+                    if url:
+                        is_valid, status = self.validator.validate_link(url, timeout=5)
+                        source_status = "✓" if is_valid else "❌"
+                        logger.info(f"       {source_status} {label} — {status}")
+                        if is_valid:
+                            valid_count += 1
+        
+        return (len(threat_items), valid_count)
+    
     def update_with_deep_links(self, deep_links: Dict[str, List[Tuple[str, str]]]) -> Dict:
         """Update template data with fresh summaries and validated deep links."""
         logger.info("\nUpdating data with validated links...")
@@ -321,12 +428,9 @@ class DeepLinkScraperWithValidation:
             
             # Enrich with NVD link if available
             if item.get('cve_id'):
-                nvd_url = self.fetch_nvd_cve_details(item['cve_id'])
+                nvd_url, nvd_valid = self.fetch_and_validate_nvd_cve_details(item['cve_id'])
                 
-                # Validate NVD link
-                is_valid, _ = self.validator.validate_link(nvd_url, timeout=3)
-                
-                if is_valid and item.get('sources'):
+                if nvd_valid and item.get('sources'):
                     item['sources'][0]['url'] = nvd_url
                     item['sources'][0]['label'] = f"{item['cve_id']} Details"
                 
@@ -361,9 +465,9 @@ class DeepLinkScraperWithValidation:
         return updated_data
     
     def run(self):
-        """Execute deep link scraping pipeline with validation."""
+        """Execute deep link scraping pipeline with comprehensive validation."""
         logger.info("=" * 70)
-        logger.info("CyberBrief Deep Link Scraper with Validation Started")
+        logger.info("CyberBrief Deep Link Scraper with Comprehensive Validation")
         logger.info("=" * 70)
         
         try:
@@ -373,23 +477,35 @@ class DeepLinkScraperWithValidation:
             # Validate all extracted links
             validated_links = self.validate_extracted_links(deep_links)
             
+            # Validate all CVE links (10 items + NVD + vendor links)
+            cve_total, cve_valid = self.validate_all_cve_links(self.template_data)
+            
+            # Validate all threat intelligence links (10 items + sources)
+            threat_total, threat_valid = self.validate_all_threat_links(self.template_data)
+            
             # Report validation results
             report = self.validator.get_report()
             logger.info("\n" + "=" * 70)
-            logger.info("📊 LINK VALIDATION REPORT")
+            logger.info("📊 COMPREHENSIVE LINK VALIDATION REPORT")
             logger.info("=" * 70)
-            logger.info(f"Total links tested: {report['total_tested']}")
-            logger.info(f"Valid links: {report['valid']}")
-            logger.info(f"Failed links: {report['failed']}")
-            logger.info(f"Success rate: {report['success_rate']}")
+            logger.info(f"CVE Links: {cve_valid}/{cve_total} valid")
+            logger.info(f"Threat Links: {threat_valid}/{threat_total} valid")
+            logger.info(f"Extracted Links: {report['valid']}/{report['total_tested']} valid")
+            logger.info(f"Overall Success Rate: {report['success_rate']}")
             
             if report['failed_urls']:
-                logger.warning("\nFailed URLs (not used):")
+                logger.warning("\n❌ Failed URLs (not used):")
                 for url in report['failed_urls'][:10]:  # Show first 10
                     logger.warning(f"  - {url}")
             
+            # Check if all validations passed
+            if cve_valid == cve_total and threat_valid == threat_total:
+                logger.info("\n✅ ALL CVE AND THREAT LINKS ARE VALID!")
+            else:
+                logger.error("\n⚠️  Some CVE or Threat links are broken!")
+            
             if not any(validated_links.values()):
-                logger.warning("\n⚠️  No validated links found. Keeping template data.")
+                logger.warning("\n⚠️  No validated new links found. Keeping template data.")
                 self.save_data(self.template_data)
                 self.commit_to_github()
                 logger.info("=" * 70)
