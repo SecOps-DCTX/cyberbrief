@@ -3,7 +3,7 @@ name: CyberBrief Daily Update
 on:
   schedule:
     - cron: '0 12,22 * * *'
-  workflow_dispatch:
+  workflow_dispatch: #
 
 jobs:
   update-brief:
