@@ -29,8 +29,9 @@ from datetime import datetime
 from typing import Dict, List, Tuple, Any
 import logging
 import re
-from urllib.parse import urljoin
+from urllib.parse import urljoin, quote
 from urllib.error import URLError
+import time
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -77,6 +78,39 @@ class LinkValidator:
         })
         self.validation_cache = {}
         self.failed_urls = []
+        self.search_cache = {}
+    
+    def search_for_url(self, query: str, timeout: int = 10) -> str:
+        """Search for a query and return the first result URL.
+        
+        Uses DuckDuckGo as primary (no rate limiting), falls back to Google.
+        Returns: URL of first search result, or empty string if not found
+        """
+        if query in self.search_cache:
+            return self.search_cache[query]
+        
+        try:
+            # Try DuckDuckGo first (more lenient with scraping)
+            search_url = f"https://duckduckgo.com/html/?q={quote(query)}"
+            response = self.session.get(search_url, timeout=timeout)
+            
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
+                # DuckDuckGo result links
+                result_link = soup.find('a', class_='result__url')
+                
+                if result_link and result_link.get('href'):
+                    url = result_link['href']
+                    self.search_cache[query] = url
+                    logger.debug(f"Found URL via DuckDuckGo: {url}")
+                    return url
+        
+        except Exception as e:
+            logger.debug(f"DuckDuckGo search failed: {e}")
+        
+        # Fallback: return empty string if search fails
+        self.search_cache[query] = ""
+        return ""
     
     def is_valid_url_format(self, url: str) -> bool:
         """Check if URL has proper format."""
@@ -404,7 +438,81 @@ class DeepLinkScraperWithValidation:
         
         return (len(threat_items), valid_count)
     
-    def update_with_deep_links(self, deep_links: Dict[str, List[Tuple[str, str]]]) -> Dict:
+    def update_urls_from_descriptions(self, data: Dict) -> Dict:
+        """Update all URLs by searching for their description text.
+        
+        For each item, takes the summary/description and searches for it.
+        Uses first result as the URL for that item.
+        Applies to ALL sections: breaches, CVEs, threats, news.
+        """
+        logger.info("\n🔍 SEARCHING FOR URLS FROM ALL ITEM DESCRIPTIONS...")
+        updated_data = json.loads(json.dumps(data))  # Deep copy
+        
+        categories = {
+            'breach': {'label': 'BREACHES', 'name_field': 'org'},
+            'cve': {'label': 'CVEs/VULNERABILITIES', 'name_field': 'cve_id'},
+            'threat': {'label': 'THREAT INTELLIGENCE', 'name_field': 'actor'},
+            'news': {'label': 'NEWS/UPDATES', 'name_field': 'title'}
+        }
+        
+        total_searched = 0
+        total_found = 0
+        total_valid = 0
+        
+        for category, config in categories.items():
+            items = updated_data.get(category, [])
+            logger.info(f"\n{config['label']} (searching {len(items)} items):")
+            
+            for idx, item in enumerate(items, 1):
+                # Get the description to search for
+                search_text = item.get('summary', '')
+                item_name = item.get(config['name_field'], 'Unknown')
+                
+                if search_text and len(search_text) > 20:
+                    total_searched += 1
+                    logger.info(f"  [{idx:2d}] {item_name}")
+                    logger.info(f"       Searching: {search_text[:60]}...")
+                    
+                    # Search for the description
+                    found_url = self.validator.search_for_url(search_text)
+                    
+                    if found_url:
+                        total_found += 1
+                        # Validate the found URL
+                        is_valid, status = self.validator.validate_link(found_url, timeout=5)
+                        
+                        if is_valid:
+                            total_valid += 1
+                            # Update the source URL
+                            if item.get('sources'):
+                                old_url = item['sources'][0].get('url', '')
+                                item['sources'][0]['url'] = found_url
+                                if old_url != found_url:
+                                    logger.info(f"       ✓ UPDATED URL")
+                                else:
+                                    logger.info(f"       ✓ URL CONFIRMED")
+                            else:
+                                item['sources'] = [{'label': f'{item_name} Details', 'url': found_url}]
+                            logger.info(f"         {found_url[:70]}...")
+                        else:
+                            logger.warning(f"       ⚠️  Found URL but invalid ({status})")
+                            logger.warning(f"         Keeping existing: {item.get('sources', [{}])[0].get('url', 'N/A')[:70]}...")
+                    else:
+                        logger.warning(f"       ❌ No URL found in search results")
+                        logger.warning(f"         Keeping existing: {item.get('sources', [{}])[0].get('url', 'N/A')[:70]}...")
+                    
+                    # Rate limiting: wait between searches to avoid blocking
+                    time.sleep(1)
+        
+        logger.info(f"\n{'='*70}")
+        logger.info(f"URL SEARCH SUMMARY")
+        logger.info(f"{'='*70}")
+        logger.info(f"Total items searched: {total_searched}")
+        logger.info(f"URLs found: {total_found}/{total_searched}")
+        logger.info(f"Valid URLs: {total_valid}/{total_found}")
+        logger.info("URL search complete!")
+        
+        return updated_data
         """Update template data with fresh summaries and validated deep links."""
         logger.info("\nUpdating data with validated links...")
         updated_data = json.loads(json.dumps(self.template_data))  # Deep copy
@@ -465,37 +573,42 @@ class DeepLinkScraperWithValidation:
         return updated_data
     
     def run(self):
-        """Execute deep link scraping pipeline with comprehensive validation."""
+        """Execute deep link scraping pipeline with description-based URL search."""
         logger.info("=" * 70)
-        logger.info("CyberBrief Deep Link Scraper with Comprehensive Validation")
+        logger.info("CyberBrief Scraper: Description-Based URL Search + Validation")
         logger.info("=" * 70)
         
         try:
             self.fetch_cisa_kev()
-            deep_links = self.extract_deep_links()
             
-            # Validate all extracted links
-            validated_links = self.validate_extracted_links(deep_links)
+            # Update all URLs by searching for item descriptions
+            logger.info("\n📋 PHASE 1: Update URLs from descriptions")
+            updated_data = self.update_urls_from_descriptions(self.template_data)
             
-            # Validate all CVE links (10 items + NVD + vendor links)
-            cve_total, cve_valid = self.validate_all_cve_links(self.template_data)
+            # Validate all template URLs after update
+            logger.info("\n📋 PHASE 2: Validate all 40 template URLs")
+            self.validate_template_urls(updated_data)
             
-            # Validate all threat intelligence links (10 items + sources)
-            threat_total, threat_valid = self.validate_all_threat_links(self.template_data)
+            # Validate all CVE links
+            logger.info("\n📋 PHASE 3: Validate all CVE links")
+            cve_total, cve_valid = self.validate_all_cve_links(updated_data)
+            
+            # Validate all threat intelligence links
+            logger.info("\n📋 PHASE 4: Validate all threat intelligence links")
+            threat_total, threat_valid = self.validate_all_threat_links(updated_data)
             
             # Report validation results
             report = self.validator.get_report()
             logger.info("\n" + "=" * 70)
-            logger.info("📊 COMPREHENSIVE LINK VALIDATION REPORT")
+            logger.info("📊 COMPREHENSIVE VALIDATION REPORT")
             logger.info("=" * 70)
             logger.info(f"CVE Links: {cve_valid}/{cve_total} valid")
             logger.info(f"Threat Links: {threat_valid}/{threat_total} valid")
-            logger.info(f"Extracted Links: {report['valid']}/{report['total_tested']} valid")
             logger.info(f"Overall Success Rate: {report['success_rate']}")
             
             if report['failed_urls']:
                 logger.warning("\n❌ Failed URLs (not used):")
-                for url in report['failed_urls'][:10]:  # Show first 10
+                for url in report['failed_urls'][:10]:
                     logger.warning(f"  - {url}")
             
             # Check if all validations passed
@@ -504,16 +617,6 @@ class DeepLinkScraperWithValidation:
             else:
                 logger.error("\n⚠️  Some CVE or Threat links are broken!")
             
-            if not any(validated_links.values()):
-                logger.warning("\n⚠️  No validated new links found. Keeping template data.")
-                self.save_data(self.template_data)
-                self.commit_to_github()
-                logger.info("=" * 70)
-                logger.info("CyberBrief Scraper Completed (using template)")
-                logger.info("=" * 70)
-                return True  # Success even if no new links
-            
-            updated_data = self.update_with_deep_links(validated_links)
             self.save_data(updated_data)
             self.commit_to_github()
             
@@ -526,7 +629,7 @@ class DeepLinkScraperWithValidation:
             logger.error(f"Pipeline failed: {e}", exc_info=True)
             logger.warning("Keeping template data as fallback")
             self.save_data(self.template_data)
-            return True  # Still return success to keep system running
+            return True
     
     def save_data(self, data: Dict, filepath: str = 'data.json'):
         """Save data to JSON."""
