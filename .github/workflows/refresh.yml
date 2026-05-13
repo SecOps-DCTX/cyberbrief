@@ -2,8 +2,8 @@ name: CyberBrief Daily Update
 
 on:
   schedule:
-    - cron: '0 12,22 * * *'
-  workflow_dispatch: #
+    - cron: '0 */12 * * *'
+  workflow_dispatch:  # <-- Add this line
 
 jobs:
   update-brief:
