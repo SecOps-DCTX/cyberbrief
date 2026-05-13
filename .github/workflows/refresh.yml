@@ -11,31 +11,36 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
       
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install -q requests feedparser beautifulsoup4
-      
-      - name: Run CyberBrief scraper
-        run: python scraper.py
-      
-      - name: Configure Git
         run: |
-          git config --global user.email "cyberbrief-bot@secops-dctx.gov"
-          git config --global user.name "CyberBrief Bot"
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+      
+      - name: Run CyberBrief scraper with validation
+        run: python scraper.py
+        continue-on-error: true
+      
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "CyberBrief Bot"
       
       - name: Commit and push updates
         run: |
-          git add data.json
-          git commit -m "CyberBrief daily update — $(date +%Y-%m-%d\ %H:%M)" || true
-          git push origin main || true
-      
-      - name: Log workflow completion
-        run: echo "CyberBrief update completed at $(date)"
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git add data.json
+            git commit -m "CyberBrief auto-update: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+        continue-on-error: true
