@@ -162,7 +162,7 @@ function render(){
 }
 function loadData(){
   document.getElementById('report').innerHTML='<div class="loading">// LOADING LATEST BRIEF DATA...</div>';
-  fetch('./../../data.json').then(r=>{
+  fetch('../../data.json').then(r=>{
     if(!r.ok)throw new Error('HTTP '+r.status+' - '+r.statusText);
     return r.json();
   }).then(d=>{
@@ -210,10 +210,10 @@ function emailReport(){
 }
 function renderSourcesList(){
   var allSources=DEFAULT_SOURCES.concat(CUSTOM_SOURCES);
-  var html='<div style="font-size:10px;color:#6a8aaa;margin-bottom:8px;text-transform:uppercase">// checked sources ('+allSources.length+')</div>';
+  var html='<div style="font-size:10px;color:#6a8aaa;margin-bottom:8px;text-transform:uppercase">// active sources ('+allSources.length+')</div>';
   allSources.forEach((src,idx)=>{
     var isCustom=idx>=DEFAULT_SOURCES.length;
-    html+='<div class="source-item"><a href="'+esc(src.url)+'" target="_blank" rel="noopener" style="display:flex;align-items:center;flex:1;gap:8px;text-decoration:none"><span class="source-name">'+(isCustom?'[+]':'')+' '+esc(src.name)+'</span><span class="source-url">'+esc(src.url)+'</span></a>'+(isCustom?'<span class="source-remove" onclick="removeCustomSource('+idx+')">✕</span>':'')+'</div>';
+    html+='<div class="source-item"><a href="'+esc(src.url)+'" target="_blank" rel="noopener" style="display:flex;align-items:center;flex:1;gap:8px;text-decoration:none"><span class="source-name">'+esc(src.name)+'</span><span class="source-url">'+esc(src.url)+'</span></a>'+(isCustom?'<span class="source-remove" onclick="removeCustomSource('+idx+')">✕</span>':'')+'</div>';
   });
   document.getElementById('sourcesList').innerHTML=html;
 }
