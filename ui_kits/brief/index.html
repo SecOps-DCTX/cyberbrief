@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>CyberBrief // Daily Intel Feed</title>
+<link rel="stylesheet" href="../../colors_and_type.css">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Rajdhani',sans-serif;color:#c8ddf0;background:#090d13;padding:1rem;min-height:100vh;position:relative}
+  body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.07) 2px,rgba(0,0,0,0.07) 4px);pointer-events:none;z-index:100}
+  .wrap{max-width:1100px;margin:0 auto;position:relative;z-index:1}
+  .header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:8px}
+  .logo{font-family:'Share Tech Mono',monospace;font-size:22px;letter-spacing:2px;color:#00f5ff;text-shadow:0 0 18px rgba(0,245,255,0.6)}
+  .logo span{color:#ff2d78;text-shadow:0 0 18px rgba(255,45,120,0.7)}
+  .right{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .date{font-family:'Share Tech Mono',monospace;font-size:11px;color:#00b8c8;background:#0d1520;border:1px solid #00b8c8;border-radius:2px;padding:3px 10px;letter-spacing:1px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:8px 18px;border:1px solid #ff2d78;border-radius:2px;background:transparent;color:#ff2d78;font-size:13px;font-family:'Share Tech Mono',monospace;letter-spacing:1px;cursor:pointer;text-shadow:0 0 8px rgba(255,45,120,0.4);box-shadow:0 0 10px rgba(255,45,120,0.1);transition:all 0.15s}
+  .btn:hover{background:rgba(255,45,120,0.07);box-shadow:0 0 18px rgba(255,45,120,0.25)}
+  .btn:active{transform:scale(0.98)}
+  .metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:1.5rem}
+  .metric{background:#0d1520;border:1px solid #1a2e45;border-radius:2px;padding:14px;position:relative;overflow:hidden}
+  .metric::before{content:'';position:absolute;top:0;left:0;right:0;height:1px}
+  .m-c::before{background:linear-gradient(90deg,transparent,#ff3a3a,transparent)}
+  .m-h::before{background:linear-gradient(90deg,transparent,#ff8c00,transparent)}
+  .m-b::before{background:linear-gradient(90deg,transparent,#00f5ff,transparent)}
+  .m-n::before{background:linear-gradient(90deg,transparent,#ff2d78,transparent)}
+  .mlbl{font-family:'Share Tech Mono',monospace;font-size:10px;color:#6a8aaa;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
+  .mval{font-family:'Share Tech Mono',monospace;font-size:28px}
+  .v-c{color:#ff3a3a;text-shadow:0 0 12px rgba(255,58,58,0.5)}
+  .v-h{color:#ff8c00;text-shadow:0 0 12px rgba(255,140,0,0.5)}
+  .v-b{color:#00f5ff;text-shadow:0 0 12px rgba(0,245,255,0.4)}
+  .v-n{color:#ff2d78;text-shadow:0 0 12px rgba(255,45,120,0.4)}
+  .section{margin-bottom:1.25rem;border:1px solid #1a2e45;border-radius:2px;overflow:hidden;position:relative;background:#0d1520}
+  .section::before{content:'';position:absolute;top:0;left:0;width:2px;height:100%}
+  .s-breach::before{background:#ff3a3a}
+  .s-cve::before{background:#ff8c00}
+  .s-threat::before{background:#ff2d78}
+  .s-news::before{background:#00f5ff}
+  .shead{display:flex;align-items:center;justify-content:space-between;padding:10px 14px 10px 18px;background:#111c2e;cursor:pointer;user-select:none}
+  .stitle{font-family:'Share Tech Mono',monospace;font-size:12px;letter-spacing:2px;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+  .sicon{font-family:'Share Tech Mono',monospace;font-size:10px;padding:2px 7px;border-radius:1px;letter-spacing:1px}
+  .i-breach{background:rgba(255,58,58,0.12);color:#ff3a3a;border:1px solid rgba(255,58,58,0.3)}
+  .i-cve{background:rgba(255,140,0,0.12);color:#ff8c00;border:1px solid rgba(255,140,0,0.3)}
+  .i-threat{background:rgba(255,45,120,0.12);color:#ff2d78;border:1px solid rgba(255,45,120,0.3)}
+  .i-news{background:rgba(0,245,255,0.08);color:#00f5ff;border:1px solid rgba(0,245,255,0.25)}
+  .chev{font-size:10px;color:#6a8aaa;transition:transform .2s}
+  .chev.open{transform:rotate(180deg)}
+  .sbody{padding:0 14px 4px 18px;display:none}
+  .sbody.open{display:block}
+  .item{padding:12px 0;border-bottom:1px solid #0f2035}
+  .item:last-child{border-bottom:none}
+  .ihead{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:5px}
+  .ititle{font-family:'Rajdhani',sans-serif;font-size:14px;font-weight:600;line-height:1.4;color:#e0f0ff}
+  .badge{font-family:'Share Tech Mono',monospace;font-size:10px;padding:2px 8px;border-radius:1px;white-space:nowrap;flex-shrink:0;letter-spacing:1px}
+  .b-critical{background:rgba(255,58,58,0.12);color:#ff3a3a;border:1px solid rgba(255,58,58,0.35)}
+  .b-high{background:rgba(255,140,0,0.1);color:#ff8c00;border:1px solid rgba(255,140,0,0.3)}
+  .b-medium{background:rgba(0,255,157,0.08);color:#00ff9d;border:1px solid rgba(0,255,157,0.25)}
+  .b-info{background:rgba(0,245,255,0.08);color:#00f5ff;border:1px solid rgba(0,245,255,0.25)}
+  .b-news{background:rgba(255,45,120,0.1);color:#ff2d78;border:1px solid rgba(255,45,120,0.3)}
+  .b-threat{background:rgba(255,45,120,0.1);color:#ff2d78;border:1px solid rgba(255,45,120,0.3)}
+  .imeta{font-family:'Share Tech Mono',monospace;font-size:11px;color:#6a8aaa;margin-bottom:6px;letter-spacing:0.5px}
+  .idesc{font-family:'Rajdhani',sans-serif;font-size:13px;color:#6a8aaa;line-height:1.6}
+  .iocs{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
+  .ioc{font-family:'Share Tech Mono',monospace;font-size:10px;background:rgba(0,245,255,0.05);border:1px solid rgba(0,245,255,0.15);border-radius:1px;padding:2px 7px;color:#00b8c8}
+  .footer{font-family:'Share Tech Mono',monospace;font-size:10px;color:#6a8aaa;text-align:center;margin-top:1rem;padding-top:1rem;border-top:1px solid #1a2e45;letter-spacing:1px}
+  .loading{text-align:center;color:#00f5ff;padding:2rem}
+  .error{background:rgba(255,58,58,0.1);border:1px solid #ff3a3a;color:#ff3a3a;padding:1rem;border-radius:2px;margin-bottom:1rem}
+  .src-link{font-family:'Share Tech Mono',monospace;font-size:10px;color:#00b8c8;text-decoration:none;background:rgba(0,245,255,0.04);border:1px solid rgba(0,245,255,0.15);border-radius:1px;padding:2px 8px;letter-spacing:0.5px;display:inline-block;margin-right:5px;margin-top:5px;transition:all 0.15s}
+  .src-link:hover{background:rgba(0,245,255,0.1);color:#00f5ff;border-color:rgba(0,245,255,0.35)}
+  .sources-section{margin-top:1.5rem;border:1px solid #1a2e45;border-radius:2px;overflow:hidden;position:relative;background:#0d1520}
+  .sources-section::before{content:'';position:absolute;top:0;left:0;width:2px;height:100%;background:#00f5ff}
+  .sources-header{display:flex;align-items:center;justify-content:space-between;padding:10px 14px 10px 18px;background:#111c2e;cursor:pointer;user-select:none}
+  .sources-header .stitle{font-family:'Share Tech Mono',monospace;font-size:12px;letter-spacing:2px;text-transform:uppercase}
+  .source-item{padding:8px 0;border-bottom:1px solid #0f2035;display:flex;justify-content:space-between;align-items:center}
+  .source-item:last-child{border-bottom:none}
+  .source-name{font-family:'Share Tech Mono',monospace;font-size:11px;color:#00b8c8;flex:0 0 auto}
+  .source-url{font-family:'Share Tech Mono',monospace;font-size:10px;color:#6a8aaa;text-decoration:none;flex:1;margin-left:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .source-url:hover{color:#00f5ff}
+  .source-remove{font-size:10px;color:#ff3a3a;cursor:pointer;margin-left:8px;padding:2px 6px;background:rgba(255,58,58,0.1);border:1px solid rgba(255,58,58,0.3);border-radius:1px}
+  .source-remove:hover{background:rgba(255,58,58,0.2)}
+  /* DIABLO THEME OVERRIDES */
+  body.theme-diablo{background:#0a0604;color:#d4b88a;background-image:radial-gradient(ellipse at top,#1a0a05 0%,#0a0604 60%)}
+  body.theme-diablo::before{background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.18) 2px,rgba(0,0,0,0.18) 4px)}
+  body.theme-diablo .logo{color:#e8c469;text-shadow:0 0 20px rgba(232,196,105,0.7),0 0 4px rgba(255,140,0,0.5);letter-spacing:3px}
+  body.theme-diablo .logo span{color:#a01818;text-shadow:0 0 22px rgba(200,30,30,0.9),0 0 6px rgba(255,40,0,0.6)}
+  body.theme-diablo .date{background:#1a0e07;border-color:#7a4a1f;color:#d4b88a;box-shadow:inset 0 0 8px rgba(0,0,0,0.6)}
+  body.theme-diablo .btn{background:linear-gradient(180deg,#3a1a0a 0%,#1f0d05 100%);border:1px solid #8b2a1a;color:#e8c469;text-shadow:0 0 8px rgba(232,196,105,0.5);box-shadow:0 0 12px rgba(139,42,26,0.4),inset 0 0 8px rgba(0,0,0,0.5)}
+  body.theme-diablo .btn:hover{background:linear-gradient(180deg,#5a2410 0%,#2f1408 100%);box-shadow:0 0 22px rgba(200,60,30,0.6),inset 0 0 10px rgba(0,0,0,0.6)}
+  body.theme-diablo .metric{background:linear-gradient(180deg,#1f0f08 0%,#120705 100%);border:1px solid #6a3818;box-shadow:inset 0 0 12px rgba(0,0,0,0.6),0 0 8px rgba(139,42,26,0.2)}
+  body.theme-diablo .mlbl{color:#a88560;letter-spacing:2px}
+  body.theme-diablo .v-c{color:#ff3a1a;text-shadow:0 0 14px rgba(255,58,26,0.8),0 0 4px rgba(255,0,0,0.5)}
+  body.theme-diablo .v-h{color:#ff9a2a;text-shadow:0 0 14px rgba(255,154,42,0.7)}
+  body.theme-diablo .v-b{color:#e8c469;text-shadow:0 0 14px rgba(232,196,105,0.7)}
+  body.theme-diablo .v-n{color:#c2185b;text-shadow:0 0 14px rgba(194,24,91,0.6)}
+  body.theme-diablo .section{background:linear-gradient(180deg,#1a0d07 0%,#0e0604 100%);border:1px solid #6a3818;box-shadow:0 0 14px rgba(0,0,0,0.6),inset 0 0 20px rgba(80,30,10,0.15)}
+  body.theme-diablo .shead{background:linear-gradient(180deg,#2a1408 0%,#1a0d07 100%);border-bottom:1px solid #6a3818}
+  body.theme-diablo .stitle{color:#e8c469;text-shadow:0 0 8px rgba(232,196,105,0.4)}
+  body.theme-diablo .ititle{color:#f0d8a0;text-shadow:0 0 4px rgba(232,196,105,0.3)}
+  body.theme-diablo .imeta{color:#a88560}
+  body.theme-diablo .idesc{color:#c9a878}
+  body.theme-diablo .item{border-bottom:1px solid #3a1f10}
+  body.theme-diablo .footer{color:#8b6840;border-top-color:#6a3818}
+  body.theme-diablo .sources-section{background:linear-gradient(180deg,#1a0d07 0%,#0e0604 100%);border-color:#6a3818}
+  body.theme-diablo .sources-section::before{background:linear-gradient(180deg,#e8c469,#a01818)}
+  body.theme-diablo .sources-header{background:linear-gradient(180deg,#2a1408 0%,#1a0d07 100%)}
+  body.theme-diablo .source-item{border-bottom:1px solid #3a1f10}
+  body.theme-diablo .source-name{color:#e8c469}
+  body.theme-diablo .source-url{color:#a88560}
+  body.theme-diablo .src-link{background:rgba(139,42,26,0.18);border:1px solid #8b2a1a;color:#e8c469;text-shadow:0 0 6px rgba(232,196,105,0.4)}
+  body.theme-diablo .src-link:hover{background:rgba(200,60,30,0.3);color:#fff0c0;border-color:#c84020}
+  body.theme-diablo .b-critical{background:rgba(200,30,30,0.18);color:#ff3a1a;border:1px solid #8b1818;text-shadow:0 0 6px rgba(255,58,26,0.6)}
+  body.theme-diablo .b-high{background:rgba(200,100,20,0.18);color:#ff9a2a;border:1px solid #8b5818;text-shadow:0 0 6px rgba(255,154,42,0.5)}
+  body.theme-diablo .b-medium{background:rgba(180,140,40,0.15);color:#d4b86a;border:1px solid #7a5818}
+  body.theme-diablo .b-info{background:rgba(140,100,50,0.18);color:#e8c469;border:1px solid #6a3818}
+  body.theme-diablo .b-news,body.theme-diablo .b-threat{background:rgba(160,24,24,0.2);color:#ff3a1a;border:1px solid #8b1818;text-shadow:0 0 6px rgba(255,58,26,0.5)}
+  body.theme-diablo .ioc{background:rgba(139,42,26,0.15);border:1px solid #6a3818;color:#e8c469}
+  body.theme-diablo input{background:#1a0d07 !important;border:1px solid #6a3818 !important;color:#d4b88a !important}
+  body.theme-diablo .s-breach::before{background:linear-gradient(180deg,#ff3a1a,#8b1818)}
+  body.theme-diablo .s-cve::before{background:linear-gradient(180deg,#ff9a2a,#8b5818)}
+  body.theme-diablo .s-threat::before{background:linear-gradient(180deg,#a01818,#400808)}
+  body.theme-diablo .s-news::before{background:linear-gradient(180deg,#e8c469,#7a5018)}
+  .theme-toggle{position:fixed;bottom:1rem;right:1rem;z-index:200;padding:8px 14px;font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:1px;background:transparent;border:1px solid #00f5ff;color:#00f5ff;border-radius:2px;cursor:pointer;text-shadow:0 0 8px rgba(0,245,255,0.4)}
+  body.theme-diablo .theme-toggle{border-color:#8b2a1a;color:#e8c469;background:linear-gradient(180deg,#3a1a0a 0%,#1f0d05 100%);text-shadow:0 0 8px rgba(232,196,105,0.5);box-shadow:0 0 12px rgba(139,42,26,0.4)}
+  /* STEAMPUNK THEME */
+  body.theme-steampunk{background:#1f1610;color:#d9c39a;background-image:radial-gradient(ellipse at center,#2a1f15 0%,#15100a 70%)}
+  body.theme-steampunk::before{background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(184,134,76,0.05) 3px,rgba(184,134,76,0.05) 6px)}
+  body.theme-steampunk .logo{color:#d4a356;text-shadow:0 0 10px rgba(212,163,86,0.6);font-family:'Share Tech Mono',serif;letter-spacing:3px}
+  body.theme-steampunk .logo span{color:#8b4513;text-shadow:0 0 10px rgba(139,69,19,0.6)}
+  body.theme-steampunk .date{background:#2a1f15;border:1px solid #8b6f47;color:#d9c39a;box-shadow:inset 0 0 6px rgba(0,0,0,0.5)}
+  body.theme-steampunk .btn{background:linear-gradient(180deg,#5a4226 0%,#3a2a18 100%);border:1px solid #8b6f47;color:#d4a356;text-shadow:0 0 6px rgba(212,163,86,0.5);box-shadow:inset 0 1px 2px rgba(212,163,86,0.2),0 2px 6px rgba(0,0,0,0.6)}
+  body.theme-steampunk .btn:hover{background:linear-gradient(180deg,#6a5236 0%,#4a3a28 100%)}
+  body.theme-steampunk .metric{background:linear-gradient(180deg,#2a1f15 0%,#1a120a 100%);border:1px solid #8b6f47;box-shadow:inset 0 0 10px rgba(0,0,0,0.5)}
+  body.theme-steampunk .mlbl{color:#a08868}
+  body.theme-steampunk .v-c{color:#cc4422;text-shadow:0 0 10px rgba(204,68,34,0.7)}
+  body.theme-steampunk .v-h{color:#d4a356;text-shadow:0 0 10px rgba(212,163,86,0.6)}
+  body.theme-steampunk .v-b{color:#b8895c;text-shadow:0 0 10px rgba(184,137,92,0.5)}
+  body.theme-steampunk .v-n{color:#8b6f47;text-shadow:0 0 10px rgba(139,111,71,0.5)}
+  body.theme-steampunk .section{background:linear-gradient(180deg,#2a1f15 0%,#15100a 100%);border:1px solid #8b6f47}
+  body.theme-steampunk .shead{background:linear-gradient(180deg,#3a2a18 0%,#2a1f15 100%);border-bottom:1px solid #8b6f47}
+  body.theme-steampunk .stitle,body.theme-steampunk .ititle{color:#d4a356}
+  body.theme-steampunk .imeta{color:#a08868}
+  body.theme-steampunk .idesc{color:#c9b88a}
+  body.theme-steampunk .item{border-bottom-color:#3a2a18}
+  body.theme-steampunk .footer{color:#a08868;border-top-color:#8b6f47}
+  body.theme-steampunk .sources-section{background:#2a1f15;border-color:#8b6f47}
+  body.theme-steampunk .sources-header{background:#3a2a18}
+  body.theme-steampunk .source-name{color:#d4a356}
+  body.theme-steampunk .source-url{color:#a08868}
+  body.theme-steampunk .src-link{background:rgba(139,111,71,0.18);border:1px solid #8b6f47;color:#d4a356}
+  body.theme-steampunk .src-link:hover{background:rgba(139,111,71,0.35);color:#f0d8a0}
+  body.theme-steampunk .b-critical{background:rgba(204,68,34,0.18);color:#cc4422;border:1px solid #8b3018}
+  body.theme-steampunk .b-high{background:rgba(212,163,86,0.15);color:#d4a356;border:1px solid #8b6f47}
+  body.theme-steampunk .b-medium{background:rgba(150,140,80,0.15);color:#a89868;border:1px solid #6a5d3a}
+  body.theme-steampunk .b-info,body.theme-steampunk .b-news,body.theme-steampunk .b-threat{background:rgba(184,137,92,0.18);color:#b8895c;border:1px solid #6a4828}
+  body.theme-steampunk input{background:#2a1f15 !important;border:1px solid #8b6f47 !important;color:#d9c39a !important}
+  body.theme-steampunk .theme-toggle{border-color:#8b6f47;color:#d4a356;background:linear-gradient(180deg,#5a4226 0%,#3a2a18 100%);text-shadow:0 0 6px rgba(212,163,86,0.5)}
+  /* GOTH THEME */
+  body.theme-goth{background:#0a0612;color:#b8a8c8;background-image:radial-gradient(ellipse at top,#1a0d28 0%,#050310 70%)}
+  body.theme-goth::before{background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.15) 2px,rgba(0,0,0,0.15) 4px)}
+  body.theme-goth .logo{color:#d8b8e8;text-shadow:0 0 20px rgba(216,184,232,0.7),0 0 6px rgba(180,40,180,0.4);letter-spacing:3px}
+  body.theme-goth .logo span{color:#8b1a3a;text-shadow:0 0 20px rgba(139,26,58,0.8)}
+  body.theme-goth .date{background:#1a0d28;border:1px solid #5a2a6a;color:#b8a8c8}
+  body.theme-goth .btn{background:linear-gradient(180deg,#2a1240 0%,#15081f 100%);border:1px solid #6a2a8a;color:#d8b8e8;text-shadow:0 0 8px rgba(216,184,232,0.5);box-shadow:0 0 12px rgba(106,42,138,0.4)}
+  body.theme-goth .btn:hover{background:linear-gradient(180deg,#3a1a55 0%,#1f0c2f 100%)}
+  body.theme-goth .metric{background:linear-gradient(180deg,#1a0d28 0%,#0a0612 100%);border:1px solid #5a2a6a}
+  body.theme-goth .mlbl{color:#9888a8}
+  body.theme-goth .v-c{color:#c8284c;text-shadow:0 0 14px rgba(200,40,76,0.8)}
+  body.theme-goth .v-h{color:#a060d0;text-shadow:0 0 14px rgba(160,96,208,0.7)}
+  body.theme-goth .v-b{color:#d8b8e8;text-shadow:0 0 14px rgba(216,184,232,0.6)}
+  body.theme-goth .v-n{color:#8b1a3a;text-shadow:0 0 14px rgba(139,26,58,0.7)}
+  body.theme-goth .section{background:linear-gradient(180deg,#1a0d28 0%,#0a0612 100%);border:1px solid #5a2a6a;box-shadow:0 0 14px rgba(0,0,0,0.6)}
+  body.theme-goth .shead{background:linear-gradient(180deg,#2a1240 0%,#1a0d28 100%);border-bottom:1px solid #5a2a6a}
+  body.theme-goth .stitle,body.theme-goth .ititle{color:#d8b8e8;text-shadow:0 0 6px rgba(216,184,232,0.3)}
+  body.theme-goth .imeta{color:#9888a8}
+  body.theme-goth .idesc{color:#b8a8c8}
+  body.theme-goth .item{border-bottom-color:#3a1a4a}
+  body.theme-goth .footer{color:#9888a8;border-top-color:#5a2a6a}
+  body.theme-goth .sources-section{background:#1a0d28;border-color:#5a2a6a}
+  body.theme-goth .sources-header{background:#2a1240}
+  body.theme-goth .source-name{color:#d8b8e8}
+  body.theme-goth .source-url{color:#9888a8}
+  body.theme-goth .src-link{background:rgba(106,42,138,0.2);border:1px solid #6a2a8a;color:#d8b8e8}
+  body.theme-goth .src-link:hover{background:rgba(160,96,208,0.3);color:#f0e0ff}
+  body.theme-goth .b-critical{background:rgba(200,40,76,0.2);color:#c8284c;border:1px solid #8b1a3a}
+  body.theme-goth .b-high{background:rgba(160,96,208,0.2);color:#a060d0;border:1px solid #6a2a8a}
+  body.theme-goth .b-medium{background:rgba(108,80,140,0.2);color:#9070b0;border:1px solid #4a2a6a}
+  body.theme-goth .b-info,body.theme-goth .b-news,body.theme-goth .b-threat{background:rgba(139,26,58,0.2);color:#c8284c;border:1px solid #6a1a2a}
+  body.theme-goth input{background:#1a0d28 !important;border:1px solid #5a2a6a !important;color:#b8a8c8 !important}
+  body.theme-goth .theme-toggle{border-color:#6a2a8a;color:#d8b8e8;background:linear-gradient(180deg,#2a1240 0%,#15081f 100%);text-shadow:0 0 8px rgba(216,184,232,0.5)}
+  /* WESTERN THEME */
+  body.theme-western{background:#2a1f15;color:#d9c39a;background-image:radial-gradient(ellipse at top,#4a3520 0%,#1a1208 80%)}
+  body.theme-western::before{background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(212,140,60,0.04) 3px,rgba(212,140,60,0.04) 6px)}
+  body.theme-western .logo{color:#e8a040;text-shadow:0 0 15px rgba(232,160,64,0.7);letter-spacing:3px}
+  body.theme-western .logo span{color:#c04020;text-shadow:0 0 15px rgba(192,64,32,0.7)}
+  body.theme-western .date{background:#3a2a18;border:1px solid #8b5a30;color:#d9c39a}
+  body.theme-western .btn{background:linear-gradient(180deg,#5a3a20 0%,#3a2510 100%);border:1px solid #8b5a30;color:#e8a040;text-shadow:0 0 6px rgba(232,160,64,0.5);box-shadow:inset 0 1px 0 rgba(232,160,64,0.2)}
+  body.theme-western .btn:hover{background:linear-gradient(180deg,#6a4528 0%,#4a3018 100%)}
+  body.theme-western .metric{background:linear-gradient(180deg,#3a2a18 0%,#1a1208 100%);border:1px solid #8b5a30}
+  body.theme-western .mlbl{color:#a88860}
+  body.theme-western .v-c{color:#c04020;text-shadow:0 0 12px rgba(192,64,32,0.7)}
+  body.theme-western .v-h{color:#e8a040;text-shadow:0 0 12px rgba(232,160,64,0.7)}
+  body.theme-western .v-b{color:#d4a060;text-shadow:0 0 12px rgba(212,160,96,0.6)}
+  body.theme-western .v-n{color:#a88860;text-shadow:0 0 12px rgba(168,136,96,0.5)}
+  body.theme-western .section{background:linear-gradient(180deg,#3a2a18 0%,#1a1208 100%);border:1px solid #8b5a30}
+  body.theme-western .shead{background:linear-gradient(180deg,#5a3a20 0%,#3a2510 100%);border-bottom:1px solid #8b5a30}
+  body.theme-western .stitle,body.theme-western .ititle{color:#e8a040}
+  body.theme-western .imeta{color:#a88860}
+  body.theme-western .idesc{color:#c9b88a}
+  body.theme-western .item{border-bottom-color:#4a3520}
+  body.theme-western .footer{color:#a88860;border-top-color:#8b5a30}
+  body.theme-western .sources-section{background:#3a2a18;border-color:#8b5a30}
+  body.theme-western .sources-header{background:#5a3a20}
+  body.theme-western .source-name{color:#e8a040}
+  body.theme-western .source-url{color:#a88860}
+  body.theme-western .src-link{background:rgba(139,90,48,0.2);border:1px solid #8b5a30;color:#e8a040}
+  body.theme-western .src-link:hover{background:rgba(232,160,64,0.25);color:#fff0c0}
+  body.theme-western .b-critical{background:rgba(192,64,32,0.2);color:#c04020;border:1px solid #8b2a18}
+  body.theme-western .b-high{background:rgba(232,160,64,0.2);color:#e8a040;border:1px solid #8b5a30}
+  body.theme-western .b-medium{background:rgba(168,136,96,0.18);color:#a88860;border:1px solid #6a4830}
+  body.theme-western .b-info,body.theme-western .b-news,body.theme-western .b-threat{background:rgba(212,160,96,0.18);color:#d4a060;border:1px solid #6a4a28}
+  body.theme-western input{background:#3a2a18 !important;border:1px solid #8b5a30 !important;color:#d9c39a !important}
+  body.theme-western .theme-toggle{border-color:#8b5a30;color:#e8a040;background:linear-gradient(180deg,#5a3a20 0%,#3a2510 100%);text-shadow:0 0 6px rgba(232,160,64,0.5)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="logo">[ CYBER<span>BRIEF</span> ]</div>
+    <div class="right">
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:nowrap">
+        <div class="date" id="date" style="white-space:nowrap"></div>
+        <div class="date" id="updateTime" style="font-size:11px;white-space:nowrap">updated --:--</div>
+      </div>
+      <button class="btn" onclick="emailReport()" style="font-size:11px;padding:3px 10px;letter-spacing:1px">// TRANSMIT REPORT ↗</button>
+      <button class="btn" onclick="goToArchive()" style="font-size:11px;padding:3px 10px;letter-spacing:1px;border-color:#ff8c00;color:#ff8c00;text-shadow:0 0 8px rgba(255,140,0,0.4);box-shadow:0 0 10px rgba(255,140,0,0.1)">// ARCHIVE 📦</button>
+    </div>
+  </div>
+  <div class="metrics">
+    <div class="metric m-c"><div class="mlbl">// total CVEs</div><div class="mval v-c" id="mC">0</div></div>
+    <div class="metric m-h"><div class="mlbl">// breaches</div><div class="mval v-h" id="mB">0</div></div>
+    <div class="metric m-b"><div class="mlbl">// threats</div><div class="mval v-b" id="mT">0</div></div>
+    <div class="metric m-n"><div class="mlbl">// news items</div><div class="mval v-n" id="mN">0</div></div>
+  </div>
+  <div id="report"></div>
+  <div class="footer">// CYBERBRIEF &mdash; DAILY INTEL FEED &mdash; VERIFY ALL FINDINGS WITH PRIMARY SOURCES //</div>
+  <div class="sources-section">
+    <div class="sources-header" onclick="tog('sources')">
+      <div class="stitle">// SOURCES INDEX</div>
+      <div class="chev open" id="c_sources">&#x25BE;</div>
+    </div>
+    <div class="sbody open" id="b_sources">
+      <div id="sourcesList"></div>
+      <div class="add-source-form" style="margin-top:12px;padding-top:12px;border-top:1px solid #0f2035">
+        <div style="font-size:10px;color:#6a8aaa;margin-bottom:6px;text-transform:uppercase">// add custom source</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <input type="text" id="sourceName" placeholder="Source name" style="flex:1;min-width:120px;padding:4px 6px;background:#0d1520;border:1px solid #1a2e45;color:#c8ddf0;font-family:'Share Tech Mono',monospace;font-size:11px;border-radius:1px">
+          <input type="text" id="sourceUrl" placeholder="URL" style="flex:1.5;min-width:150px;padding:4px 6px;background:#0d1520;border:1px solid #1a2e45;color:#c8ddf0;font-family:'Share Tech Mono',monospace;font-size:11px;border-radius:1px">
+          <button onclick="addCustomSource()" style="padding:4px 10px;background:#ff2d78;color:#fff;border:none;border-radius:1px;font-family:'Share Tech Mono',monospace;font-size:11px;cursor:pointer;letter-spacing:1px">ADD</button>
+        </div>
+        <div id="customSourcesList" style="margin-top:8px"></div>
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:2rem;padding:1rem;border-top:1px solid #1a2e45">
+    <a href="https://github.com/SecOps-DCTX/cyberbrief/actions/workflows/refresh.yml" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border:1px solid #00f5ff;border-radius:2px;background:rgba(0,245,255,0.05);color:#00f5ff;font-family:'Share Tech Mono',monospace;font-size:12px;letter-spacing:1px;text-decoration:none;cursor:pointer;transition:all 0.15s">
+      🔄 // MANUAL REFRESH
+    </a>
+    <div style="font-size:10px;color:#6a8aaa;margin-top:8px;letter-spacing:0.5px">Click to trigger data refresh via GitHub Actions</div>
+  </div>
+</div>
+<script>
+var DATA=null;
+var CUSTOM_SOURCES=JSON.parse(localStorage.getItem('customSources')||'[]');
+var DEFAULT_SOURCES=[
+  {name:'SecurityWeek',url:'https://www.securityweek.com/'},
+  {name:'BleepingComputer',url:'https://www.bleepingcomputer.com/'},
+  {name:'Dark Reading',url:'https://www.darkreading.com/'},
+  {name:'CISA KEV',url:'https://www.cisa.gov/known-exploited-vulnerabilities-catalog'},
+  {name:'The Hacker News',url:'https://thehackernews.com/'}
+];
+var SECTIONS=[
+  {id:'breach',icon:'i-breach',cls:'s-breach',label:'BREACH',title:'// BREACH REPORT'},
+  {id:'cve',icon:'i-cve',cls:'s-cve',label:'VULN',title:'// VULNERABILITY TRACKER'},
+  {id:'threat',icon:'i-threat',cls:'s-threat',label:'THREAT',title:'// THREAT INTELLIGENCE'},
+  {id:'news',icon:'i-news',cls:'s-news',label:'SITREP',title:'// SITUATION REPORT'}
+];
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+function bcls(sev){var s=(sev||'').toLowerCase();return s==='critical'?'b-critical':s==='high'?'b-high':s==='medium'?'b-medium':'b-info'}
+function tog(id){var b=document.getElementById('b_'+id),c=document.getElementById('c_'+id);var o=b.classList.toggle('open');b.style.display=o?'block':'none';c.classList.toggle('open',o)}
+window.tog=tog;
+function rSrcs(srcs){if(!srcs||!srcs.length)return '';var h='';for(var i=0;i<srcs.length;i++)h+='<a class="src-link" href="'+esc(srcs[i].url)+'" target="_blank" rel="noopener">'+esc(srcs[i].label)+' ↗</a>';return h}
+function rB(items){return items.map(b=>'<div class="item"><div class="ihead"><div class="ititle">'+esc(b.org)+'</div><span class="badge '+bcls(b.severity)+'">'+esc(b.severity)+'</span></div><div class="imeta">'+esc(b.date)+(b.records?' &bull; '+esc(b.records):'')+' </div><div class="idesc">'+esc(b.summary)+'</div>'+rSrcs(b.sources)+'</div>').join('')}
+function rC(items){return items.map(c=>'<div class="item"><div class="ihead"><div class="ititle">'+esc(c.cve_id)+' &mdash; '+esc(c.product)+'</div><span class="badge '+bcls(c.severity)+'">'+esc(c.severity)+(c.cvss?' | CVSS '+esc(c.cvss):'')+' </span></div><div class="imeta">'+esc(c.vendor)+(c.patch_status?' &bull; '+esc(c.patch_status):'')+' </div><div class="idesc">'+esc(c.summary)+'</div>'+rSrcs(c.sources)+'</div>').join('')}
+function rT(items){return items.map(t=>'<div class="item"><div class="ihead"><div class="ititle">'+esc(t.actor)+'</div><span class="badge b-threat">'+esc(t.type)+'</span></div><div class="imeta">'+esc(t.targets)+(t.ttp?' &bull; '+esc(t.ttp):'')+' </div><div class="idesc">'+esc(t.summary)+'</div>'+(t.iocs&&t.iocs.length?'<div class="iocs">'+t.iocs.slice(0,5).map(i=>'<span class="ioc">'+esc(i)+'</span>').join('')+'</div>':'')+rSrcs(t.sources)+'</div>').join('')}
+function rN(items){return items.map(n=>'<div class="item"><div class="ihead"><div class="ititle">'+esc(n.title)+'</div><span class="badge b-news">'+esc(n.category)+'</span></div><div class="imeta">'+esc(n.source)+(n.date?' &bull; '+esc(n.date):'')+' </div><div class="idesc">'+esc(n.summary)+'</div>'+rSrcs(n.sources)+'</div>').join('')}
+var R={breach:rB,cve:rC,threat:rT,news:rN};
+function render(){
+  var html='';
+  SECTIONS.forEach(s=>{
+    html+='<div class="section '+s.cls+'"><div class="shead" onclick="tog(\''+s.id+'\')"><div class="stitle"><span class="sicon '+s.icon+'">'+s.label+'</span>'+s.title+'</div><div class="chev open" id="c_'+s.id+'">&#x25BE;</div></div><div class="sbody open" id="b_'+s.id+'">'+R[s.id](DATA[s.id]||[])+'</div></div>';
+  });
+  document.getElementById('report').innerHTML=html;
+  document.getElementById('mC').textContent=(DATA.cve||[]).length;
+  document.getElementById('mB').textContent=(DATA.breach||[]).length;
+  document.getElementById('mT').textContent=(DATA.threat||[]).length;
+  document.getElementById('mN').textContent=(DATA.news||[]).length;
+}
+function loadData(){
+  document.getElementById('report').innerHTML='<div class="loading">// LOADING LATEST BRIEF DATA...</div>';
+  fetch('../../data.json').then(r=>{
+    if(!r.ok)throw new Error('HTTP '+r.status+' - '+r.statusText);
+    return r.json();
+  }).then(d=>{
+    DATA=d;
+    render();
+  }).catch(e=>{
+    console.error('Failed to load data:',e);
+    document.getElementById('report').innerHTML='<div class="error">// ERROR LOADING BRIEF DATA // '+esc(e.message)+' // Check console for details.</div>';
+  });
+}
+function emailReport(){
+  if(!DATA){alert('Brief data not loaded yet.');return;}
+  var dateStr=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});
+  var d50='==================================================';
+  var d40='----------------------------------------';
+  var body='CYBERBRIEF // DAILY SECURITY INTELLIGENCE\n'+dateStr+'\n'+d50+'\n\n';
+  var titles={breach:'BREACH REPORT',cve:'VULNERABILITY TRACKER (CVEs)',threat:'THREAT INTELLIGENCE',news:'SITUATION REPORT'};
+  for(var i=0;i<SECTIONS.length;i++){
+    var sid=SECTIONS[i].id;
+    body+='\n[ '+titles[sid]+' ]\n'+d40+'\n';
+    var items=DATA[sid]||[];
+    for(var j=0;j<items.length;j++){
+      var item=items[j];
+      var name=item.org||item.cve_id||item.actor||item.title||'';
+      var sev=item.severity||item.type||item.category||'';
+      body+='\n'+name+(sev?' ['+sev+']':'')+'\n';
+      if(item.date) body+=item.date+(item.records?' | '+item.records:'')+'\n';
+      if(item.vendor) body+=item.vendor+(item.patch_status?' | '+item.patch_status:'')+'\n';
+      if(item.targets) body+='Targets: '+item.targets+'\n';
+      if(item.summary) body+=item.summary+'\n';
+      if(item.iocs&&item.iocs.length) body+='IOCs: '+item.iocs.join(', ')+'\n';
+      if(item.sources&&item.sources.length){
+        var srcs=[];
+        for(var k=0;k<item.sources.length;k++) srcs.push(item.sources[k].label+': '+item.sources[k].url);
+        body+='Sources: '+srcs.join(' | ')+'\n';
+      }
+    }
+    body+='\n';
+  }
+  body+='\n'+d50+'\nGenerated by CyberBrief // Verify all findings with primary sources.';
+  var to=prompt('Enter recipient email addresses (comma-separated):','');
+  if(to===null||!to.trim()) return;
+  var recipients=to.split(',').map(function(e){return e.trim();}).filter(Boolean).join(',');
+  window.location.href='mailto:'+recipients+'?subject='+encodeURIComponent('CyberBrief // Daily Intel - '+dateStr)+'&body='+encodeURIComponent(body);
+}
+function renderSourcesList(){
+  var allSources=DEFAULT_SOURCES.concat(CUSTOM_SOURCES);
+  var html='<div style="font-size:10px;color:#6a8aaa;margin-bottom:8px;text-transform:uppercase">// active sources ('+allSources.length+')</div>';
+  allSources.forEach((src,idx)=>{
+    var isCustom=idx>=DEFAULT_SOURCES.length;
+    html+='<div class="source-item"><a href="'+esc(src.url)+'" target="_blank" rel="noopener" style="display:flex;align-items:center;flex:1;gap:8px;text-decoration:none"><span class="source-name">'+esc(src.name)+'</span><span class="source-url">'+esc(src.url)+'</span></a>'+(isCustom?'<span class="source-remove" onclick="removeCustomSource('+idx+')">✕</span>':'')+'</div>';
+  });
+  document.getElementById('sourcesList').innerHTML=html;
+}
+
+function addCustomSource(){
+  var name=document.getElementById('sourceName').value.trim();
+  var url=document.getElementById('sourceUrl').value.trim();
+  if(!name||!url){alert('Please fill in both name and URL');return;}
+  if(!url.startsWith('http')){alert('URL must start with http:// or https://');return;}
+  CUSTOM_SOURCES.push({name:name,url:url});
+  localStorage.setItem('customSources',JSON.stringify(CUSTOM_SOURCES));
+  document.getElementById('sourceName').value='';
+  document.getElementById('sourceUrl').value='';
+  renderSourcesList();
+}
+
+function removeCustomSource(idx){
+  CUSTOM_SOURCES.splice(idx-DEFAULT_SOURCES.length,1);
+  localStorage.setItem('customSources',JSON.stringify(CUSTOM_SOURCES));
+  renderSourcesList();
+}
+function goToArchive(){
+  window.location.href='../../archive.html';
+}
+
+// Initialize when DOM is ready
+if(document.readyState==='loading'){
+  document.addEventListener('DOMContentLoaded',function(){
+    var now=new Date();
+    document.getElementById('date').textContent=now.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'}).toUpperCase();
+    var timeStr=now.getHours().toString().padStart(2,'0')+':'+now.getMinutes().toString().padStart(2,'0');
+    document.getElementById('updateTime').textContent='// updated '+timeStr;
+    renderSourcesList();
+    loadData();
+    
+    // Force cache refresh once per browser session only
+    if(!sessionStorage.getItem('cacheBustApplied')){
+      var separator=window.location.href.includes('?')?'&':'?';
+      sessionStorage.setItem('cacheBustApplied','true');
+      window.location.href=window.location.href+separator+'nocache='+Date.now();
+    }
+  });
+} else {
+  var now=new Date();
+  document.getElementById('date').textContent=now.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'}).toUpperCase();
+  var timeStr=now.getHours().toString().padStart(2,'0')+':'+now.getMinutes().toString().padStart(2,'0');
+  document.getElementById('updateTime').textContent='// updated '+timeStr;
+  renderSourcesList();
+  loadData();
+  
+  // Force cache refresh once per browser session only
+  if(!sessionStorage.getItem('cacheBustApplied')){
+    var separator=window.location.href.includes('?')?'&':'?';
+    sessionStorage.setItem('cacheBustApplied','true');
+    window.location.href=window.location.href+separator+'nocache='+Date.now();
+  }
+}
+</script>
+<button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">// THEME: CYBER</button>
+<script>
+var THEMES=['cyber','diablo','steampunk','goth','western'];
+var THEME_LABELS={cyber:'CYBER',diablo:'DIABLO',steampunk:'STEAMPUNK',goth:'GOTH',western:'WESTERN'};
+(function(){var t=localStorage.getItem('cbTheme')||'cyber';THEMES.forEach(function(x){document.body.classList.remove('theme-'+x)});if(t!=='cyber')document.body.classList.add('theme-'+t);var b=document.getElementById('themeToggle');if(b)b.textContent='// THEME: '+THEME_LABELS[t]})();
+function toggleTheme(){var cur=localStorage.getItem('cbTheme')||'cyber';var idx=(THEMES.indexOf(cur)+1)%THEMES.length;var next=THEMES[idx];THEMES.forEach(function(x){document.body.classList.remove('theme-'+x)});if(next!=='cyber')document.body.classList.add('theme-'+next);localStorage.setItem('cbTheme',next);document.getElementById('themeToggle').textContent='// THEME: '+THEME_LABELS[next]}
+</script>
+</body>
+</html>
