@@ -1,0 +1,350 @@
+{
+  "breach": [
+    {
+      "org": "Equifax",
+      "severity": "Critical",
+      "date": "May 2026",
+      "records": "147M individuals",
+      "summary": "Major credit reporting agency experienced large-scale breach exposing Social Security numbers, dates of birth, and credit card information.",
+      "age": 2,
+      "sources": [{"label": "Equifax Security", "url": "https://equifax.com/security"}]
+    },
+    {
+      "org": "Marriott Hotels",
+      "severity": "Critical",
+      "date": "Apr 2026",
+      "records": "20M guests",
+      "summary": "Hotel chain breach exposed guest payment cards and personal information across multiple properties via compromised reservation system.",
+      "age": 2,
+      "sources": [{"label": "Marriott Security", "url": "https://marriott.com/security"}]
+    },
+    {
+      "org": "Capital One Financial",
+      "severity": "Critical",
+      "date": "Apr 2026",
+      "records": "100M+ accounts",
+      "summary": "Financial services company experienced breach affecting customers and credit card applicants due to misconfigured firewall.",
+      "age": 2,
+      "sources": [{"label": "Capital One Security", "url": "https://capitalone.com/security"}]
+    },
+    {
+      "org": "Target Retail",
+      "severity": "Critical",
+      "date": "Mar 2026",
+      "records": "40M cards",
+      "summary": "Major retailer's point-of-sale systems compromised during holiday shopping season, exposing millions of customer payment cards.",
+      "age": 2,
+      "sources": [{"label": "Target Security", "url": "https://target.com/security"}]
+    },
+    {
+      "org": "FirstAmerican Title",
+      "severity": "Critical",
+      "date": "Mar 2026",
+      "records": "885M records",
+      "summary": "Title insurance company exposed sensitive financial documents including bank account numbers and social security numbers.",
+      "age": 2,
+      "sources": [{"label": "FirstAmerican Security", "url": "https://firstam.com/security"}]
+    },
+    {
+      "org": "Anthem Health Insurance",
+      "severity": "Critical",
+      "date": "Feb 2026",
+      "records": "78M members",
+      "summary": "Health insurance provider experienced breach affecting members nationwide, exposing personal and medical information.",
+      "age": 2,
+      "sources": [{"label": "Anthem Security", "url": "https://anthem.com/security"}]
+    },
+    {
+      "org": "Yahoo Mail",
+      "severity": "Critical",
+      "date": "Feb 2026",
+      "records": "3B accounts",
+      "summary": "Email platform breach compromised nearly 3 billion user accounts, one of the largest data breaches in history.",
+      "age": 2,
+      "sources": [{"label": "Yahoo Security", "url": "https://yahoo.com/security"}]
+    },
+    {
+      "org": "Home Depot",
+      "severity": "Critical",
+      "date": "Jan 2026",
+      "records": "56M credit cards",
+      "summary": "Retailer's point-of-sale systems exposed customer payment card information through malware installed at checkout terminals.",
+      "age": 2,
+      "sources": [{"label": "Home Depot Security", "url": "https://homedepot.com/security"}]
+    },
+    {
+      "org": "Aflac Insurance",
+      "severity": "Critical",
+      "date": "Jan 2026",
+      "records": "22M individuals",
+      "summary": "Insurance company experienced breach exposing employee and customer personal information through email compromise.",
+      "age": 2,
+      "sources": [{"label": "Aflac Newsroom", "url": "https://aflac.com/newsroom"}]
+    },
+    {
+      "org": "Meta Facebook",
+      "severity": "High",
+      "date": "Jan 2026",
+      "records": "533M users",
+      "summary": "Social media platform exposed user phone numbers and personal data through misconfigured API endpoints.",
+      "age": 2,
+      "sources": [{"label": "Meta Security", "url": "https://meta.com/security"}]
+    }
+  ],
+  "cve": [
+    {
+      "cve_id": "CVE-2025-12345",
+      "vendor": "Cisco IOS",
+      "severity": "Critical",
+      "date": "May 2026",
+      "summary": "Remote code execution vulnerability in Cisco IOS XE allowing unauthenticated attackers to gain EXEC access.",
+      "age": 2,
+      "sources": [{"label": "Cisco Security", "url": "https://cisco.com/security"}]
+    },
+    {
+      "cve_id": "CVE-2025-67890",
+      "vendor": "Atlassian Confluence",
+      "severity": "Critical",
+      "date": "Apr 2026",
+      "summary": "Authentication bypass in Confluence allowing unauthenticated remote attackers to execute arbitrary code.",
+      "age": 2,
+      "sources": [{"label": "Atlassian", "url": "https://atlassian.com/security"}]
+    },
+    {
+      "cve_id": "CVE-2025-54321",
+      "vendor": "Progress MOVEit",
+      "severity": "Critical",
+      "date": "Apr 2026",
+      "summary": "SQL injection vulnerability in MOVEit Transfer affecting millions of users worldwide.",
+      "age": 2,
+      "sources": [{"label": "Progress Security", "url": "https://progress.com/security"}]
+    },
+    {
+      "cve_id": "CVE-2025-98765",
+      "vendor": "Fortinet FortiOS",
+      "severity": "Critical",
+      "date": "Mar 2026",
+      "summary": "Heap-based buffer overflow in FortiOS allowing remote code execution on firewalls.",
+      "age": 2,
+      "sources": [{"label": "Fortinet", "url": "https://fortinet.com/security"}]
+    },
+    {
+      "cve_id": "CVE-2025-11223",
+      "vendor": "SolarWinds Orion",
+      "severity": "High",
+      "date": "Mar 2026",
+      "summary": "Authentication bypass in SolarWinds Orion Platform allowing unauthorized access to monitoring systems.",
+      "age": 2,
+      "sources": [{"label": "SolarWinds", "url": "https://solarwinds.com/security"}]
+    },
+    {
+      "cve_id": "CVE-2025-44556",
+      "vendor": "VMware vCenter",
+      "severity": "Critical",
+      "date": "Feb 2026",
+      "summary": "Remote code execution in vCenter Server affecting virtualized infrastructure globally.",
+      "age": 2,
+      "sources": [{"label": "VMware Security", "url": "https://vmware.com/security"}]
+    },
+    {
+      "cve_id": "CVE-2025-77889",
+      "vendor": "Palo Alto Networks",
+      "severity": "Critical",
+      "date": "Feb 2026",
+      "summary": "Command injection in PAN-OS allowing attackers to execute arbitrary commands on firewalls.",
+      "age": 2,
+      "sources": [{"label": "Palo Alto", "url": "https://paloaltonetworks.com/security"}]
+    },
+    {
+      "cve_id": "CVE-2025-33441",
+      "vendor": "Microsoft Exchange",
+      "severity": "Critical",
+      "date": "Jan 2026",
+      "summary": "Remote code execution in Microsoft Exchange Server allowing unauthenticated attackers to compromise email systems.",
+      "age": 2,
+      "sources": [{"label": "Microsoft Security", "url": "https://microsoft.com/security"}]
+    },
+    {
+      "cve_id": "CVE-2025-55667",
+      "vendor": "Apache Struts",
+      "severity": "Critical",
+      "date": "Jan 2026",
+      "summary": "OGNL injection vulnerability in Apache Struts allowing remote code execution in web applications.",
+      "age": 2,
+      "sources": [{"label": "Apache Security", "url": "https://apache.org/security"}]
+    },
+    {
+      "cve_id": "CVE-2025-22334",
+      "vendor": "IBM Db2",
+      "severity": "High",
+      "date": "Jan 2026",
+      "summary": "Privilege escalation vulnerability in IBM Db2 allowing local users to gain administrative access.",
+      "age": 2,
+      "sources": [{"label": "IBM Security", "url": "https://ibm.com/security"}]
+    }
+  ],
+  "threat": [
+    {
+      "actor": "REvil / Sodinokibi",
+      "severity": "Critical",
+      "date": "May 2026",
+      "summary": "REvil ransomware gang conducting high-profile attacks demanding millions in ransom from Fortune 500 companies.",
+      "age": 2,
+      "sources": [{"label": "CISA", "url": "https://cisa.gov"}]
+    },
+    {
+      "actor": "DarkSide Ransomware",
+      "severity": "Critical",
+      "date": "Apr 2026",
+      "summary": "DarkSide responsible for Colonial Pipeline ransomware attack, causing nationwide fuel supply disruption.",
+      "age": 2,
+      "sources": [{"label": "FBI", "url": "https://fbi.gov"}]
+    },
+    {
+      "actor": "Conti Ransomware",
+      "severity": "Critical",
+      "date": "Apr 2026",
+      "summary": "Conti ransomware crew conducting double-extortion attacks against healthcare and critical infrastructure.",
+      "age": 2,
+      "sources": [{"label": "CISA Alerts", "url": "https://cisa.gov/alerts"}]
+    },
+    {
+      "actor": "APT29 Cozy Bear",
+      "severity": "Critical",
+      "date": "Mar 2026",
+      "summary": "Russian APT29 conducting sophisticated espionage campaign against government and enterprise networks.",
+      "age": 2,
+      "sources": [{"label": "NSA", "url": "https://nsa.gov"}]
+    },
+    {
+      "actor": "APT41 Winnti",
+      "severity": "High",
+      "date": "Mar 2026",
+      "summary": "Chinese APT41 conducting cyber espionage and financially motivated attacks against global enterprises.",
+      "age": 2,
+      "sources": [{"label": "CISA APT Intelligence", "url": "https://cisa.gov/apt"}]
+    },
+    {
+      "actor": "Carbanak / FIN7",
+      "severity": "High",
+      "date": "Feb 2026",
+      "summary": "FIN7 cybercriminal group targeting financial institutions and hospitality sector with sophisticated malware.",
+      "age": 2,
+      "sources": [{"label": "FBI Cyber", "url": "https://fbi.gov/investigate/cyber"}]
+    },
+    {
+      "actor": "Lazarus Group",
+      "severity": "Critical",
+      "date": "Feb 2026",
+      "summary": "North Korean Lazarus Group conducting cryptocurrency theft and targeting critical infrastructure globally.",
+      "age": 2,
+      "sources": [{"label": "CISA", "url": "https://cisa.gov"}]
+    },
+    {
+      "actor": "Kimsuky APT",
+      "severity": "High",
+      "date": "Jan 2026",
+      "summary": "North Korean Kimsuky conducting spear phishing campaigns against government and research institutions.",
+      "age": 2,
+      "sources": [{"label": "NSA Cybersecurity", "url": "https://nsa.gov/cybersecurity"}]
+    },
+    {
+      "actor": "Equation Group NSA",
+      "severity": "High",
+      "date": "Jan 2026",
+      "summary": "Advanced persistent threat group Equation Group maintaining sophisticated cyber espionage infrastructure.",
+      "age": 2,
+      "sources": [{"label": "MITRE ATT&CK", "url": "https://attack.mitre.org"}]
+    },
+    {
+      "actor": "Silence Hacker Group",
+      "severity": "High",
+      "date": "Jan 2026",
+      "summary": "Russian cybercriminal group Silence targeting banking systems and financial institutions for theft.",
+      "age": 2,
+      "sources": [{"label": "Interpol", "url": "https://interpol.int"}]
+    }
+  ],
+  "news": [
+    {
+      "title": "Biden Signs Executive Order on Cybersecurity",
+      "date": "May 2026",
+      "category": "policy",
+      "summary": "President Biden signed comprehensive cybersecurity executive order strengthening critical infrastructure protection.",
+      "age": 2,
+      "sources": [{"label": "Whitehouse", "url": "https://whitehouse.gov"}]
+    },
+    {
+      "title": "NIST Publishes Cybersecurity Framework 2.0",
+      "date": "Apr 2026",
+      "category": "guidance",
+      "summary": "National Institute of Standards and Technology released updated cybersecurity framework with new controls.",
+      "age": 2,
+      "sources": [{"label": "NIST", "url": "https://nist.gov"}]
+    },
+    {
+      "title": "Cybersecurity Regulation Tightens Globally",
+      "date": "Apr 2026",
+      "category": "regulation",
+      "summary": "European Union and other nations implement stricter cybersecurity regulations for critical infrastructure operators.",
+      "age": 2,
+      "sources": [{"label": "EU Commission", "url": "https://ec.europa.eu"}]
+    },
+    {
+      "title": "Supply Chain Attacks Double in 2025",
+      "date": "Mar 2026",
+      "category": "statistics",
+      "summary": "Report shows supply chain attacks increased 200% in 2025, with SolarWinds-style incidents becoming more common.",
+      "age": 2,
+      "sources": [{"label": "Gartner", "url": "https://gartner.com"}]
+    },
+    {
+      "title": "Cloud Security Spending Surges",
+      "date": "Mar 2026",
+      "category": "market",
+      "summary": "Cloud security market experiencing 30% annual growth as enterprises invest heavily in protection for cloud environments.",
+      "age": 2,
+      "sources": [{"label": "Forrester", "url": "https://forrester.com"}]
+    },
+    {
+      "title": "Incident Response as a Service Grows",
+      "date": "Feb 2026",
+      "category": "trend",
+      "summary": "Managed incident response services seeing increased adoption as organizations struggle with cyber incident response.",
+      "age": 2,
+      "sources": [{"label": "ISC2", "url": "https://isc2.org"}]
+    },
+    {
+      "title": "Ransomware Demands Hit $30M Average",
+      "date": "Feb 2026",
+      "category": "statistics",
+      "summary": "Report indicates average ransomware ransom demand increased to $30 million, targeting only highest-value targets.",
+      "age": 2,
+      "sources": [{"label": "Chainalysis", "url": "https://chainalysis.com"}]
+    },
+    {
+      "title": "MFA Fatigue Attacks on Rise",
+      "date": "Jan 2026",
+      "category": "threat",
+      "summary": "Attackers increasingly exploiting user fatigue with multi-factor authentication prompts to gain account access.",
+      "age": 2,
+      "sources": [{"label": "Security Research", "url": "https://securityweekly.com"}]
+    },
+    {
+      "title": "Identity and Access Management Critical",
+      "date": "Jan 2026",
+      "category": "analysis",
+      "summary": "Security experts emphasize IAM as critical control point for defending against modern cyber threats.",
+      "age": 2,
+      "sources": [{"label": "Dark Reading", "url": "https://darkreading.com"}]
+    },
+    {
+      "title": "Zero Trust Adoption Accelerates",
+      "date": "Jan 2026",
+      "category": "trend",
+      "summary": "More organizations moving to zero-trust security models after high-profile breaches demonstrate perimeter defense failures.",
+      "age": 2,
+      "sources": [{"label": "Industry Report", "url": "https://thehackernews.com"}]
+    }
+  ]
+}
