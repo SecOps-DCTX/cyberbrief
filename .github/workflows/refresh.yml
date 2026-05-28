@@ -2,8 +2,8 @@ name: CyberBrief Daily Update
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
-  workflow_dispatch:  # <-- Add this line
+    - cron: '0 12,22 * * *'  # 6am CST and 4pm CST (2 refreshes per day)
+  workflow_dispatch:
 
 jobs:
   update-brief:
