@@ -6,7 +6,7 @@
       "date": "May 2026",
       "records": "8.2M user profiles",
       "summary": "Healthcare provider left unencrypted patient records in publicly accessible S3 bucket for 3 weeks, exposing names, SSNs, and medical histories.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Security Weekly",
@@ -24,7 +24,7 @@
       "date": "May 2026",
       "records": "2.1M accounts",
       "summary": "Threat actor gained access to Okta's support system, potentially exposing customer metadata and session tokens used for multifactor authentication.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Okta Security",
@@ -42,7 +42,7 @@
       "date": "May 2026",
       "records": "500K+ servers",
       "summary": "Remote Code Execution vulnerability in Exchange Server allows unauthenticated attackers to execute arbitrary code and access mailboxes.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Microsoft Security",
@@ -60,7 +60,7 @@
       "date": "May 2026",
       "records": "73K driver records",
       "summary": "Exposed driver personal information including names, phone numbers, email addresses, and vehicle details on misconfigured database.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Uber Security",
@@ -78,7 +78,7 @@
       "date": "May 2026",
       "records": "40K creators",
       "summary": "Tax information and payment details for Twitch streamers leaked through compromised database, affecting creators worldwide.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Twitch Status",
@@ -96,7 +96,7 @@
       "date": "May 2026",
       "records": "15K documents",
       "summary": "Threat actors used stolen API keys to access and retrieve signed documents containing personal and financial information.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "DocuSign Trust",
@@ -114,7 +114,7 @@
       "date": "May 2026",
       "records": "8K workspaces",
       "summary": "Misconfigured sharing settings exposed internal company wikis, roadmaps, and credentials in multiple Notion workspaces.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Notion Security",
@@ -132,7 +132,7 @@
       "date": "May 2026",
       "records": "22K customer records",
       "summary": "Multiple e-commerce stores on Shopify compromised via weak admin passwords, leading to customer payment card theft.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Shopify Security",
@@ -150,7 +150,7 @@
       "date": "May 2026",
       "records": "3.5M records",
       "summary": "Developers left MongoDB instances publicly accessible without authentication, exposing customer databases with PII.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "MongoDB Security",
@@ -168,7 +168,7 @@
       "date": "May 2026",
       "records": "12K workspaces",
       "summary": "Legacy Slack bot tokens exposed in GitHub repositories, allowing attackers to access private channels and user data.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Slack Security",
@@ -188,7 +188,7 @@
       "severity": "Critical",
       "date": "May 2026",
       "summary": "Remote Code Execution in Log4j 2.x via JNDI injection in logging messages. CVSS 10.0.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "NVD",
@@ -206,7 +206,7 @@
       "severity": "Critical",
       "date": "May 2026",
       "summary": "Use-after-free vulnerability in V8 JavaScript engine allowing arbitrary code execution. Exploit available.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Google Security",
@@ -224,7 +224,7 @@
       "severity": "Critical",
       "date": "May 2026",
       "summary": "Privilege escalation in Windows Kernel allowing local users to gain SYSTEM access. Active exploitation detected.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Microsoft Security",
@@ -242,7 +242,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "Buffer overflow in OpenSSL certificate validation allowing DoS and potential RCE. Affects versions 1.1.1 and 3.0.x.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "OpenSSL Advisory",
@@ -260,7 +260,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "Type confusion vulnerability in PHP's filter functions allowing information disclosure and RCE.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "PHP Security",
@@ -278,7 +278,7 @@
       "severity": "Medium",
       "date": "May 2026",
       "summary": "Prototype pollution vulnerability in jQuery allowing XSS attacks in web applications.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "jQuery Security",
@@ -296,7 +296,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "Race condition in Linux kernel memory management allowing privilege escalation on multi-core systems.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Linux Security",
@@ -314,7 +314,7 @@
       "severity": "Medium",
       "date": "May 2026",
       "summary": "HTTP request smuggling vulnerability in nginx HTTP/2 module allowing request injection attacks.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "nginx Security",
@@ -332,7 +332,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "New CPU microarchitecture side-channel attack (Spectre variant) affecting Intel processors from 2010-2026.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Intel Security",
@@ -350,7 +350,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "Information disclosure in AWS Lambda environment variables leaking database credentials and API keys.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "AWS Security",
@@ -369,7 +369,7 @@
       "severity": "Critical",
       "date": "May 2026",
       "summary": "Scattered Spider APT conducting supply chain attacks targeting managed service providers, stealing credentials to access customer environments.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "CISA Alerts",
@@ -386,7 +386,7 @@
       "severity": "Critical",
       "date": "May 2026",
       "summary": "LockBit ransomware gang claims responsibility for 45 attacks in May alone, targeting healthcare and critical infrastructure.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "CISA",
@@ -403,7 +403,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "ALPHV continues targeting Fortune 500 companies with double-extortion attacks, demanding record ransom payments.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "FBI Warnings",
@@ -420,7 +420,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "FIN7 linked to stealing $100M+ in cryptocurrency through compromised exchange accounts and DeFi protocols.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "CISA APT Advisories",
@@ -437,7 +437,7 @@
       "severity": "Critical",
       "date": "May 2026",
       "summary": "Wizard Spider targeting US healthcare networks with TrickBot and Conti ransomware, causing significant operational disruptions.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "CISA",
@@ -454,7 +454,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "Evil Corp maintaining infrastructure for ransomware and botnet operations despite sanctioning, targeting financial services.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Treasury Alerts",
@@ -471,7 +471,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "Russian state-sponsored APT28 conducting espionage against NATO members and critical defense contractors.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "CISA APT Intel",
@@ -488,7 +488,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "Russian APT Turla conducting long-term espionage operations against government and diplomatic targets worldwide.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "CISA Intelligence",
@@ -505,7 +505,7 @@
       "severity": "High",
       "date": "May 2026",
       "summary": "Emotet botnet returning with new evasion techniques after disruption in 2021, spreading via phishing and USB drives.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "CISA Alerts",
@@ -522,7 +522,7 @@
       "severity": "Critical",
       "date": "May 2026",
       "summary": "Chinese military-linked APT groups conducting massive campaign against US critical infrastructure, stealing operational technology data.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "NSA/CISA Joint Alert",
@@ -541,7 +541,7 @@
       "date": "May 2026",
       "category": "advisory",
       "summary": "CISA published updated secure software development framework addressing supply chain security and zero-trust architecture.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "CISA",
@@ -558,7 +558,7 @@
       "date": "May 2026",
       "category": "regulation",
       "summary": "European Union begins enforcement of Digital Services Act with first round of compliance checks on major tech platforms.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "EU Official",
@@ -575,7 +575,7 @@
       "date": "May 2026",
       "category": "research",
       "summary": "New quantum computer achieves cryptographically relevant breakthrough, prompting urgent migration to post-quantum cryptography.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "NIST PQC",
@@ -592,7 +592,7 @@
       "date": "May 2026",
       "category": "threat",
       "summary": "Cybersecurity firms report 400% increase in sophisticated phishing emails generated by large language models.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Security Reports",
@@ -609,7 +609,7 @@
       "date": "May 2026",
       "category": "trend",
       "summary": "Gartner reports 60% of enterprises now implementing zero-trust network architecture as default security model.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Gartner",
@@ -626,7 +626,7 @@
       "date": "May 2026",
       "category": "statistics",
       "summary": "Chainalysis reports ransomware payments exceeded $2.5 billion in 2025, with healthcare sector accounting for 32% of payments.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Chainalysis",
@@ -643,7 +643,7 @@
       "date": "May 2026",
       "category": "trend",
       "summary": "Microsoft reports 50% of new Azure AD logins now use passwordless authentication methods like Windows Hello.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Microsoft Security",
@@ -660,7 +660,7 @@
       "date": "May 2026",
       "category": "malware",
       "summary": "New Mirai variant infecting 15 million IoT devices worldwide, used for DDoS and cryptocurrency mining operations.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Shodan",
@@ -677,7 +677,7 @@
       "date": "May 2026",
       "category": "industry",
       "summary": "Industry report shows 3.5M cybersecurity job openings unfilled globally, leading to burnout among existing security professionals.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "ISC2 Report",
@@ -694,7 +694,7 @@
       "date": "May 2026",
       "category": "defense",
       "summary": "HackerOne and Bugcrowd combined disbursed over $500M in bug bounties, with white-hat hackers finding critical flaws at scale.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "HackerOne",
