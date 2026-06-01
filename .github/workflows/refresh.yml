@@ -1,0 +1,48 @@
+name: CyberBrief Daily Update
+
+on:
+  schedule:
+    - cron: '0 12,22 * * *'  # 6am CST and 4pm CST (2 refreshes per day)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-brief:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+      
+      - name: Run CyberBrief scraper with validation
+        run: python scraper.py
+        continue-on-error: true
+      
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "CyberBrief Bot"
+      
+      - name: Commit and push updates
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "CyberBrief auto-update: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
