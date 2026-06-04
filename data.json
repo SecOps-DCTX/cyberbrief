@@ -1,6 +1,428 @@
 {
-  "breach": [],
-  "cve": [],
-  "threat": [],
-  "news": []
+  "breach": [
+    {
+      "summary": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "org": "UN food agency discloses breach affecting 600,000 Gaza households",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "CISA, the FBI, the NSA, the Department of Energy, and other US government partners are warning that hackers are targeting internet-exposed automatic tank gauge (ATG) systems used to monitor fuel and liquid storage tanks across various critical infrastructure sectors. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "org": "CISA warns of cyberattacks targeting fuel tank monitoring systems",
+      "severity": "Critical",
+      "records": "See source"
+    },
+    {
+      "summary": "Twenty years after Dark Reading launched, we're looking ahead at what's next for enterprise security. Spoiler: It's hyper-segmented, AI-orchestrated, and way more sophisticated than your dad's firewall.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/assume-breach-ai-native-security-reshape-enterprise-defense"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "org": "Beyond Assume-Breach: How AI-Native Security Will Reshape Enterprise Defense",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "org": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "org": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "org": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "org": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+      "severity": "High",
+      "records": "See source"
+    }
+  ],
+  "cve": [
+    {
+      "summary": "Threat actors are actively teaching newcomers how to find, exploit, and profit from vulnerable systems. Flare explores what a popular underground hacking tutorial reveals about modern attacker workflows. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "cve_id": "Hackers Are After the Gaps in Your Vulnerability Program: He",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Cisco has released security updates to patch a critical-severity Unified Communications Manager (Unified CM) flaw that allows attackers to gain root privileges. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "cve_id": "Cisco warns of critical Unified CM flaw with PoC exploit cod",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting vulnerabilities in the Linux kernel and Android operating system. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "cve_id": "CISA warns of active attacks exploiting Android, Linux bugs",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Acer is working to address two maximum-severity zero-day vulnerabilities affecting its Wave 7 mesh routers. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "cve_id": "Acer working to patch max severity zero-days in Wave 7 route",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "European and international law enforcement agencies have dismantled nine organized crime groups and arrested 29 suspects in a major crackdown on illegal streaming operations. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "cve_id": "Police dismantles 9 crime groups in illegal streaming crackd",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issue. Because Anthropic's own action repo used the same workflow, a working attack could have pushed malicious code...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "cve_id": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijac",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliver malware families like Remus Stealer, AnimateClipper, and the SessionGate framework. \"The sites are well-designed and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "cve_id": "Fake Sites Mimicking Open-Source Tools Rank High on Google t",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Redis has patched a use-after-free in its blocking-client code that lets an authenticated user run arbitrary OS commands on the machine hosting the database. The flaw was found by an autonomous AI tool built to hunt bugs in large codebases. Tracked as CVE-2026-23479, the flaw was introduced in Redis 7.2.0 and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "cve_id": "CVE-2026-23479",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    }
+  ],
+  "threat": [
+    {
+      "summary": "A new supply-chain attack has infected 36 packages on the Node Package Manager (npm) index with infostealer malware called IronWorm. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "actor": "New IronWorm malware hits 36 packages in npm supply-chain attack",
+      "severity": "High"
+    },
+    {
+      "summary": "A Chinese-speaking cybercrime group has expanded its targeting to the European space, deploying previously undocumented malware and the Atlas backdoor. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "actor": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
+      "severity": "High"
+    },
+    {
+      "summary": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facilitating payments related to terrorist activities. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "actor": "U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
+      "severity": "High"
+    },
+    {
+      "summary": "It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal. Forums go down and come back worse. Cheap hackers get better toys. AI starts breaking real systems. Great. Read the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "actor": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories",
+      "severity": "High"
+    },
+    {
+      "summary": "A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts have been complemented by a \"rapid operational tempo\" and a continually evolving malware arsenal comprising known families like ValleyRAT...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "actor": "China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell. According to Palo Alto Networks Unit 42, the campaign is said to be the next stage of a previously reported activity cluster dubbed JSCoreRunner (aka...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "actor": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have flagged a new malspam campaign that makes use of Google's DoubleClick domain as a way to evade detection and ultimately deliver a remote access trojan (RAT) named DesckVB RAT. \"Before the victim ever reaches attacker-controlled infrastructure, the lure routes through DoubleClick, a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "actor": "Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems. The Minecraft-focused malware-as-a-service (MaaS) campaign has been codenamed Weedhack by McAfee Labs, stating the activity has been active since January...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "actor": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
+      "severity": "High"
+    }
+  ],
+  "news": [
+    {
+      "summary": "On Wednesday, Microsoft fixed an issue that caused some Windows devices to install driver updates without notice despite policies configured to prevent auto-updates. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-windows-driver-updates-on-caching-issue/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "title": "Microsoft blames unexpected Windows driver updates on caching issue",
+      "category": "news"
+    },
+    {
+      "summary": "French and Spanish authorities took down an online marketplace selling fake identity documents to migrant smuggling rings operating within the European Union. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-fake-id-marketplace-used-by-migrant-smugglers/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "title": "Police dismantles fake ID marketplace used by migrant smugglers",
+      "category": "news"
+    },
+    {
+      "summary": "A new denial-of-service (DoS) attack dubbed HTTP/2 Bomb can be launched from a single machine to take down web servers within seconds. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "title": "New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute",
+      "category": "news"
+    },
+    {
+      "summary": "A two-week penetration test can leave roughly 345 days of real-world exposure unvalidated. Sprocket Security explores why continuous testing is becoming critical as attack surfaces constantly change. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "title": "What 345 Days of Untested Exposure Looks Like at a Bank",
+      "category": "news"
+    },
+    {
+      "summary": "Google is introducing a new Android security feature that will detect and flag phone calls in which scammers use artificial intelligence to impersonate a user's personal contacts. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "title": "Google adds Android protection against AI deepfake scam calls",
+      "category": "news"
+    },
+    {
+      "summary": "Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it through Dropbox and OneDrive so the traffic blended into normal cloud activity. Symantec and Carbon Black's Threat Hunter...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrency fraud targeting Americans. The \"Disruption Week\" operation began May 18, 2026, leading to the takedown of millions...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
+      "category": "news"
+    },
+    {
+      "summary": "A single poisoned notification from WhatsApp, Slack, SMS, Signal, Instagram, or Messenger could have hijacked Google Gemini's voice assistant on Android and made it open a victim's connected windows, fake a message from their boss, push the phone into a Zoom call, or quietly poison its long-term memory. No...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html"
+        }
+      ],
+      "date": "Jun 04, 2026",
+      "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
+      "category": "news"
+    }
+  ]
 }
