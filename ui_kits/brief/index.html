@@ -248,7 +248,7 @@
   body.theme-storm .s-news::before{background:#8080e0}
   body.theme-storm input{background:#0c0f28 !important;border:1px solid #40408a !important;color:#c0d0e8 !important}
   body.theme-storm .theme-toggle{border-color:#6060c0;color:#e8f040;background:linear-gradient(180deg,#181828 0%,#080a20 100%);text-shadow:0 0 8px rgba(232,240,64,0.6)}
-  /* PINKOCOMMIE THEME */
+  /* RED SKURGE THEME */
   @keyframes gradientSoviet{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
   body.theme-soviet{color:#e8d8b8;background:linear-gradient(-45deg,#1a0408,#2a0808,#0e0202,#1a0606,#1a0408);background-size:400% 400%;animation:gradientSoviet 16s ease infinite}
   body.theme-soviet::before{background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(200,30,30,0.04) 2px,rgba(200,30,30,0.04) 4px)}
@@ -671,7 +671,7 @@ if(document.readyState==='loading'){
 <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">// THEME: CYBER</button>
 <script>
 var THEMES=['cyber','diablo','steampunk','goth','western','deepsea','noir','storm','soviet','sakura','rust'];
-var THEME_LABELS={cyber:'CYBER',diablo:'DIABLO',steampunk:'STEAMPUNK',goth:'GOTH',western:'WESTERN',deepsea:'DEEP SEA',noir:'NOIR CITY',storm:'ELECTRIC STORM',soviet:'PINKOCOMMIE',sakura:'CHERRY BLOSSOM',rust:'RUST & IRON'};
+var THEME_LABELS={cyber:'CYBER',diablo:'DIABLO',steampunk:'STEAMPUNK',goth:'GOTH',western:'WESTERN',deepsea:'DEEP SEA',noir:'NOIR CITY',storm:'ELECTRIC STORM',soviet:'RED SKURGE',sakura:'CHERRY BLOSSOM',rust:'RUST & IRON'};
 (function(){var t=localStorage.getItem('cbTheme')||'cyber';THEMES.forEach(function(x){document.body.classList.remove('theme-'+x)});if(t!=='cyber')document.body.classList.add('theme-'+t);var b=document.getElementById('themeToggle');if(b)b.textContent='// THEME: '+THEME_LABELS[t]})();
 function toggleTheme(){var cur=localStorage.getItem('cbTheme')||'cyber';var idx=(THEMES.indexOf(cur)+1)%THEMES.length;var next=THEMES[idx];THEMES.forEach(function(x){document.body.classList.remove('theme-'+x)});if(next!=='cyber')document.body.classList.add('theme-'+next);localStorage.setItem('cbTheme',next);document.getElementById('themeToggle').textContent='// THEME: '+THEME_LABELS[next]}
 </script>
