@@ -71,6 +71,8 @@
   .error{background:rgba(255,58,58,0.1);border:1px solid #ff3a3a;color:#ff3a3a;padding:1rem;border-radius:2px;margin-bottom:1rem}
   .src-link{font-family:'Share Tech Mono',monospace;font-size:10px;color:#00b8c8;text-decoration:none;background:rgba(0,245,255,0.04);border:1px solid rgba(0,245,255,0.15);border-radius:1px;padding:2px 8px;letter-spacing:0.5px;display:inline-block;margin-right:5px;margin-top:5px;transition:all 0.15s}
   .src-link:hover{background:rgba(0,245,255,0.1);color:#00f5ff;border-color:rgba(0,245,255,0.35)}
+  .src-tile{font-family:'Share Tech Mono',monospace;font-size:11px;color:#00b8c8;text-decoration:none;background:rgba(0,245,255,0.04);border:1px solid rgba(0,245,255,0.15);border-radius:1px;padding:6px 12px;letter-spacing:0.5px;display:inline-block;transition:all 0.15s}
+  .src-tile:hover{background:rgba(0,245,255,0.1);color:#00f5ff;border-color:rgba(0,245,255,0.35);text-shadow:0 0 8px rgba(0,245,255,0.4)}
   .sources-section{margin-top:1.5rem;border:1px solid #1a2e45;border-radius:2px;overflow:hidden;position:relative;background:#0d1520}
   .sources-section::before{content:'';position:absolute;top:0;left:0;width:2px;height:100%;background:#00f5ff}
   .sources-header{display:flex;align-items:center;justify-content:space-between;padding:10px 14px 10px 18px;background:#111c2e;cursor:pointer;user-select:none}
@@ -496,19 +498,18 @@
   <div class="footer">// CYBERBRIEF &mdash; DAILY INTEL FEED &mdash; VERIFY ALL FINDINGS WITH PRIMARY SOURCES //</div>
   <div class="sources-section">
     <div class="sources-header" onclick="tog('sources')">
-      <div class="stitle">// SOURCES INDEX</div>
+      <div class="stitle">// SECURITY INTEL SOURCES</div>
       <div class="chev open" id="c_sources">&#x25BE;</div>
     </div>
     <div class="sbody open" id="b_sources">
       <div id="sourcesList"></div>
-      <div class="add-source-form" style="margin-top:12px;padding-top:12px;border-top:1px solid #0f2035">
-        <div style="font-size:10px;color:#6a8aaa;margin-bottom:6px;text-transform:uppercase">// add custom source</div>
-        <div style="display:flex;gap:6px;flex-wrap:wrap">
-          <input type="text" id="sourceName" placeholder="Source name" style="flex:1;min-width:120px;padding:4px 6px;background:#0d1520;border:1px solid #1a2e45;color:#c8ddf0;font-family:'Share Tech Mono',monospace;font-size:11px;border-radius:1px">
-          <input type="text" id="sourceUrl" placeholder="URL" style="flex:1.5;min-width:150px;padding:4px 6px;background:#0d1520;border:1px solid #1a2e45;color:#c8ddf0;font-family:'Share Tech Mono',monospace;font-size:11px;border-radius:1px">
-          <button onclick="addCustomSource()" style="padding:4px 10px;background:#ff2d78;color:#fff;border:none;border-radius:1px;font-family:'Share Tech Mono',monospace;font-size:11px;cursor:pointer;letter-spacing:1px">ADD</button>
+      <div style="margin-top:12px;padding-top:12px;border-top:1px solid #0f2035">
+        <div style="font-size:10px;color:#6a8aaa;margin-bottom:8px;text-transform:uppercase;letter-spacing:1px">// add source</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center">
+          <input type="text" id="sourceName" placeholder="Name" style="flex:1;min-width:100px;padding:5px 8px;background:#0d1520;border:1px solid #1a2e45;color:#c8ddf0;font-family:'Share Tech Mono',monospace;font-size:11px;border-radius:1px;outline:none">
+          <input type="text" id="sourceUrl" placeholder="https://..." style="flex:2;min-width:180px;padding:5px 8px;background:#0d1520;border:1px solid #1a2e45;color:#c8ddf0;font-family:'Share Tech Mono',monospace;font-size:11px;border-radius:1px;outline:none">
+          <button onclick="addCustomSource()" style="padding:5px 14px;background:transparent;color:#ff2d78;border:1px solid #ff2d78;border-radius:1px;font-family:'Share Tech Mono',monospace;font-size:11px;cursor:pointer;letter-spacing:1px;white-space:nowrap">+ ADD</button>
         </div>
-        <div id="customSourcesList" style="margin-top:8px"></div>
       </div>
     </div>
   </div>
@@ -526,8 +527,11 @@ var DEFAULT_SOURCES=[
   {name:'SecurityWeek',url:'https://www.securityweek.com/'},
   {name:'BleepingComputer',url:'https://www.bleepingcomputer.com/'},
   {name:'Dark Reading',url:'https://www.darkreading.com/'},
+  {name:'The Hacker News',url:'https://thehackernews.com/'},
+  {name:'Krebs on Security',url:'https://krebsonsecurity.com/'},
   {name:'CISA KEV',url:'https://www.cisa.gov/known-exploited-vulnerabilities-catalog'},
-  {name:'The Hacker News',url:'https://thehackernews.com/'}
+  {name:'CISA Advisories',url:'https://www.cisa.gov/news-events/cybersecurity-advisories'},
+  {name:'NIST NVD',url:'https://nvd.nist.gov/vuln/search'}
 ];
 var SECTIONS=[
   {id:'breach',icon:'i-breach',cls:'s-breach',label:'BREACH',title:'// BREACH REPORT'},
@@ -605,12 +609,18 @@ function emailReport(){
   window.location.href='mailto:'+recipients+'?subject='+encodeURIComponent('CyberBrief // Daily Intel - '+dateStr)+'&body='+encodeURIComponent(body);
 }
 function renderSourcesList(){
-  var allSources=DEFAULT_SOURCES.concat(CUSTOM_SOURCES);
-  var html='<div style="font-size:10px;color:#6a8aaa;margin-bottom:8px;text-transform:uppercase">// active sources ('+allSources.length+')</div>';
-  allSources.forEach((src,idx)=>{
-    var isCustom=idx>=DEFAULT_SOURCES.length;
-    html+='<div class="source-item"><a href="'+esc(src.url)+'" target="_blank" rel="noopener" style="display:flex;align-items:center;flex:1;gap:8px;text-decoration:none"><span class="source-name">'+esc(src.name)+'</span><span class="source-url">'+esc(src.url)+'</span></a>'+(isCustom?'<span class="source-remove" onclick="removeCustomSource('+idx+')">✕</span>':'')+'</div>';
+  var html='<div style="font-size:10px;color:#6a8aaa;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px">// sources</div>';
+  html+='<div style="display:flex;flex-direction:column;gap:6px;margin-bottom:14px">';
+  DEFAULT_SOURCES.forEach(function(src){
+    html+='<a href="'+esc(src.url)+'" target="_blank" rel="noopener" class="src-tile">'+esc(src.name)+' &#x2197;</a>';
   });
+  CUSTOM_SOURCES.forEach(function(src,i){
+    html+='<div style="display:flex;align-items:center;gap:6px">';
+    html+='<a href="'+esc(src.url)+'" target="_blank" rel="noopener" class="src-tile" style="flex:1">'+esc(src.name)+' &#x2197;</a>';
+    html+='<span class="source-remove" onclick="removeCustomSource('+i+')" title="Remove">✕</span>';
+    html+='</div>';
+  });
+  html+='</div>';
   document.getElementById('sourcesList').innerHTML=html;
 }
 
@@ -627,7 +637,7 @@ function addCustomSource(){
 }
 
 function removeCustomSource(idx){
-  CUSTOM_SOURCES.splice(idx-DEFAULT_SOURCES.length,1);
+  CUSTOM_SOURCES.splice(idx,1);
   localStorage.setItem('customSources',JSON.stringify(CUSTOM_SOURCES));
   renderSourcesList();
 }
