@@ -1,8 +1,50 @@
 {
   "breach": [
     {
-      "summary": "The Silent Ransom Group extortion gang is actively targeting U.S. law firms and professional services organizations in social engineering attacks that often lead to data theft within hours of initial contact, according to a new report by cybersecurity firm Mandiant. [...]",
+      "summary": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "org": "DentaQuest data breach exposed info of 2.6 million accounts",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Threat actors are taking advantage of Internet-exposed tank gauges by breaching gas stations, opening the door to disruption.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/exposed-fuel-tank-gauges-attack-us"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "org": "Exposed Fuel Tank Gauges Under Attack in the US",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Twenty years after Dark Reading launched, we're looking ahead at what's next for enterprise security. Spoiler: It's hyper-segmented, AI-orchestrated, and way more sophisticated than your dad's firewall.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/assume-breach-ai-native-security-reshape-enterprise-defense"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "org": "Beyond Assume-Breach: How AI-Native Security Will Reshape Enterprise Defense",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "The Silent Ransom Group extortion gang is actively targeting U.S. law firms and professional services organizations in social engineering attacks that often lead to data theft within hours of initial contact, according to a new report by cybersecurity firm Mandiant. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +58,7 @@
     },
     {
       "summary": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +72,7 @@
     },
     {
       "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -44,7 +86,7 @@
     },
     {
       "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -58,7 +100,7 @@
     },
     {
       "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -72,7 +114,7 @@
     },
     {
       "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -86,7 +128,7 @@
     },
     {
       "summary": "Over 900 automatic tank gauge (ATG) systems across the United States, used to monitor fuel and chemical storage tanks across various critical infrastructure sectors, have been found exposed online and are vulnerable to ongoing attacks. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -100,7 +142,7 @@
     },
     {
       "summary": "The ShinyHunters extortion group leaked roughly 234 GB of data allegedly stolen from the dental benefits administrator. The post Hackers Leak DentaQuest Information Impacting 2.6 Million appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -111,26 +153,124 @@
       "org": "Hackers Leak DentaQuest Information Impacting 2.6 Million",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "The company detected a network intrusion in March and an investigation showed that some files were stolen during the attack. The post Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/nightclub-giant-rci-says-data-breach-affects-40000-individuals/"
-        }
-      ],
-      "date": "Jun 06, 2026",
-      "org": "Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "A new variant of the Gafgyt botnet called C0XMO is targeting DD-WRT router firmware and can move to other device types with various CPU architectures. [...]",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "cve_id": "CVE-2026-28318",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise. The vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code execution bug impacting all...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "cve_id": "CVE-2026-3300",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230, and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "cve_id": "CVE-2026-20230",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issue. Because Anthropic's own action repo used the same workflow, a working attack could have pushed malicious code...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "cve_id": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijac",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Redis has patched a use-after-free in its blocking-client code that lets an authenticated user run arbitrary OS commands on the machine hosting the database. The flaw was found by an autonomous AI tool built to hunt bugs in large codebases. Tracked as CVE-2026-23479, the flaw was introduced in Redis 7.2.0 and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "cve_id": "CVE-2026-23479",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Emphere\u2019s solution delivers AI-driven remediation to software companies to speed up releases. The post Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "cve_id": "Emphere Raises $2.1 Million for AI-Powered Vulnerability Rem",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "CVE Lite CLI is a free, open-source command line tool that scans your projects in seconds and tells you exactly which included packages contain a vulnerability. The post OWASP Incubator Project Helps Developers Find and Fix Vulnerable Dependencies in Seconds appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/owasp-incubator-project-helps-developers-find-and-fix-vulnerable-dependencies-in-seconds/"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "cve_id": "OWASP Incubator Project Helps Developers Find and Fix Vulner",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Over 100 bugs are critical or high-severity, mainly use-after-free and insufficient validation of untrusted input flaws. The post Chrome 149 Patches 429 Vulnerabilities appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/chrome-149-patches-429-vulnerabilities/"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "cve_id": "Chrome 149 Patches 429 Vulnerabilities",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A new variant of the Gafgyt botnet called C0XMO is targeting DD-WRT router firmware and can move to other device types with various CPU architectures. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -144,7 +284,7 @@
     },
     {
       "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all of them found by an autonomous AI agent. The same week, Google shipped Chrome 149 with patches for 429 security bugs,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -158,7 +298,7 @@
     },
     {
       "summary": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft repositories across four of its GitHub organizations, including Azure, Azure-Samples, Microsoft, and MicrosoftDocs, per OpenSourceMalware. The...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -172,7 +312,7 @@
     },
     {
       "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out of a maximum of 10.0. It affects the following deployment types - On-Prem Deployment Cisco SD-WAN Cloud-Pro Cisco...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -183,124 +323,64 @@
       "cve_id": "CVE-2026-20245",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliver malware families like Remus Stealer, AnimateClipper, and the SessionGate framework. \"The sites are well-designed and...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "cve_id": "Fake Sites Mimicking Open-Source Tools Rank High on Google t",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Other noteworthy stories that might have slipped under the radar: Ultrahuman data leak, The Gentlemen ransomware analysis, Hola Browser bundles miner. The post In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "cve_id": "In Other News: Anthropic Maps AI Threats, Unpatched Comodo F",
-      "vendor": "SecurityWeek",
-      "severity": "High"
-    },
-    {
-      "summary": "The vulnerability is tracked as CVE-2026-20245 and it can allow arbitrary command execution as root, but no patch yet. The post Cisco Warns of 7th SD-WAN Zero-Day Exploited in 2026 appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisco-warns-of-7th-sd-wan-zero-day-exploited-in-2026/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "cve_id": "CVE-2026-20245",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta's \"AI support assistant\" bot into resetting account passwords.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "cve_id": "Hackers Used Meta\u2019s AI Support Bot to Seize Instagram Accoun",
-      "vendor": "Krebs on Security",
-      "severity": "High"
-    },
-    {
-      "summary": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "cve_id": "CVE-2026-3300",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "cve_id": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash se",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "On Thursday, Cisco warned of a high-severity, unpatched zero-day in the Cisco Catalyst SD-WAN Manager (tracked as CVE-2026-20245) actively exploited in attacks enabling root privilege escalation. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "cve_id": "CVE-2026-20245",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Arabic-speaking users have emerged as the target of a new Android spyware codenamed Asin, according to findings from ESET. The Slovakian cybersecurity company said it first detected the malware spread via multiple campaigns in early 2025, with each attack wave making use of distinct websites mimicking utilities,...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "cve_id": "Android Spyware Asin Targets Arabic Users via Fake News, PDF",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "A Chinese espionage group tracked as UNC5221 has been accessing Microsoft 365 environments using the Brickstorm backdoor and previously undocumented malware named Plenet and AgentPSD. [...]",
+      "summary": "AI worms, or \"viruses with wings and brains,\" adapt to new environments, seek out vulnerabilities, and will likely strike within a year, researchers say.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "actor": "Adaptive, Agentic AI Worms Loom as Next Enterprise Threat",
+      "severity": "High"
+    },
+    {
+      "summary": "Python scripts were used to test malware against endpoint detection and response agents from Sophos, CrowdStrike, and Windows Defender.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/endpoint-security/attackers-automate-edr-evasion-testing"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "actor": "Attackers Use AI to Automate EDR Evasion Testing",
+      "severity": "High"
+    },
+    {
+      "summary": "The future of cybersecurity is germinating, as nation-states vie for dominance in the embodied AI market and its supply chain.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/global-powers-explore-humanoids-cyber-risk"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "actor": "As Global Powers Explore Humanoid Robots, Cyber-Risk Looms",
+      "severity": "High"
+    },
+    {
+      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "actor": "Alleged Kimwolf Botmaster \u2018Dort\u2019 Arrested, Charged in U.S. and Canada",
+      "severity": "High"
+    },
+    {
+      "summary": "A Chinese espionage group tracked as UNC5221 has been accessing Microsoft 365 environments using the Brickstorm backdoor and previously undocumented malware named Plenet and AgentPSD. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -313,7 +393,7 @@
     },
     {
       "summary": "Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information stealer and a self-spreading worm, respectively. According to JFrog, the information stealer \"scrapes every secret it...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -326,7 +406,7 @@
     },
     {
       "summary": "A new supply-chain attack has infected 36 packages on the Node Package Manager (npm) index with infostealer malware called IronWorm. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -339,7 +419,7 @@
     },
     {
       "summary": "It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal. Forums go down and come back worse. Cheap hackers get better toys. AI starts breaking real systems. Great. Read the...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -352,7 +432,7 @@
     },
     {
       "summary": "A threat actor got a near-continuous view into an influential finance executive's email inbox, thanks to clever use of legitimate, native Windows tools.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -365,7 +445,7 @@
     },
     {
       "summary": "A sneaky, wide-scale IAB operation uses a malicious traffic distribution system (TDS) to redirect visitors of trusted websites to ones that deliver malware.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -378,7 +458,7 @@
     },
     {
       "summary": "Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff. Recent reports describe thousands of lookalike FIFA domains, banking malware hidden inside pirate streaming apps, and at least one operation that copies FIFA's login...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -391,7 +471,7 @@
     },
     {
       "summary": "The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay network. \"Compromised business servers across the U.S., Europe, and Asia were quietly converted into SMTP proxies, verified for mail relay...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -401,64 +481,116 @@
       "date": "Jun 07, 2026",
       "actor": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
       "severity": "High"
-    },
-    {
-      "summary": "China is stealing data from high-value targets via a sneaky, double-layer spear-phishing campaign that includes the Azureveil malware.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/china-uses-dual-method-attack-czech-taiwan-orgs"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "actor": "China Uses Dual-Method Cyberattack on Czech Orgs",
-      "severity": "High"
-    },
-    {
-      "summary": "As part of Dark Reading's 20th anniversary package, we asked readers for a cybersecurity-related caption that captures their thoughts about the industry's last two decades.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cloud-security/name-that-toon-mark-of-cybersecurity-progress"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "actor": "Name That Toon: Mark of (Cybersecurity) Progress",
-      "severity": "High"
-    },
-    {
-      "summary": "A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts have been complemented by a \"rapid operational tempo\" and a continually evolving malware arsenal comprising known families like ValleyRAT...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html"
-        }
-      ],
-      "date": "Jun 06, 2026",
-      "actor": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell. According to Palo Alto Networks Unit 42, the campaign is said to be the next stage of a previously reported activity cluster dubbed JSCoreRunner (aka...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html"
-        }
-      ],
-      "date": "Jun 06, 2026",
-      "actor": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]",
+      "summary": "Phishing, shadow AI, malicious extensions, and credential theft increasingly happen inside the browser. Keep Aware explains what the 2026 Verizon DBIR reveals about browser-layer security gaps and modern attacks. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "title": "What 2026 DBIR Confirms: Attacks Are Living in the Browser",
+      "category": "news"
+    },
+    {
+      "summary": "OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks. The feature is primarily designed for people and organizations that handle sensitive data and require stricter protection guarantees. Lockdown...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+      "category": "news"
+    },
+    {
+      "summary": "A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that relay web-scraping traffic for a data business Bright Data markets heavily to the AI industry. The company, the successor to Luminati,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+      "category": "news"
+    },
+    {
+      "summary": "Cybersecurity researchers have discovered a previously unreported threat cluster dubbed OP-512 (where \"OP\" stands for \"opponent\") that has been observed targeting Microsoft Internet Information Services (IIS) servers to deploy a bespoke web shell framework. ReliaQuest has assessed with moderate to high confidence...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "title": "New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework",
+      "category": "news"
+    },
+    {
+      "summary": "A single poisoned notification from WhatsApp, Slack, SMS, Signal, Instagram, or Messenger could have hijacked Google Gemini's voice assistant on Android and made it open a victim's connected windows, fake a message from their boss, push the phone into a Zoom call, or quietly poison its long-term memory. No...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
+      "category": "news"
+    },
+    {
+      "summary": "Raising $59 million to date, Opal also announced five senior leadership appointments. The post Opal Security Raises $23 Million for AI-Native Identity Governance appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/opal-security-raises-23-million-for-ai-native-identity-governance/"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "title": "Opal Security Raises $23 Million for AI-Native Identity Governance",
+      "category": "news"
+    },
+    {
+      "summary": "Experts commented on the EO\u2019s voluntary nature, the balance between innovation and security, and potential implementation gaps. The post Industry Reactions to New Trump AI Cybersecurity Executive Order: Feedback Friday appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/industry-reactions-to-new-trump-ai-cybersecurity-executive-order-feedback-friday/"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "title": "Industry Reactions to New Trump AI Cybersecurity Executive Order: Feedback Friday",
+      "category": "news"
+    },
+    {
+      "summary": "The White House's executive order establishes voluntary framework for early government access to frontier models while investing in federal security.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/trump-ai-order-seeks-voluntary-frontier-model-testing"
+        }
+      ],
+      "date": "Jun 07, 2026",
+      "title": "Trump AI Order Seeks Voluntary Frontier Model Testing",
+      "category": "news"
+    },
+    {
+      "summary": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -471,7 +603,7 @@
     },
     {
       "summary": "Eighteen months ago, the AI SOC was a marketing line. Today it's a budget item. The category has crossed over from interesting to inevitable, with billions of dollars now flowing into AI-powered security operations platforms, agentic SOC tools, and AI co-pilots built into every layer of the security stack. The data...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -484,7 +616,7 @@
     },
     {
       "summary": "Over the past several weeks, the cybersecurity community has been reminded how quickly frontier and agentic AI in defense networks can challenge our assumptions. When Anthropic's Claude Mythos model was made available to a limited set of organizations as a technical preview, it was reported that an unauthorized...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -497,7 +629,7 @@
     },
     {
       "summary": "Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it through Dropbox and OneDrive so the traffic blended into normal cloud activity. Symantec and Carbon Black's Threat Hunter...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -506,110 +638,6 @@
       ],
       "date": "Jun 07, 2026",
       "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
-      "category": "news"
-    },
-    {
-      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrency fraud targeting Americans. The \"Disruption Week\" operation began May 18, 2026, leading to the takedown of millions...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
-      "category": "news"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed a one-click attack via Microsoft Visual Studio Code (VS Code) that makes it possible to steal a user's GitHub token. \"Just by clicking a link, it's possible for an attacker to steal a GitHub token that can read and write to your repos, including private ones,\" security...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "title": "Microsoft Fixes One-Click GitHub Dev Attack That Let Attackers Steal OAuth Tokens",
-      "category": "news"
-    },
-    {
-      "summary": "Posing as recruiters on online platforms, Chinese intelligence officers target personnel with access to classified or privileged information. The post Five Eyes: Chinese Spies Target Government, Military Staff With Fake Job Opportunities appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/five-eyes-chinese-spies-target-government-military-staff-with-fake-job-opportunities/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "title": "Five Eyes: Chinese Spies Target Government, Military Staff With Fake Job Opportunities",
-      "category": "news"
-    },
-    {
-      "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecurity story about...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "category": "news"
-    },
-    {
-      "summary": "A California man was sentenced to more than 26 years in federal prison for trafficking fentanyl and methamphetamine through Nemesis Market, one of the world's largest dark web marketplaces. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
-      "category": "news"
-    },
-    {
-      "summary": "Brave has announced the public release of Brave Origin, a paid minimalist version of its browser that strips out cryptocurrency, AI, rewards, and other monetization-focused features. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
-      "category": "news"
-    },
-    {
-      "summary": "The Windows version of the Hola Browser has been compromised in a supply chain attack that delivered an undeclared executable identified by researchers as a cryptocurrency miner. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "title": "Hola Browser for Windows compromised to deliver cryptominer",
-      "category": "news"
-    },
-    {
-      "summary": "A new Magecart campaign is using Stripe's API infrastructure to host the credit card-stealing payload and the data exfiltrated from checkout pages. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/"
-        }
-      ],
-      "date": "Jun 07, 2026",
-      "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
       "category": "news"
     }
   ]
