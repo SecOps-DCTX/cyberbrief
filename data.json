@@ -1,8 +1,50 @@
 {
   "breach": [
     {
-      "summary": "The French government revealed that a recent breach of its Tchap encrypted messaging platform affects the accounts of over 73,000 employees in the French public sector. [...]",
+      "summary": "GitHub access sales, leaked repositories, and stolen API keys can all become supply-chain attack footholds. Flare explores how underground forums expose early signals tied to software supply-chain risk. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "org": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Danish pharmaceutical giant Novo Nordisk, the world's largest producer of insulin, disclosed a data breach affecting patient information from some clinical trials. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "org": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Cybersecurity researchers have warned of a \"resurgence and expansion\" of JDY, a covert network associated with China-nexus state-sponsored threat actors. \"The JDY botnet comprises over 1,500 SOHO [small office and home office] and IoT devices and operates as a centrally controlled, high-performance scanner used to...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "org": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "The French government revealed that a recent breach of its Tchap encrypted messaging platform affects the accounts of over 73,000 employees in the French public sector. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +58,7 @@
     },
     {
       "summary": "In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +72,7 @@
     },
     {
       "summary": "It's been one of those weeks. You expect the usual noise: recycled malware, sloppy attacks, another easy target getting hit. Instead, there's a supply chain attack kit in a public repo, a $5,000-a-month RAT that clones browsers, and research showing AI agents can be tricked into leaking real credentials. The bigger...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -44,7 +86,7 @@
     },
     {
       "summary": "The University of Nottingham confirmed on Wednesday that a hacking group gained access to its student records system in a breach affecting both current students and alums. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +100,7 @@
     },
     {
       "summary": "The ShinyHunters hacker group has taken credit for the attack, leaking more than 450,000 email addresses and other information. The post University of Nottingham Confirms Breach After Hackers Leak Data appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -72,7 +114,7 @@
     },
     {
       "summary": "Threat actors are taking advantage of Internet-exposed tank gauges by breaching gas stations, opening the door to disruption.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -83,96 +125,124 @@
       "org": "Exposed Fuel Tank Gauges Under Attack in the US",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Oracle PeopleSoft servers are being targeted in ongoing data theft attacks by the ShinyHunters extortion gang, which claims to have stolen data from over 100 organizations. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/"
-        }
-      ],
-      "date": "Jun 10, 2026",
-      "org": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Bug bounty research inadvertently led organizations to believe they were being breached through their ServiceNow instances.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert"
-        }
-      ],
-      "date": "Jun 10, 2026",
-      "org": "Bug Bounty Research Triggers ServiceNow Security Alert",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/"
-        }
-      ],
-      "date": "Jun 10, 2026",
-      "org": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/"
-        }
-      ],
-      "date": "Jun 10, 2026",
-      "org": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/"
-        }
-      ],
-      "date": "Jun 10, 2026",
-      "org": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/"
-        }
-      ],
-      "date": "Jun 10, 2026",
-      "org": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch an actively exploited Ivanti Sentry flaw within three days, as mandated by the newly issued Binding Operational Directive (BOD) 26-04. [...]",
+      "summary": "Cybersecurity researchers have described what they say is a new class of attack that can trick artificial intelligence (AI) coding agents into running arbitrary code on developer machines. Called Agentjacking by Tenet Security, the attack can be triggered by means of a fake error report crafted using Sentry, an...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "cve_id": "Agentjacking Attack Tricks AI Coding Agents Into Running Mal",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for Microsoft Defender. \"This was an accidental discovery, it took a total of 4 hours to find this,\" the researcher said in a post on...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "cve_id": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A new analysis of The Gentlemen operation has revealed that the financially motivated threat group initially operated as an affiliate responsible for conducting double extortion attacks, while leveraging resources from various ransomware-as-a-service (RaaS) schemes like LockBit (aka Tenacious Mantis), Qilin (aka...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "cve_id": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was straightforward enough; triage by severity, schedule the fix, validate, and move on. The buffer was what made that work. Today, that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "cve_id": "AI Broke Vulnerability Management. That's Why CISOs Are Movi",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Fortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclosure. The security flaw patched by Fortinet relates to a command injection vulnerability in FortiSandbox, FortiSandbox Cloud, and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "cve_id": "Ivanti, Fortinet, and SAP Release Patches for Multiple Criti",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A high-severity security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings from VulnCheck. The vulnerability in question is CVE-2026-5027 (CVSS score: 8.8), a case of path traversal that could...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "cve_id": "CVE-2026-5027",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "ServiceNow has warned about a security incident in which unknown threat actors exploited a flaw to obtain deeper unauthorized access to susceptible instances. \"On June 5, 2026, ServiceNow applied a security update to hosted customer instances,\" the company revealed in an advisory that requires customer access. \"The...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "cve_id": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Cus",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named RoguePlanet. \"The exploit is a race condition, so it's a hit or miss,\" the researcher, who published the exploit under a new...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "cve_id": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch an actively exploited Ivanti Sentry flaw within three days, as mandated by the newly issued Binding Operational Directive (BOD) 26-04. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +256,7 @@
     },
     {
       "summary": "Attackers are now targeting a recently patched maximum-severity flaw in Ivanti Sentry, enabling them to execute code with root privileges on Internet-exposed secure mobile gateways. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -200,7 +270,7 @@
     },
     {
       "summary": "Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitrary files on exposed servers. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -214,7 +284,7 @@
     },
     {
       "summary": "The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sourced on GitHub. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -225,124 +295,25 @@
       "cve_id": "The \u2018Miasma\u2019 worm source code briefly leaked on GitHub",
       "vendor": "BleepingComputer",
       "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of three now-patched security flaws impacting LangGraph, including a critical vulnerability chain that could result in remote code execution. LangGraph is an open-source framework created by LangChain to build complex, stateful, and multi-agent artificial...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html"
-        }
-      ],
-      "date": "Jun 12, 2026",
-      "cve_id": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign hit universities hardest. Google's Mandiant attributes it to the group it tracks as UNC6240, and dates the activity between May 27 and...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html"
-        }
-      ],
-      "date": "Jun 12, 2026",
-      "cve_id": "CVE-2026-35273",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The list of vulnerabilities is as follows - CVE-2026-20245 (CVSS score: 7.8) - An improper encoding or escaping...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html"
-        }
-      ],
-      "date": "Jun 12, 2026",
-      "cve_id": "CVE-2026-20245",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release. Of the 206 flaws, 39 are rated Critical, and 167 are rated Important in severity. This includes 63 privilege escalation, 56...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html"
-        }
-      ],
-      "date": "Jun 12, 2026",
-      "cve_id": "Microsoft Patches Record 206 Flaws, Including Three Zero-Day",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Oracle is warning about a critical PeopleSoft Suite zero-day vulnerability tracked as CVE-2026-35273 that allows unauthenticated remote code execution, with the flaw actively exploited in ShinyHunter data theft attacks. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/"
-        }
-      ],
-      "date": "Jun 11, 2026",
-      "cve_id": "CVE-2026-35273",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Law enforcement has dismantled the \u201cAudiA6\u201d cryptocurrency service allegedly used by ransomware actors and other cybercriminals to launder more than $380 million. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/"
-        }
-      ],
-      "date": "Jun 11, 2026",
-      "cve_id": "Authorities dismantle 'AudiA6' ransomware crypto-laundering ",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "\u200b\u200bThe Personal Information Protection Commission (PIPC), South Korea's data protection regulator, has fined e-commerce giant Coupang a record 624.6 billion won (roughly $409 million) following a massive data breach affecting more than 37 million customers [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/"
-        }
-      ],
-      "date": "Jun 11, 2026",
-      "cve_id": "Coupang hit with record $409 million data breach fine in Kor",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) announced a new Binding Operational Directive, 26-04, that prioritizes security updates for Federal Civilian Executive Branch (FCEB) agencies. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/"
-        }
-      ],
-      "date": "Jun 11, 2026",
-      "cve_id": "CISA tells govt agencies to patch critical exploited flaws i",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks. Europol, in a statement issued Thursday, said the dismantling of AudiA6 cut off a \"key financial pipeline used to wash hundreds of millions in illicit profits.\" The service is...",
+      "summary": "For most of the past decade, managed detection and response was the answer to a real problem. Security teams couldn't staff around the clock, couldn't hire enough analysts, and needed someone else to handle the alert queue. MDR stepped in. It worked well enough. Until now. The threat landscape has changed faster...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "actor": "Rethinking MDR as Attackers and Defenders Embrace AI",
+      "severity": "High"
+    },
+    {
+      "summary": "Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks. Europol, in a statement issued Thursday, said the dismantling of AudiA6 cut off a \"key financial pipeline used to wash hundreds of millions in illicit profits.\" The service is...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -355,7 +326,7 @@
     },
     {
       "summary": "The Vietnam-aligned threat actor known as OceanLotus has been attributed to two distinct campaigns that targeted domestic entities and stock investors with a backdoor known as SPECTRALVIPER. The campaigns involve a prolonged cyber espionage operation aimed at a Vietnamese infrastructure and transport construction...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -368,7 +339,7 @@
     },
     {
       "summary": "Researchers say the OnyxC2 malware targets more than 200 applications and extensions while evading detection through encrypted payloads, DLL sideloading, and in-memory execution techniques. The post OnyxC2 Stealer Offers Cybercriminals Enterprise-Grade Theft for $250 a Month appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -381,7 +352,7 @@
     },
     {
       "summary": "A PowerShell script included in patch files appears to be triggering false positives by multiple security engines. The post Siemens Says Desigo CC Files Flagged as Malware by Security Engines appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -394,7 +365,7 @@
     },
     {
       "summary": "AI worms, or \"viruses with wings and brains,\" adapt to new environments, seek out vulnerabilities, and will likely strike within a year, researchers say.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -407,7 +378,7 @@
     },
     {
       "summary": "Phishing has always been a numbers game. AI has turned it into a volume machine. Attackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message adds another case for Tier 1 to review, another link to inspect, and another alert that cannot be dismissed at a...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -420,7 +391,7 @@
     },
     {
       "summary": "Python scripts were used to test malware against endpoint detection and response agents from Sophos, CrowdStrike, and Windows Defender.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -433,7 +404,7 @@
     },
     {
       "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -447,8 +418,112 @@
   ],
   "news": [
     {
-      "summary": "Kyushu Electric Power Co., Inc. has disclosed a physical security incident that affects private data of more than 10 million customers. [...]",
+      "summary": "Microsoft has fixed a known issue that caused Windows updates released since May 2025 to fail when installed via the Windows Update Standalone Installer (WUSA) from a network share. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "title": "Microsoft fixes Windows update failures linked to WUSA installer",
+      "category": "news"
+    },
+    {
+      "summary": "Most good security work is invisible by design. Today is the exception. The 2026 Cybersecurity Stars Awards winners are announced across 95 subcategories in four main award categories. The reason is simple. Cybersecurity is full of work that deserves recognition and rarely gets it. Products that quietly close real...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "title": "Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories",
+      "category": "news"
+    },
+    {
+      "summary": "On June 9, Anthropic released Claude Fable 5, the most capable model it has ever made, generally available. It also did something unusual: it shipped one model as two products, split not by capability but by a layer of safety classifiers. Fable 5 goes to the public. Its twin, Claude Mythos 5, the same underlying...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
+      "category": "news"
+    },
+    {
+      "summary": "Meta on Tuesday announced that it will use information shared by other businesses to personalize users' feed and responses from its artificial intelligence (AI) chatbot, expanding its scope beyond targeted ads. \"Businesses often share information about people's activity on their sites with us to make ads more...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
+      "category": "news"
+    },
+    {
+      "summary": "Other noteworthy stories that might have slipped under the radar: ICS device exposure remains flat as attack surface widens, Microsoft issues incident response playbook for AI, IBM and AT&T accused of hack cover-ups. The post In Other News: Google Security Layoffs, AudiA6 Takedown, $400 Million Coupang Fine...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/in-other-news-google-security-layoffs-audia6-takedown-400-million-coupang-fine/"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "title": "In Other News: Google Security Layoffs, AudiA6 Takedown, $400 Million Coupang Fine",
+      "category": "news"
+    },
+    {
+      "summary": "Industry professionals comment on various aspects of Fable 5, including dual-use capabilities, safeguards, and tiered access. The post Industry Reactions to Claude Fable 5: Feedback Friday appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/industry-reactions-to-claude-fable-5-feedback-friday/"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "title": "Industry Reactions to Claude Fable 5: Feedback Friday",
+      "category": "news"
+    },
+    {
+      "summary": "The hackers published 5GB of data, including customer personal information and credentials for the RTKBase platform. The post Iranian Cyber Group Handala Claims Cal Water Hack appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/iranian-cyber-group-handala-claims-cal-water-hack/"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "title": "Iranian Cyber Group Handala Claims Cal Water Hack",
+      "category": "news"
+    },
+    {
+      "summary": "Stay cool: Mythos 5 is an upgrade over Mythos Preview while Fable 5 is Mythos \"made safe for general use,\" Anthropic explained.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/claude-fable-5-doesnt-change-mythos-security-story"
+        }
+      ],
+      "date": "Jun 12, 2026",
+      "title": "Claude Fable 5 Doesn't Change the Mythos Security Story",
+      "category": "news"
+    },
+    {
+      "summary": "Kyushu Electric Power Co., Inc. has disclosed a physical security incident that affects private data of more than 10 million customers. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -461,7 +536,7 @@
     },
     {
       "summary": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security update. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -474,7 +549,7 @@
     },
     {
       "summary": "An INTERPOL-led operation last month resulted in the disruption of Sniper Dz, a decade-long phishing-as-a-service (PhaaS) platform, Group-IB said Thursday. The effort, codenamed Operation Ramz, took place between October 2025 and February 2026, and saw authorities from 13 countries in the Middle East and North...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -487,7 +562,7 @@
     },
     {
       "summary": "GitHub has announced what it said are \"breaking changes\" coming to npm version 12, one of which turns off install scripts by default to combat software supply chain threats. The changes aim to combat attack techniques that abuse the \"npm install\" command to trigger the execution of malicious code using npm...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -496,110 +571,6 @@
       ],
       "date": "Jun 12, 2026",
       "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
-      "category": "news"
-    },
-    {
-      "summary": "Your pentest report looks clean. That might be the problem. Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report looks stable. Leadership reads \"stable\" as \"secure.\" It usually isn't. The work slows down. The risk does not. That gap...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html"
-        }
-      ],
-      "date": "Jun 12, 2026",
-      "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
-      "category": "news"
-    },
-    {
-      "summary": "The browser refresh resolved critical and high-severity security defects, including a dozen use-after-free bugs. The post Chrome 149 Update Patches 28 Vulnerabilities appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities/"
-        }
-      ],
-      "date": "Jun 12, 2026",
-      "title": "Chrome 149 Update Patches 28 Vulnerabilities",
-      "category": "news"
-    },
-    {
-      "summary": "An AI hacker claims to have achieved a prompt-based jailbreak shortly after Fable 5\u2019s launch, but Anthropic says it\u2019s not a real jailbreak. The post Anthropic Disputes Fable 5 AI Jailbreak appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/anthropic-disputes-fable-5-ai-jailbreak/"
-        }
-      ],
-      "date": "Jun 12, 2026",
-      "title": "Anthropic Disputes Fable 5 AI Jailbreak",
-      "category": "news"
-    },
-    {
-      "summary": "As alert volumes outpace human capacity, organizations are turning to AI, automation, and deeper context to separate real threats from the noise. The post Alert Fatigue Is Becoming a Security Threat of Its Own appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/alert-fatigue-is-becoming-a-security-threat-of-its-own/"
-        }
-      ],
-      "date": "Jun 12, 2026",
-      "title": "Alert Fatigue Is Becoming a Security Threat of Its Own",
-      "category": "news"
-    },
-    {
-      "summary": "AI-driven attacks are exposing the limits of fragmented MSP security stacks and slow response workflows. Kaseya breaks down why integrated security, automation, and recovery are becoming essential. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/"
-        }
-      ],
-      "date": "Jun 11, 2026",
-      "title": "Why AI-driven threats are exposing the limits of MSP security stacks",
-      "category": "news"
-    },
-    {
-      "summary": "GitHub has announced that npm v12, expected next month, will introduce several security-focused changes aimed at blocking supply-chain attacks abusing behaviors triggered by the 'npm install' command. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/"
-        }
-      ],
-      "date": "Jun 11, 2026",
-      "title": "GitHub announces npm security changes to tackle supply-chain attacks",
-      "category": "news"
-    },
-    {
-      "summary": "Attackers are increasingly bypassing weak authentication through phishing, MFA fatigue, and service desk social engineering. Specops Software breaks down five best practices for stronger identity verification and access security. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/"
-        }
-      ],
-      "date": "Jun 11, 2026",
-      "title": "The 5 Best Practices for Secure Identity Verification",
-      "category": "news"
-    },
-    {
-      "summary": "Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data through ordinary-looking inputs. Imperva buried instructions inside shared contacts, vCards, and location pins that the...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html"
-        }
-      ],
-      "date": "Jun 11, 2026",
-      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
       "category": "news"
     }
   ]
