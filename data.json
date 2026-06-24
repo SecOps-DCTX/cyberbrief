@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that gave attackers access to its network. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed that has targeted over 430,000 FortiGate firewalls globally. The campaign, active since February 2026, involves collecting credential lists, searching...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "A leaked GitHub token underscores what most organizations get wrong: Treating secrets management as a tooling problem rather than an identity problem.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "Google discovered and disrupted the sprawling campaign, which stole RedCAP credentials to breach numerous institutions and exfiltrate sensitive data.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "Teams digging out of security debt need to answer only two simple questions: Which vulnerabilities in our systems are exposed, and how long should they stay that way?",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "The critical, three-stage attack is now patched, but it's part of a new group of AI prompt-injection issues that use hidden URLs and other variables.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -86,7 +86,7 @@
     },
     {
       "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -100,7 +100,7 @@
     },
     {
       "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -111,68 +111,124 @@
       "org": "CISA Admin Leaked AWS GovCloud Keys on Github",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "org": "Texas govt data breach exposes over 3 million driver\u2019s licenses",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Hackers stole customers\u2019 names, addresses, email addresses, phone numbers, and account information. The post Canadian Electricity Provider London Hydro Discloses Data Breach appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "org": "Canadian Electricity Provider London Hydro Discloses Data Breach",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Threat actors gained access to personal and protected health information that Xsolis received from its clients. The post Xsolis Data Breach Affects 1.4 Million Individuals appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/xsolis-data-breach-affects-1-4-million-individuals/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "org": "Xsolis Data Breach Affects 1.4 Million Individuals",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "org": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]",
+      "summary": "Attackers can now weaponize newly disclosed vulnerabilities far faster than most organizations can patch them. Picus Security explains how security teams can validate exploitability before a public exploit even exists. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "cve_id": "The Exploit Doesn't Exist. You Can Still Prove It Works Agai",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "LastPass announced that hackers accessed customer data from its Salesforce environment after stealing the company's OAuth tokens in the Klue supply chain attack earlier this month. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "cve_id": "LastPass confirms data breach in Klue supply chain attack",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "The security defects allow unauthenticated users to take control of the open source software supply chain. The post Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/exploitable-ci-cd-vulnerabilities-expose-millions-of-repositories-to-hijacking/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "cve_id": "Exploitable CI/CD Vulnerabilities Expose Millions of Reposit",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Over a dozen Klue customers have confirmed that hackers stole data from their Salesforce instances. The post BeyondTrust, LastPass Impacted by Klue-Salesforce Incident appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/beyondtrust-lastpass-impacted-by-klue-salesforce-incident/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "cve_id": "BeyondTrust, LastPass Impacted by Klue-Salesforce Incident",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "The exploit timeline collapsed. Make sure your validation didn't. The post Webinar Today: Modern Exposure Validation in the AI Era appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/webinar-today-modern-exposure-validation-in-the-ai-era/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "cve_id": "Webinar Today: Modern Exposure Validation in the AI Era",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Cisco noted that a PoC had been available for CVE-2026-20230 when it announced patches in early June. The post Hackers Exploiting Cisco Unified CM Vulnerability appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/hackers-exploiting-cisco-unified-cm-vulnerability/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "cve_id": "CVE-2026-20230",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Come vulnerabilities were found within hours, but that does not mean the model was able to exploit them within that time, the official said. The post Anthropic\u2019s Mythos Model Found Vulnerabilities in Classified US Government Systems, Official Says appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/anthropics-mythos-model-found-vulnerabilities-in-classified-us-government-systems-official-says/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "cve_id": "Anthropic\u2019s Mythos Model Found Vulnerabilities in Classified",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Attackers could abuse Dify's multi-tenant cloud service to read private chats, preview other tenants' documents, and reach internal APIs. The post Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/data-exposure-flaws-threaten-dify-ai-platform-powering-over-1-million-apps/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "cve_id": "Data Exposure Flaws Threaten Dify AI Platform Used by 1 Mill",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +242,7 @@
     },
     {
       "summary": "Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME). The vulnerability, tracked as CVE-2026-20230 (CVSS score: 8.6), is a case of improper input...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -200,7 +256,7 @@
     },
     {
       "summary": "GitHub is moving to strengthen software supply chain security by updating \"actions/checkout\" to block pwn request attacks that exploit the risky use of the \"pull_request_target workflow\" trigger to run malicious code with the workflow's full privileges. Effective June 18, 2026, the latest version of...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -214,7 +270,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily read artificial intelligence (AI) conversions from other customers' applications without requiring authentication....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -225,124 +281,103 @@
       "cve_id": "Researchers Detail DifyTap Flaws in Dify That Could Expose A",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "It\u2019s Monday again. This week\u2019s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mobile malware asking for way too much control. The annoying part is how little of this feels new. Weak credentials, sketchy downloads,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "cve_id": "\u26a1 Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBS",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Security researchers at Paradigm Shift have published a working exploit, dubbed usbliter8, that achieves arbitrary code execution inside the SecureROM of Apple's A12 and A13 chips. That code is burned into the silicon at manufacture. No software update can reach it. Affected devices will carry this flaw for as long...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "cve_id": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 Sec",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker's web page, and that page's JavaScript can reach a privileged local service on the same machine and spawn a process on the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "cve_id": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host C",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up nearly 15,000 infected WordPress websites. \"With these actions we deprive cybercriminals of access to infected computer systems,\" Maikel...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "cve_id": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash' could be exploited for remote code execution on Jellyfin servers under certain conditions, and can also trigger a denial-of-service condition in applications like Kodi, Emby, Nextcloud, PhotoPrism, and OBS Studio. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "cve_id": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "OpenAI on Monday said it's releasing an improved version of its GPT\u20115.5\u2011Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT\u20115.5\u2011Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "cve_id": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "cve_id": "CVE-2026-4020",
-      "vendor": "The Hacker News",
-      "severity": "Medium"
-    },
-    {
-      "summary": "Attackers can send crafted media files to execute code in any application that uses FFmpeg\u2019s libavcodec library. The post FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "cve_id": "FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Se",
-      "vendor": "SecurityWeek",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER. According to Elastic Security Labs, the campaign leverages malicious Google Ads as a starting point to distribute the malware. Evidence indicates that...",
+      "summary": "A new backdoor dubbed Mistic has been observed in financially motivated attacks targeting organizations in the insurance, education, IT, and professional services sectors. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "actor": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
+      "severity": "High"
+    },
+    {
+      "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. \"Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro plugin releases...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "actor": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
+      "severity": "High"
+    },
+    {
+      "summary": "Mistic is used by Woodgnat, an initial access broker working with Qilin, Interlock, Rhysida, Akira, 8Base, and Black Basta. The post New \u2018Mistic\u2019 RAT Opens Door to Several Ransomware Families appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/new-mistic-rat-opens-door-to-several-ransomware-families/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "actor": "New \u2018Mistic\u2019 RAT Opens Door to Several Ransomware Families",
+      "severity": "High"
+    },
+    {
+      "summary": "And one of those basics is focusing on sectors where a ransomware disruption creates immediate pressure to pay up, like with healthcare.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "actor": "INC Ransomware Thrives by Mastering the Basics",
+      "severity": "High"
+    },
+    {
+      "summary": "In addition to executing entirely in memory, the malware's infection chain incorporates other anti-analysis techniques designed to evade detection.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "actor": "Fileless Phantom Stealer Targets Browser Credentials",
+      "severity": "High"
+    },
+    {
+      "summary": "New analysis shows the campaign, which uses compromised WordPress sites, may be linked to the ransomware and data extortion group Vice Society.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "actor": "'Lorem Ipsum' Malware Pivots to ClickFix Delivery",
+      "severity": "High"
+    },
+    {
+      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "actor": "Alleged Kimwolf Botmaster \u2018Dort\u2019 Arrested, Charged in U.S. and Canada",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER. According to Elastic Security Labs, the campaign leverages malicious Google Ads as a starting point to distribute the malware. Evidence indicates that...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -355,7 +390,7 @@
     },
     {
       "summary": "Canada's spy service got a judge's permission to reach into infected servers, home routers, and IoT gear sitting on Canadian soil and neutralize two foreign-run botnets. The Federal Court released a public version of the ruling on June 15. It is the first time the Canadian Security Intelligence Service has used its...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -368,7 +403,7 @@
     },
     {
       "summary": "A new malware family is turning forgotten home routers into a distributed reconnaissance and proxy network, not the DDoS botnet these devices usually end up in. QiAnXin's XLab calls it AryStinger and counts at least 4,300 infected routers, a total it says is still rising. The distinction matters. AryStinger exists...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -381,7 +416,7 @@
     },
     {
       "summary": "A new report from INTERPOL has revealed a \"dramatic increase\" in cybercrime in Asia and the South Pacific, fueled by rapid digitalization, internet penetration, new technologies, organized criminal networks, and a disparity in cybersecurity maturity. According to INTERPOL's 2025/2026 Asia and South Pacific...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -394,7 +429,7 @@
     },
     {
       "summary": "The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -404,103 +439,116 @@
       "date": "Jun 24, 2026",
       "actor": "FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist",
       "severity": "High"
-    },
-    {
-      "summary": "Threat actors can easily steal one-time passwords sent by text when they conduct a SIM swap attack. This can lead to account takeovers, so users must layer up their security measures.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "actor": "He Thought He Was Secure; His Phone Number Got Stolen Anyway",
-      "severity": "High"
-    },
-    {
-      "summary": "FishMonger, a China-nexus threat group, has deployed an undocumented version of the Linux backdoor against government targets in Honduras, Taiwan, Thailand, and Pakistan.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "actor": "SprySOCKS Windows Variant Abuses Kernel Drivers to Evade Detection",
-      "severity": "High"
-    },
-    {
-      "summary": "The emerging malware, spread via fake TikTok and Chrome downloads, has evolved by combining banking fraud with extensive device surveillance and remote control.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "actor": "Rokarolla Android Trojan Levels Up to Full Device Control, Persistence",
-      "severity": "High"
-    },
-    {
-      "summary": "A new macOS ClickFix campaign is using Terminal commands to silently download, mount, and launch info-stealing malware from malicious disk image (DMG) files. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "actor": "New macOS ClickFix attack silently mounts DMGs to push infostealer",
-      "severity": "High"
-    },
-    {
-      "summary": "An ongoing malware campaign is targeting WhatsApp users in multiple countries with deceptive messages that push VBScript files, leading to remote system access. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "actor": "WhatsApp phishing attack uses fake business docs to hack PCs",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered a set of malicious npm packages that are designed to deliver a Windows-based remote access trojan (RAT). The list of identified packages, is below - aes-decode-runner-pro (145 downloads) postcss-minify-selector (256 downloads) postcss-minify-selector-parser (615 downloads)...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "actor": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
-      "severity": "High"
-    },
-    {
-      "summary": "The Gentlemen ransomware-as-a-service (RaaS) operation is actively developing and maintaining a suite of endpoint detection and response (EDR) killers that it hands out to affiliates for impairing system defenses before deploying the encryptor. This mature portfolio of EDR-terminating tools is centered around a...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "actor": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure. [...]",
+      "summary": "Two members of the 'Scattered Spider' cybercrime group pleaded guilty to hacking the Transport for London (TfL) systems in 2024. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "title": "Scattered Spider members plead guilty to hacking Transport for London",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has confirmed that Windows 11 version 26H2 will be the next feature update and that devices running Windows 11 24H2 and 25H2 will be able to upgrade using a small enablement package. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "title": "Microsoft says Windows 11 26H2 is coming soon, details upgrade process",
+      "category": "news"
+    },
+    {
+      "summary": "Direct messages sent via WhatsApp are being used to distribute malicious Visual Basic Script (VBScript) files that lead to the installation of legitimate Remote Monitoring and Management (RMM) software. Per findings from Kaspersky, the active campaign is targeting users of WhatsApp Desktop and WhatsApp Web across...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
+      "category": "news"
+    },
+    {
+      "summary": "Context is the central plank of AI in general, and agentic AI in particular. If an AI system doesn\u2019t have the correct context, it cannot make the correct decisions. The post Agentic AI Security: Wrong Context, Wrong Decisions at Machine Speed appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/agentic-ai-security-wrong-context-wrong-decisions-at-machine-speed/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "title": "Agentic AI Security: Wrong Context, Wrong Decisions at Machine Speed",
+      "category": "news"
+    },
+    {
+      "summary": "Named EmberAI, the new capability is built on Dragos\u2019 massive operational technology cybersecurity dataset. The post Dragos Unveils AI for OT Security appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/dragos-unveils-ai-for-ot-security/"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "title": "Dragos Unveils AI for OT Security",
+      "category": "news"
+    },
+    {
+      "summary": "The CI/CD workflow weakness affects Microsoft's Azure Sentinel, Google's AI Agent Development Kit, Apache's Doris analytics database, Cloudflare's Workers SDK, and Python Software Foundation's Black.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/cordyceps-malicious-pull-requests-developer-workflows"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "title": "'Cordyceps': Mushrooming Malicious Pull Requests Threaten Developer Workflows",
+      "category": "news"
+    },
+    {
+      "summary": "SocGholish uses traffic distribution systems (TDSs) to provide initial access into victims' networks for cybercrime groups such as the notorious Evil Corp.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "title": "SocGholish Takedown Highlights Malicious TDS Threats",
+      "category": "news"
+    },
+    {
+      "summary": "Attackers are using multiple online channels \u2014 including GitHub, YouTube, and VirusTotal \u2014 to build an illusion of trust to spread a cross-platform clipboard hijacker.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign"
+        }
+      ],
+      "date": "Jun 24, 2026",
+      "title": "Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign",
+      "category": "news"
+    },
+    {
+      "summary": "Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -513,7 +561,7 @@
     },
     {
       "summary": "\u200b\u200bMicrosoft has released the KB5095093 preview cumulative update for Windows 11 24H2 and 25H2, which fixes numerous bugs and begins rolling out new features, including the new Point-in-Time restore feature. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -526,7 +574,7 @@
     },
     {
       "summary": "Phishing, BEC, and account takeover attacks continue to overwhelm security teams with alerts and investigations. This webinar explores how behavioral AI can help automate detection and response workflows, reducing alert fatigue and improving operational efficiency. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -539,7 +587,7 @@
     },
     {
       "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury unveiled fresh sanctions against nine individuals and 26 entities linked to Prince Group. \"These subsidiaries are...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -548,110 +596,6 @@
       ],
       "date": "Jun 24, 2026",
       "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
-      "category": "news"
-    },
-    {
-      "summary": "Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter mile beyond his sight, and the aircraft carried that death across oceans. At each turn, the distance between the warrior...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
-      "category": "news"
-    },
-    {
-      "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "category": "news"
-    },
-    {
-      "summary": "Google has set September 30, 2026, as the day it begins enforcing Android developer verification in the first four countries, and the major device-maker app stores are in from the start. On that date, certified Android phones in Brazil, Indonesia, Singapore, and Thailand will block normal installs of apps whose...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
-      "category": "news"
-    },
-    {
-      "summary": "Earlier this month, I spoke at the Gartner Security & Risk Management Summit about a blind spot most security programs are still not accounting for - how attackers are circumventing AI security programs by using legacy infrastructure to hijack AI agents. AI adoption is moving faster than security programs can...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
-      "category": "news"
-    },
-    {
-      "summary": "The JaredFromSubway Ethereum MEV (Maximal Extractable Value) bot suffered a $15 million loss after an attacker manipulated the opportunity-detection logic by creating fake cryptocurrency trading opportunities. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
-      "category": "news"
-    },
-    {
-      "summary": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal credentials. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
-      "category": "news"
-    },
-    {
-      "summary": "Security firm AIR built a fake AI agent skill, pushed it through a popular skill marketplace and an Instagram ad, and says it reached roughly 26,000 agents, including some on corporate accounts. Every skill security scanner the firm tested it against marked it safe. The payload was harmless by design: it collected...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
-      "category": "news"
-    },
-    {
-      "summary": "President Trump signed an executive order on June 22 setting hard deadlines for federal agencies to move high-value assets and high-impact systems to post-quantum cryptography. Key establishment must move by December 31, 2030; digital signatures by December 31, 2031. EO 14409 leaves national security systems on a...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html"
-        }
-      ],
-      "date": "Jun 23, 2026",
-      "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
       "category": "news"
     }
   ]
