@@ -1,8 +1,22 @@
 {
   "breach": [
     {
-      "summary": "Mandiant has helped the California water utility investigate the cyberattack launched by Iranian hacker group Handala. The post Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack appeared first on SecurityWeek.",
+      "summary": "Authorities in Poland have arrested four members of an organized cybercrime group accused of breaching telecommunications partners and hijacking email accounts to carry out SIM-swapping attacks. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "org": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Mandiant has helped the California water utility investigate the cyberattack launched by Iranian hacker group Handala. The post Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack appeared first on SecurityWeek.",
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "The Bluekit phishing-as-a-service platform continues to evolve with nearly 70 new hostnames identified over the past week and by adding browser-in-the-middle capabilities for improved data theft. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +44,7 @@
     },
     {
       "summary": "A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed that has targeted over 430,000 FortiGate firewalls globally. The campaign, active since February 2026, involves collecting credential lists, searching...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -44,7 +58,7 @@
     },
     {
       "summary": "A leaked GitHub token underscores what most organizations get wrong: Treating secrets management as a tooling problem rather than an identity problem.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -55,54 +69,124 @@
       "org": "Novo Nordisk Breach Highlights Software Development Pipeline Risk",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Teams digging out of security debt need to answer only two simple questions: Which vulnerabilities in our systems are exposed, and how long should they stay that way?",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/security-debt-tackle-exposure-problem"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "org": "Get Out of Security Debt by Tackling the Exposure Problem",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "org": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/"
-        }
-      ],
-      "date": "Jun 24, 2026",
-      "org": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue root accounts on targeted devices. [...]",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers actively exploiting flaws in Ubiquity UniFi OS and Lantronix serial-to-ethernet servers. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "cve_id": "CISA warns of max severity Ubiquiti flaws exploited in attac",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains. The \"critical exploitable pattern\" has been codenamed Cordyceps by Novee Security. The issue can allow full attacker control of repositories at dozens of...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "cve_id": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Sup",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "GitHub is moving to strengthen software supply chain security by updating \"actions/checkout\" to block pwn request attacks that exploit the risky use of the \"pull_request_target workflow\" trigger to run malicious code with the workflow's full privileges. Effective June 18, 2026, the latest version of...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "cve_id": "GitHub Updates actions/checkout to Block Common Pwn Request ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "OpenAI on Monday said it's releasing an improved version of its GPT\u20115.5\u2011Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT\u20115.5\u2011Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "cve_id": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "CISA has added the remote code execution flaw CVE-2026-12569 to its Known Exploited Vulnerabilities catalog. The post First-Ever Exploitation of PTC Windchill Vulnerability Discovered in the Wild appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/first-ever-exploitation-of-ptc-windchill-vulnerability-discovered-in-the-wild/"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "cve_id": "CVE-2026-12569",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "The flaw enables server-side request forgery (SSRF) and escalates privileges to root, impacting Cisco Unified CM and Unified CM SME deployments.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "cve_id": "In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw",
+      "vendor": "Dark Reading",
+      "severity": "High"
+    },
+    {
+      "summary": "Researchers believe rogue peering was used to connect to the victim's SD-WAN devices to gain admin privileges and root-level access.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-hit-cisco-sd-wan-flaw-2-months-before-disclosure"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "cve_id": "Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure",
+      "vendor": "Dark Reading",
+      "severity": "High"
+    },
+    {
+      "summary": "Attackers can exploit the issue to disable security and integrated browser tools without needing administrator privileges or kernel exploits.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "cve_id": "Apple's MacOS Gap Lets Users Disable Security Tools",
+      "vendor": "Dark Reading",
+      "severity": "High"
+    },
+    {
+      "summary": "New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue root accounts on targeted devices. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -116,7 +200,7 @@
     },
     {
       "summary": "An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to new findings from Google-owned Mandiant. The vulnerability, tracked as CVE-2026-20245 (CVSS score: 7.8), allows an...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -130,7 +214,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily read artificial intelligence (AI) conversions from other customers' applications without requiring authentication....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -144,7 +228,7 @@
     },
     {
       "summary": "The exploited flaw, CVE-2025-67038, is one of the vulnerabilities disclosed in April as part of the BRIDGE:BREAK research project. The post Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -155,124 +239,103 @@
       "cve_id": "CVE-2025-67038",
       "vendor": "SecurityWeek",
       "severity": "High"
-    },
-    {
-      "summary": "The latest version of the open source data transfer tool resolves 18 medium and low-severity vulnerabilities. The post 25-Year-Old Vulnerability Patched in Curl appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/25-year-old-vulnerability-patched-in-curl/"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "cve_id": "25-Year-Old Vulnerability Patched in Curl",
-      "vendor": "SecurityWeek",
-      "severity": "Medium"
-    },
-    {
-      "summary": "CVE-2026-20245, the 7th Cisco SD-WAN vulnerability exploited in 2026, was used for months prior to its disclosure and patching. The post Cisco SD-WAN Zero-Day Exploited Months Before Patching appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching/"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "cve_id": "CVE-2026-20245",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "With tens of billions of dollars flowing into regional economies from cybercrime, scam centers continue to flourish, despite international and law-enforcement efforts.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "cve_id": "Local Police Collusion Hampers Crackdown on Asian Scam Cente",
-      "vendor": "Dark Reading",
-      "severity": "High"
-    },
-    {
-      "summary": "More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "cve_id": "Scope of Salesforce Attacks Expands as Icarus Leaks Data",
-      "vendor": "Dark Reading",
-      "severity": "High"
-    },
-    {
-      "summary": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "cve_id": "CVE-2026-20230",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation of a critical security flaw impacting Lantronix EDS5000 Series devices, urging Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by June 26, 2026. The vulnerability in question is...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "cve_id": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "A coordinated law enforcement operation, in partnership with private sector companies, including Bitdefender, Bitsight, ESET, and Microsoft, has resulted in the takedown of criminal infrastructure powering Amadey and StealC. \"The main common goal was to disrupt the 'assembly lines' cybercriminals use to launch...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "cve_id": "Amadey and StealC Malware Network Disrupted, 27M Stolen Cred",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME). The vulnerability, tracked as CVE-2026-20230 (CVSS score: 8.6), is a case of improper input...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "cve_id": "CVE-2026-20230",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "Threat actors are increasingly abusing Shop, the order-tracking app from Shopify, by adding fake purchase receipts in users' order histories to trick them into providing sensitive data or installing remote access software. [...]",
+      "summary": "A malicious Microsoft Edge extension dubbed 'Edgecution' has been used in a ransomware attack to escape the browser sandbox and deploy a Python-based backdoor. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "actor": "Malicious Edge extension abuses Native Messaging as bridge to malware",
+      "severity": "High"
+    },
+    {
+      "summary": "The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government and military organizations in Ukraine, and entities that have an interest in Italian foreign policy. Describing the Windows backdoor as...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "actor": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have discovered a set of malicious npm packages that are designed to deliver a Windows-based remote access trojan (RAT). The list of identified packages, is below - aes-decode-runner-pro (145 downloads) postcss-minify-selector (256 downloads) postcss-minify-selector-parser (615 downloads)...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "actor": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
+      "severity": "High"
+    },
+    {
+      "summary": "Turla has been using the backdoor against government and military organizations in Ukraine for espionage. The post Russian APT Deploys \u2018StockStay\u2019 Backdoor Against Ukrainian Targets appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/russian-apt-deploys-stockstay-backdoor-against-ukrainian-targets/"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "actor": "Russian APT Deploys \u2018StockStay\u2019 Backdoor Against Ukrainian Targets",
+      "severity": "High"
+    },
+    {
+      "summary": "The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "actor": "Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses",
+      "severity": "High"
+    },
+    {
+      "summary": "After a global lull, ransomware gangs are setting sights on a rich new arena: attacking EU organizations and their suppliers.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "actor": "Europe Evolves Into Ransomware's Favorite Region",
+      "severity": "High"
+    },
+    {
+      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "actor": "Alleged Kimwolf Botmaster \u2018Dort\u2019 Arrested, Charged in U.S. and Canada",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors are increasingly abusing Shop, the order-tracking app from Shopify, by adding fake purchase receipts in users' order histories to trick them into providing sensitive data or installing remote access software. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -285,7 +348,7 @@
     },
     {
       "summary": "A newly discovered macOS malware dubbed \"Gaslight\" is designed to confuse AI-assisted malware analysis tools by hiding prompt injection strings and fake debugging data within the executable. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -298,7 +361,7 @@
     },
     {
       "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. \"Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro plugin releases...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -311,7 +374,7 @@
     },
     {
       "summary": "Threat actors can easily steal one-time passwords sent by text when they conduct a SIM swap attack. This can lead to account takeovers, so users must layer up their security measures.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -324,7 +387,7 @@
     },
     {
       "summary": "And one of those basics is focusing on sectors where a ransomware disruption creates immediate pressure to pay up, like with healthcare.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -334,103 +397,116 @@
       "date": "Jun 25, 2026",
       "actor": "INC Ransomware Thrives by Mastering the Basics",
       "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER. According to Elastic Security Labs, the campaign leverages malicious Google Ads as a starting point to distribute the malware. Evidence indicates that...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "actor": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
-      "severity": "High"
-    },
-    {
-      "summary": "The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "actor": "FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist",
-      "severity": "High"
-    },
-    {
-      "summary": "In addition to executing entirely in memory, the malware's infection chain incorporates other anti-analysis techniques designed to evade detection.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "actor": "Fileless Phantom Stealer Targets Browser Credentials",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft, Europol, and international partners have disrupted infrastructure used by the Amadey and StealC malware operations as part of Operation Endgame, which targets cybercriminal services and ransomware gangs. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "actor": "Amadey, StealC malware operations disrupted in Operation Endgame action",
-      "severity": "High"
-    },
-    {
-      "summary": "A new macOS ClickFix campaign is using Terminal commands to silently download, mount, and launch info-stealing malware from malicious disk image (DMG) files. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "actor": "New macOS ClickFix attack silently mounts DMGs to push infostealer",
-      "severity": "High"
-    },
-    {
-      "summary": "A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intelligence (AI) tools and trick it into aborting or refusing an analysis of the artifact. The malware has been codenamed Gaslight owing to...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "actor": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
-      "severity": "High"
-    },
-    {
-      "summary": "A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and professional services sectors since April 2026. According to Symantec and Carbon Black's Threat Hunter Team, the backdoor, also tracked as...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "actor": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Microsoft has quietly extended its free Windows 10 Extended Security Updates (ESU) program for consumers by an additional year, allowing enrolled devices to continue receiving security updates until October 12, 2027. [...]",
+      "summary": "Anthropic appears to be testing Claude Cowork support on mobile, allowing you to manage long-running Claude tasks from your phone. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
+      "category": "news"
+    },
+    {
+      "summary": "An analysis of a popular Google Chrome ad block extension for YouTube has uncovered the ability to execute arbitrary JavaScript code. According to Island, the extension, named Adblock for YouTube (ID: cmedhionkhpnakcndndgjdbohmhepckk), has more than 10 million installs and carries a Featured badge on the Chrome Web...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
+      "category": "news"
+    },
+    {
+      "summary": "It\u2019s dumb out there again. This week has the usual smell of prod on fire and nobody wanting to admit who left the door open \u2014 old creds still working, trusted apps doing sketchy crap, browser tricks jumping the fence, and \u201cnormal\u201d workflows turning into phishing pipes because apparently email was not enough hell...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
+      "category": "news"
+    },
+    {
+      "summary": "Despite the abundance of telemetry at analysts\u2019 disposal, many security operations teams struggle to answer a few basic questions during incident investigation: What happened? What evidence do we have? How do we know we\u2019re seeing it all, in context? Answering these questions requires teams to go beyond alerts, the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
+      "category": "news"
+    },
+    {
+      "summary": "We are standing at the end of an era we never thought to mourn: the era of human-speed threats. For years, cybersecurity moved to a rhythm organizations could follow. A researcher found a bug, a CVE was cataloged, a vendor navigated a patch cycle, and weeks or even months later, a fix was deployed. In this era,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "title": "Dawn of the Apex Agentic Adversary",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury unveiled fresh sanctions against nine individuals and 26 entities linked to Prince Group. \"These subsidiaries are...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
+      "category": "news"
+    },
+    {
+      "summary": "Security firm AIR built a fake AI agent skill, pushed it through a popular skill marketplace and an Instagram ad, and says it reached roughly 26,000 agents, including some on corporate accounts. Every skill security scanner the firm tested it against marked it safe. The payload was harmless by design: it collected...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
+      "category": "news"
+    },
+    {
+      "summary": "A major overhaul of the Model Context Protocol shifts critical security responsibilities from the protocol itself to developers and platform operators. The post New Enterprise-Ready MCP Specification Brings New Security Challenges appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/new-enterprise-ready-mcp-specification-brings-new-security-challenges/"
+        }
+      ],
+      "date": "Jun 26, 2026",
+      "title": "New Enterprise-Ready MCP Specification Brings New Security Challenges",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has quietly extended its free Windows 10 Extended Security Updates (ESU) program for consumers by an additional year, allowing enrolled devices to continue receiving security updates until October 12, 2027. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -443,7 +519,7 @@
     },
     {
       "summary": "Google is rolling out new privacy controls for Search services and Google Play, giving you more control over saved history and personalized recommendations. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -456,7 +532,7 @@
     },
     {
       "summary": "A 21-year-old using the alias \"Snoopy\" was sentenced to 18 months in prison for his role in hacking DraftKings accounts in the November 2022 cyberattack. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -469,7 +545,7 @@
     },
     {
       "summary": "President Trump signed an executive order on June 22 setting hard deadlines for federal agencies to move high-value assets and high-impact systems to post-quantum cryptography. Key establishment must move by December 31, 2030; digital signatures by December 31, 2031. EO 14409 leaves national security systems on a...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -478,110 +554,6 @@
       ],
       "date": "Jun 25, 2026",
       "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
-      "category": "news"
-    },
-    {
-      "summary": "Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter mile beyond his sight, and the aircraft carried that death across oceans. At each turn, the distance between the warrior...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
-      "category": "news"
-    },
-    {
-      "summary": "Direct messages sent via WhatsApp are being used to distribute malicious Visual Basic Script (VBScript) files that lead to the installation of legitimate Remote Monitoring and Management (RMM) software. Per findings from Kaspersky, the active campaign is targeting users of WhatsApp Desktop and WhatsApp Web across...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
-      "category": "news"
-    },
-    {
-      "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "category": "news"
-    },
-    {
-      "summary": "Google has set September 30, 2026, as the day it begins enforcing Android developer verification in the first four countries, and the major device-maker app stores are in from the start. On that date, certified Android phones in Brazil, Indonesia, Singapore, and Thailand will block normal installs of apps whose...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
-      "category": "news"
-    },
-    {
-      "summary": "A major sports piracy ring linked to the illegal PirloTV streaming platform has been disrupted in an action that targeted 44 domains. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "title": "PirloTV sports piracy network disrupted as 44 domains seized",
-      "category": "news"
-    },
-    {
-      "summary": "Fraudsters don't attack just one transaction. They target accounts, platforms, and entire ecosystems. IPQS explains the four elevations of fraud prevention and why broader visibility improves fraud detection. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "title": "The Four Elevations of Effective Fraud Prevention",
-      "category": "news"
-    },
-    {
-      "summary": "Account takeover attacks continue to challenge security teams because attackers often operate through legitimate accounts and trusted services. This webinar explores how behavioral AI can help organizations identify compromised accounts faster and automate response workflows. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
-      "category": "news"
-    },
-    {
-      "summary": "Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/"
-        }
-      ],
-      "date": "Jun 25, 2026",
-      "title": "Tata Electronics confirms cyberattack as hackers leak data",
       "category": "news"
     }
   ]
