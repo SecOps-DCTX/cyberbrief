@@ -1,8 +1,50 @@
 {
   "breach": [
     {
-      "summary": "Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data theft. According to JFrog, the packages \"rollup-packages-polyfill-core\" and \"rollup-runtime-polyfill-core\" mimic the legitimate...",
+      "summary": "Threat actors don't need any special authentication to reach a target endpoint \u2014 they just need to know where it is.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "org": "Attackers Seize Exposed AI Endpoints to Power Offensive Ops",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "org": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "org": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data theft. According to JFrog, the packages \"rollup-packages-polyfill-core\" and \"rollup-runtime-polyfill-core\" mimic the legitimate...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -16,7 +58,7 @@
     },
     {
       "summary": "In April, ShinyHunters accessed the company\u2019s corporate IT systems and stole patients\u2019 personal and medical information. The post Medtronic Data Breach Impacts 3.8 Million People appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +72,7 @@
     },
     {
       "summary": "A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -41,26 +83,124 @@
       "org": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Nation-state attackers breach water systems through weak passwords, exposed PLCs, and poor segmentation \u2014 not sophisticated malware.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/ics-ot-security/iran-russia-china-target-water-systems-sabotage"
-        }
-      ],
-      "date": "Jul 05, 2026",
-      "org": "Iran, Russia, China Target Water Systems for Sabotage",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "BeyondTrust warned customers to patch two critical security flaws in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow attackers to bypass authentication. [...]",
+      "summary": "A 16-year-old Linux kernel vulnerability, dubbed Januscape, allows attackers to escape a virtual machine and execute arbitrary code on the host. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "cve_id": "New Januscape Linux flaw allows VM escape on Intel, AMD devi",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "cve_id": "CVE-2026-48282",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Software supply chain security was hard enough. Then AI joined the build pipeline. For five years, \"software supply chain security\" meant one question: what's in your code? Which open-source packages, which versions, which transitive dependencies three layers deep that nobody chose on purpose? SolarWinds,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "cve_id": "What Changes When Your Software Supply Chain Includes AI Wri",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "cve_id": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Agai",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "cve_id": "Unpatched Flaws Disclosed in Filesystem Bundled Into Million",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "cve_id": "CVE-2026-46242",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The 16-year-old Januscape flaw affects Linux's KVM hypervisor, allowing attackers to escape virtual machines and potentially execute code on the underlying host. The post Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "cve_id": "Linux Kernel Vulnerability Allows VM Escape on Intel and AMD",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "cve_id": "CitrixBleed-ing Again? NetScaler Vulnerability Under Attack",
+      "vendor": "Dark Reading",
+      "severity": "High"
+    },
+    {
+      "summary": "BeyondTrust warned customers to patch two critical security flaws in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow attackers to bypass authentication. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -74,7 +214,7 @@
     },
     {
       "summary": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. \"An attacker can exploit this...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -88,7 +228,7 @@
     },
     {
       "summary": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -102,7 +242,7 @@
     },
     {
       "summary": "Researchers found a flaw in Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits. In a proof of concept, they reconstructed a signed-in user's full Gmail address from a single visit,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -113,124 +253,116 @@
       "cve_id": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The stealer, discovered by Jamf Threat Labs, is distributed as a compiled AppleScript (.scpt) file impersonating Maccy, a legitimate...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "cve_id": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The PolinRider campaign has compromised more than 100 legitimate open source packages and repositories to deliver a backdoor and information stealer to developers. The post North Korean Hackers Target Open Source Developers in Supply Chain Attacks appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "cve_id": "North Korean Hackers Target Open Source Developers in Supply",
-      "vendor": "SecurityWeek",
-      "severity": "High"
-    },
-    {
-      "summary": "Organizations are urged to patch after proof-of-concept code makes the Linux root escalation flaw easier to exploit. The post Proof-of-Concept Exploit Released for Linux \u2018Bad Epoll\u2019 Root Access Vulnerability appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "cve_id": "Proof-of-Concept Exploit Released for Linux \u2018Bad Epoll\u2019 Root",
-      "vendor": "SecurityWeek",
-      "severity": "High"
-    },
-    {
-      "summary": "Researchers uncovered two campaigns embedding indirect prompt injections in malicious websites to exploit autonomous AI agents browsing the web. The post Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "cve_id": "Prompt Injection Attacks Trick AI Agents Into Making Crypto ",
-      "vendor": "SecurityWeek",
-      "severity": "High"
-    },
-    {
-      "summary": "A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "cve_id": "CVE-2026-53359",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "cve_id": "CVE-2026-20896",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. \"Although tactics differ between affiliates, common patterns emerged in tradecraft through use of legitimate Remote Management and Monitoring (RMM)...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "cve_id": "CVE-2025-5777",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "cve_id": "AI Agent Exploits Langflow RCE to Automate Database Ransomwa",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI, in fake job interviews to steal Google account credentials from marketing professionals. [...]",
+      "summary": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces were ordinary. Home devices became a routing cover. Clean code pulled dirt from a dependency. Identity shortcuts aged...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "actor": "\u26a1 Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
+      "severity": "High"
+    },
+    {
+      "summary": "A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensitive data from compromised hosts. The multi-stage campaign, codenamed Operation DragonReturn by Seqrite Labs, involves...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "actor": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
+      "severity": "High"
+    },
+    {
+      "summary": "Researchers say the Iran-linked threat actor used an adaptable modular malware framework and compromised IT service providers to reach high-value targets in Israel. The post Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/iran-linked-hackers-using-modular-cc-framework-in-cyberattacks/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "actor": "Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks",
+      "severity": "High"
+    },
+    {
+      "summary": "The threat actor uses modular RATs and information stealers in financially motivated and cyber espionage campaigns. The post Armored Likho APT Targeting Government, Electric Power Entities appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/armored-likho-apt-targeting-government-electric-power-entities/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "actor": "Armored Likho APT Targeting Government, Electric Power Entities",
+      "severity": "High"
+    },
+    {
+      "summary": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "actor": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
+      "severity": "High"
+    },
+    {
+      "summary": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks \u2014 it's now the rule.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "actor": "And the Winner in Dominant Malware Delivery? ClickFix",
+      "severity": "High"
+    },
+    {
+      "summary": "The group compromised at least 10 regional organizations, including two state-owned entities, and deployed a new backdoor.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "actor": "China-Linked Group Targets Southeast Asia Critical Systems",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Separate but similar campaigns described by Microsoft and Trend Micro use malicious zip files to spread malware via social engineering and obsfucation, including blockchain abuse.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/phishers-persistence-eu-asia-hospitality-orgs"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "actor": "Phishers Gain Persistence at EU, Asia Hospitality Orgs",
+      "severity": "High"
+    },
+    {
+      "summary": "A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI, in fake job interviews to steal Google account credentials from marketing professionals. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -243,7 +375,7 @@
     },
     {
       "summary": "Threat actors are abusing Microsoft Teams voice calls by impersonating corporate IT support staff to trick employees into installing the EtherRAT malware, giving attackers initial access to corporate networks. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -256,7 +388,7 @@
     },
     {
       "summary": "Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language model (LLM) agent. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -269,7 +401,7 @@
     },
     {
       "summary": "Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -279,116 +411,116 @@
       "date": "Jul 07, 2026",
       "actor": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
       "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments. According to LevelBlue, the cross-platform malware is advertised under a malware-as-a-service (MaaS) model, costing anywhere between $150 for one...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "actor": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
-      "severity": "High"
-    },
-    {
-      "summary": "Scanners meant to catch malicious add-on \"skills\" for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a new study from researchers at the Hong Kong University of Science and Technology. Their strongest trick slipped past every scanner tested more than 90% of the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "actor": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
-      "severity": "High"
-    },
-    {
-      "summary": "Prosecutors say 19-year-old Peter Stokes was a member of Scattered Spider, the hacking group linked to more than 100 network intrusions and over $100 million in ransom payments. The post Alleged Scattered Spider Hacker Extradited to US appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "actor": "Alleged Scattered Spider Hacker Extradited to US",
-      "severity": "High"
-    },
-    {
-      "summary": "The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "actor": "Ransomware Thugs Masquerade as Interpol to Entice Small Biz",
-      "severity": "High"
-    },
-    {
-      "summary": "An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers and government...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "actor": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
-      "severity": "High"
-    },
-    {
-      "summary": "The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as PolinRider. \"The campaign remains active, and new malicious packages...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "actor": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls. Avalon combines credential collection, lateral movement, remote access, recovery disruption,...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "actor": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
-      "severity": "High"
-    },
-    {
-      "summary": "A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan. \"Armored Likho blends financially motivated campaigns targeting private individuals with targeted cyber espionage...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "actor": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Windows 11 Insider Preview builds released for users in the Experimental channel. [...]",
+      "summary": "Tomorrow's webinar explores how behavioral AI can help organizations detect sophisticated phishing, business email compromise, and account takeover attacks while reducing alert fatigue through automated investigation and response workflows. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft says the Windows settings backup and restore tool will be enabled by default on Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems after upgrading to Windows 11 26H2. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "title": "Microsoft to enable Windows settings backup by default for orgs",
+      "category": "news"
+    },
+    {
+      "summary": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security decisions have traditionally taken place. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
+      "category": "news"
+    },
+    {
+      "summary": "Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "title": "Flipper Zero firmware development continues with community help",
+      "category": "news"
+    },
+    {
+      "summary": "Tarah Wheeler is CISO at TPO Group, a firm that provides cybersecurity consultancy for high-stakes organizations. But despite this elevated position, her journey was far from typical. The post CISO Conversations: Tarah Wheeler, Cybersecurity Leader, Thought Leader and Original Thinker appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/ciso-conversations-tarah-wheeler-cybersecurity-leader-thought-leader-and-original-thinker/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "title": "CISO Conversations: Tarah Wheeler, Cybersecurity Leader, Thought Leader and Original Thinker",
+      "category": "news"
+    },
+    {
+      "summary": "The investment will accelerate Keyfactor's machine identity, PKI, and cryptographic security platform as enterprises prepare for AI-driven and post-quantum threats. The post Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/keyfactor-scores-1-billion-investment-for-ai-post-quantum-security/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "title": "Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security",
+      "category": "news"
+    },
+    {
+      "summary": "Securonix says the sophisticated framework abuses compromised websites, Blogspot, PowerShell, and fileless techniques to evade detection and deploy the PureLog information stealer. The post Blogspot-Hosted Payloads Delivered in \u2018Veil#Drop\u2019 Attacks appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "title": "Blogspot-Hosted Payloads Delivered in \u2018Veil#Drop\u2019 Attacks",
+      "category": "news"
+    },
+    {
+      "summary": "Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders"
+        }
+      ],
+      "date": "Jul 07, 2026",
+      "title": "Chinese LLMs Broaden the Gap Between Attackers & Defenders",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Windows 11 Insider Preview builds released for users in the Experimental channel. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -401,7 +533,7 @@
     },
     {
       "summary": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -414,7 +546,7 @@
     },
     {
       "summary": "Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan soon. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -427,7 +559,7 @@
     },
     {
       "summary": "Claude Fable, the company's most powerful model, is now available to all users, but early impressions are disappointing, as it appears to be nowhere near the original release. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -436,110 +568,6 @@
       ],
       "date": "Jul 07, 2026",
       "title": "Claude Fable relaunch disappoints users with nerfed performance",
-      "category": "news"
-    },
-    {
-      "summary": "Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from chat assistants bolted onto a legacy SIEM to agent platforms that run detection, triage, investigation, and response on...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
-      "category": "news"
-    },
-    {
-      "summary": "Moving from isolated, technical data to a continuous risk lifecycle can help organizations align security controls with actual business consequences. The post The Shift Toward Business-Aligned Risk Management appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/the-shift-toward-business-aligned-risk-management/"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "title": "The Shift Toward Business-Aligned Risk Management",
-      "category": "news"
-    },
-    {
-      "summary": "A threat group researchers call \"Armored Likho\" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "title": "'BusySnake' Infostealer Slithers into Critical Infrastructure Networks",
-      "category": "news"
-    },
-    {
-      "summary": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs"
-        }
-      ],
-      "date": "Jul 07, 2026",
-      "title": "Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs",
-      "category": "news"
-    },
-    {
-      "summary": "\u200bVietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
-      "category": "news"
-    },
-    {
-      "summary": "A new phishing-as-a-service (PhaaS) platform dubbed \"ARToken\" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to compromise Microsoft 365. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-      "category": "news"
-    },
-    {
-      "summary": "A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving on a committee that was tasked with investigating the abuse of such commercial surveillance tools in the bloc....",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/european-parliament-member.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
-      "category": "news"
-    },
-    {
-      "summary": "Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic. Working with the FBI, Lumen, and others, Google's Threat Intelligence Group (GTIG) said this week it had reduced the network's pool of usable devices by millions. Google...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html"
-        }
-      ],
-      "date": "Jul 06, 2026",
-      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
       "category": "news"
     }
   ]
