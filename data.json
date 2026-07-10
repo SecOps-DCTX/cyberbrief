@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "A financially motivated operation uses lures of cracked or pirated software to deliver a malware two-for-one combo for data theft and cryptomining.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "Threat actors don't need any special authentication to reach a target endpoint \u2014 they just need to know where it is.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -87,8 +87,120 @@
   ],
   "cve": [
     {
-      "summary": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
+      "summary": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "cve_id": "Microsoft patches RoguePlanet Defender zero-day vulnerabilit",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "cve_id": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Mi",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls \"Friendly Fire.\" It works against Anthropic's Claude Code and OpenAI's Codex...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "cve_id": "Top AI Agents Built to Catch Malicious Code Can Be Tricked I",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to edit one harmless-looking file, but the write lands on a sensitive one instead. The affected tools are Amazon Q Developer,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "cve_id": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Co",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "cve_id": "CVE-2026-48282",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Buffer overflow, DoS, command injection, SSRF, authentication bypass, and other types of vulnerabilities have been found in PAN-OS software. The post Palo Alto Networks Patches 13 Vulnerabilities appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/palo-alto-networks-patches-13-vulnerabilities/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "cve_id": "Palo Alto Networks Patches 13 Vulnerabilities",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Hackers exploited a zero-day vulnerability in a third-party system to access a KDDI email system for ISPs. The post 12 Million Impacted by Data Breach at Japanese Telco KDDI appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/12-million-impacted-by-data-breach-at-japanese-telco-kddi/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "cve_id": "12 Million Impacted by Data Breach at Japanese Telco KDDI",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Affecting every major distribution since 2011, the Linux kernel vulnerability allows attackers to gain root access. The post 15-Year-Old Linux Vulnerability \u2018GhostLock\u2019 Earns Researchers $92k From Google appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/15-year-old-linux-vulnerability-ghostlock-earns-researchers-92k-from-google/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "cve_id": "15-Year-Old Linux Vulnerability \u2018GhostLock\u2019 Earns Researcher",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -102,7 +214,7 @@
     },
     {
       "summary": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -116,7 +228,7 @@
     },
     {
       "summary": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -130,7 +242,7 @@
     },
     {
       "summary": "The privilege escalation vulnerability tracked as CVE-2026-50656 has been patched with a Microsoft Malware Protection Engine update. The post Microsoft Patches Defender \u2018RoguePlanet\u2019 Vulnerability appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -141,124 +253,116 @@
       "cve_id": "CVE-2026-50656",
       "vendor": "SecurityWeek",
       "severity": "High"
-    },
-    {
-      "summary": "The security refresh resolves 13 use-after-free bugs, including two critical-severity flaws found by Google. The post Chrome 150 Update Patches 27 Vulnerabilities appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/chrome-150-update-patches-27-vulnerabilities/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "cve_id": "Chrome 150 Update Patches 27 Vulnerabilities",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "cve_id": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 ",
-      "vendor": "Dark Reading",
-      "severity": "High"
-    },
-    {
-      "summary": "Varonis reported the flaw to Google in late 2025 and it has been addressed, but it reminds defenders to take a fresh look at their AI Infrastructure security.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "cve_id": "Dialogflow CX 'Rogue Agent' Flaw Enabled AI Chatbot Data The",
-      "vendor": "Dark Reading",
-      "severity": "High"
-    },
-    {
-      "summary": "The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "cve_id": "'GitLost' Flaw Leaks Private Data From GitHub's Agentic Work",
-      "vendor": "Dark Reading",
-      "severity": "High"
-    },
-    {
-      "summary": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "cve_id": "Police arrests 5,800 suspects in global anti-fraud crackdown",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS score: 7.8), is a privilege escalation issue in the Microsoft Malware Protection Engine (\"mpengine.dll\"), which...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "cve_id": "CVE-2026-50656",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "cve_id": "CVE-2026-50746",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "cve_id": "CVE-2026-43499",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
+      "summary": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "actor": "Former ransomware negotiator gets 4 years for BlackCat attacks",
+      "severity": "High"
+    },
+    {
+      "summary": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "actor": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+      "severity": "High"
+    },
+    {
+      "summary": "A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware operators to extort multiple victims and working with two other cybersecurity professionals to target additional victims in...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "actor": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "actor": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+      "severity": "High"
+    },
+    {
+      "summary": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices. According to findings from Cisco Talos, UAT-7810 is an advanced persistent threat (APT) actor that's responsible for maintaining...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "actor": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
+      "severity": "High"
+    },
+    {
+      "summary": "The backdoor\u2019s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "actor": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
+      "severity": "High"
+    },
+    {
+      "summary": "Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post \u2018HalluSquatting\u2019 Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "actor": "\u2018HalluSquatting\u2019 Turns AI Hallucinations Into Botnet Delivery Mechanism",
+      "severity": "High"
+    },
+    {
+      "summary": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "actor": "Network of 200 GitHub Repositories Used for Malware Infection",
+      "severity": "High"
+    },
+    {
+      "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -271,7 +375,7 @@
     },
     {
       "summary": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands the operator can choose from. Each is a different way to break a machine: wipe the whole disk, overwrite the Windows...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -284,7 +388,7 @@
     },
     {
       "summary": "AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist. New research, which its authors call HalluSquatting, turns that habit into an attack: work out the fake names an AI reliably invents,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -297,7 +401,7 @@
     },
     {
       "summary": "The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -307,116 +411,116 @@
       "date": "Jul 09, 2026",
       "actor": "Ransomware Thugs Masquerade as Interpol to Entice Small Biz",
       "severity": "High"
-    },
-    {
-      "summary": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "actor": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
-      "severity": "High"
-    },
-    {
-      "summary": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks \u2014 it's now the rule.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "actor": "And the Winner in Dominant Malware Delivery? ClickFix",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy. According to a new report published by the Threat Hunter Team from Symantec, the ransomware was first publicly spotted in the...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "actor": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
-      "severity": "High"
-    },
-    {
-      "summary": "A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures. The activity cluster, tracked by Elastic Security Labs under the moniker REF6045, involves infecting victims through fake CAPTCHA verification pages that...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "actor": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
-      "severity": "High"
-    },
-    {
-      "summary": "Hackers accessed the institution\u2019s internal network and deleted two drives containing employee, student, and university data. The post Mount Royal University Confirms Data Stolen in Ransomware Attack appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/mount-royal-university-confirms-data-stolen-in-ransomware-attack/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "actor": "Mount Royal University Confirms Data Stolen in Ransomware Attack",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "actor": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
-      "severity": "High"
-    },
-    {
-      "summary": "The phishing campaign uses several tactics, including nested redirects, to evade detection and steal credentials from unsuspecting targets.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "actor": "Big Brand Jobs Scam Targets Marketing Pros' Google Accounts",
-      "severity": "High"
-    },
-    {
-      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "actor": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub API. \"Operators rely on automated scraping tooling with custom or legitimate-sounding user agents, leveraging GitHub 'ghost'...",
+      "summary": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "title": "OpenMandriva Linux says contributor tried to sabotage the project",
+      "category": "news"
+    },
+    {
+      "summary": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
+      "category": "news"
+    },
+    {
+      "summary": "AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the next host before your team clears the first alert. That is the gap, and it is not your fault. The tools and runbooks...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
+      "category": "news"
+    },
+    {
+      "summary": "Everyone seems to have announced a clearinghouse over the past few weeks. We did too. Ours is called Athena, and the main thing that sets it apart is that it was already real and running when we announced it \u2014 built quietly months earlier, heads down, taking findings and shipping fixes, because customers kept...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "title": "Summer of Clearinghouses",
+      "category": "news"
+    },
+    {
+      "summary": "Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default. \"You can also @-mention Instagram accounts in the Meta AI app to bring specific Instagram profiles right into your images,\" the social...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
+      "category": "news"
+    },
+    {
+      "summary": "A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This \u201cghost phishing\u201d technique keeps the malicious page hidden until it decrypts and comes to life inside the victim\u2019s browser. For security leaders, the risk is clear: traditional URL checks may...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+      "category": "news"
+    },
+    {
+      "summary": "For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential stuffing was cheap, scalable, and for defenders, relatively well understood. That era is ending. Not because attackers gave up, but...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "title": "The Verification Step Is the New ATO Battleground in 2026",
+      "category": "news"
+    },
+    {
+      "summary": "An AI coding assistant that refuses to answer a dangerous request in its chat box can answer it anyway if the same request is broken into small, ordinary-looking steps inside a code editor. That is the finding of a new study of GitHub Copilot by researchers Abhishek Kumar and Carsten Maple. The models they tested...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html"
+        }
+      ],
+      "date": "Jul 10, 2026",
+      "title": "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
+      "category": "news"
+    },
+    {
+      "summary": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub API. \"Operators rely on automated scraping tooling with custom or legitimate-sounding user agents, leveraging GitHub 'ghost'...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -429,7 +533,7 @@
     },
     {
       "summary": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to run...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -442,7 +546,7 @@
     },
     {
       "summary": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of damage. Not loud. Not clever. Just small gaps doing big jobs. The worst part is how normal it all looks until the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -455,7 +559,7 @@
     },
     {
       "summary": "Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like an attack....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -464,110 +568,6 @@
       ],
       "date": "Jul 09, 2026",
       "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
-      "category": "news"
-    },
-    {
-      "summary": "New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint a second commit with the same files, author, and date, and a valid signature, GitHub still stamps \"Verified.\"...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
-      "category": "news"
-    },
-    {
-      "summary": "The Israeli company has developed a cryptographic posture and post-quantum cryptography management platform. The post QIZ Security Raises $17 Million for Cryptographic Governance Platform appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/qiz-security-raises-17-million-for-cryptographic-governance-platform/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "title": "QIZ Security Raises $17 Million for Cryptographic Governance Platform",
-      "category": "news"
-    },
-    {
-      "summary": "Two announcements on July 7, 2026, demonstrate the government\u2019s determination to improve the level of cybersecurity within the UK. The post UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/uk-government-rolls-out-agentic-ai-defense-plan-alongside-industry-pledge/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "title": "UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge",
-      "category": "news"
-    },
-    {
-      "summary": "Wiz has disclosed the details of a new AI coding assistant attack method it has dubbed GhostApproval. The post AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ai-coding-tools-tricked-into-hacking-developer-machine-via-decades-old-technique/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "title": "AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique",
-      "category": "news"
-    },
-    {
-      "summary": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure generation. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
-      "category": "news"
-    },
-    {
-      "summary": "Security operations don't slow down when IT teams take vacation, but staffing levels often do. Kaseya explains how AI-driven automation can help organizations maintain consistent security operations and reduce reliance on manual processes year-round. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "title": "Microsoft to retire the OWA Light client in Exchange Server",
-      "category": "news"
-    },
-    {
-      "summary": "Specops Software explains how AI is making service desk impersonation attacks more convincing, personalized, and scalable, along with practical steps organizations can take to strengthen onboarding and identity verification. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/"
-        }
-      ],
-      "date": "Jul 09, 2026",
-      "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
       "category": "news"
     }
   ]
