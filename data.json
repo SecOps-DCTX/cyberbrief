@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "The D1R cybercrime group claimed to have stolen valuable data from Synopsys and Bosch, threatening to leak it unless a ransom is paid. The post Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -31,8 +31,120 @@
   ],
   "cve": [
     {
-      "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server instances. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "cve_id": "CISA warns admins to patch actively exploited SharePoint fla",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organizations determine exploitability by validating the attack techniques an exploit depends on, without launching the exploit...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "cve_id": "You Don't Have to Run an Exploit to Know If You're Vulnerabl",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "SAP has addressed 16 vulnerabilities across multiple products as part of its July 2026 security updates, including three critical flaws in NetWeaver, Commerce Cloud, and AppRouter. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "cve_id": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Open a repository in Cursor on Windows and, if a file named git.exe is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute. Whatever that binary does, it does as you, with your source, your SSH keys and your cloud tokens. Cursor keeps...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "cve_id": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windo",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "cve_id": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Ten",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard. \"An attacker exploiting one of these vulnerable applications can execute untrusted code during...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "cve_id": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The new program stems from an AI-focused Executive Order signed by President Trump on June 2. The post White House Launches AI-Driven \u2018Gold Eagle\u2019 Vulnerability Coordination Initiative appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "cve_id": "White House Launches AI-Driven \u2018Gold Eagle\u2019 Vulnerability Co",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "The company has rolled out a fix and is restoring access for Storage Zones Controller customers who apply it. The post Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/progress-confirms-zero-day-vulnerability-behind-sharefile-disruption/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "cve_id": "Progress Confirms Zero-Day Vulnerability Behind ShareFile Di",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
+    },
+    {
+      "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -46,7 +158,7 @@
     },
     {
       "summary": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -60,7 +172,7 @@
     },
     {
       "summary": "Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security Update Guide count, more than triple June's previous high of around 200. Those two live bugs are the ones to grab first....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -74,7 +186,7 @@
     },
     {
       "summary": "SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -85,124 +197,77 @@
       "cve_id": "CVE-2026-44747",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar. Both this and ClaudeBleed need a rogue extension that can already run a script on claude.ai; the difference is scope. Anthropic...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html"
-        }
-      ],
-      "date": "Jul 15, 2026",
-      "cve_id": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed. A researcher publishing as cereblab, testing version 0.2.93, captured one of those uploads, cloned the git bundle out of the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html"
-        }
-      ],
-      "date": "Jul 15, 2026",
-      "cve_id": "Grok Build Uploaded Entire Git Repositories to xAI Storage, ",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
-        }
-      ],
-      "date": "Jul 15, 2026",
-      "cve_id": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed. The post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/"
-        }
-      ],
-      "date": "Jul 15, 2026",
-      "cve_id": "Critical Vulnerabilities Patched With Fresh Chrome 150, Fire",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "cve_id": "Microsoft releases Windows 10 KB5099539 extended security up",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "cve_id": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "cve_id": "Progress confirms ShareFile zero-day flaw behind Storage Zon",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Attackers whose methods line up with the data-extortion group ShinyHunters have spent the past year walking into corporate Salesforce environments without exploiting a single flaw in the platform. The way in has been the trust the organization had already extended, usually through the OAuth connections that tie...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "cve_id": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year ",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]",
+      "summary": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity. The affected packages are listed below - @asyncapi/generator-helpers@1.1.1 @asyncapi/generator-components@0.7.1...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "actor": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
+      "severity": "High"
+    },
+    {
+      "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "actor": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that are built on AppleScript droppers or Objective-C-based wrappers, CrashStealer is implemented in native C++,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "actor": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+      "severity": "High"
+    },
+    {
+      "summary": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the other way, and they don't file tickets. That's the shape of this week. Trusted code turns on the people who installed...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "actor": "\u26a1 Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+      "severity": "High"
+    },
+    {
+      "summary": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/gigawiper-threat-actors-choose-their-own-destructive-attack"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "actor": "GigaWiper Lets Threat Actors Choose Their Own Destructive Attack",
+      "severity": "High"
+    },
+    {
+      "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -215,7 +280,7 @@
     },
     {
       "summary": "A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -228,7 +293,7 @@
     },
     {
       "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -241,7 +306,7 @@
     },
     {
       "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious activities, including ransomware attacks against Americans. The VPN, named First VPN Service (1VPNS), has been accused...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -254,7 +319,7 @@
     },
     {
       "summary": "A campaign of 148 npm packages disguised as student web proxies turned visitors' browsers into a distributed denial-of-service botnet for roughly two weeks in May, according to new research from JFrog. The packages did not go after the developers who might install them. The operators used the registry as free...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -267,7 +332,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script looked for the Domain Controller (DC) and mapped users, computers, and domains, before creating a directory and exporting out a number of...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -280,7 +345,7 @@
     },
     {
       "summary": "Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -290,77 +355,116 @@
       "date": "Jul 15, 2026",
       "actor": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
       "severity": "High"
-    },
-    {
-      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
-        }
-      ],
-      "date": "Jul 15, 2026",
-      "actor": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "severity": "High"
-    },
-    {
-      "summary": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "actor": "LastPass, Bitwarden users targeted with fake security alerts",
-      "severity": "High"
-    },
-    {
-      "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "actor": "Hackers backdoor Jscrambler npm package with infostealer malware",
-      "severity": "High"
-    },
-    {
-      "summary": "A new macOS information-stealing malware called CrashStealer pretends to be Apple's crash-reporting tool to steal credentials, keychain data, and crypto wallets. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "actor": "New CrashStealer malware poses as Apple crash reporting tool",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments. \"LabubaRAT creates a reusable foothold for hands-on activity,\" Blackpoint Cyber researchers Sam Decker and Nevan Beal said...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "actor": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "The Spanish Police dismantled a cybercrime and money-laundering organization that made \u20ac140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]",
+      "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "Microsoft Entra ID gets passkeys default authentication starting September",
+      "category": "news"
+    },
+    {
+      "summary": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-factor authentication (MFA). [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
+      "category": "news"
+    },
+    {
+      "summary": "Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them. The way these wallets talk to websites and blockchain servers can tie a person's separate addresses together and let...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+      "category": "news"
+    },
+    {
+      "summary": "AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+      "category": "news"
+    },
+    {
+      "summary": "A critical security defect in the ServiceNow AI platform could allow remote attackers to execute arbitrary code. The post Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/vulnerabilities-patched-by-fortinet-ivanti-servicenow/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow",
+      "category": "news"
+    },
+    {
+      "summary": "The ColdFusion security defects could allow attackers to execute arbitrary code or elevate their privileges. The post Adobe Patches Critical ColdFusion Vulnerabilities appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/adobe-patches-critical-coldfusion-vulnerabilities/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "Adobe Patches Critical ColdFusion Vulnerabilities",
+      "category": "news"
+    },
+    {
+      "summary": "Risk tolerance, exposure visibility, board oversight \u2014 handling third-party risk is complicated but achievable with disciplined, precise governance.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "Manage Vendor Risk in a Few Practical Steps",
+      "category": "news"
+    },
+    {
+      "summary": "The Spanish Police dismantled a cybercrime and money-laundering organization that made \u20ac140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -373,7 +477,7 @@
     },
     {
       "summary": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -386,7 +490,7 @@
     },
     {
       "summary": "Google and Microsoft have pulled ModHeader, a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector built into its official store version. The collector was dormant. An empty allow-list kept it switched off, and no...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -399,7 +503,7 @@
     },
     {
       "summary": "Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\" about the user, hide the change, and quietly steer its answers in later sessions. When it works, the person reads an...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -408,110 +512,6 @@
       ],
       "date": "Jul 15, 2026",
       "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-      "category": "news"
-    },
-    {
-      "summary": "A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial intelligence (AI)-assisted lure creation, and post-compromise mailbox operations targeting Microsoft 365 accounts. Distributed via Telegram...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html"
-        }
-      ],
-      "date": "Jul 15, 2026",
-      "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
-      "category": "news"
-    },
-    {
-      "summary": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it: python3 -m http.server 8080, was still sitting in the readable .bash_history. From that one lapse, French security firm Lexfo lifted the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html"
-        }
-      ],
-      "date": "Jul 15, 2026",
-      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-      "category": "news"
-    },
-    {
-      "summary": "The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
-        }
-      ],
-      "date": "Jul 15, 2026",
-      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-      "category": "news"
-    },
-    {
-      "summary": "The attack vector is available for rent at scale, and evades AV and EDR, leaving YARA analysis as the best detection option.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense"
-        }
-      ],
-      "date": "Jul 15, 2026",
-      "title": "ClickFix's Mushrooming Ecosystem Demands New Defense Tactics",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft has released Windows 11 KB5101650 and KB5099414 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "title": "Windows 11 KB5101650 & KB5099414 cumulative updates released",
-      "category": "news"
-    },
-    {
-      "summary": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "title": "Japan's largest taxi operator shuts systems after cyberattack",
-      "category": "news"
-    },
-    {
-      "summary": "Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every read. Each read gets pinned to the moment it happened: the time, your location, what you were doing, even how you were...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
-      "category": "news"
-    },
-    {
-      "summary": "A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already connected Claude to a few detection tools and were seeing real value in specific investigations. But as we mapped out the...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html"
-        }
-      ],
-      "date": "Jul 14, 2026",
-      "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
       "category": "news"
     }
   ]
