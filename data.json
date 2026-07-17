@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -45,8 +45,120 @@
   ],
   "cve": [
     {
-      "summary": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]",
+      "summary": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "cve_id": "New Windows LegacyHive zero-day gives hackers admin privileg",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incoming JWT to a local user on the sub claim alone and ignored iss. A valid token from issuer A carrying a sub that belongs to someone under...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "cve_id": "n8n Token Exchange Flaw Could Let Attackers Log In as Users ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover. The vulnerability, tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Workplace for Windows before version 7.0.0 and Zoom Workplace VDI Client for Windows before...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "cve_id": "CVE-2026-53412",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published. The vulnerabilities are listed below - CVE-2026-15718, an invalid pointer in the JavaScript: WebAssembly component CVE-2026-15719, a site isolation in the DOM: Navigation component \"We are...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "cve_id": "CVE-2026-15718",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "cve_id": "Researcher Drops New Windows Zero-Day PoC Hours After Micros",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Open a repository in Cursor on Windows and, if a file named git.exe is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute. Whatever that binary does, it does as you, with your source, your SSH keys and your cloud tokens. Cursor keeps...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "cve_id": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windo",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "cve_id": "CVE-2026-15409",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The critical-severity security defect allows remote, authenticated attackers to execute arbitrary code on the server. The post Fresh SharePoint Vulnerability Exploited Soon After Disclosure appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "cve_id": "Fresh SharePoint Vulnerability Exploited Soon After Disclosu",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
+    },
+    {
+      "summary": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -60,7 +172,7 @@
     },
     {
       "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -74,7 +186,7 @@
     },
     {
       "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's access to connected services such as Gmail, Google Docs, Google Calendar, and Salesforce. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -88,7 +200,7 @@
     },
     {
       "summary": "CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Business Suite financial application. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -99,124 +211,64 @@
       "cve_id": "CISA orders feds to patch actively exploited Oracle flaw by ",
       "vendor": "BleepingComputer",
       "severity": "Critical"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by July 19, 2026. The...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html"
-        }
-      ],
-      "date": "Jul 17, 2026",
-      "cve_id": "CVE-2026-58644",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html"
-        }
-      ],
-      "date": "Jul 17, 2026",
-      "cve_id": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Othe",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security Update Guide count, more than triple June's previous high of around 200. Those two live bugs are the ones to grab first....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html"
-        }
-      ],
-      "date": "Jul 17, 2026",
-      "cve_id": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days ",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar. Both this and ClaudeBleed need a rogue extension that can already run a script on claude.ai; the difference is scope. Anthropic...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html"
-        }
-      ],
-      "date": "Jul 17, 2026",
-      "cve_id": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated party to hijack accounts. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "cve_id": "Zoom warns of critical account takeover vulnerability",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server instances. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "cve_id": "CISA warns admins to patch actively exploited SharePoint fla",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London. The attack left 148 TfL systems inoperable and forced all 27,000 of the transport authority's employees into an office to get their...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "cve_id": "Two Scattered Spider Hackers Get 5.5 Years Each for \u00a329 Mill",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. \"GPT\u2011Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks,\" the...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "cve_id": "OpenAI\u2019s GPT-Red Automates Prompt Injection Testing to Harde",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the United States. [...]",
+      "summary": "A financially motivated Russian threat actor tracked as UAT-11795 is using trojanized software to steal credentials and cryptocurrency by deploying a new backdoor called Starland RAT. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "actor": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a focus on long-term access and intelligence gathering. Russian cybersecurity company Kaspersky, which uncovered the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "actor": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
+      "severity": "High"
+    },
+    {
+      "summary": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity. The affected packages are listed below - @asyncapi/generator-helpers@1.1.1 @asyncapi/generator-components@0.7.1...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "actor": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
+      "severity": "High"
+    },
+    {
+      "summary": "The new macOS malware has targeted at least 100 users to steal their passwords and cryptocurrency. The post \u2018ClickLock Stealer\u2019 Bypasses macOS Security With Social Engineering, Process Killing appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/clicklock-stealer-bypasses-macos-security-with-social-engineering-process-killing/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "actor": "\u2018ClickLock Stealer\u2019 Bypasses macOS Security With Social Engineering, Process Killing",
+      "severity": "High"
+    },
+    {
+      "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the United States. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -229,7 +281,7 @@
     },
     {
       "summary": "The company says the incident has not affected product quality and safety, nor Fairlife\u2019s Canada production. The post Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -242,7 +294,7 @@
     },
     {
       "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -255,7 +307,7 @@
     },
     {
       "summary": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -268,7 +320,7 @@
     },
     {
       "summary": "A lot of this week\u2019s trouble starts with something that looks close enough. A familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to someone else, and the damage moves faster than the explanation. Old bugs are back, weak defaults are earning their keep, and...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -281,7 +333,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance from a large language model (LLM), albeit with not so successful results. \"While the AI complied with their request to...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -294,7 +346,7 @@
     },
     {
       "summary": "A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase. On an infected PC, the request comes from inside the wallet's own desktop software. Sometimes it waits until you plug the device in...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -307,7 +359,7 @@
     },
     {
       "summary": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -317,64 +369,116 @@
       "date": "Jul 16, 2026",
       "actor": "GigaWiper Lets Threat Actors Choose Their Own Destructive Attack",
       "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026. \"The malware is full-featured, lightweight, and modular,\" Elastic Security Labs researcher Cyril Fran\u00e7ois said in a technical report. \"While...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "actor": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-      "severity": "High"
-    },
-    {
-      "summary": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solutions. The investigation revealed previously undocumented backdoor behavior,...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "actor": "20+ Hijacked Government Websites Became an Attack Channel",
-      "severity": "High"
-    },
-    {
-      "summary": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor dubbed Stupig. Daxin (\"srt64.sys\"), as the kernel-mode rootkit is referred to, was first documented by Broadcom-owned...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "actor": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments. \"LabubaRAT creates a reusable foothold for hands-on activity,\" Blackpoint Cyber researchers Sam Decker and Nevan Beal said...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "actor": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]",
+      "summary": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "title": "Windows Server 2022 reach end of mainstream support in 90 days",
+      "category": "news"
+    },
+    {
+      "summary": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "title": "US charges two over laundering $43 million from investment fraud",
+      "category": "news"
+    },
+    {
+      "summary": "Traditional security workflows were built for environments that changed at human speed. Token Security explains why AI agents require a new approach: building on a live identity foundation while giving security teams the flexibility to create workflows tailored to their own environments. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
+      "category": "news"
+    },
+    {
+      "summary": "Two leading members of the Scattered Spider cybercrime collective were sentenced to five years and six months in prison each for hacking Transport for London (TfL) in 2024. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-behind-transport-for-london-hack-get-five-years-in-prison/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "title": "Scattered Spider members behind TfL hack get five years in prison",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft announced on Wednesday that systems running Windows 10 Enterprise LTSB 2016 and Home and Pro editions of Windows 11 24H2 will stop receiving updates in three months. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "title": "Windows 11 24H2 Home and Pro reach end of support in 90 days",
+      "category": "news"
+    },
+    {
+      "summary": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced OneDrive and SharePoint folders. It gets in because someone pasted a command into a Run box and pressed Enter....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
+      "category": "news"
+    },
+    {
+      "summary": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
+      "category": "news"
+    },
+    {
+      "summary": "Industry professionals broadly agree that the suspension pauses third-party CMMC audits but not the underlying legal obligation to protect CUI. The post Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/"
+        }
+      ],
+      "date": "Jul 17, 2026",
+      "title": "Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday",
+      "category": "news"
+    },
+    {
+      "summary": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -387,7 +491,7 @@
     },
     {
       "summary": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread, and a fake comment can make it run a stranger's command on your computer. Neither trick hijacks the agent's task. Each...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -400,7 +504,7 @@
     },
     {
       "summary": "Artificial intelligence (AI) is changing offensive security, but it has not changed the standard that matters most: a finding has to be proven before it becomes useful. AI-assisted tools can read code quickly, generate payloads, summarize attack surfaces, explain unfamiliar APIs, and run repetitive testing...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -413,7 +517,7 @@
     },
     {
       "summary": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise workflows now live across SaaS applications, browsers, and an expanding ecosystem of generative AI tools, unsanctioned browser...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -422,110 +526,6 @@
       ],
       "date": "Jul 17, 2026",
       "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
-      "category": "news"
-    },
-    {
-      "summary": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on-demand webinar reveals how this Approval Gap forms, and gives your team the blueprint to close it before an auditor, regulator, or...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html"
-        }
-      ],
-      "date": "Jul 17, 2026",
-      "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
-      "category": "news"
-    },
-    {
-      "summary": "Thalha Jubair and Owen Flowers were prosecuted over a 2024 cyberattack targeting Transport for London (TfL). The post Two Scattered Spider Hackers Sentenced to Jail in UK appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/"
-        }
-      ],
-      "date": "Jul 17, 2026",
-      "title": "Two Scattered Spider Hackers Sentenced to Jail in UK",
-      "category": "news"
-    },
-    {
-      "summary": "AI infrastructure introduces new security risks that traditional data center designs were never built to handle. The post AI Data Centers Are Being Built Faster Than They Can Be Secured appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ai-data-centers-are-being-built-faster-than-they-can-be-secured/"
-        }
-      ],
-      "date": "Jul 17, 2026",
-      "title": "AI Data Centers Are Being Built Faster Than They Can Be Secured",
-      "category": "news"
-    },
-    {
-      "summary": "The startup has built an AI-powered Identity Operating System that governs all identities across an organization\u2019s environment. The post Oak Emerges From Stealth Mode With $60 Million in Funding appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/oak-emerges-from-stealth-mode-with-60-million-in-funding/"
-        }
-      ],
-      "date": "Jul 17, 2026",
-      "title": "Oak Emerges From Stealth Mode With $60 Million in Funding",
-      "category": "news"
-    },
-    {
-      "summary": "The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have tens of thousands of victims. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "title": "Dutch police bust investment fraud ring stealing over \u20ac100 million",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
-      "category": "news"
-    },
-    {
-      "summary": "Chinese cybersecurity firms are facing action from the country\u2019s military, but it\u2019s not due to product or technical failures. The post China\u2019s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "title": "China\u2019s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans",
-      "category": "news"
-    },
-    {
-      "summary": "Signed by Microsoft, the vulnerable UEFI shim bootloaders could be abused on any system, regardless of the OS. The post Old UEFI Shims Expose Systems to Secure Boot Bypass appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/"
-        }
-      ],
-      "date": "Jul 16, 2026",
-      "title": "Old UEFI Shims Expose Systems to Secure Boot Bypass",
       "category": "news"
     }
   ]
