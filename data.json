@@ -1,8 +1,22 @@
 {
   "breach": [
     {
-      "summary": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...]",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
       "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "org": "Lessons Learned from CISA\u2019s Recent GitHub Leak",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -30,7 +44,7 @@
     },
     {
       "summary": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and workflow builders...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -44,7 +58,7 @@
     },
     {
       "summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -58,7 +72,7 @@
     },
     {
       "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +86,7 @@
     },
     {
       "summary": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB, which named the malware HollowGraph, says the approach moves tasking and...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -86,7 +100,7 @@
     },
     {
       "summary": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -100,7 +114,7 @@
     },
     {
       "summary": "Hackers stole names, addresses, Social Security numbers, credit/debit card numbers, and other information from a third-party management platform. The post Ernst & Young Data Breach Affects Personal, Financial Information appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -115,8 +129,120 @@
   ],
   "cve": [
     {
-      "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
+      "summary": "Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "cve_id": "Windows LegacyHive zero-day flaw gets free, unofficial patch",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Cosmetics giant Est\u00e9e Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "cve_id": "Est\u00e9e Lauder discloses data breach via Oracle E-Business fla",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "cve_id": "SonicWall SMA1000 flaws exploited as zero-days to push custo",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "cve_id": "CVE-2026-6875",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "cve_id": "WordPress Core \"wp2shell\" RCE flaws get public exploits, pat",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "cve_id": "New ENCFORGE Ransomware Targets AI Model Files in Langflow R",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "cve_id": "CVE-2026-6875",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "cve_id": "CVE-2026-14266",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -130,7 +256,7 @@
     },
     {
       "summary": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -144,7 +270,7 @@
     },
     {
       "summary": "In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. \"We identified unauthorized...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -158,7 +284,7 @@
     },
     {
       "summary": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026. Cybersecurity company Volexity is tracking the activity under the moniker UTA0533. The...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -169,124 +295,51 @@
       "cve_id": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain ",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it. An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attack",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Attackers could send waves of malicious payloads to trigger buffer pre-allocations that are not freed, exhausting server memory. The post OpenSSL Silently Fixes \u2018HollowByte\u2019 DoS Vulnerability appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "OpenSSL Silently Fixes \u2018HollowByte\u2019 DoS Vulnerability",
-      "vendor": "SecurityWeek",
-      "severity": "High"
-    },
-    {
-      "summary": "Longtime cybersecurity executive Richard Bird built the resource for security experts, journalists, policymakers, and everyday citizens. The post New Index Tracks Material Breaches \u2014 And Refuses to Add Up the Losses appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/new-index-tracks-material-breaches-and-refuses-to-add-up-the-losses/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "New Index Tracks Material Breaches \u2014 And Refuses to Add Up t",
-      "vendor": "SecurityWeek",
-      "severity": "High"
-    },
-    {
-      "summary": "The agentic security tool identifies potentially exploitable code flaws, traces attack paths, and recommends targeted remediations. The post Capital One Open Sources AI-Powered \u2018VulnHunter\u2019 Security Tool appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "Capital One Open Sources AI-Powered \u2018VulnHunter\u2019 Security To",
-      "vendor": "SecurityWeek",
-      "severity": "High"
-    },
-    {
-      "summary": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "Update now: 7-Zip fixes RCE flaw exploitable with malicious ",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs were new. Others...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "\u26a1 Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service ",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an earlier build...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "CVE-2026-42533",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts. OpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-B",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145, a...",
+      "summary": "The JadePuffer autonomous AI agent has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, vector databases, and model checkpoints. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "actor": "JadePuffer agentic attacks now target AI model data with ransomware",
+      "severity": "High"
+    },
+    {
+      "summary": "An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "actor": "Hackers abuse ViPNet software to target Russian govt agencies",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to deliver a malware family known as SmartLoader as part of an ongoing campaign codenamed FakeGit. \"FakeGit uses copied...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "actor": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+      "severity": "High"
+    },
+    {
+      "summary": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145, a...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -299,7 +352,7 @@
     },
     {
       "summary": "A lot of this week\u2019s trouble starts with something that looks close enough. A familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to someone else, and the damage moves faster than the explanation. Old bugs are back, weak defaults are earning their keep, and...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -312,7 +365,7 @@
     },
     {
       "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -325,7 +378,7 @@
     },
     {
       "summary": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges. \"Any user who ran the project ended up with a four-stage payload aligned with...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -338,7 +391,7 @@
     },
     {
       "summary": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -351,7 +404,7 @@
     },
     {
       "summary": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife, Maria Yurova, told REN TV that border officers pulled him out of the departure hall at Yerevan's Zvartnots airport, held up...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -364,7 +417,7 @@
     },
     {
       "summary": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026. \"The malware is full-featured, lightweight, and modular,\" Elastic Security Labs researcher Cyril Fran\u00e7ois said in a technical report. \"While...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -377,7 +430,7 @@
     },
     {
       "summary": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solutions. The investigation revealed previously undocumented backdoor behavior,...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -387,51 +440,116 @@
       "date": "Jul 20, 2026",
       "actor": "20+ Hijacked Government Websites Became an Attack Channel",
       "severity": "High"
-    },
-    {
-      "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/"
-        }
-      ],
-      "date": "Jul 19, 2026",
-      "actor": "Microsoft warns of surge in ACR Stealer attacks on customers",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a focus on long-term access and intelligence gathering. Russian cybersecurity company Kaspersky, which uncovered the...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html"
-        }
-      ],
-      "date": "Jul 19, 2026",
-      "actor": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
-      "severity": "High"
-    },
-    {
-      "summary": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor dubbed Stupig. Daxin (\"srt64.sys\"), as the kernel-mode rootkit is referred to, was first documented by Broadcom-owned...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html"
-        }
-      ],
-      "date": "Jul 19, 2026",
-      "actor": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
+      "summary": "The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the protocol. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Hackers steal $23.7 million in crypto from Ostium in off-chain attack",
+      "category": "news"
+    },
+    {
+      "summary": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two Antigravity findings. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Microsoft confirms Windows Server Update Services sync delays",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
+      "category": "news"
+    },
+    {
+      "summary": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to drive other apps in the background by imitating taps and typing....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
+      "category": "news"
+    },
+    {
+      "summary": "The latest Zimbra refresh resolves command injection, XSS, restriction bypass, and SSRF security defects. The post Zimbra Update Patches Critical Vulnerabilities appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/zimbra-update-patches-critical-vulnerabilities/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Zimbra Update Patches Critical Vulnerabilities",
+      "category": "news"
+    },
+    {
+      "summary": "Neo raised money across seed and Series A funding rounds from Andreessen Horowitz, Bessemer Venture Partners, and others. The post Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
+      "category": "news"
+    },
+    {
+      "summary": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. The post Watch on Demand: Cloud & Data Security Summit appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Watch on Demand: Cloud & Data Security Summit",
+      "category": "news"
+    },
+    {
+      "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -444,7 +562,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads. The rogue gems are listed below - git_credential_manager (versions 2.8.0, 2.8.1, 2.8.2,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -457,7 +575,7 @@
     },
     {
       "summary": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an \"unprecedented\"...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -470,7 +588,7 @@
     },
     {
       "summary": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced OneDrive and SharePoint folders. It gets in because someone pasted a command into a Run box and pressed Enter....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -479,110 +597,6 @@
       ],
       "date": "Jul 20, 2026",
       "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
-      "category": "news"
-    },
-    {
-      "summary": "Targeting production infrastructure, the attack compromised internal datasets and service credentials. The post Hugging Face Hacked in Autonomous AI Attack appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/hugging-face-hacked-in-autonomous-ai-attack/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "Hugging Face Hacked in Autonomous AI Attack",
-      "category": "news"
-    },
-    {
-      "summary": "Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "CISOs Feel the Heat Over AI Risk",
-      "category": "news"
-    },
-    {
-      "summary": "\"The TFF Trap\" uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "Attackers Combo Up Evasion Tactics for BEC Phishing",
-      "category": "news"
-    },
-    {
-      "summary": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "The Real AI Threat Is Blind Trust",
-      "category": "news"
-    },
-    {
-      "summary": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC solutions, including how to validate accuracy, operating models, long-term reliability, and production readiness. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "An AI SOC Evaluation Guide for Security Leaders",
-      "category": "news"
-    },
-    {
-      "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
-      "category": "news"
-    },
-    {
-      "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops. That is the finding of a cybersecurity advisory published...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-      "category": "news"
-    },
-    {
-      "summary": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capabilities? How long would it take adversaries to weaponize Mythos findings at...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
       "category": "news"
     }
   ]
