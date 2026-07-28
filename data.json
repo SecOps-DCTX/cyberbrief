@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet. Of the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "The hacker claimed to have stolen the information of 2 million Origin Energy customers after breaching its systems. The post Origin Energy Data Breach Affects 900,000 Australians appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -69,54 +69,124 @@
       "org": "Origin Energy Data Breach Affects 900,000 Australians",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/"
-        }
-      ],
-      "date": "Jul 27, 2026",
-      "org": "Coca-Cola confirms data theft in Fairlife ransomware attack",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/"
-        }
-      ],
-      "date": "Jul 27, 2026",
-      "org": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/"
-        }
-      ],
-      "date": "Jul 27, 2026",
-      "org": "Chick-fil-A data breach affects more than 13,000 customers",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
+      "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "vBulletin fixes critical pre-auth RCE flaw with public explo",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "Hackers target US firms in FastJson RCE zero-day attacks",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "Arista patches VeloCloud Orchestrator zero-day exploited in ",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "New Certighost PoC exploit lets attackers hijack Windows dom",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another bypass. The affected ranges are...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "CVE-2026-27577",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723, the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "CVE-2026-16723",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "Researcher Publishes GitLab RCE PoC Letting Authenticated Us",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -130,7 +200,7 @@
     },
     {
       "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -144,7 +214,7 @@
     },
     {
       "summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -158,7 +228,7 @@
     },
     {
       "summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -169,124 +239,51 @@
       "cve_id": "CVE-2026-53921",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score ",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of operating system command injection that could pave the way for arbitrary code...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "CVE-2026-16812",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents. The 37-member group spans cloud, security, enterprise software, and AI companies, including Microsoft, Cisco,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sour",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against JackSkid infrastructure. The researchers say the design makes the botnet harder to disrupt. CNCERT, China's national...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays Af",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution. The vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises versions. It has been...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "CVE-2026-63077",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel's network traffic-control subsystem.Researcher Lee Jia Jie said artificial intelligence...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "CVE-2026-53264",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "Public Exploit Released for Patched vBulletin Pre-Auth Code ",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Monday starts with the usual promise that everything is under control. Then the logs wake up. This week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped. That is the mood....",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "\u26a1 Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsq",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia. The intrusions involve the use of a previously undocumented...",
+      "summary": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools. \"The victim was directed through compromised web infrastructure to a counterfeit Microsoft Store page claiming that Microsoft...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "actor": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+      "severity": "High"
+    },
+    {
+      "summary": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations into...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "actor": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "severity": "High"
+    },
+    {
+      "summary": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity company PRODAFT is tracking the centrally administered RaaS operation...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "actor": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+      "severity": "High"
+    },
+    {
+      "summary": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia. The intrusions involve the use of a previously undocumented...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -299,7 +296,7 @@
     },
     {
       "summary": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra. According to a new analysis by Proofpoint, Cruciferra has been utilized by...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -312,7 +309,7 @@
     },
     {
       "summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware. \"BlueNoroff has operationalised...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -325,7 +322,7 @@
     },
     {
       "summary": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -338,7 +335,7 @@
     },
     {
       "summary": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL. Confiant, which detailed the campaign on July 23, 2026, said it has operated since late...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -351,7 +348,7 @@
     },
     {
       "summary": "The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word. The post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -364,7 +361,7 @@
     },
     {
       "summary": "Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -377,7 +374,7 @@
     },
     {
       "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -390,7 +387,7 @@
     },
     {
       "summary": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -400,51 +397,116 @@
       "date": "Jul 28, 2026",
       "actor": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
       "severity": "High"
-    },
-    {
-      "summary": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "actor": "Malicious sites use JavaScript to build malware in browser memory",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "actor": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-      "severity": "High"
-    },
-    {
-      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "actor": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
+      "summary": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "title": "CISA shares advice on isolating vital systems during cyberattacks",
+      "category": "news"
+    },
+    {
+      "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
+      "category": "news"
+    },
+    {
+      "summary": "Tal Kollander\u2019s history divides neatly into two halves: first as an active hacker and then as the block that stops hacks. The post Hacker Conversations: Tal Kollander\u2019s Journey From Black Hat to Hack Blocker appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/hacker-conversations-tal-kollanders-journey-from-black-hat-to-hack-blocker/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "title": "Hacker Conversations: Tal Kollander\u2019s Journey From Black Hat to Hack Blocker",
+      "category": "news"
+    },
+    {
+      "summary": "Act Security tackles the spiraling patch problem caused by AI\u2019s ability to find new vulnerabilities in existing cloud environments. The post Act Security Emerges from Stealth to Fight the Patch Problem appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/act-security-emerges-from-stealth-to-fight-the-patch-problem/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "title": "Act Security Emerges from Stealth to Fight the Patch Problem",
+      "category": "news"
+    },
+    {
+      "summary": "The startup will invest in expanding engineering and sales teams, accelerating ecosystem support, and expanding corporate partnerships. The post Hush Security Raises $30 Million for AI Agent Governance appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/hush-security-raises-30-million-for-ai-agent-governance/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "title": "Hush Security Raises $30 Million for AI Agent Governance",
+      "category": "news"
+    },
+    {
+      "summary": "Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "title": "CISOs vs. Boards: Myth or Misunderstanding?",
+      "category": "news"
+    },
+    {
+      "summary": "The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising \u2014 and preventing the next AI model escape will be difficult, at best.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "title": "Escape Artists: 'Incorrigible' AI Models Resist Rehabilitation",
+      "category": "news"
+    },
+    {
+      "summary": "A porous API endpoint exposes, names, email addresses, country, and site status, all of which can be easily gleaned by anyone with a browser.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "title": "Vatican's Official Prayer App Leaks 700K+ Global Users' PII",
+      "category": "news"
+    },
+    {
+      "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -457,7 +519,7 @@
     },
     {
       "summary": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -470,7 +532,7 @@
     },
     {
       "summary": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. \"The cooldown configuration option in the dependabot.yml still controls the behavior, though, so you can choose a different cooldown parameter that...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -483,7 +545,7 @@
     },
     {
       "summary": "Oasis Security recently raised $120 million in Series B funding for its agentic access management platform. The post Cyera Acquiring Oasis Security in $1 Billion Deal appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -492,110 +554,6 @@
       ],
       "date": "Jul 28, 2026",
       "title": "Cyera Acquiring Oasis Security in $1 Billion Deal",
-      "category": "news"
-    },
-    {
-      "summary": "Apple announced that dozens of vulnerabilities have been patched in each of its operating systems. The post Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "title": "Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe",
-      "category": "news"
-    },
-    {
-      "summary": "The company will use the fresh investment to grow its customer success and AI R&D teams. The post OT Security Startup Frenos Raises $1.52 Million appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ot-security-startup-frenos-raises-1-52-million/"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "title": "OT Security Startup Frenos Raises $1.52 Million",
-      "category": "news"
-    },
-    {
-      "summary": "The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "title": "Former Citigroup CISO Blauner on What Makes A Great Security Leader",
-      "category": "news"
-    },
-    {
-      "summary": "As attackers shift from password theft to session and token theft to bypass multifactor authentication controls, organizations must move beyond login security and protect authenticated sessions.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "title": "Why Resetting Passwords No Longer Stops Attackers",
-      "category": "news"
-    },
-    {
-      "summary": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before unmanaged permissions and autonomous actions create security risks. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
-      "category": "news"
-    },
-    {
-      "summary": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
-      "category": "news"
-    },
-    {
-      "summary": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "title": "OpenAI confirms ChatGPT is down worldwide",
-      "category": "news"
-    },
-    {
-      "summary": "The company claims MAI-Cyber-1-Flash tops Anthropic\u2019s Mythos and OpenAI\u2019s GPT-5.6 Sol in CyberGym testing. The post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "title": "Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model",
       "category": "news"
     }
   ]
