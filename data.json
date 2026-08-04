@@ -1,8 +1,22 @@
 {
   "breach": [
     {
-      "summary": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of.",
+      "summary": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web. The data included names, organisations and work email addresses belonging to police officers, police staff, criminal justice professionals, government...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "org": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of.",
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "A crafted prompt to a low-privilege Google ADK agent could be used to pass a malicious hand-off comment to a privileged agent. The post Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +44,7 @@
     },
     {
       "summary": "An extortion group stole personal, financial, and medical information from the hospital\u2019s network. The post 150,000 Impacted by Madera Community Hospital Data Breach appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -44,7 +58,7 @@
     },
     {
       "summary": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +72,7 @@
     },
     {
       "summary": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +86,7 @@
     },
     {
       "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -86,7 +100,7 @@
     },
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and wastewater systems sector. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -97,54 +111,124 @@
       "org": "CISA warns of cyberattacks disrupting U.S. water utilities",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended. Some of it was clever. Most of it was just access left lying around: old bugs,...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html"
-        }
-      ],
-      "date": "Aug 03, 2026",
-      "org": "\u26a1 Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "A host of Internet-exposed remote hardware management processors are subject to offline password-cracking attacks \u2014 and adversaries have taken note.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover"
-        }
-      ],
-      "date": "Aug 03, 2026",
-      "org": "Thousands of Data Center Controllers Open to Takeover",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
-        }
-      ],
-      "date": "Aug 03, 2026",
-      "org": "Lessons Learned from CISA\u2019s Recent GitHub Leak",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enforces real-time guardrails to keep agents within their intended boundaries. [...]",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-18577 (CVSS score: 8.2), is a...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "cve_id": "CVE-2026-18577",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface management platform Censys said it identified the threat actor running more than 100 web properties, most of which are fake...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "cve_id": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHO",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "cve_id": "CVE-2026-18577",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. \"These vulnerabilities are bypassing...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "cve_id": "Hugging Face Diffusers Flaws Could Let Model Repositories Ex",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite. A March 2021 firmware integration error...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "cve_id": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "cve_id": "CVE-2026-48449",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "cve_id": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Securit",
+      "vendor": "Dark Reading",
+      "severity": "High"
+    },
+    {
+      "summary": "When a fraudulent transaction occurs, law enforcement agencies must work quickly to halt payments before cybercriminals cash out.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/interpol-leverages-global-system-curtail-fraud-payments"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "cve_id": "Interpol Leverages Global System to Curtail Fraud Payments",
+      "vendor": "Dark Reading",
+      "severity": "High"
+    },
+    {
+      "summary": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enforces real-time guardrails to keep agents within their intended boundaries. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -158,7 +242,7 @@
     },
     {
       "summary": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -172,7 +256,7 @@
     },
     {
       "summary": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number generator. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +270,7 @@
     },
     {
       "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -197,124 +281,64 @@
       "cve_id": "Rails patches critical Active Storage flaw with RCE potentia",
       "vendor": "BleepingComputer",
       "severity": "Critical"
-    },
-    {
-      "summary": "Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined. Both versions were released last month. In its latest patch for Chrome 151, released Wednesday, the tech giant...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "cve_id": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prio",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login. The post Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "cve_id": "Decades-Old BMC Vulnerability Exposes Thousands of Data Cent",
-      "vendor": "SecurityWeek",
-      "severity": "High"
-    },
-    {
-      "summary": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "cve_id": "CVE-2026-18577",
-      "vendor": "Dark Reading",
-      "severity": "High"
-    },
-    {
-      "summary": "Researchers dug into the root of the problem with the goal of promoting industry collaboration on improved protective measures.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "cve_id": "New Tool Traces AI Videos Back to Their Source",
-      "vendor": "Dark Reading",
-      "severity": "High"
-    },
-    {
-      "summary": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of resellers, source-code vendors, custom versions, and competing sales channels. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "cve_id": "Inside the Underground Business of the Android BTMOB RAT mal",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries....",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "cve_id": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "cve_id": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWal",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "cve_id": "Thermo Fisher Patches Flaw That Could Make DNA File Tamperin",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
+      "summary": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "actor": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+      "severity": "High"
+    },
+    {
+      "summary": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025. These targeted organizations operate...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "actor": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "actor": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+      "severity": "High"
+    },
+    {
+      "summary": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "actor": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
+      "severity": "High"
+    },
+    {
+      "summary": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -327,7 +351,7 @@
     },
     {
       "summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -340,7 +364,7 @@
     },
     {
       "summary": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager. \"The first stage drops a steganographic PNG...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -353,7 +377,7 @@
     },
     {
       "summary": "A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -366,7 +390,7 @@
     },
     {
       "summary": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced passkeys to take over accounts, bypass user verification, and extract passkey private keys. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -379,7 +403,7 @@
     },
     {
       "summary": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately delivering CountLoader to Windows and macOS devices and a new remote access trojan named DeviceManager to Windows systems. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -392,7 +416,7 @@
     },
     {
       "summary": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -405,7 +429,7 @@
     },
     {
       "summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report. Researchers track the operation as CaptiveCrunch and attribute it to Storm-2945. It assesses...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -415,64 +439,116 @@
       "date": "Aug 04, 2026",
       "actor": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
       "severity": "High"
-    },
-    {
-      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "actor": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "severity": "High"
-    },
-    {
-      "summary": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
-      "age": 3,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/"
-        }
-      ],
-      "date": "Aug 03, 2026",
-      "actor": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments. One of the packages in question is...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html"
-        }
-      ],
-      "date": "Aug 03, 2026",
-      "actor": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-      "severity": "High"
-    },
-    {
-      "summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen. Unit 42 detailed three attack paths against Chrome's Google Password Manager cloud authenticator, which it calls...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html"
-        }
-      ],
-      "date": "Aug 03, 2026",
-      "actor": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer science. [...]",
+      "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "title": "77 Open VSX extensions found harvesting developer info",
+      "category": "news"
+    },
+    {
+      "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "title": "Google Chrome may soon block New Tab hijacker extensions by default",
+      "category": "news"
+    },
+    {
+      "summary": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorization Grant to bypass Multi-Factor Authentication (MFA) and seize control of...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+      "category": "news"
+    },
+    {
+      "summary": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has evolved from whether AI belongs in...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+      "category": "news"
+    },
+    {
+      "summary": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 \u2013 Summary of Vendor Announcements (Part 2) appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-2/"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "title": "Black Hat USA 2026 \u2013 Summary of Vendor Announcements (Part 2)",
+      "category": "news"
+    },
+    {
+      "summary": "Build your strategy around answering these questions to ensure employees use AI productively while keeping sensitive data, IP, and agent behavior within the boundaries set for safe AI use. The post Rethinking AI Security: Why CASB and DLP Need an Interaction-Aware Layer appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/rethinking-ai-security-why-casb-and-dlp-need-an-interaction-aware-layer/"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "title": "Rethinking AI Security: Why CASB and DLP Need an Interaction-Aware Layer",
+      "category": "news"
+    },
+    {
+      "summary": "Forescout researchers have found 15 new vulnerabilities in the TP-Link Omada networking ecosystem. The post TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/tp-link-omada-ztp-vulnerabilities-chain-into-full-network-takeover/"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "title": "TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover",
+      "category": "news"
+    },
+    {
+      "summary": "Obsidian Security has developed a platform for governing AI agents across third-party applications. The post Obsidian Security Raises $85 Million at $1.1 Billion Valuation appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/obsidian-security-raises-85-million-at-1-1-billion-valuation/"
+        }
+      ],
+      "date": "Aug 04, 2026",
+      "title": "Obsidian Security Raises $85 Million at $1.1 Billion Valuation",
+      "category": "news"
+    },
+    {
+      "summary": "OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer science. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -485,7 +561,7 @@
     },
     {
       "summary": "A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026. SafeDep verified 353 poisoned versions across 79 package names in the npm registry. Its monitoring put the wider footprint at...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -498,7 +574,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -511,7 +587,7 @@
     },
     {
       "summary": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent. The researchers said the public agent could be prompt-injected into posting /adk-issue-fix...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -520,110 +596,6 @@
       ],
       "date": "Aug 04, 2026",
       "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
-      "category": "news"
-    },
-    {
-      "summary": "The company will use the investment to accelerate product innovation and expand go-to-market operations. The post Oligo Raises $60 Million for Runtime Security appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/oligo-raises-60-million-for-runtime-security/"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "title": "Oligo Raises $60 Million for Runtime Security",
-      "category": "news"
-    },
-    {
-      "summary": "Russ Kirby, CISO at Ping Identity, shares how passion, courage, and \u201cgood enough\u201d thinking shaped his path from HP to the C-suite\u2014and what keeps him up at night. The post CISO Conversations: Russ Kirby \u2013 Passion Is the Antidote to Burnout appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ciso-conversation-russ-kirby-passion-is-the-antidote-to-burnout/"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "title": "CISO Conversations: Russ Kirby \u2013 Passion Is the Antidote to Burnout",
-      "category": "news"
-    },
-    {
-      "summary": "Researchers demonstrate how attackers could abuse built-in email chatbots to evade detection, impersonate trusted employees, compromise executive accounts, and facilitate financial fraud. The post Weaponized Email AI Assistants Could Help Attackers Hijack Accounts appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/weaponized-email-ai-assistants-could-help-attackers-hijack-accounts/"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "title": "Weaponized Email AI Assistants Could Help Attackers Hijack Accounts",
-      "category": "news"
-    },
-    {
-      "summary": "The AI security company will invest in product innovation, global expansion, and customer experience. The post Zenity Raises $125 Million in Series C Funding appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/zenity-raises-125-million-in-series-c-funding/"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "title": "Zenity Raises $125 Million in Series C Funding",
-      "category": "news"
-    },
-    {
-      "summary": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
-      "category": "news"
-    },
-    {
-      "summary": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to authorities. Anyone who...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-      "category": "news"
-    },
-    {
-      "summary": "Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same operators. Researchers named the operation Fuyao and attributed it to Zhejiang Fengwo IoT Technology Co., Ltd., a...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners\u2019 Broadband Into Proxies",
-      "category": "news"
-    },
-    {
-      "summary": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 \u2013 Summary of Vendor Announcements (Part 1) appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1/"
-        }
-      ],
-      "date": "Aug 04, 2026",
-      "title": "Black Hat USA 2026 \u2013 Summary of Vendor Announcements (Part 1)",
       "category": "news"
     }
   ]
