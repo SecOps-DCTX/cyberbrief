@@ -1,8 +1,22 @@
 {
   "breach": [
     {
+      "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "org": "Unlimited Technology Systems breach impacts 3.8 million people",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
       "summary": "Noteworthy stories that might have slipped under the radar: ban on Chinese data center tech, QuickFox VPN supply chain attack, IEH Corporation mailbox breached via phishing. The post In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "Hackers stole personal, medical, and health insurance information from a company\u2019s data center. The post 3.8 Million Impacted by Unlimited Technology Systems Data Breach appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +44,7 @@
     },
     {
       "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -41,82 +55,124 @@
       "org": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that its agents breached Hugging Face. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/"
-        }
-      ],
-      "date": "Aug 08, 2026",
-      "org": "Meta AI model hacked a company during misconfigured cyber test",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and modern work. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/"
-        }
-      ],
-      "date": "Aug 08, 2026",
-      "org": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
-      "severity": "Critical",
-      "records": "See source"
-    },
-    {
-      "summary": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network. Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the United States, but...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html"
-        }
-      ],
-      "date": "Aug 08, 2026",
-      "org": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo"
-        }
-      ],
-      "date": "Aug 08, 2026",
-      "org": "Angola's Largest Telco Breached Hours Before IPO",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
-        }
-      ],
-      "date": "Aug 08, 2026",
-      "org": "Lessons Learned from CISA\u2019s Recent GitHub Leak",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
+      "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "cve_id": "Metabase SQLi zero-day exploited in customer data-theft atta",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-8037 (CVSS score:...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "cve_id": "CVE-2026-8037",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems. \"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "cve_id": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "cve_id": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review. The security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE Software when it is...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "cve_id": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week runs on cheap leverage: exposed servers, recycled bugs, poisoned agent instructions, remote-access tools dressed as support software, and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "cve_id": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links. We observed production websites embedding hidden prompt injection payloads...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "cve_id": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently A",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The RovoBlast attack method identified by Varonis researchers could have been exploited to steal Confluence, Jira and SharePoint data. The post Critical One-Click Vulnerability in Atlassian\u2019s Rovo AI Exposed Enterprise Data appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "cve_id": "Critical One-Click Vulnerability in Atlassian\u2019s Rovo AI Expo",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -130,7 +186,7 @@
     },
     {
       "summary": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up \u2014 take what you need, pay me back whenever, no need to...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -144,7 +200,7 @@
     },
     {
       "summary": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath. The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -158,7 +214,7 @@
     },
     {
       "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -169,124 +225,51 @@
       "cve_id": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniqu",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "cve_id": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "cve_id": "CVE-2026-64561",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The browser refresh eliminates over two dozen memory safety bugs, including critical use-after-free flaws. The post Critical Vulnerabilities Patched With Chrome 151 Update appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/critical-vulnerabilities-patched-with-chrome-151-update/"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "cve_id": "Critical Vulnerabilities Patched With Chrome 151 Update",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "cve_id": "The Coordination Gap: How Attackers Are Outpacing Law Enforc",
-      "vendor": "Dark Reading",
-      "severity": "High"
-    },
-    {
-      "summary": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "cve_id": "Swiss government SharePoint breach compromised 200 accounts",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "cve_id": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "cve_id": "Metabase Zero-Day Exploited in Wild Allows Admin Access With",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "N-able has released a fresh round of hotfixes for N\u2011central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product. \"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "cve_id": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed ",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
+      "summary": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "actor": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+      "severity": "High"
+    },
+    {
+      "summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials. The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "actor": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+      "severity": "High"
+    },
+    {
+      "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. \"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "actor": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+      "severity": "High"
+    },
+    {
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -299,7 +282,7 @@
     },
     {
       "summary": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -312,7 +295,7 @@
     },
     {
       "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -325,7 +308,7 @@
     },
     {
       "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -338,7 +321,7 @@
     },
     {
       "summary": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gather related email. \"The campaign uses...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -351,7 +334,7 @@
     },
     {
       "summary": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID. The attacker can then establish longer-term cloud access, register a device it controls, obtain a Primary...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -364,7 +347,7 @@
     },
     {
       "summary": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. \"The connection is supported by...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -374,51 +357,116 @@
       "date": "Aug 08, 2026",
       "actor": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
       "severity": "High"
-    },
-    {
-      "summary": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/"
-        }
-      ],
-      "date": "Aug 08, 2026",
-      "actor": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-      "severity": "High"
-    },
-    {
-      "summary": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html"
-        }
-      ],
-      "date": "Aug 08, 2026",
-      "actor": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
-      "severity": "High"
-    },
-    {
-      "summary": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook"
-        }
-      ],
-      "date": "Aug 08, 2026",
-      "actor": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
+      "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the research found affected behavior...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "category": "news"
+    },
+    {
+      "summary": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains. Introduced in the JavaScript cryptography library 12 years ago, the function supplied weak entropy that affected wallet apps used to generate recovery phrases. Coinspect's on-chain...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+      "category": "news"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privacy by routing their Safari web traffic through two relays so that no single...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+      "category": "news"
+    },
+    {
+      "summary": "Initially calling itself BlackFile, the group has expanded operations to the Redact, Pink, Helix, and Falcon brands. The post Vishing Extortion Group UNC6671 Rebrands After Making Millions appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "title": "Vishing Extortion Group UNC6671 Rebrands After Making Millions",
+      "category": "news"
+    },
+    {
+      "summary": "In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "title": "D\u00e9j\u00e0 Vu? Meta's AI Escapes Testing Lab in Hacking Joyride",
+      "category": "news"
+    },
+    {
+      "summary": "A researcher demonstrated a proof-of-concept attack chain that provided C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat USA 2026.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "title": "Researcher Claims Control of ChatGPT Secure Sandbox",
+      "category": "news"
+    },
+    {
+      "summary": "Two former chief security officers of the Democratic National Committee explain that a strong security-first mindset requires executive support \u2014 and a dose of absurdity.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "title": "From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture",
+      "category": "news"
+    },
+    {
+      "summary": "Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana"
+        }
+      ],
+      "date": "Aug 09, 2026",
+      "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
+      "category": "news"
+    },
+    {
+      "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -431,7 +479,7 @@
     },
     {
       "summary": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -444,7 +492,7 @@
     },
     {
       "summary": "NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities. The post Truck Brake Controller\u2019s Safety Recall Doubled as Hidden Security Fix appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -457,7 +505,7 @@
     },
     {
       "summary": "Companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 \u2013 Summary of Vendor Announcements (Part 4) appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -466,110 +514,6 @@
       ],
       "date": "Aug 09, 2026",
       "title": "Black Hat USA 2026 \u2013 Summary of Vendor Announcements (Part 4)",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft fixed critical vulnerabilities across Azure, Entra, and SharePoint, while Apple patched a high-severity authentication bypass. The post Microsoft, Apple Release Fresh Security Updates appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "title": "Microsoft, Apple Release Fresh Security Updates",
-      "category": "news"
-    },
-    {
-      "summary": "Connor Riley Moucka was extradited to the United States in July 2025 after he was arrested in Canada. The post Snowflake Hacker Pleads Guilty in US Court appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/snowflake-hacker-pleads-guilty-in-us-court/"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "title": "Snowflake Hacker Pleads Guilty in US Court",
-      "category": "news"
-    },
-    {
-      "summary": "Zenity researchers reported the findings to Anthropic and OpenAI in late 2025 and early 2026, but they remain unpatched. The post Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/zero-click-ai-browser-hacking-claude-and-chatgpt-atlas-hijacked-via-emails-x-posts/"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "title": "Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts",
-      "category": "news"
-    },
-    {
-      "summary": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "title": "AI-Generated Patches Fail Half the Time",
-      "category": "news"
-    },
-    {
-      "summary": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "title": "North Carolina Ports confirms cyberattack disrupting operations",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don\u2019t pay for it",
-      "category": "news"
-    },
-    {
-      "summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed. PromptArmor, an AI...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
-      "category": "news"
-    },
-    {
-      "summary": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run. MIT CSAIL researchers Dani\u00ebl Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an AMD...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html"
-        }
-      ],
-      "date": "Aug 09, 2026",
-      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
       "category": "news"
     }
   ]
