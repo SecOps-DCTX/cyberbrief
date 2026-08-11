@@ -1,8 +1,50 @@
 {
   "breach": [
     {
-      "summary": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]",
+      "summary": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. The plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "org": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "org": "Angola's Largest Telco Breached Hours Before IPO",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "org": "Lessons Learned from CISA\u2019s Recent GitHub Leak",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +58,7 @@
     },
     {
       "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +72,7 @@
     },
     {
       "summary": "Attacks targeting water systems just keep flowing across a dozen states, against ill-secured, Internet-exposed PLCs.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -44,7 +86,7 @@
     },
     {
       "summary": "Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +100,7 @@
     },
     {
       "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on. Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -72,7 +114,7 @@
     },
     {
       "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -87,8 +129,120 @@
   ],
   "cve": [
     {
-      "summary": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
+      "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "cve_id": "CISA: SonicWall SMA1000 flaws now exploited by ransomware ga",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "cve_id": "TrueConf Server Flaws Exploited to Replace Client Installers",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "cve_id": "Metabase Zero-Day Exploited in Wild Allows Admin Access With",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "N-able has released a fresh round of hotfixes for N\u2011central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product. \"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "cve_id": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up \u2014 take what you need, pay me back whenever, no need to...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/growing-up-hard-way.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "cve_id": "Growing Up The Hard Way",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath. The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "cve_id": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "cve_id": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniqu",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "cve_id": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
+      "vendor": "Dark Reading",
+      "severity": "Critical"
+    },
+    {
+      "summary": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -102,7 +256,7 @@
     },
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -116,7 +270,7 @@
     },
     {
       "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -130,7 +284,7 @@
     },
     {
       "summary": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. \"Unlike traditional software supply chain attacks, zero source code files were modified within...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -141,124 +295,38 @@
       "cve_id": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue Wo",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-8037 (CVSS score:...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "cve_id": "CVE-2026-8037",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems. \"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "cve_id": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition. The post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "cve_id": "Cisco Warns of High-Severity ClamAV Vulnerabilities With Pub",
-      "vendor": "SecurityWeek",
-      "severity": "High"
-    },
-    {
-      "summary": "The security defect allows unauthenticated, remote attackers to gain administrative access to Metabase instances. The post Metabase Patches Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "cve_id": "Metabase Patches Vulnerability Exploited as Zero-Day",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "cve_id": "Hackers breach TrueConf to trojanize client installers with ",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said....",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "cve_id": "China-Linked Hackers Deploy New StormEncryptor Ransomware, L",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "cve_id": "\u26a1 Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Ch",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "cve_id": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution ",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]",
+      "summary": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "actor": "US and South Korea warn of Gunra ransomware targeting govt agencies",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID. The attacker can then establish longer-term cloud access, register a device it controls, obtain a Primary...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "actor": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+      "severity": "High"
+    },
+    {
+      "summary": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -271,7 +339,7 @@
     },
     {
       "summary": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -284,7 +352,7 @@
     },
     {
       "summary": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -297,7 +365,7 @@
     },
     {
       "summary": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -310,7 +378,7 @@
     },
     {
       "summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials. The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -323,7 +391,7 @@
     },
     {
       "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. \"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -336,7 +404,7 @@
     },
     {
       "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -349,7 +417,7 @@
     },
     {
       "summary": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -362,7 +430,7 @@
     },
     {
       "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -375,7 +443,7 @@
     },
     {
       "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -385,38 +453,116 @@
       "date": "Aug 10, 2026",
       "actor": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
       "severity": "High"
-    },
-    {
-      "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
-      "age": 3,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "actor": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gather related email. \"The campaign uses...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "actor": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed. When software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security...",
+      "summary": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
+      "category": "news"
+    },
+    {
+      "summary": "A member of \"The Com,\" a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120 victims worldwide. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "Member of The Com sent to prison for blackmail, sextortion",
+      "category": "news"
+    },
+    {
+      "summary": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "LexisNexis shuts down services after suspicious activity on servers",
+      "category": "news"
+    },
+    {
+      "summary": "Marcus Hutchins doesn\u2019t personally consider himself a hacker \u2013 but he accepts the epithet because it\u2019s a widely used term for what he once did. The post Hacker Conversations: Marcus Hutchins and the Journey From the Gray Zone to Redemption appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/hacker-conversations-marcus-hutchins/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "Hacker Conversations: Marcus Hutchins and the Journey From the Gray Zone to Redemption",
+      "category": "news"
+    },
+    {
+      "summary": "OpenAI has also announced the expansion of its Daybreak platform to give more organizations access to its AI. The post OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/openai-unveils-new-cybersecurity-model-gpt-5-6-cyber/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber",
+      "category": "news"
+    },
+    {
+      "summary": "Hackers linked to Iran targeted industrial control systems (ICS) at water facilities in at least a dozen US states. The post New Jersey, Alabama Join States Targeted in Water Cyberattacks appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "New Jersey, Alabama Join States Targeted in Water Cyberattacks",
+      "category": "news"
+    },
+    {
+      "summary": "It's time to turn from CVSS-backed patching to choke-point patching focused on breaking chains to critical assets.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists",
+      "category": "news"
+    },
+    {
+      "summary": "A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "Outdated Cybercrime Laws Put Security Researchers at Risk",
+      "category": "news"
+    },
+    {
+      "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed. When software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -429,7 +575,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro web3devtoolsx.solidity-pro Although...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -442,7 +588,7 @@
     },
     {
       "summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed. PromptArmor, an AI...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -455,7 +601,7 @@
     },
     {
       "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the research found affected behavior...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -464,110 +610,6 @@
       ],
       "date": "Aug 11, 2026",
       "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-      "category": "news"
-    },
-    {
-      "summary": "The previous GPG signing subkey was inadvertently added to a GitHub repository and Mozilla decided to revoke it. The post Mozilla Issues New Firefox GPG Key Following Exposure appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposure/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "title": "Mozilla Issues New Firefox GPG Key Following Exposure",
-      "category": "news"
-    },
-    {
-      "summary": "The current GPT-5.6-Sol has been assigned a \u2018high\u2019 cybersecurity threshold, but Astra could reach the maximum \u2018critical\u2019 threshold. The post OpenAI\u2019s Upcoming Astra Model Raises Autonomous Cyberattack Concerns appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cyberattack-concerns/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "title": "OpenAI\u2019s Upcoming Astra Model Raises Autonomous Cyberattack Concerns",
-      "category": "news"
-    },
-    {
-      "summary": "CERT.PL said this appears to be the first instance of a private APN being used as an attack vector. The post Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/novel-private-apn-pivot-let-hackers-sabotage-second-polish-energy-facility/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "title": "Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility",
-      "category": "news"
-    },
-    {
-      "summary": "New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "title": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
-      "category": "news"
-    },
-    {
-      "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity. In response to the discovery, the AI upstart said it's implementing security...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-      "category": "news"
-    },
-    {
-      "summary": "The startup analyzes subtle telemetry signals to detect attacks that traditional security tools cannot see inside accelerator-powered AI infrastructure. The post Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "title": "Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds",
-      "category": "news"
-    },
-    {
-      "summary": "An AI agent executes instructions that an attacker has planted in the log or alert that records a blocked request word for word. The post \u2018Ghostjacking\u2019 Attack Uses Poisoned Logs to Turn AI Agents Bad appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad/"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "title": "\u2018Ghostjacking\u2019 Attack Uses Poisoned Logs to Turn AI Agents Bad",
       "category": "news"
     }
   ]
