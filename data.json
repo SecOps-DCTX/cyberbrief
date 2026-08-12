@@ -1,8 +1,22 @@
 {
   "breach": [
     {
-      "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them. Threat intelligence firm CloudSEK now says a dataset it obtained, built...",
+      "summary": "Attacks targeting water systems just keep flowing across a dozen states, against ill-secured, Internet-exposed PLCs.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "org": "Multistate Water System Attacks Widen, Iran Suspected",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them. Threat intelligence firm CloudSEK now says a dataset it obtained, built...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on. Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -30,7 +44,7 @@
     },
     {
       "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -44,7 +58,7 @@
     },
     {
       "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -58,7 +72,7 @@
     },
     {
       "summary": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -69,54 +83,124 @@
       "org": "Mozilla updates GPG signing key for Firefox releases after exposure",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. The plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "org": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "org": "Angola's Largest Telco Breached Hours Before IPO",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "org": "Lessons Learned from CISA\u2019s Recent GitHub Leak",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
+      "summary": "Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification and biometric liveness checks can help organizations confirm that the person receiving access is the legitimate new hire....",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "The Threat Hiding in Your Hiring Process: How Fake Remote Wo",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "Hackers leverage new Microsoft SharePoint exploit in attacks",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "\u200bSignal has introduced Automatic Key Verification, a new security feature that gives users a new way to ensure their encrypted chats haven't been intercepted. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "Signal adds new security feature to thwart man-in-the-middle",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure. The extensions, published across at least 40 Chrome Web Store developer accounts,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "737 Chrome VPN Extensions Caught Routing Traffic Through Pro",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. The weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Deco",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) -...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "CVE-2026-48362",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent. The flaw, tracked as CVE-2026-55040 (CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "CVE-2026-55040",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -130,7 +214,7 @@
     },
     {
       "summary": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and continuously enforce permissions around what each agent was actually created to do. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -144,7 +228,7 @@
     },
     {
       "summary": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -158,7 +242,7 @@
     },
     {
       "summary": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning process in denial-of-service (DoS) attacks. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -169,124 +253,38 @@
       "cve_id": "Cisco warns of high-severity ClamAV flaws with public exploi",
       "vendor": "BleepingComputer",
       "severity": "High"
-    },
-    {
-      "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "cve_id": "CVE-2026-59310",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "cve_id": "CVE-2026-58231",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "cve_id": "CVE-2026-50656",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "cve_id": "CVE-2026-20349",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devices. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "cve_id": "Cisco warns of ASA and FTD VPN flaw exploited to crash devic",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "cve_id": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's. The flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "cve_id": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction. The trick can work even after a blunt version of the same theft is refused: split the request into fragments...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "cve_id": "Malicious MCP Servers Can Split Instructions to Make AI Codi",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "LiteLLM was compromised through the Trivy hack and abused to distribute information-stealing malware to its users. The post Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack appeared first on SecurityWeek.",
+      "summary": "Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "actor": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "actor": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
+      "severity": "High"
+    },
+    {
+      "summary": "LiteLLM was compromised through the Trivy hack and abused to distribute information-stealing malware to its users. The post Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack appeared first on SecurityWeek.",
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -299,7 +297,7 @@
     },
     {
       "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -312,7 +310,7 @@
     },
     {
       "summary": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -325,7 +323,7 @@
     },
     {
       "summary": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -338,7 +336,7 @@
     },
     {
       "summary": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks. The new version, tracked as Kimwolf v7, was discovered by...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -351,7 +349,7 @@
     },
     {
       "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -364,7 +362,7 @@
     },
     {
       "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -377,7 +375,7 @@
     },
     {
       "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware. CERT-UA pinned the activity on a threat...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -387,38 +385,116 @@
       "date": "Aug 11, 2026",
       "actor": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
       "severity": "Critical"
-    },
-    {
-      "summary": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "actor": "US and South Korea warn of Gunra ransomware targeting govt agencies",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID. The attacker can then establish longer-term cloud access, register a device it controls, obtain a Primary...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "actor": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
+      "summary": "The FBI warns that cybercriminals are targeting adults' and children's social media and other online accounts to steal sexually explicit images or videos. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "FBI: Hackers target online accounts to steal nude photos",
+      "category": "news"
+    },
+    {
+      "summary": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "Microsoft releases Windows 10 KB5120249 extended security update",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "Windows 11 KB5121003 & KB5120240 cumulative updates released",
+      "category": "news"
+    },
+    {
+      "summary": "Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none. According to Picus Labs' new Blue Report 2026, which measured more than 338 million real attack simulations across actual client production environments in the first half of 2026, defenses...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+      "category": "news"
+    },
+    {
+      "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed. When software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "Shipping 10\u201350\u00d7 More Code? Watch This Webinar on Securing AI-Speed Development",
+      "category": "news"
+    },
+    {
+      "summary": "The cybersecurity startup will use the fresh investment to scale its product, engineering, sales, and marketing teams. The post Mindgard Raises $30 Million to Protect AI Systems appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/mindgard-raises-30-million-to-protect-ai-systems/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "Mindgard Raises $30 Million to Protect AI Systems",
+      "category": "news"
+    },
+    {
+      "summary": "Signal has also made a security announcement: an automatic key verification feature to complement its safety number system. The post WhatsApp Unveils New Scam Alert Feature appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/whatsapp-unveils-new-scam-alert-feature/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "WhatsApp Unveils New Scam Alert Feature",
+      "category": "news"
+    },
+    {
+      "summary": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -431,7 +507,7 @@
     },
     {
       "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over. Researchers at the University of Birmingham and the security firm...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -444,7 +520,7 @@
     },
     {
       "summary": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories. That key is how a user, or a Linux distribution packaging the browser, confirms a downloaded Firefox tarball...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -457,7 +533,7 @@
     },
     {
       "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording. The onboarding paperwork is the part hiring teams can use. The first hire claimed to live in Pasadena, Texas,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -466,110 +542,6 @@
       ],
       "date": "Aug 12, 2026",
       "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "category": "news"
-    },
-    {
-      "summary": "The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data. The post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "title": "SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform",
-      "category": "news"
-    },
-    {
-      "summary": "A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "title": "Outdated Cybercrime Laws Put Security Researchers at Risk",
-      "category": "news"
-    },
-    {
-      "summary": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today's ethical- and unethical hackers.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "title": "Sherlock Holmes Was the 'OG' Social Engineer",
-      "category": "news"
-    },
-    {
-      "summary": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "title": "AI-Generated Patches Fail Half the Time",
-      "category": "news"
-    },
-    {
-      "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
-      "category": "news"
-    },
-    {
-      "summary": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine. The same PnP path can be triggered over Remote Desktop without physical hardware when...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity. In response to the discovery, the AI upstart said it's implementing security...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-      "category": "news"
-    },
-    {
-      "summary": "SAP released 28 new and two updated security notes, including four notes dealing with critical-severity bugs. The post SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/sap-patches-critical-code-injection-memory-corruption-vulnerabilities/"
-        }
-      ],
-      "date": "Aug 12, 2026",
-      "title": "SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities",
       "category": "news"
     }
   ]
