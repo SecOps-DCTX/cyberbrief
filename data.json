@@ -1,8 +1,22 @@
 {
   "breach": [
     {
-      "summary": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
+      "summary": "As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "org": "Is Cyber Facing an Affordability Crisis?",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwned. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +44,7 @@
     },
     {
       "summary": "Threat actors linked by Arctic Wolf to Dark Caracal with medium confidence deployed a previously undocumented Go-based malware framework, GoCaracal, during a June 2026 intrusion at an unnamed communications organization in Venezuela. GoCaracal provides operators with remote shell access and payload execution, while...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -44,7 +58,7 @@
     },
     {
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -58,7 +72,7 @@
     },
     {
       "summary": "The agency has released guidance on reducing internet exposure in the wake of the recent Iran-linked hacker attacks. The post CISA: Over 100 Internet-Exposed Water Systems Targeted in July Cyberattacks appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -72,7 +86,7 @@
     },
     {
       "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -86,7 +100,7 @@
     },
     {
       "summary": "Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -97,40 +111,124 @@
       "org": "Sensitive Information Exposed in Nutex Health Data Breach",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "org": "LACMA data breach last year exposed social security and medical data",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers. \"We are launching an economic onslaught against Iran's financial connections around the globe. Our...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "org": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
-      "severity": "Critical",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
+      "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May. The incident, the company said, took place during cybersecurity evaluations of several OpenAI...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "cve_id": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-D",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "cve_id": "Learn How to Build Security Operations Ready for AI-Powered ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners Trivy and Checkmarx KICS and the AI gateway LiteLLM. Louis Michael Gaebler,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "cve_id": "Alleged TeamPCP Hackers Charged in Australia Over Major Supp",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Individuals and organizations in Cambodia have emerged as the target of a new campaign that delivers an open-source remote access trojan (RAT) called Spark RAT. \"The samples employ diverse lure themes, suggesting an effort to appeal to a broad range of potential victims. These include government notices, public...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "cve_id": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS) and privilege escalation to a root shell. Dubbed GPUThor, the attack was...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "cve_id": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gai",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetScaler ADC and NetScaler Gateway, citing evidence of active exploitation. The vulnerabilities are...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "cve_id": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, L",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912, both stem from the same...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "cve_id": "CVE-2026-19913",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs. The original incident was first reported by ABC News on August...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "cve_id": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Us",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -144,7 +242,7 @@
     },
     {
       "summary": "Google Workspace breaches can begin with social engineering or forgotten third-party integrations rather than sophisticated exploits. This webinar examines real-world breaches, what happens during the critical first hours, and the security controls that can make the greatest difference. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -158,7 +256,7 @@
     },
     {
       "summary": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -172,7 +270,7 @@
     },
     {
       "summary": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -183,124 +281,77 @@
       "cve_id": "ATF confirms \u201cmajor incident\u201d after recent Qilin breach clai",
       "vendor": "BleepingComputer",
       "severity": "High"
-    },
-    {
-      "summary": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/"
-        }
-      ],
-      "date": "Aug 27, 2026",
-      "cve_id": "Critical Avada WordPress theme flaw enables zero-click RCE",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html"
-        }
-      ],
-      "date": "Aug 27, 2026",
-      "cve_id": "Next.js Patches Critical AVIF and Windows Flaws Enabling Una",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine. The rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waiting before showing their real behavior,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html"
-        }
-      ],
-      "date": "Aug 27, 2026",
-      "cve_id": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, Sh",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers. The security flaw, which does not have a CVE identifier, works...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html"
-        }
-      ],
-      "date": "Aug 27, 2026",
-      "cve_id": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data T",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) and root-level privilege escalation. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "cve_id": "New GPUThor attack defeats NVIDIA ECC protection for root ac",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "cve_id": "Hackers target Microsoft SharePoint RCE chain with PoC explo",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering Authority (CNA) record. The CNA record says the command can run as a local...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "cve_id": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Exe",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. While this relationship required...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "cve_id": "Frontier AI: Vulnerability Management's Systemic Revolution",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
+      "summary": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect Microsoft 365 sign-ins, while capturing authenticated sessions in the process. In a report shared with The Hacker News ahead of publication, Island...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "actor": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+      "severity": "High"
+    },
+    {
+      "summary": "An untold number of ZBT routers sold around the world as white-label products come with several implants built by the manufacturer.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "actor": "Chinese Routers Sold Worldwide Contain Backdoors",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors behind a notorious click-fraud botnet have set their sights on vehicle infotainment modules and are abusing legitimate functionality to spread infections.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "actor": "Android Malware Hijacks Update System for Car Head Units",
+      "severity": "High"
+    },
+    {
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "actor": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "severity": "High"
+    },
+    {
+      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "actor": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "severity": "High"
+    },
+    {
+      "summary": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -313,7 +364,7 @@
     },
     {
       "summary": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23-instruction language of its own design. The sample is an unsigned 64-bit...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -326,7 +377,7 @@
     },
     {
       "summary": "The White House\u2019s new executive order 14420 widens scrutiny of industrial control systems over cyber sabotage concerns. The post Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -339,7 +390,7 @@
     },
     {
       "summary": "EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -352,7 +403,7 @@
     },
     {
       "summary": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -365,7 +416,7 @@
     },
     {
       "summary": "ClickFix-style threat campaigns are using a new trick to evade detection and deliver Amatera, an increasingly prevalent infostealer.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -378,7 +429,7 @@
     },
     {
       "summary": "An advanced, multilingual malware family brings back a trick from yesteryear \u2014 screen hijacking \u2014 for effective password theft, along with a slew of novel features.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -388,77 +439,116 @@
       "date": "Aug 27, 2026",
       "actor": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
       "severity": "High"
-    },
-    {
-      "summary": "The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat"
-        }
-      ],
-      "date": "Aug 27, 2026",
-      "actor": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
-      "severity": "High"
-    },
-    {
-      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and other sensitive networks in the country. The activity has been attributed to a Chinese state-sponsored group known as...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "actor": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with the Islamic Revolutionary Guard Corps (IRGC). Group-IB, in a new analysis published today, described the cyber espionage...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "actor": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients. McAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "actor": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-      "severity": "High"
-    },
-    {
-      "summary": "Palo Alto Networks Unit 42 analyzed 405 AI-linked malware samples and found only 12 reached production endpoints. The post AI Speeds Up Malware Development, Not Its Success Rate: Analysis appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ai-speeds-up-malware-development-not-its-success-rate-analysis/"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "actor": "AI Speeds Up Malware Development, Not Its Success Rate: Analysis",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...]",
+      "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
+      "category": "news"
+    },
+    {
+      "summary": "An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 263 suspects. \"The operation, which brought together 22 countries from six continents, is a response to the escalating global threat posed by West African criminal networks \u2013...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+      "category": "news"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask for their device passcode. SOCRadar Threat Research Unit (STRU) said the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+      "category": "news"
+    },
+    {
+      "summary": "New training environments will teach AI models to distrust instructions arriving from other agents outside sanctioned channels. The post OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "title": "OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack",
+      "category": "news"
+    },
+    {
+      "summary": "The identity security company beat quarterly expectations and raised its outlook as enterprises face growing pressure to secure AI agents and other non-human identities. The post Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/okta-shares-surge-on-strong-earnings-growing-demand-for-ai-identity-security/"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "title": "Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security",
+      "category": "news"
+    },
+    {
+      "summary": "SecurityWeek talks to Chris Wheeler, CISO at Resilience, about his journey from the Navy to becoming a cybersecurity leader. The post CISO Conversations: Chris Wheeler \u2013 Trust Is the Job, From the Navy to the C-Suite appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/ciso-conversations-chris-wheeler-trust-is-the-job-from-the-navy-to-the-c-suite/"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "title": "CISO Conversations: Chris Wheeler \u2013 Trust Is the Job, From the Navy to the C-Suite",
+      "category": "news"
+    },
+    {
+      "summary": "The cybersecurity incident has disrupted Boston Scientific\u2019s ability to process and ship customer orders. The post Cyberattack Causes Global Disruption at Boston Scientific appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/cyberattack-causes-global-disruption-at-boston-scientific/"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "title": "Cyberattack Causes Global Disruption at Boston Scientific",
+      "category": "news"
+    },
+    {
+      "summary": "For twenty-five years, \"data\" in security meant logs and events. But logs are a lossy representation of reality. The post The Future of AI-Driven Security Depends on Complete Data appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/the-future-of-ai-driven-security-depends-on-complete-data/"
+        }
+      ],
+      "date": "Aug 28, 2026",
+      "title": "The Future of AI-Driven Security Depends on Complete Data",
+      "category": "news"
+    },
+    {
+      "summary": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -471,7 +561,7 @@
     },
     {
       "summary": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -484,7 +574,7 @@
     },
     {
       "summary": "Microsoft has started rolling out a permanent fix for a known issue that causes system crashes and gaming issues on Windows 11 devices. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -497,7 +587,7 @@
     },
     {
       "summary": "AI is officially mainstream in security operations. According to Prophet Security's State of AI in Security Operations 2026 report (produced from ViB\u2019s survey of 250+ cybersecurity pros), 40% of security teams now use AI daily. Another 56% are currently testing it out, and only 4% have no plans to adopt it. For the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -506,110 +596,6 @@
       ],
       "date": "Aug 27, 2026",
       "title": "What the Data Says About AI in Security Operations in 2026",
-      "category": "news"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultaneously against two critical infrastructure organizations, using what it described as similar tradecraft while recording sharply different defensive outcomes. Both organizations...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html"
-        }
-      ],
-      "date": "Aug 27, 2026",
-      "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
-      "category": "news"
-    },
-    {
-      "summary": "The SOC we've always known was built around a model that guarantees most of the alert queue will never receive analyst review. There's never time. In a traditional SOC, the typical progression follows a well-known pattern: an alert arrives; a detection engine assigns a severity score. The issue then waits for a...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html"
-        }
-      ],
-      "date": "Aug 27, 2026",
-      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
-      "category": "news"
-    },
-    {
-      "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself. The findings were shared with The Hacker News ahead of publication, and the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html"
-        }
-      ],
-      "date": "Aug 27, 2026",
-      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-      "category": "news"
-    },
-    {
-      "summary": "Australian and US authorities collaborated to identify and charge the alleged cybercriminals, who face many years in prison. The post Australia Arrests 2 Alleged TeamPCP Hackers appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/"
-        }
-      ],
-      "date": "Aug 27, 2026",
-      "title": "Australia Arrests 2 Alleged TeamPCP Hackers",
-      "category": "news"
-    },
-    {
-      "summary": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over allegations that Facebook and Instagram were deliberately designed to encourage compulsive use by children and teenagers. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "title": "Meta agrees to $18 billion settlement over teen social media harms",
-      "category": "news"
-    },
-    {
-      "summary": "Medical technology company Boston Scientific has been targeted in a cyberattack that disrupted some of its IT systems, causing operational disruptions globally. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "title": "Boston Scientific says cyberattack disrupted operations globally",
-      "category": "news"
-    },
-    {
-      "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts that used VPNs to bypass access restrictions and run an influence operation, which relied on its artificial intelligence (AI) tool to generate social media posts and comments that were shared on Substack, Telegram, X, Facebook and LinkedIn. The...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html"
-        }
-      ],
-      "date": "Aug 26, 2026",
-      "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
       "category": "news"
     }
   ]
