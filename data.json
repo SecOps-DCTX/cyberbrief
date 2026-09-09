@@ -1,8 +1,36 @@
 {
   "breach": [
     {
-      "summary": "Every leaked credential should be dead, or dying, within sixty seconds of being found. Here's a proposal to make that the default. The post This Key Will Self-Destruct: An Open Standard for Revocable API Keys appeared first on SecurityWeek.",
+      "summary": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "org": "Veradigm warns of patient data breach after ransomware gang claims attack",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack thereof) of AI-generated malware.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "org": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Every leaked credential should be dead, or dying, within sixty seconds of being found. Here's a proposal to make that the default. The post This Key Will Self-Destruct: An Open Standard for Revocable API Keys appeared first on SecurityWeek.",
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -16,7 +44,7 @@
     },
     {
       "summary": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -30,7 +58,7 @@
     },
     {
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -44,7 +72,7 @@
     },
     {
       "summary": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +86,7 @@
     },
     {
       "summary": "Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examines how overly permissive integrations contribute to breaches and which security controls can help fast-growing companies reduce their exposure. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +100,7 @@
     },
     {
       "summary": "Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -86,7 +114,7 @@
     },
     {
       "summary": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017 to 2026. Researchers accessed the Vietnam-linked system through a cloud-based path using default...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -97,82 +125,124 @@
       "org": "220 million traveler records exposed in Vietnam-linked APIS leak",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/"
-        }
-      ],
-      "date": "Sep 07, 2026",
-      "org": "Mathspace discloses data breach affecting over 1 million people",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/"
-        }
-      ],
-      "date": "Sep 07, 2026",
-      "org": "Trezor data breach impact now reaches 81,000 customers",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html"
-        }
-      ],
-      "date": "Sep 07, 2026",
-      "org": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html"
-        }
-      ],
-      "date": "Sep 07, 2026",
-      "org": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "OpenAI agents made 15,000\u201318,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach. The post OpenAI Agents Hijack Another Victim Website appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/openai-agents-hijack-another-victim-website/"
-        }
-      ],
-      "date": "Sep 07, 2026",
-      "org": "OpenAI Agents Hijack Another Victim Website",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
+      "summary": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application data to build enough context to act....",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "Webinar: Learn How to Answer \u201cAre We Exposed?\u201d Faster After ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs an agent's commands inside an operating-system sandbox, so that an agent working on untrusted files cannot write outside...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File S",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the internet. Alby Hub is a self-hosted Lightning wallet, meaning the owner runs it on their own computer or server,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "Alby Hub Critical Flaw Could Let Attackers Take Over Interne",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by September 11, 2026. The vulnerability...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the company's proof of concept, that hidden work read data from the user's connected Gmail account...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among three test phones. The person being called does not have to answer or touch their phone for it to work, but the caller must already be one of their WeChat contacts....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Andr",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says. FreeIPA is the system that determines who may log in across a Linux domain and maintains all identities in a 389 Directory Server database...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Ad",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "CVE-2026-75650",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +256,7 @@
     },
     {
       "summary": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday security updates. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -200,7 +270,7 @@
     },
     {
       "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -214,7 +284,7 @@
     },
     {
       "summary": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -225,124 +295,51 @@
       "cve_id": "CVE-2026-87491",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through EmailTrack and, from there, run code as the root user. cPanel published the advisory on...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "cve_id": "New cPanel Flaw Lets a Hosting Account With Mail Privileges ",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher reported last month....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "cve_id": "CVE-2026-69414",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application The vulnerability, tracked as CVE-2026-44756 (CVSS score: 10.0),...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "cve_id": "CVE-2026-44756",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild. These include 723 flaws in Windows, 111 in Office and Office 2016, 62 in SQL, and 22 in Developer Tools....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "cve_id": "Microsoft Patches Record 974 Flaws, Including Two Exploited ",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were discovered will be critical to meeting the new...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "cve_id": "The EU CRA's Real Question: What Shipped, and When Did You K",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "cve_id": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "cve_id": "Microsoft releases Windows 10 KB5122878 extended security up",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "cve_id": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 ze",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7. When Apache loads any of the three appliances' own PHP scripts, the malware adds the web shell to the copy held in memory, so a...",
+      "summary": "Distillation is an \u2018attack\u2019 against an AI model designed to capture outputs, understand reasoning processes, and subsequently train a different model. The post US Agencies Warn China Is Systematically Extracting Frontier AI Capabilities appeared first on SecurityWeek.",
       "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/us-agencies-warn-china-is-systematically-extracting-frontier-ai-capabilities/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "actor": "US Agencies Warn China Is Systematically Extracting Frontier AI Capabilities",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "actor": "Large Enterprises Targeted in Fake Merger & Acquisition Scams",
+      "severity": "High"
+    },
+    {
+      "summary": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "actor": "AI Model Evaluator METR Hit by Credential Theft, Probing",
+      "severity": "High"
+    },
+    {
+      "summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7. When Apache loads any of the three appliances' own PHP scripts, the malware adds the web shell to the copy held in memory, so a...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -355,7 +352,7 @@
     },
     {
       "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -368,7 +365,7 @@
     },
     {
       "summary": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -381,7 +378,7 @@
     },
     {
       "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -394,7 +391,7 @@
     },
     {
       "summary": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -407,7 +404,7 @@
     },
     {
       "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -420,7 +417,7 @@
     },
     {
       "summary": "Threat actors are increasingly switching from AI-powered coding assistants to multi-agent frameworks that automate every stage of an attack. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -433,7 +430,7 @@
     },
     {
       "summary": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company CrowdStrike is tracking the Brazil-based activity cluster under the name Slim Spider. \"The adversary demonstrates deep operational...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -446,7 +443,7 @@
     },
     {
       "summary": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours. Google Threat Intelligence Group (GTIG)...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -456,51 +453,116 @@
       "date": "Sep 08, 2026",
       "actor": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
       "severity": "High"
-    },
-    {
-      "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "actor": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has operated out of the Indian state of...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "actor": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-      "severity": "High"
-    },
-    {
-      "summary": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
-      "age": 3,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "actor": "Stronger Security Drives Ransomware Groups to Recruit From Within",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
+      "summary": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
+      "category": "news"
+    },
+    {
+      "summary": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service desk is critical to preventing social engineering attacks from turning account recovery into...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
+      "category": "news"
+    },
+    {
+      "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide range of data from...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "category": "news"
+    },
+    {
+      "summary": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks. The activity has been described as occurring at an...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+      "category": "news"
+    },
+    {
+      "summary": "The company will increase its US market presence and will expand its engineering and go-to-market teams. The post HelmGuard Raises $7.3 Million for Agentic GRC and Security appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "HelmGuard Raises $7.3 Million for Agentic GRC and Security",
+      "category": "news"
+    },
+    {
+      "summary": "The critical, unauthenticated bugs allow attackers to bypass authentication and proxy a user\u2019s browser traffic. The post Fortinet Patches Critical Vulnerabilities in FortiMonitorOnSight, Chrome Extension appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortimonitoronsight-chrome-extension/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Fortinet Patches Critical Vulnerabilities in FortiMonitorOnSight, Chrome Extension",
+      "category": "news"
+    },
+    {
+      "summary": "Muse runs on a dedicated, secure virtual machine that houses both the agent and the user\u2019s data. The post Meta Launches Personal AI Agent, Muse, Emphasizes Safety and Privacy appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/meta-launches-personal-ai-agent-muse-emphasizes-safety-and-privacy/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Meta Launches Personal AI Agent, Muse, Emphasizes Safety and Privacy",
+      "category": "news"
+    },
+    {
+      "summary": "\"Workflow identity hijacking\" can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Identity-Based AI Attack Threatens Security of Enterprise Data",
+      "category": "news"
+    },
+    {
+      "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -513,7 +575,7 @@
     },
     {
       "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -526,7 +588,7 @@
     },
     {
       "summary": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC. The network is still paused, so holders...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -539,7 +601,7 @@
     },
     {
       "summary": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbers, but I want to share what's actually behind them. The number itself is...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -548,110 +610,6 @@
       ],
       "date": "Sep 09, 2026",
       "title": "What It Took to Reach 1 Billion Build Manifests",
-      "category": "news"
-    },
-    {
-      "summary": "Online dating app Grindr has opted to pay \u00a326 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties. Grindr, which is the largest LGBTQ+ dating app, was sued in April 2024, accusing it of violating U.K....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "title": "Grindr to Pay \u00a326 Million to Settle U.K. Claims Over HIV Status Data Sharing",
-      "category": "news"
-    },
-    {
-      "summary": "Attackers are using trusted Microsoft services and blob URLs to generate stealthy phishing pages that leave defenders with no static website to detect or block. The post New Phishing Attack Creates Malicious Pages Inside the Victim\u2019s Browser appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/new-phishing-attack-creates-malicious-pages-inside-the-victims-browser/"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "title": "New Phishing Attack Creates Malicious Pages Inside the Victim\u2019s Browser",
-      "category": "news"
-    },
-    {
-      "summary": "Malicious prompts concealed in documents, metadata, emails, images and code can manipulate autonomous agents into taking dangerous actions. The post The Hidden Instructions That Can Hijack AI Agents appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/the-hidden-instructions-that-can-hijack-ai-agents/"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "title": "The Hidden Instructions That Can Hijack AI Agents",
-      "category": "news"
-    },
-    {
-      "summary": "Alleged \u2018white-hat\u2019 hackers drained $320 million from Liquid\u2019s federation wallet, demanding a bug fix. The post Hackers Return $263 Million Stolen From Liquid Network appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/hackers-return-263-million-stolen-from-liquid-network/"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "title": "Hackers Return $263 Million Stolen From Liquid Network",
-      "category": "news"
-    },
-    {
-      "summary": "A massive operation dubbed \"DoppelCart\" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft has released Windows 11 KB5124008 and KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
-      "category": "news"
-    },
-    {
-      "summary": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organizations across AWS, Azure, and Google Cloud and found that risk profiles across providers have almost nothing in...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
-      "category": "news"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntress, three unrelated incidents have been found to use diverse initial access methods, namely a...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
       "category": "news"
     }
   ]
