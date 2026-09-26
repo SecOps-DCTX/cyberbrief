@@ -1,8 +1,22 @@
 {
   "breach": [
     {
+      "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled \"Email...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "org": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
       "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +44,7 @@
     },
     {
       "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian\u2019s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the rate of human-written ones. Most of...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -44,7 +58,7 @@
     },
     {
       "summary": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen US water systems. It was a busy summer.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -58,7 +72,7 @@
     },
     {
       "summary": "Even if the organization locks down employee accounts, forgotten and lost service accounts can still undo the organization's entire M365 environment.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -69,26 +83,124 @@
       "org": "Ghost Service Accounts Enable M365 Data Theft in Chile",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Hackers impersonated the company\u2019s personnel and contacted its employees to gain access to Astrana Health\u2019s servers. The post Astrana Health Data Breach Impacts Private, Confidential Information appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/"
-        }
-      ],
-      "date": "Sep 24, 2026",
-      "org": "Astrana Health Data Breach Impacts Private, Confidential Information",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
+      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "cve_id": "CVE-2026-35273",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "cve_id": "CVE-2026-48842",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday. The data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "cve_id": "Cloudflare Fixes Flaw That Let One Container Read Another Cu",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-5430 (CVS...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "cve_id": "CVE-2026-5430",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "cve_id": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "cve_id": "TeamFiltration Campaign Compromises Seven Microsoft 365 Acco",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). \"An unauthenticated attacker can make...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "cve_id": "CVE-2026-87902",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "cve_id": "CVE-2026-67279",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -102,7 +214,7 @@
     },
     {
       "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -116,7 +228,7 @@
     },
     {
       "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -130,7 +242,7 @@
     },
     {
       "summary": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous, automated compliance validation. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -141,124 +253,51 @@
       "cve_id": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
       "vendor": "BleepingComputer",
       "severity": "High"
-    },
-    {
-      "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html"
-        }
-      ],
-      "date": "Sep 26, 2026",
-      "cve_id": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Adm",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are as follows - CVE-2026-65660 (CVSS...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html"
-        }
-      ],
-      "date": "Sep 26, 2026",
-      "cve_id": "CVE-2026-65660",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html"
-        }
-      ],
-      "date": "Sep 26, 2026",
-      "cve_id": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repo",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructure and a state-sponsored user base,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html"
-        }
-      ],
-      "date": "Sep 26, 2026",
-      "cve_id": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into ",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "cve_id": "CVE-2026-5430",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "\u200bThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "cve_id": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The routine version looks like this. An attacker lands on a low-privilege cloud account, and the first try at privilege...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "cve_id": "The SOC Doesn't Need to Start Over with Every Alert",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Noteworthy stories that might have slipped under the radar: BragJack attack against browser AI assistants, TDengine flaw threatens industrial telemetry uptime, Ubuntu update overhaul. The post In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "cve_id": "In Other News: Clop Leak Site Takeover, Docker Botnet Hunts ",
-      "vendor": "SecurityWeek",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a...",
+      "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of Terraform providers...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "actor": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "severity": "High"
+    },
+    {
+      "summary": "The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions. The post New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "actor": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors stole the contents of 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "actor": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
+      "severity": "High"
+    },
+    {
+      "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -271,7 +310,7 @@
     },
     {
       "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -284,7 +323,7 @@
     },
     {
       "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS. According to reports from Aikido, SafeDep, Socket, and StepSecurity, the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -297,7 +336,7 @@
     },
     {
       "summary": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -310,7 +349,7 @@
     },
     {
       "summary": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps created by agent identities. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -323,7 +362,7 @@
     },
     {
       "summary": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign. The affected GitHub Actions are listed below - actions-cool/issues-helper actions-cool/maintain-one-comment...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -336,7 +375,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain. The latest artifacts, per Jamf Threat Labs, continue to rely on the same JavaScript for Automation (JXA) dropper mechanism, but modify the lure and the...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -349,7 +388,7 @@
     },
     {
       "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets,\" BitGet said in a post shared on X. \"Bitget's...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -362,7 +401,7 @@
     },
     {
       "summary": "Victims have been identified in Africa, including in Kenya and Uganda.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -372,51 +411,116 @@
       "date": "Sep 25, 2026",
       "actor": "Cybercriminals Are Hiding New Malware in Torrents for Popular Films",
       "severity": "High"
-    },
-    {
-      "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "actor": "MacSync malware uses public iCloud calendars to deliver new payloads",
-      "severity": "High"
-    },
-    {
-      "summary": "The latest activity from the remote access Trojan (RAT) shows why organizations should monitor the behavior of applications rather than blindly trusting them, experts say.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "actor": "SectopRAT Returns, Hiding Inside a Legitimate Application",
-      "severity": "High"
-    },
-    {
-      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/"
-        }
-      ],
-      "date": "Sep 24, 2026",
-      "actor": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,\" Manifold...",
+      "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+      "category": "news"
+    },
+    {
+      "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+      "category": "news"
+    },
+    {
+      "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "title": "Microsoft: Recent Windows updates cause desktop loading issues",
+      "category": "news"
+    },
+    {
+      "summary": "\u200bCryptocurrency exchange Bitget disclosed today that suspected North Korean hackers have stolen $351.6 million from its hot and warm wallets. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+      "category": "news"
+    },
+    {
+      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "category": "news"
+    },
+    {
+      "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said. The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html"
+        }
+      ],
+      "date": "Sep 26, 2026",
+      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "category": "news"
+    },
+    {
+      "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,\" Manifold...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -429,7 +533,7 @@
     },
     {
       "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic. \"When a visitor interacts with the page, the lure copies a Windows...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -442,7 +546,7 @@
     },
     {
       "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that's dressed up as a...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -455,7 +559,7 @@
     },
     {
       "summary": "OpenAI\u2019s CEO said there is an \u201cextensive and ongoing review related to our agents\u2019 use of internet access during training and evaluation.\u201d The post OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -464,110 +568,6 @@
       ],
       "date": "Sep 26, 2026",
       "title": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
-      "category": "news"
-    },
-    {
-      "summary": "Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services. The post Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/"
-        }
-      ],
-      "date": "Sep 26, 2026",
-      "title": "Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court",
-      "category": "news"
-    },
-    {
-      "summary": "The prospect of legal accountability is unclear. Lawsuits are a possibility, but some legal experts believe any criminal investigations would face an extremely high burden. The post Autonomous AI Hacks Raise Thorny Questions of Legal Accountability appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/"
-        }
-      ],
-      "date": "Sep 26, 2026",
-      "title": "Autonomous AI Hacks Raise Thorny Questions of Legal Accountability",
-      "category": "news"
-    },
-    {
-      "summary": "When autonomous AI agents \"escape the sandbox,\" the real story isn't rogue machines \u2014 it's the same access-control failures we've seen for decades.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness"
-        }
-      ],
-      "date": "Sep 26, 2026",
-      "title": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
-      "category": "news"
-    },
-    {
-      "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Google Gemini models breaking containment to ShinyHunters ratting on TeamPCP hackers.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party"
-        }
-      ],
-      "date": "Sep 26, 2026",
-      "title": "What We Missed: Google Gemini Joins the AI Escape Party",
-      "category": "news"
-    },
-    {
-      "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "title": "Microsoft plans to deprecate Windows Deployment Services",
-      "category": "news"
-    },
-    {
-      "summary": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/"
-        }
-      ],
-      "date": "Sep 25, 2026",
-      "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
       "category": "news"
     }
   ]
