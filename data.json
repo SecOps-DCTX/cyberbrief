@@ -1,8 +1,50 @@
 {
   "breach": [
     {
-      "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in...",
+      "summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images from developers at over 300 organizations, including customer billing records and screens of...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "org": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen US water systems. It was a busy summer.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "org": "3 Cyber Threats That Defined the Summer of 2026",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Even if the organization locks down employee accounts, forgotten and lost service accounts can still undo the organization's entire M365 environment.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "org": "Ghost Service Accounts Enable M365 Data Theft in Chile",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -16,7 +58,7 @@
     },
     {
       "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers, according to Microsoft. The campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100 organizations since January, mostly in the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -30,7 +72,7 @@
     },
     {
       "summary": "Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel The post New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -44,7 +86,7 @@
     },
     {
       "summary": "The data breach affects the Defense Manpower Data Center (DMDC), which maintains personnel records for the Department of Defense. The post Pentagon Personnel Agency Data Breach Impacts 3 Million People appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -58,7 +100,7 @@
     },
     {
       "summary": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +114,7 @@
     },
     {
       "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI logins and how organizations can identify their exposure. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -86,7 +128,7 @@
     },
     {
       "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits,...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -100,7 +142,7 @@
     },
     {
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -114,7 +156,7 @@
     },
     {
       "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -125,26 +167,124 @@
       "org": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "The Medicaid IDs and other information of Medicaid and DC Healthcare Alliance beneficiaries were exposed. The post DC Health Agency Exposes 400,000 Beneficiary Records appeared first on SecurityWeek.",
-      "age": 3,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/"
-        }
-      ],
-      "date": "Sep 28, 2026",
-      "org": "DC Health Agency Exposes 400,000 Beneficiary Records",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
+      "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "cve_id": "Bitget hacked via zero-day in third-party security products",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "cve_id": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHI",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program, OpenSSL said on September 29 as it released fixes. DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "cve_id": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Mem",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "cve_id": "CVE-2026-88772",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "cve_id": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions. \"An agent attempting to complete a search-based training task queried a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "cve_id": "OpenAI Pauses Tool Use After Agent Bypasses Internet Control",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "cve_id": "CVE-2026-86950",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "cve_id": "Bitget Says Attacker Exploited Third-Party Security Product ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -158,7 +298,7 @@
     },
     {
       "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -172,7 +312,7 @@
     },
     {
       "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +326,7 @@
     },
     {
       "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre-v2 variant has been...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -197,124 +337,64 @@
       "cve_id": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existin",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown. \"During the shutdown, this activity led to the discovery of a previously unknown critical vulnerability confined to...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "cve_id": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precaut",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. \"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent,\" OX Security researchers...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "cve_id": "101 Malicious npm Packages Add Developers' WhatsApp Accounts",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\"...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "cve_id": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "cve_id": "JADEPUFFER-Linked Attackers Used Compromised Service Princip",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "cve_id": "Kiteworks patches critical flaw, brings customer systems onl",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "cve_id": "Apple patches CoreGraphics zero-day flaw exploited in attack",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "cve_id": "CVE-2026-88771",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "cve_id": "Cloudflare fixes Containers cross-tenant flaw exposing custo",
-      "vendor": "BleepingComputer",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting...",
+      "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "actor": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+      "severity": "High"
+    },
+    {
+      "summary": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations showed the highest exposure. By combining Microsoft 365 session theft with remote-access tool...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "actor": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+      "severity": "High"
+    },
+    {
+      "summary": "The state-sponsored group has launched larger-scale phishing campaigns to deploy the CosmicPulse backdoor. The post Russian APT Star Blizzard Uses \u2018RedFlick\u2019 Infection Chain in Recent Attacks appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "actor": "Russian APT Star Blizzard Uses \u2018RedFlick\u2019 Infection Chain in Recent Attacks",
+      "severity": "High"
+    },
+    {
+      "summary": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "actor": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
+      "severity": "High"
+    },
+    {
+      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -327,7 +407,7 @@
     },
     {
       "summary": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -340,7 +420,7 @@
     },
     {
       "summary": "The latest activity from the remote access Trojan (RAT) shows why organizations should monitor the behavior of applications rather than blindly trusting them, experts say.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -353,7 +433,7 @@
     },
     {
       "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -366,7 +446,7 @@
     },
     {
       "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -379,7 +459,7 @@
     },
     {
       "summary": "The malware framework uses a modular architecture and a custom executable file format for long-term persistence. The post Daemon Tools Hackers\u2019 NeedyMantis Malware Dissected by Microsoft appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -392,7 +472,7 @@
     },
     {
       "summary": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -405,7 +485,7 @@
     },
     {
       "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -415,64 +495,116 @@
       "date": "Sep 28, 2026",
       "actor": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
       "severity": "High"
-    },
-    {
-      "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html"
-        }
-      ],
-      "date": "Sep 28, 2026",
-      "actor": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-      "severity": "High"
-    },
-    {
-      "summary": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps created by agent identities. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/"
-        }
-      ],
-      "date": "Sep 27, 2026",
-      "actor": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
-      "severity": "High"
-    },
-    {
-      "summary": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign. The affected GitHub Actions are listed below - actions-cool/issues-helper actions-cool/maintain-one-comment...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html"
-        }
-      ],
-      "date": "Sep 27, 2026",
-      "actor": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign"
-        }
-      ],
-      "date": "Sep 27, 2026",
-      "actor": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Microsoft has started rolling out Windows 11 26H2 to everyone, and while it's this year's big annual feature update, you probably won't notice a massive difference after installing it. [...]",
+      "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "title": "Microsoft is rolling out Linux container support to WSL",
+      "category": "news"
+    },
+    {
+      "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "title": "Signal adds encypted local backup support to iOS, desktop apps",
+      "category": "news"
+    },
+    {
+      "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
+      "category": "news"
+    },
+    {
+      "summary": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "title": "IAM for AI agents: A Practical Enterprise Framework",
+      "category": "news"
+    },
+    {
+      "summary": "Attacks by autonomous AI agents are moving out of the lab and into the courtroom, raising unsettled questions about who is liable for what agents do. The post Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "title": "Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit",
+      "category": "news"
+    },
+    {
+      "summary": "In the wake of a suspected leader\u2019s arrest, ShinyHunters says it never intended to publish data stolen from the FBI. The post ShinyHunters Defiant After FBI Calls on Members to Come Forward appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/shinyhunters-defiant-after-fbi-calls-on-members-to-come-forward/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "title": "ShinyHunters Defiant After FBI Calls on Members to Come Forward",
+      "category": "news"
+    },
+    {
+      "summary": "The accord opened the door to future regulation but focused on four voluntary steps for the companies to take. The post Trump Says Top Tech Firms Have Signed Accord to \u2018Self-Police\u2019 AI Development appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "title": "Trump Says Top Tech Firms Have Signed Accord to \u2018Self-Police\u2019 AI Development",
+      "category": "news"
+    },
+    {
+      "summary": "Altman made a slew of product announcements and updates, including the company\u2019s new agents, called Dots. The post OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/"
+        }
+      ],
+      "date": "Sep 30, 2026",
+      "title": "OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has started rolling out Windows 11 26H2 to everyone, and while it's this year's big annual feature update, you probably won't notice a massive difference after installing it. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -485,7 +617,7 @@
     },
     {
       "summary": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -498,7 +630,7 @@
     },
     {
       "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security teams investigate suspicious activity before it escalates. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -511,7 +643,7 @@
     },
     {
       "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems\u2014often without the same controls applied to human users. According to Okta\u2019s Global CISO Insights 2026 report, only 47% of CISOs are confident...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -520,110 +652,6 @@
       ],
       "date": "Sep 29, 2026",
       "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-      "category": "news"
-    },
-    {
-      "summary": "The AIxCC competition winner will analyze messaging app code and compiled binaries for vulnerabilities, with technology that could also help commercial customers secure their software. The post DARPA Selects Xint to Use AI in Securing Military Messaging Apps appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/darpa-selects-xint-to-use-ai-in-securing-military-messaging-apps/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "title": "DARPA Selects Xint to Use AI in Securing Military Messaging Apps",
-      "category": "news"
-    },
-    {
-      "summary": "The company emerged from stealth mode with pre-seed funding from Osage University Partners and DataTribe. The post RemoteThreat Launches With $7 Million for Offensive Operations Platform appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/remotethreat-launches-with-7-million-for-offensive-operations-platform/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "title": "RemoteThreat Launches With $7 Million for Offensive Operations Platform",
-      "category": "news"
-    },
-    {
-      "summary": "The company will use the funds to expand its sales, partnerships, channels, and customer support teams. The post Reco Raises $55 Million for Agentic Security appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/reco-raises-55-million-for-agentic-security/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "title": "Reco Raises $55 Million for Agentic Security",
-      "category": "news"
-    },
-    {
-      "summary": "The personalized versions of ChatGPT were used to impersonate legitimate products and trick users into executing PowerShell commands. The post Hackers Use ChatGPT Custom GPTs in ClickFix Attacks appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "title": "Hackers Use ChatGPT Custom GPTs in ClickFix Attacks",
-      "category": "news"
-    },
-    {
-      "summary": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
-      "category": "news"
-    },
-    {
-      "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said in...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits. The development was first reported by The Wall Street Journal. The move \"marks a rare case of a major AI...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
-      "category": "news"
-    },
-    {
-      "summary": "Rig provides an identity dependencies graph to distinguish between legitimate users and rogue AI agents The post Rig Security Emerges From Stealth With $12M to Tackle Agentic AI Identity Risks appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/rig-security-emerges-from-stealth-with-12m-to-tackle-agentic-ai-identity-risks/"
-        }
-      ],
-      "date": "Sep 29, 2026",
-      "title": "Rig Security Emerges From Stealth With $12M to Tackle Agentic AI Identity Risks",
       "category": "news"
     }
   ]
