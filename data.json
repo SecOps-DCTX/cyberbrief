@@ -1,8 +1,36 @@
 {
   "breach": [
     {
-      "summary": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
+      "summary": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "org": "ASOS confirms data breach after \u201cHACKED\u201d in-app notifications",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "The FBI has removed an Accenture contractor over a data breach that exposed personal information of thousands of bureau employees. The post FBI Blames Contractor\u2019s Missed Patch for ShinyHunters Breach appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "org": "FBI Blames Contractor\u2019s Missed Patch for ShinyHunters Breach",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +44,7 @@
     },
     {
       "summary": "Hackers abused a company\u2019s lawful access to the CPR system to steal the personal information of registered citizens. The post 8.8 Million Impacted by Data Breach at Denmark\u2019s Central Person Register appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +58,7 @@
     },
     {
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -44,7 +72,7 @@
     },
     {
       "summary": "Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered individuals. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +86,7 @@
     },
     {
       "summary": "South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +100,7 @@
     },
     {
       "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -86,7 +114,7 @@
     },
     {
       "summary": "Hackers stole patient information from Clover Health Investments and AngMar Management Services in July. The post 250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -100,7 +128,7 @@
     },
     {
       "summary": "More than 730 cyber breaches affected over 270 million Americans last year, costing an average of $10 million per breach. The post Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -114,7 +142,7 @@
     },
     {
       "summary": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,\" a spokesperson for...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -129,8 +157,120 @@
   ],
   "cve": [
     {
-      "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro. The attack works only when the program's Java support is enabled. So far, it...",
+      "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbucket. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "cve_id": "CVE-2026-21589",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling. \"Cling is notable not because it introduces a new propagation technique, but because it repurposes ordinary STUN behavior...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "cve_id": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet Wit",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "cve_id": "Warlock Exploits SharePoint Flaws to Disable Security Tools ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "cve_id": "CVE-2026-63688",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides. Then a board...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "cve_id": "Why CISOs Struggle to Answer the Board's Three Hardest Quest",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Google has temporarily stopped accepting product vulnerability reports through its Open Source Software Vulnerability Reward Program (OSS VRP). The post Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "cve_id": "Google Narrows Open Source Bug Bounty Amid Wave of Invalid A",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "ClingSTUN operates as a back-connect proxy backdoor, sets up persistence, and contains exploits for self-propagation. The post Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "cve_id": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaw",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/google-pagebreak-ai-agent-500-flaws-web-apps"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "cve_id": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
+      "vendor": "Dark Reading",
+      "severity": "High"
+    },
+    {
+      "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro. The attack works only when the program's Java support is enabled. So far, it...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -144,7 +284,7 @@
     },
     {
       "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. \"The unauthorized bot activities included edits to our wikis, some...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -158,7 +298,7 @@
     },
     {
       "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -172,7 +312,7 @@
     },
     {
       "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -183,124 +323,64 @@
       "cve_id": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read ",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. \"To date, our review...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html"
-        }
-      ],
-      "date": "Oct 06, 2026",
-      "cve_id": "FBI Removes Accenture Contractor After Patch Failure Led to ",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
-        }
-      ],
-      "date": "Oct 06, 2026",
-      "cve_id": "CVE-2026-61500",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability in...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html"
-        }
-      ],
-      "date": "Oct 06, 2026",
-      "cve_id": "CVE-2026-88779",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html"
-        }
-      ],
-      "date": "Oct 06, 2026",
-      "cve_id": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "cve_id": "CVE-2026-61500",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "cve_id": "New Dell System Update flaw lets hackers gain root privilege",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system. \"Weak authorization in Microsoft...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "cve_id": "CVE-2026-96940",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week\u2019s threats keep finding leverage in small things that were easy to overlook. There are actively exploited bugs in the mix, cleaner intrusion paths, smarter automation, and a...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "cve_id": "\u26a1 Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Le",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's network in a ransomware-style attack. [...]",
+      "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "actor": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+      "severity": "High"
+    },
+    {
+      "summary": "An alleged leader of Tren de Aragua\u2019s ATM jackpotting activities, Canelon Aguirre was on the FBI\u2019s top 10 most wanted list since March 2026. The post FBI Arrests \u2018Most Wanted\u2019 Developer of Ploutus ATM Malware appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "actor": "FBI Arrests \u2018Most Wanted\u2019 Developer of Ploutus ATM Malware",
+      "severity": "High"
+    },
+    {
+      "summary": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "actor": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "actor": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
+      "severity": "High"
+    },
+    {
+      "summary": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's network in a ransomware-style attack. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -313,7 +393,7 @@
     },
     {
       "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -326,7 +406,7 @@
     },
     {
       "summary": "Since August 2023, attackers have published eight malicious packages as part of the MALFEX supply chain campaign. The post Long-Running NPM Malware Campaign Accumulates 40,000 Downloads appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -339,7 +419,7 @@
     },
     {
       "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -352,7 +432,7 @@
     },
     {
       "summary": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -365,7 +445,7 @@
     },
     {
       "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -378,7 +458,7 @@
     },
     {
       "summary": "A trio of newly discovered backdoors walk and quack like legitimate edge solutions, so it's hard to tell they're not.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -391,7 +471,7 @@
     },
     {
       "summary": "In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -401,64 +481,116 @@
       "date": "Oct 05, 2026",
       "actor": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
       "severity": "High"
-    },
-    {
-      "summary": "The U.S. Department of Justice has announced the arrest of the alleged developer of Ploutus malware, used to steal millions of dollars in ATM jackpotting attacks across the United States. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "actor": "Alleged dev of Ploutus ATM malware appears in US court after arrest",
-      "severity": "High"
-    },
-    {
-      "summary": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid. The 16-year-old was one of 3 people arrested on September 30, when police also took...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "actor": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-      "severity": "High"
-    },
-    {
-      "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "actor": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
-      "severity": "High"
-    },
-    {
-      "summary": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "actor": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
+      "summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+      "category": "news"
+    },
+    {
+      "summary": "RMM platforms give MSPs privileged access across customer environments, making their security controls critical to limiting risk. Acronis outlines eight controls MSPs should test when evaluating RMM software, from patching and privileged access to recovery and tenant isolation. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "title": "How to secure RMM software: 8 controls MSPs should test",
+      "category": "news"
+    },
+    {
+      "summary": "Citing growing risks posed by more capable and autonomous AI agents, Apple will introduce additional controls. The post Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "title": "Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks",
+      "category": "news"
+    },
+    {
+      "summary": "Significant cybersecurity M&A deals announced by Dragos, IBM, Palo Alto Networks, Kiteworks, and Upwind. The post Cybersecurity M&A Roundup: 39 Deals Announced in September 2026 appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "title": "Cybersecurity M&A Roundup: 39 Deals Announced in September 2026",
+      "category": "news"
+    },
+    {
+      "summary": "Companies are pouring time and dollars into security awareness training, but little evidence shows it actually works against social engineering. The post Social Engineering Detection Moves Into the Live Conversation appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/social-engineering-detection-moves-into-the-live-conversation/"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "title": "Social Engineering Detection Moves Into the Live Conversation",
+      "category": "news"
+    },
+    {
+      "summary": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
+      "category": "news"
+    },
+    {
+      "summary": "An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal organizations.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "title": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
+      "category": "news"
+    },
+    {
+      "summary": "AI-powered attacks are fast, relentless, and automated. How security teams can keep up is top of mind, according to the latest Dark Reading reader poll.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/ai-attacks-security-strategies"
+        }
+      ],
+      "date": "Oct 06, 2026",
+      "title": "Need for Speed: AI-Driven Attacks Are Changing Security Strategies",
+      "category": "news"
+    },
+    {
+      "summary": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -471,7 +603,7 @@
     },
     {
       "summary": "OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -484,7 +616,7 @@
     },
     {
       "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around it fell short. Earlier this year,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -497,7 +629,7 @@
     },
     {
       "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry said on October 5. They used a private Danish company's lawful right to look up records...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -506,110 +638,6 @@
       ],
       "date": "Oct 06, 2026",
       "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-      "category": "news"
-    },
-    {
-      "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html"
-        }
-      ],
-      "date": "Oct 06, 2026",
-      "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-      "category": "news"
-    },
-    {
-      "summary": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html"
-        }
-      ],
-      "date": "Oct 06, 2026",
-      "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
-      "category": "news"
-    },
-    {
-      "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents. \"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems\u2014including...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html"
-        }
-      ],
-      "date": "Oct 06, 2026",
-      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-      "category": "news"
-    },
-    {
-      "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif \u200cal-Din Khader, is said to have been brought into custody on...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html"
-        }
-      ],
-      "date": "Oct 06, 2026",
-      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-      "category": "news"
-    },
-    {
-      "summary": "Italy's Data Protection Authority (GPDP) has fined IQVIA \u20ac7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and de-anonymization. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
-      "category": "news"
-    },
-    {
-      "summary": "tenfold has added shared content governance and real-time event auditing to its free Community Edition for organizations with under 150 users. The new features help teams manage Microsoft 365 sharing and investigate suspicious identity activity. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "title": "tenfold CE: Our free Identity Governance tool just got 2 new features",
-      "category": "news"
-    },
-    {
-      "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said the \"primary purpose of the China...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "title": "MI5 Says China\u2019s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-      "category": "news"
-    },
-    {
-      "summary": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
       "category": "news"
     }
   ]
