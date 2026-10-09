@@ -1,8 +1,36 @@
 {
   "breach": [
     {
-      "summary": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence. The rest of the week isn't much more...",
+      "summary": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "org": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+      "severity": "Critical",
+      "records": "See source"
+    },
+    {
+      "summary": "Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry. The post In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "org": "In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence. The rest of the week isn't much more...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -16,7 +44,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -30,7 +58,7 @@
     },
     {
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -44,7 +72,7 @@
     },
     {
       "summary": "ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers accessed some personal data. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +86,7 @@
     },
     {
       "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +100,7 @@
     },
     {
       "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -86,7 +114,7 @@
     },
     {
       "summary": "The figure is far higher than the counts that surfaced in earlier filings and patient notifications. The post Oracle Health Data Breach Tally Climbs to Nearly 20 Million appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -100,7 +128,7 @@
     },
     {
       "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6. Google's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (American Samoa) was put at risk. With such a...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -114,7 +142,7 @@
     },
     {
       "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivated campaign,...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -128,7 +156,7 @@
     },
     {
       "summary": "Southern Company is notifying customers that their utility account information was accessed by hackers. The post Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -139,40 +167,124 @@
       "org": "Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "The Japanese chip testing giant said hackers stole personal information from its servers in the February 2026 cyberattack. The post Advantest Discloses Data Breach Months After Ransomware Attack appeared first on SecurityWeek.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/"
-        }
-      ],
-      "date": "Oct 07, 2026",
-      "org": "Advantest Discloses Data Breach Months After Ransomware Attack",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/"
-        }
-      ],
-      "date": "Oct 07, 2026",
-      "org": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]",
+      "summary": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "cve_id": "Citrix warns admins to patch new NetScaler RCE flaw immediat",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "cve_id": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over. Searchlight Cyber, which disclosed the flaw on October 8, says an attacker who recovers the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "cve_id": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Rec",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to the vendors. One of the three Pixel exploits earned Ikotas Labs $300,000,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "cve_id": "Three Teams Demonstrate Remote Hacks of Fully Patched Google",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. \"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "cve_id": "CVE-2026-107406",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to send requests through the appliance and reach internal functions. SonicWall rates it 10.0 on the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "cve_id": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "cve_id": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attacke",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "If you\u2019re evaluating an agentic pentesting solution right now, you\u2019ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would. That promise is worth taking seriously. It\u2019s also worth pressure testing, and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "cve_id": "What Is Agentic Pentesting? What It Proves, and Where It Sto",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +298,7 @@
     },
     {
       "summary": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and exploiting forgotten OAuth grants to gain access to corporate data. This article covers why...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -200,7 +312,7 @@
     },
     {
       "summary": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8. The company, Integrity Technology Group, has been sanctioned by the U.S....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -214,7 +326,7 @@
     },
     {
       "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -225,124 +337,116 @@
       "cve_id": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abus",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro. The attack works only when the program's Java support is enabled. So far, it...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "cve_id": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets ",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. \"The unauthorized bot activities included edits to our wikis, some...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "cve_id": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad an",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The security defects could lead to unauthorized access, information leaks, privilege escalation, DoS attacks, and remote code execution. The post Cisco Patches a Dozen Critical Vulnerabilities appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "cve_id": "Cisco Patches a Dozen Critical Vulnerabilities",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Threat actors have started targeting CVE-2026-21589, a critical vulnerability in Atlassian\u2019s self-hosted Data Center products. The post Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "cve_id": "CVE-2026-21589",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "\u200b\u200b\u200bOn the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "cve_id": "Samsung Galaxy S26 hacked three more times at Pwn2Own Irelan",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. \"The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery phrases and...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "cve_id": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallet",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer (SSL) virtual private network (VPN) gateways. \"The campaign exploits...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "cve_id": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fo",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions. The arbitrary file access flaw, tracked as CVE-2026-21589 (CVSS score: 9.3) affects multiple products, including Bitbucket Data...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "cve_id": "CVE-2026-21589",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into residential proxies. [...]",
+      "summary": "IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data center cluster serving the eastern part of the country. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "actor": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed to be the work of a lone threat actor...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "actor": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+      "severity": "High"
+    },
+    {
+      "summary": "Midnight Mimosa is the name given to a malware campaign primarily running preinstalled on low-cost Android devices. The post Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "actor": "Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries",
+      "severity": "High"
+    },
+    {
+      "summary": "Flax Typhoon and other APTs used MicroScan and FishHub to scan and hack US and foreign critical infrastructure. The post US Disrupts Chinese State-Sponsored Hacking Tools appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "actor": "US Disrupts Chinese State-Sponsored Hacking Tools",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/writing-next-chapter"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "actor": "Writing the Next Chapter",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "actor": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+      "severity": "High"
+    },
+    {
+      "summary": "A trio of newly discovered backdoors walk and quack like legitimate edge solutions, so it's hard to tell they're not.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/malicious-linux-implants-mimic-asian-mail-security"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "actor": "Malicious Linux Implants Mimic Asian Mail Security Products",
+      "severity": "High"
+    },
+    {
+      "summary": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "actor": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
+      "severity": "High"
+    },
+    {
+      "summary": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into residential proxies. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -355,7 +459,7 @@
     },
     {
       "summary": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -368,7 +472,7 @@
     },
     {
       "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company is tracking the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -381,7 +485,7 @@
     },
     {
       "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -391,116 +495,116 @@
       "date": "Oct 08, 2026",
       "actor": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
       "severity": "Critical"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which claim to offer campaign optimization,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "actor": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-      "severity": "High"
-    },
-    {
-      "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection. Threat actors are known to name their malicious software after a legitimate operating system component or a...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "actor": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-      "severity": "High"
-    },
-    {
-      "summary": "The first cybercriminal to ever make the FBI's \"10 Most Wanted Fugitives\" list allegedly infused Tren de Aragua's violent criminal operations with cash.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "actor": "Venezuelan Cartel's Malware Honcho Nabbed for ATM Jackpotting",
-      "severity": "High"
-    },
-    {
-      "summary": "Cyber-espionage actor UAC-0099 has been steadily refining its flagship dropper in campaigns targeting Ukrainian organizations.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "actor": "Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift",
-      "severity": "High"
-    },
-    {
-      "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprietary technology to recover encrypted data. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "actor": "Ransomware recovery CEO charged over secret ransom payments",
-      "severity": "High"
-    },
-    {
-      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data. Zohar Pinhasi (aka Zack Silver and Zack...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "actor": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-      "severity": "High"
-    },
-    {
-      "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The malicious version 0.5.144 \"contains obfuscated malware that harvests credentials, exfiltrates...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "actor": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-      "severity": "High"
-    },
-    {
-      "summary": "Zohar Pinhasi was paying ransoms to obtain decryption keys and then charging victims substantially more for remediation. The post Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "actor": "Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021. [...]",
+      "summary": "\u200bA Ukrainian-Russian dual citizen has pleaded guilty to running a massive money laundering operation that laundered millions for cybercriminals worldwide. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "title": "Man admits to running network of 15,000 money mules for cybercriminals",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft says devices running unsupported versions of Windows will stop receiving security updates after next year's Windows Update certificate rotation. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
+      "category": "news"
+    },
+    {
+      "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical \u201cvelocity paradox,\u201d in which organizations invest in AI-speed...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end, the agencies seized several domains and blocked access to platforms that were used to scan, and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
+      "category": "news"
+    },
+    {
+      "summary": "Hackers hijacked the .gh, .sl, and .as ccTLDs and obtained HTTPS certificates for several Google domains. The post Google Domains Impacted by Recent ccTLD Hijacks appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "title": "Google Domains Impacted by Recent ccTLD Hijacks",
+      "category": "news"
+    },
+    {
+      "summary": "Researchers from George Washington University have published a paper examining whether the time and cause of AI going rogue can be predicted. The post Formula Predicts When AI Chatbots Are at Risk of Turning Bad appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "title": "Formula Predicts When AI Chatbots Are at Risk of Turning Bad",
+      "category": "news"
+    },
+    {
+      "summary": "In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "title": "Australian Gov't Weighs Mandatory AI Incident Reporting",
+      "category": "news"
+    },
+    {
+      "summary": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams"
+        }
+      ],
+      "date": "Oct 09, 2026",
+      "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
+      "category": "news"
+    },
+    {
+      "summary": "A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -513,7 +617,7 @@
     },
     {
       "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens. For years, the enterprise cybersecurity story has been told as a straight line of...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -526,7 +630,7 @@
     },
     {
       "summary": "All enterprises conduct security awareness training for their employees. But whether this has tangible benefits is debatable. The post Security Awareness Training Isn\u2019t Dead, but It Needs a Rethink appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -539,7 +643,7 @@
     },
     {
       "summary": "Zhang Yu was charged alongside Xu Zewei, who was extradited from Italy to the US in April 2026. The post US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -548,110 +652,6 @@
       ],
       "date": "Oct 08, 2026",
       "title": "US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward",
-      "category": "news"
-    },
-    {
-      "summary": "The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "title": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
-      "category": "news"
-    },
-    {
-      "summary": "Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "title": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
-      "category": "news"
-    },
-    {
-      "summary": "Autonomous agents also tried to abuse other websites and services hosted by the foundation, using them as proxies for unauthorized activities.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "title": "OpenAI Agent Escape Causes Wikimedia Service Outage",
-      "category": "news"
-    },
-    {
-      "summary": "A study of 2.5 million devices across 50 healthcare organizations suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "title": "Critical Healthcare Systems Aren't Quantum-Ready",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft will soon introduce support for third-party deepfake detection solutions and impersonation protection in Teams meetings. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "title": "Microsoft Teams to get support for third-party deepfake detection tools",
-      "category": "news"
-    },
-    {
-      "summary": "The co-creator of Empire Market, one of the largest dark web marketplaces before its shutdown, has been sentenced to 40 years in prison for facilitating $430 million in illegal transactions from 2018 to 2020. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "title": "Owner of Empire cybercrime market gets 40 years in prison",
-      "category": "news"
-    },
-    {
-      "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself. ANY.RUN has identified Wazza, a new phishkit...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-      "category": "news"
-    },
-    {
-      "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFNIUM. The reward is for information leading to his identification...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html"
-        }
-      ],
-      "date": "Oct 08, 2026",
-      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
       "category": "news"
     }
   ]
