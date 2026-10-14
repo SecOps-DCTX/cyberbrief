@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, \u20ac8.6 million ($9.62 million) for illegally relaying \u200bGrindr users' sensitive data to advertisers. The administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs portal and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -86,7 +86,7 @@
     },
     {
       "summary": "Hackers stole patients\u2019 personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -100,7 +100,7 @@
     },
     {
       "summary": "Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry. The post In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -111,68 +111,124 @@
       "org": "In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "org": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence. The rest of the week isn't much more...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "org": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "org": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "org": "Dutch Police Arrest \u2018Reformed\u2019 Hacker in Shiny Hunters Investigation",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+      "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "CVE-2026-39919",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can B",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "Microsoft Patches Record 1,413 Flaws, Including Exploited Wi",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "OpenAI Employee Arrested for Allegedly Planting Hidden Recor",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third is still...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Ro",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python ",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials. \"Your configuration becomes validated and exempt...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packag",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "\u26a1 Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters A",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +242,7 @@
     },
     {
       "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -200,7 +256,7 @@
     },
     {
       "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -214,7 +270,7 @@
     },
     {
       "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -225,124 +281,51 @@
       "cve_id": "Ivanti warns of Connect Secure zero-day exploited in attacks",
       "vendor": "BleepingComputer",
       "severity": "Critical"
-    },
-    {
-      "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "cve_id": "CVE-2026-105445",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applications isn't enough and how organizations can close these authentication gaps. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "cve_id": "The MFA Gaps Attackers are Still Exploiting",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK for Python. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "cve_id": "SAP warns of maximum severity OAuth2 SSRF security flaw",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it. The flaw was in the feature that converts a personal account into an...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "cve_id": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One Use",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next. With AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A compromised...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "cve_id": "[Webinar] How to Stop AI-Driven Privilege Escalation With Ru",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the server, the company says. Progress published all 31 on October 12 and scored five of them critical. Fixes have been available since September...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "cve_id": "Two Critical MarkLogic Flaws Could Give Delegated Managers P",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "cve_id": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "cve_id": "Anthropic Cuts Live Internet Access for Internal AI Tests Af",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are...",
+      "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "actor": "Anthropic warns self-replicating AI could spread to your smart devices",
+      "severity": "High"
+    },
+    {
+      "summary": "Investigators stormed 40 locations in Texas and seized 187 laptops used by North Korean IT workers to hide their location. The post US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "actor": "US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms",
+      "severity": "High"
+    },
+    {
+      "summary": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "actor": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+      "severity": "High"
+    },
+    {
+      "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -355,7 +338,7 @@
     },
     {
       "summary": "Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -368,7 +351,7 @@
     },
     {
       "summary": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -381,7 +364,7 @@
     },
     {
       "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -394,7 +377,7 @@
     },
     {
       "summary": "Expanded plugin count allows the malware to monitor users\u2019 location, stream live audio, and interact with authenticated browser sessions. The post XWorm RAT Evolves Into Surveillance Platform appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -407,7 +390,7 @@
     },
     {
       "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company is tracking the...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -420,7 +403,7 @@
     },
     {
       "summary": "Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -433,7 +416,7 @@
     },
     {
       "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -446,7 +429,7 @@
     },
     {
       "summary": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference. The post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -456,38 +439,116 @@
       "date": "Oct 12, 2026",
       "actor": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
       "severity": "High"
-    },
-    {
-      "summary": "The first cybercriminal to ever make the FBI's \"10 Most Wanted Fugitives\" list allegedly infused Tren de Aragua's violent criminal operations with cash.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "actor": "Venezuelan Cartel's Malware Honcho Nabbed for ATM Jackpotting",
-      "severity": "High"
-    },
-    {
-      "summary": "Cyber-espionage actor UAC-0099 has been steadily refining its flagship dropper in campaigns targeting Ukrainian organizations.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "actor": "Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
+      "summary": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the \"Administrator protection\" security feature is enabled. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+      "category": "news"
+    },
+    {
+      "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+      "category": "news"
+    },
+    {
+      "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+      "category": "news"
+    },
+    {
+      "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over. The protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+      "category": "news"
+    },
+    {
+      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "category": "news"
+    },
+    {
+      "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "category": "news"
+    },
+    {
+      "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "category": "news"
+    },
+    {
+      "summary": "The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system. The post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -500,7 +561,7 @@
     },
     {
       "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -513,7 +574,7 @@
     },
     {
       "summary": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -526,7 +587,7 @@
     },
     {
       "summary": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is from China. TP-Link denies the claims and...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -535,110 +596,6 @@
       ],
       "date": "Oct 13, 2026",
       "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-      "category": "news"
-    },
-    {
-      "summary": "Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. The post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "title": "Google Partially Reverses Chrome Bug Bounty Cuts",
-      "category": "news"
-    },
-    {
-      "summary": "Experiments show cheap TV boxes can run capable AI models, and small models may soon be able to spread across such devices on their own. The post Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "title": "Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns",
-      "category": "news"
-    },
-    {
-      "summary": "IBM\u2019s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses. The post AI Turns Familiar Cyberattacks Into a Race Against Time appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "title": "AI Turns Familiar Cyberattacks Into a Race Against Time",
-      "category": "news"
-    },
-    {
-      "summary": "A small circuit board hidden under the signers\u2019 screens read user data and transmitted it to the attackers. The post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "title": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
-      "category": "news"
-    },
-    {
-      "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "category": "news"
-    },
-    {
-      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner. LG has issued a fix, according to an advisory published by SSD Secure Disclosure on October 12. The chain was tested on two TV models,...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-      "category": "news"
-    },
-    {
-      "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding assistant as an editor extension, and nothing shows up in the installed programs list. Someone downloads a local model runtime, a program that runs models directly on the machine instead of sending...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-      "category": "news"
-    },
-    {
-      "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said. The attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "title": "Attackers Heat French Supermarket Fridges Up to 50\u00b0C by Hijacking Danfoss Controllers",
       "category": "news"
     }
   ]
