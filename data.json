@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -86,7 +86,7 @@
     },
     {
       "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a stock-exchange filing dated October 21 that it \"has experienced...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -100,7 +100,7 @@
     },
     {
       "summary": "As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -114,7 +114,7 @@
     },
     {
       "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belonging to more than...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -128,7 +128,7 @@
     },
     {
       "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO). The Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -139,40 +139,124 @@
       "org": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "org": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Paradigm Healthcare Services detected an intrusion in October 2025, but it took nearly a year to start notifying affected individuals. The post 970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "org": "970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+      "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "cve_id": "Arista patches new VeloCloud Orchestrator zero-day exploited",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "cve_id": "Machine speed attacks require machine speed detection and re",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "cve_id": "Amazon says PHP2Shell exploitation began 4 days before patch",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "cve_id": "GitLab warns of new max severity code execution vulnerabilit",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds. In tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "cve_id": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access. Anomaly, the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "cve_id": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "cve_id": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) T",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "cve_id": "CVE-2026-96652",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +270,7 @@
     },
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -200,7 +284,7 @@
     },
     {
       "summary": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -214,7 +298,7 @@
     },
     {
       "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -225,124 +309,38 @@
       "cve_id": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,00",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html"
-        }
-      ],
-      "date": "Oct 22, 2026",
-      "cve_id": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnera",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
-        }
-      ],
-      "date": "Oct 22, 2026",
-      "cve_id": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supp",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update covered only...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
-        }
-      ],
-      "date": "Oct 22, 2026",
-      "cve_id": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html"
-        }
-      ],
-      "date": "Oct 22, 2026",
-      "cve_id": "CVE-2026-106173",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "cve_id": "CVE-2026-109618",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "cve_id": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE ",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at 14:00 UTC on October 21 for two flaws it rates 9.2 out of 10, and has...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "cve_id": "PHP2Shell: What Actually Protects You Before the 14:00 UTC P",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "cve_id": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "actor": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "severity": "High"
+    },
+    {
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "actor": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "severity": "High"
+    },
+    {
+      "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -355,7 +353,7 @@
     },
     {
       "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -368,7 +366,7 @@
     },
     {
       "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -381,7 +379,7 @@
     },
     {
       "summary": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -394,7 +392,7 @@
     },
     {
       "summary": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effective lures. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -407,7 +405,7 @@
     },
     {
       "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -420,7 +418,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025. \"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -433,7 +431,7 @@
     },
     {
       "summary": "A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -446,7 +444,7 @@
     },
     {
       "summary": "The attack uses malicious Google search results related to Amazon and leverages the \"finger\" utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -459,7 +457,7 @@
     },
     {
       "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -469,38 +467,116 @@
       "date": "Oct 21, 2026",
       "actor": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
       "severity": "High"
-    },
-    {
-      "summary": "Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "actor": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
-      "severity": "High"
-    },
-    {
-      "summary": "Across multiple short compromise windows, users were served a downloader for the ShinyRoad modular backdoor framework. The post AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign appeared first on SecurityWeek.",
-      "age": 3,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "actor": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+      "summary": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "title": "Microsoft says October updates didn\u2019t actually fix VPN issues",
+      "category": "news"
+    },
+    {
+      "summary": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018. According to multiple reports from the Associated Press, the New York Times, Reuters,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+      "category": "news"
+    },
+    {
+      "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "category": "news"
+    },
+    {
+      "summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled. ClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+      "category": "news"
+    },
+    {
+      "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+      "category": "news"
+    },
+    {
+      "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "title": "The Harness Is the Hard Part of Agentic Pentesting",
+      "category": "news"
+    },
+    {
+      "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html"
+        }
+      ],
+      "date": "Oct 22, 2026",
+      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+      "category": "news"
+    },
+    {
+      "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -513,7 +589,7 @@
     },
     {
       "summary": "Patched vulnerabilities could allow attackers to execute code, elevate privileges, and leak sensitive information. The post Splunk, SolarWinds Release Fresh Security Updates appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -526,7 +602,7 @@
     },
     {
       "summary": "Critical-severity security defects could lead to command execution, authentication bypass, and XSS attacks. The post Cisco Patches 34 Vulnerabilities Across Multiple Products appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -539,7 +615,7 @@
     },
     {
       "summary": "Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches. The post Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -548,110 +624,6 @@
       ],
       "date": "Oct 22, 2026",
       "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
-      "category": "news"
-    },
-    {
-      "summary": "The $25 billion award far exceeds a $5 billion fine the Federal Trade Commission levied against Facebook in 2019. The post Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/"
-        }
-      ],
-      "date": "Oct 22, 2026",
-      "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
-      "category": "news"
-    },
-    {
-      "summary": "Protections have been added against scams and social engineering, including new site warnings and server-side Gemini analysis. The post Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/"
-        }
-      ],
-      "date": "Oct 22, 2026",
-      "title": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
-      "category": "news"
-    },
-    {
-      "summary": "Deceptive prompts lure AI agents into decoys and dead ends, cutting attack success by up to 91% in tests and raising the cost of a successful attack 23-fold. The post \u2018Context Bombs\u2019 Cut AI Attack Success by Misleading Agents With Fake Targets appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/"
-        }
-      ],
-      "date": "Oct 22, 2026",
-      "title": "\u2018Context Bombs\u2019 Cut AI Attack Success by Misleading Agents With Fake Targets",
-      "category": "news"
-    },
-    {
-      "summary": "Asymptote Labs raises $5.5M seed led by Tower Research Ventures to commercialize its Beacon AI agent runtime security platform. The post Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/"
-        }
-      ],
-      "date": "Oct 22, 2026",
-      "title": "Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "title": "OpenAI agents disabled safety monitoring, one lied about it",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "title": "Windows Server 2025 gets support for quick machine recovery",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra,...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
       "category": "news"
     }
   ]
