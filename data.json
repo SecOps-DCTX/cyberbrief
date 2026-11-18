@@ -1,8 +1,92 @@
 {
   "breach": [
     {
-      "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+      "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "org": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "org": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "At least 178 organizations, including several major brands, unwittingly exposed website visitors to hydra-like malware via a third-party platform.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "org": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "org": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "org": "Inside an AI Attack Against a US Retailer",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "org": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+      "severity": "Critical",
+      "records": "See source"
+    },
+    {
+      "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +100,7 @@
     },
     {
       "summary": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +114,7 @@
     },
     {
       "summary": "Card numbers, CVVs, expiration dates, and email addresses used at Fandango\u2019s ticketing checkout over four days in October may have been exposed. The post Fandango Warns Ticket Buyers of Payment Card Data Exposure appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -44,7 +128,7 @@
     },
     {
       "summary": "Hackers breached Access Dental\u2019s network and stole personal, health, and insurance information. The post Access Dental Management Data Breach Impacts Over 340,000 appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -58,7 +142,7 @@
     },
     {
       "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +156,7 @@
     },
     {
       "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -83,96 +167,124 @@
       "org": "Fandango says hackers stole payment card details from checkout pages",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Attackers used Cairn once again in autonomous attacks that targeted advanced manufacturing and defense sectors, as well as civil and human rights organizations.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "org": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "org": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
-        }
-      ],
-      "date": "Nov 16, 2026",
-      "org": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Hackers compromised a third-party services provider and stole names, addresses, and driver\u2019s license numbers. The post Uber Data Breach Impacts 150,000 People appeared first on SecurityWeek.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/"
-        }
-      ],
-      "date": "Nov 16, 2026",
-      "org": "Uber Data Breach Impacts 150,000 People",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls"
-        }
-      ],
-      "date": "Nov 16, 2026",
-      "org": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
-      "age": 3,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
-        }
-      ],
-      "date": "Nov 15, 2026",
-      "org": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
+      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "cve_id": "Critical Java4Shell flaw allows RCE attacks on major Java ap",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "cve_id": "Cloud keys leaked in Docker Hub images are stolen within sec",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "cve_id": "Researchers Claim Two RCE Exploits That Bypass Telegram\u2019s Ne",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "cve_id": "CVE-2026-114938",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws. Government...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "cve_id": "Six Unpatched Danfoss Refrigeration Controller Flaws Could A",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "cve_id": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Ru",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "cve_id": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "cve_id": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabl",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +298,7 @@
     },
     {
       "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -200,7 +312,7 @@
     },
     {
       "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -214,7 +326,7 @@
     },
     {
       "summary": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks. Nik...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -225,124 +337,38 @@
       "cve_id": "Researchers Detail iPhone Flaw That Let Apps Record Audio De",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "cve_id": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Expl",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM)...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "cve_id": "N-able Patches 17 N-central Flaws as Attackers Exploit Earli",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "cve_id": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2F",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, detailed by Check Point, began on October...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "cve_id": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to D",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "cve_id": "Google Project Zero cuts bug disclosures to 30 days amid AI ",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block compromised passwords, and maintain compliance. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "cve_id": "7 Tips For Complying with CJIS Password and MFA Requirements",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "cve_id": "Google Finds Hackers Using AI Agents to Build and Run Exploi",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "cve_id": "\u26a1 Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is...",
       "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "actor": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "severity": "High"
+    },
+    {
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "actor": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "severity": "High"
+    },
+    {
+      "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -355,7 +381,7 @@
     },
     {
       "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -368,7 +394,7 @@
     },
     {
       "summary": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command\u2011and\u2011control (C2). The activity has been codenamed Operation ShadowCloud by Kaspersky....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -381,7 +407,7 @@
     },
     {
       "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -394,7 +420,7 @@
     },
     {
       "summary": "Chinese threat actors are broadly adopting the agentic AI penetration testing framework to accelerate their attacks. The post Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -407,7 +433,7 @@
     },
     {
       "summary": "Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -420,7 +446,7 @@
     },
     {
       "summary": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -433,7 +459,7 @@
     },
     {
       "summary": "The Android malware has expanded from focusing on cryptocurrency theft to full device control, and the attackers have added advanced analysis of stolen information.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -446,7 +472,7 @@
     },
     {
       "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -459,7 +485,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -469,38 +495,116 @@
       "date": "Nov 16, 2026",
       "actor": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
       "severity": "High"
-    },
-    {
-      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
-        }
-      ],
-      "date": "Nov 16, 2026",
-      "actor": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-      "severity": "High"
-    },
-    {
-      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims,...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
-        }
-      ],
-      "date": "Nov 16, 2026",
-      "actor": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+      "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+      "category": "news"
+    },
+    {
+      "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+      "category": "news"
+    },
+    {
+      "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "title": "Tor releases emergency update amid ongoing DDoS attack",
+      "category": "news"
+    },
+    {
+      "summary": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "title": "Flipper Devices launches $399 \u2018Flipper One\u2019 Linux-based multi-tool",
+      "category": "news"
+    },
+    {
+      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "category": "news"
+    },
+    {
+      "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "category": "news"
+    },
+    {
+      "summary": "The commercial kit uses attacker-supplied AI models to personalize lures, evade spam filters, and scale campaigns to tens of thousands of targets.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
+      "category": "news"
+    },
+    {
+      "summary": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner approval.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval"
+        }
+      ],
+      "date": "Nov 18, 2026",
+      "title": "Grok Bots Attempt to Access Corporate Data Without User Approval",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -513,7 +617,7 @@
     },
     {
       "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -526,7 +630,7 @@
     },
     {
       "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -539,7 +643,7 @@
     },
     {
       "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -548,110 +652,6 @@
       ],
       "date": "Nov 17, 2026",
       "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-      "category": "news"
-    },
-    {
-      "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-      "category": "news"
-    },
-    {
-      "summary": "Pretxt provides technology to prevent AI agents escaping their guardrails and causing unintended harm. The post Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
-      "category": "news"
-    },
-    {
-      "summary": "Led by NEA and supported by existing investors, the funding brings the company\u2019s valuation to $1 billion. The post Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "title": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity",
-      "category": "news"
-    },
-    {
-      "summary": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards. The post California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-      "category": "news"
-    },
-    {
-      "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-      "category": "news"
-    },
-    {
-      "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-      "category": "news"
-    },
-    {
-      "summary": "Meta was fined \u20ac805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
-        }
-      ],
-      "date": "Nov 17, 2026",
-      "title": "Italy Fines Meta \u20ac805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
       "category": "news"
     }
   ]
