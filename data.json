@@ -1,8 +1,92 @@
 {
   "breach": [
     {
-      "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+      "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "org": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "org": "European Commission confirms data theft in EU Academy breach",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "org": "McDonald's Japan data breach exposes customer location information",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "org": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October. The post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "org": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Hackers stole personal information from the company\u2019s customer portal and supplier relationship management platform. The post 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "org": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +100,7 @@
     },
     {
       "summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +114,7 @@
     },
     {
       "summary": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -44,7 +128,7 @@
     },
     {
       "summary": "The state-sponsored threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -58,7 +142,7 @@
     },
     {
       "summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can turn into a much...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -72,7 +156,7 @@
     },
     {
       "summary": "No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -83,96 +167,124 @@
       "org": "Second Norwegian Energy Company Breached in 2 Days",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "At least 178 organizations, including several major brands, unwittingly exposed website visitors to hydra-like malware via a third-party platform.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "org": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "org": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"
-        }
-      ],
-      "date": "Nov 22, 2026",
-      "org": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"
-        }
-      ],
-      "date": "Nov 22, 2026",
-      "org": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
-        }
-      ],
-      "date": "Nov 22, 2026",
-      "org": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
-      "age": 3,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
-        }
-      ],
-      "date": "Nov 22, 2026",
-      "org": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+      "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "cve_id": "Hackers compromise Check Point Servers in 22 organizations",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "cve_id": "Police disrupt 57 illegal streaming services with 7.3 millio",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce vulnerability noise and improve software resilience. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "cve_id": "From Vulnerability Noise to Resilience: Rethinking Security ",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "cve_id": "New Shirudo tool uses AI to shield unpatched Linux systems f",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "cve_id": "CVE-2026-123903",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "cve_id": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday. The same loading behavior bypassed Oracle VirtualBox's process hardening...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "cve_id": "Google Researcher Shows How a Single Bit Change in .NET File",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as manual investigations,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "cve_id": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce ",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -186,7 +298,7 @@
     },
     {
       "summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks. The...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -200,7 +312,7 @@
     },
     {
       "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -214,7 +326,7 @@
     },
     {
       "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -225,124 +337,38 @@
       "cve_id": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via C",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below -...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
-        }
-      ],
-      "date": "Nov 24, 2026",
-      "cve_id": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as ",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of external ad-reply...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
-        }
-      ],
-      "date": "Nov 24, 2026",
-      "cve_id": "CVE-2026-23871",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
-        }
-      ],
-      "date": "Nov 24, 2026",
-      "cve_id": "CVE-2026-99312",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\"...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html"
-        }
-      ],
-      "date": "Nov 24, 2026",
-      "cve_id": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, ",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "cve_id": "Microsoft confirms Windows printing issues affecting Forcepo",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "cve_id": "CISA flags critical Cisco RCE flaw as actively exploited in ",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "cve_id": "Microsoft Entra Connect Health flaw exploited to steal tenan",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "cve_id": "FBI reportedly hacked again, this time targeting nationwide ",
-      "vendor": "BleepingComputer",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an...",
+      "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption...",
       "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "actor": "CTO of \u2018RansomwareHelp\u2019 Indicted for Wire Fraud",
+      "severity": "High"
+    },
+    {
+      "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "actor": "Who Runs the Ransomware Group Qilin?",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -355,7 +381,7 @@
     },
     {
       "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -368,7 +394,7 @@
     },
     {
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -381,7 +407,7 @@
     },
     {
       "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial transactions at...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -394,7 +420,7 @@
     },
     {
       "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -407,7 +433,7 @@
     },
     {
       "summary": "Backdoors on low-cost consumer devices served modules for ad fraud and for turning devices into residential proxies. The post BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -420,7 +446,7 @@
     },
     {
       "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -433,7 +459,7 @@
     },
     {
       "summary": "Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -446,7 +472,7 @@
     },
     {
       "summary": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -456,51 +482,116 @@
       "date": "Nov 22, 2026",
       "actor": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
       "severity": "High"
-    },
-    {
-      "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"
-        }
-      ],
-      "date": "Nov 21, 2026",
-      "actor": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-      "severity": "High"
-    },
-    {
-      "summary": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups"
-        }
-      ],
-      "date": "Nov 21, 2026",
-      "actor": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
-      "severity": "High"
-    },
-    {
-      "summary": "The Android malware has expanded from focusing on cryptocurrency theft to full device control, and the attackers have added advanced analysis of stolen information.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai"
-        }
-      ],
-      "date": "Nov 21, 2026",
-      "actor": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never...",
+      "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "category": "news"
+    },
+    {
+      "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "category": "news"
+    },
+    {
+      "summary": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries. The post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+      "category": "news"
+    },
+    {
+      "summary": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud. The post Anthropic Expands Enterprise Safeguards for Detecting AI Misuse appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+      "category": "news"
+    },
+    {
+      "summary": "The company told the ASX that a cybersecurity incident at its Wyoming uranium project would temporarily affect operations. The post Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
+      "category": "news"
+    },
+    {
+      "summary": "Identity, runtime, and development controls are converging as enterprises look for ways to keep agents within their assigned jobs. But vendors' approaches vary, so CISOs face a choice.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
+      "category": "news"
+    },
+    {
+      "summary": "At its Ignite technical conference, Microsoft announced AI agent security tools and transparency standards to protect enterprise systems.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
+      "category": "news"
+    },
+    {
+      "summary": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday"
+        }
+      ],
+      "date": "Nov 24, 2026",
+      "title": "Why Holiday Security Can't Wait for Black Friday",
+      "category": "news"
+    },
+    {
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -513,7 +604,7 @@
     },
     {
       "summary": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -526,7 +617,7 @@
     },
     {
       "summary": "Critical OT access devices will often tell you, and anyone else, whether they're protected by authentication \u2014 and many aren't.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -539,7 +630,7 @@
     },
     {
       "summary": "CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -548,110 +639,6 @@
       ],
       "date": "Nov 24, 2026",
       "title": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
-      "category": "news"
-    },
-    {
-      "summary": "Trump named Kirsten Davies as Acting National Cyber Director, bringing greater industry experience to the role amid recent outages and rising geopolitical tensions.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise"
-        }
-      ],
-      "date": "Nov 24, 2026",
-      "title": "US Cyber Director Pick Signals Shift Toward Expertise",
-      "category": "news"
-    },
-    {
-      "summary": "Det er ikke p\u00e5vist noen konkret sammenheng mellom de to hendelsene, selv om de helt klart har mange likhetstrekk.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached-norwegian"
-        }
-      ],
-      "date": "Nov 24, 2026",
-      "title": "Nok et norsk energiselskap har blitt utsatt for et datainnbrudd p\u00e5 to dager",
-      "category": "news"
-    },
-    {
-      "summary": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/security-words-matter"
-        }
-      ],
-      "date": "Nov 24, 2026",
-      "title": "In Security, Words Matter as Much as Tools, Maybe More",
-      "category": "news"
-    },
-    {
-      "summary": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Jensen Huang's resignation from Nvidia to Microsoft's recent cloud outage.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry"
-        }
-      ],
-      "date": "Nov 24, 2026",
-      "title": "What We Missed: Nvidia CEO Scandal Rocks AI Industry",
-      "category": "news"
-    },
-    {
-      "summary": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
-      "category": "news"
-    },
-    {
-      "summary": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and accountability. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "title": "AI Agents Are Creating a Shared Responsibility Gap",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
-      "category": "news"
-    },
-    {
-      "summary": "A Peruvian call center operator was sentenced to eight years in prison for helping steal millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/"
-        }
-      ],
-      "date": "Nov 23, 2026",
-      "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
       "category": "news"
     }
   ]
